@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Industries Slider Section</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .tfxIndusSection {
+      width: 100%;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, rgba(8, 15, 35, 0.92), rgba(20, 38, 78, 0.90)),
+        url('your-background-image.jpg') center/cover no-repeat;
+      overflow: hidden;
+    }
+
+    .tfxIndusContainer {
+      
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .tfxIndusHeading {
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    .tfxIndusSubheading {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 34px;
+    }
+
+    .tfxIndusSliderWrap {
+      position: relative;
+      padding: 0 70px;
+      /* buttons ke liye gap */
+    }
+
+    .tfxIndusViewport {
+      overflow: hidden;
+      width: 100%;
+      border-radius: 18px;
+    }
+
+    .tfxIndusTrack {
+      display: flex;
+      transition: transform 0.75s ease-in-out;
+      will-change: transform;
+    }
+
+    .tfxIndusSlide {
+      min-width: 100%;
+      flex: 0 0 100%;
+      padding: 6px;
+    }
+
+    .tfxIndusGrid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 18px;
+    }
+
+    .tfxIndusCard {
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 16px;
+      padding: 22px 14px;
+      min-height: 140px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.14);
+      transition: all 0.35s ease;
+    }
+
+    .tfxIndusCard:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 32px rgba(0, 0, 0, 0.18);
+    }
+
+    .tfxIndusIcon {
+      font-size: 38px;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+
+    .tfxIndusTitle {
+      font-size: 15px;
+      font-weight: 600;
+      color: #222;
+      line-height: 1.35;
+    }
+
+    .tfxClrAttorney {
+      color: #2C3E50;
+      /* Deep Navy – trust, authority */
+    }
+
+    .tfxClrAutoRepair {
+      color: #34495E;
+      /* Steel Grey – mechanical, reliability */
+    }
+
+    .tfxClrConstruction {
+      color: #F39C12;
+      /* Construction Orange – safety, energy */
+    }
+
+    .tfxClrDental {
+      color: #00A8A8;
+      /* Clean Teal – hygiene, trust */
+    }
+
+    .tfxClrGolf {
+      color: #2E7D32;
+      /* Rich Green – nature, premium */
+    }
+
+    .tfxClrHvac {
+      color: #1565C0;
+      /* Cool Blue – air, cooling systems */
+    }
+
+    .tfxClrLandscaping {
+      color: #388E3C;
+      /* Natural Green – growth */
+    }
+
+    .tfxClrPlumber {
+      color: #0277BD;
+      /* Water Blue – plumbing fit */
+    }
+
+    .tfxClrRestaurant {
+      color: #C0392B;
+      /* Appetite Red – food industry */
+    }
+
+    .tfxClrRoofing {
+      color: #5D4037;
+      /* Strong Brown – durability */
+    }
+
+    .tfxClrTrucking {
+      color: #37474F;
+      /* Industrial Dark Grey */
+    }
+
+    .tfxClrPest {
+      color: #6D4C41;
+      /* Earthy Brown – pest control */
+    }
+
+    .tfxClrRealEstate {
+      color: #1B5E20;
+      /* Dark Green – wealth, stability */
+    }
+
+    .tfxClrHealthcare {
+      color: #D32F2F;
+      /* Medical Red – urgency, care */
+    }
+
+    .tfxClrEducation {
+      color: #283593;
+      /* Academic Blue – trust, knowledge */
+    }
+
+    .tfxClrFinance {
+      color: #1B5E20;
+      /* Wealth Green – money, growth */
+    }
+
+    .tfxClrTravel {
+      color: #0288D1;
+      /* Sky Blue – freedom, travel */
+    }
+
+    .tfxClrLogistics {
+      color: #EF6C00;
+      /* Movement Orange – delivery, speed */
+    }
+
+    .tfxClrBeauty {
+      color: #AD1457;
+      /* Elegant Pink – beauty, luxury */
+    }
+
+    .tfxClrFitness {
+      color: #2E7D32;
+      /* Energy Green – health */
+    }
+
+    .tfxClrEvent {
+      color: #6A1B9A;
+      /* Royal Purple – premium events */
+    }
+
+    .tfxClrRetail {
+      color: #FB8C00;
+      /* Vibrant Orange – sales */
+    }
+
+    .tfxClrManufacturing {
+      color: #455A64;
+      /* Industrial Blue Grey */
+    }
+
+    .tfxClrIT {
+      color: #1565C0;
+      /* Tech Blue – innovation */
+    }
+
+
+    .tfxIndusNav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 52px;
+      height: 52px;
+      border: none;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #ff6b57;
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .tfxIndusNav:hover {
+      background: #fff4ef;
+      transform: translateY(-50%) scale(1.05);
+    }
+
+    .tfxIndusPrev {
+      left: 0;
+    }
+
+    .tfxIndusNext {
+      right: 0;
+    }
+
+    .tfxIndusDots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .tfxIndusDot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.35);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .tfxIndusDot.active {
+      background: #fff;
+      transform: scale(1.18);
+    }
+
+    @media (max-width: 1199px) {
+      .tfxIndusGrid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .tfxIndusSliderWrap {
+        padding: 0 60px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .tfxIndusSection {
+        padding: 55px 16px;
+      }
+
+      .tfxIndusHeading {
+        font-size: 30px;
+      }
+
+      .tfxIndusSubheading {
+        font-size: 14px;
+        margin-bottom: 26px;
+      }
+
+      .tfxIndusGrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+
+      .tfxIndusCard {
+        min-height: 125px;
+        padding: 18px 10px;
+        border-radius: 14px;
+      }
+
+      .tfxIndusIcon {
+        font-size: 32px;
+      }
+
+      .tfxIndusTitle {
+        font-size: 14px;
+      }
+
+      .tfxIndusSliderWrap {
+        padding: 0 52px;
+      }
+
+      .tfxIndusNav {
+        width: 42px;
+        height: 42px;
+        font-size: 15px;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .tfxIndusGrid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .tfxIndusHeading {
+        font-size: 26px;
+      }
+
+      .tfxIndusSliderWrap {
+        padding: 0 44px;
+      }
+
+      .tfxIndusCard {
+        min-height: 115px;
+      }
+
+      .tfxIndusIcon {
+        font-size: 28px;
+      }
+
+      .tfxIndusTitle {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="tfxIndusSection">
+    <div class="tfxIndusContainer">
+      <h2 class="tfxIndusHeading">Industries We Serve</h2>
+      <p class="tfxIndusSubheading">Serving diverse industries with tailored digital solutions</p>
+
+      <div class="tfxIndusSliderWrap">
+        <button class="tfxIndusNav tfxIndusPrev" aria-label="Previous">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="tfxIndusViewport">
+          <div class="tfxIndusTrack" id="tfxIndusTrack">
+
+            <!-- Clone Last Slide -->
+            <div class="tfxIndusSlide">
+              <div class="tfxIndusGrid">
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRealEstate"><i class="fa-solid fa-building"></i></div>
+                  <div class="tfxIndusTitle">Real Estate</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrHealthcare"><i class="fa-solid fa-stethoscope"></i></div>
+                  <div class="tfxIndusTitle">Healthcare</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrEducation"><i class="fa-solid fa-graduation-cap"></i></div>
+                  <div class="tfxIndusTitle">Education</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrFinance"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+                  <div class="tfxIndusTitle">Finance</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrTravel"><i class="fa-solid fa-plane-departure"></i></div>
+                  <div class="tfxIndusTitle">Travel</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrLogistics"><i class="fa-solid fa-boxes-stacked"></i></div>
+                  <div class="tfxIndusTitle">Logistics</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrBeauty"><i class="fa-solid fa-scissors"></i></div>
+                  <div class="tfxIndusTitle">Beauty & Salon</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrFitness"><i class="fa-solid fa-dumbbell"></i></div>
+                  <div class="tfxIndusTitle">Fitness & Gym</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrEvent"><i class="fa-solid fa-calendar-days"></i></div>
+                  <div class="tfxIndusTitle">Event Management</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRetail"><i class="fa-solid fa-store"></i></div>
+                  <div class="tfxIndusTitle">Retail</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrManufacturing"><i class="fa-solid fa-industry"></i></div>
+                  <div class="tfxIndusTitle">Manufacturing</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
+                  <div class="tfxIndusTitle">IT Services</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Original Slide 1 -->
+            <div class="tfxIndusSlide">
+              <div class="tfxIndusGrid">
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i></div>
+                  <div class="tfxIndusTitle">Attorney</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrAutoRepair"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="tfxIndusTitle">Auto Repair</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrConstruction"><i class="fa-solid fa-helmet-safety"></i></div>
+                  <div class="tfxIndusTitle">Construction</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrDental"><i class="fa-solid fa-tooth"></i></div>
+                  <div class="tfxIndusTitle">Dental</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrGolf"><i class="fa-solid fa-golf-ball-tee"></i></div>
+                  <div class="tfxIndusTitle">Golf Cart</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrHvac"><i class="fa-solid fa-fan"></i></div>
+                  <div class="tfxIndusTitle">HVAC</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrLandscaping"><i class="fa-solid fa-tree"></i></div>
+                  <div class="tfxIndusTitle">Landscaping</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrPlumber"><i class="fa-solid fa-wrench"></i></div>
+                  <div class="tfxIndusTitle">Plumber</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRestaurant"><i class="fa-solid fa-utensils"></i></div>
+                  <div class="tfxIndusTitle">Restaurant</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRoofing"><i class="fa-solid fa-house"></i></div>
+                  <div class="tfxIndusTitle">Roofing</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrTrucking"><i class="fa-solid fa-truck"></i></div>
+                  <div class="tfxIndusTitle">Trucking</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrPest"><i class="fa-solid fa-bug"></i></div>
+                  <div class="tfxIndusTitle">Pest Control</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Original Slide 2 -->
+            <div class="tfxIndusSlide">
+              <div class="tfxIndusGrid">
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRealEstate"><i class="fa-solid fa-building"></i></div>
+                  <div class="tfxIndusTitle">Real Estate</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrHealthcare"><i class="fa-solid fa-stethoscope"></i></div>
+                  <div class="tfxIndusTitle">Healthcare</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrEducation"><i class="fa-solid fa-graduation-cap"></i></div>
+                  <div class="tfxIndusTitle">Education</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrFinance"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+                  <div class="tfxIndusTitle">Finance</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrTravel"><i class="fa-solid fa-plane-departure"></i></div>
+                  <div class="tfxIndusTitle">Travel</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrLogistics"><i class="fa-solid fa-boxes-stacked"></i></div>
+                  <div class="tfxIndusTitle">Logistics</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrBeauty"><i class="fa-solid fa-scissors"></i></div>
+                  <div class="tfxIndusTitle">Beauty & Salon</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrFitness"><i class="fa-solid fa-dumbbell"></i></div>
+                  <div class="tfxIndusTitle">Fitness & Gym</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrEvent"><i class="fa-solid fa-calendar-days"></i></div>
+                  <div class="tfxIndusTitle">Event Management</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRetail"><i class="fa-solid fa-store"></i></div>
+                  <div class="tfxIndusTitle">Retail</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrManufacturing"><i class="fa-solid fa-industry"></i></div>
+                  <div class="tfxIndusTitle">Manufacturing</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
+                  <div class="tfxIndusTitle">IT Services</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Clone First Slide -->
+            <div class="tfxIndusSlide">
+              <div class="tfxIndusGrid">
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i></div>
+                  <div class="tfxIndusTitle">Attorney</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrAutoRepair"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="tfxIndusTitle">Auto Repair</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrConstruction"><i class="fa-solid fa-helmet-safety"></i></div>
+                  <div class="tfxIndusTitle">Construction</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrDental"><i class="fa-solid fa-tooth"></i></div>
+                  <div class="tfxIndusTitle">Dental</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrGolf"><i class="fa-solid fa-golf-ball-tee"></i></div>
+                  <div class="tfxIndusTitle">Golf Cart</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrHvac"><i class="fa-solid fa-fan"></i></div>
+                  <div class="tfxIndusTitle">HVAC</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrLandscaping"><i class="fa-solid fa-tree"></i></div>
+                  <div class="tfxIndusTitle">Landscaping</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrPlumber"><i class="fa-solid fa-wrench"></i></div>
+                  <div class="tfxIndusTitle">Plumber</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRestaurant"><i class="fa-solid fa-utensils"></i></div>
+                  <div class="tfxIndusTitle">Restaurant</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrRoofing"><i class="fa-solid fa-house"></i></div>
+                  <div class="tfxIndusTitle">Roofing</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrTrucking"><i class="fa-solid fa-truck"></i></div>
+                  <div class="tfxIndusTitle">Trucking</div>
+                </div>
+                <div class="tfxIndusCard">
+                  <div class="tfxIndusIcon tfxClrPest"><i class="fa-solid fa-bug"></i></div>
+                  <div class="tfxIndusTitle">Pest Control</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="tfxIndusNav tfxIndusNext" aria-label="Next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="tfxIndusDots">
+        <span class="tfxIndusDot active" data-index="1"></span>
+        <span class="tfxIndusDot" data-index="2"></span>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      const track = document.getElementById('tfxIndusTrack');
+      const slides = document.querySelectorAll('.tfxIndusSlide');
+      const prevBtn = document.querySelector('.tfxIndusPrev');
+      const nextBtn = document.querySelector('.tfxIndusNext');
+      const dots = document.querySelectorAll('.tfxIndusDot');
+
+      let currentIndex = 1;
+      let isAnimating = false;
+      let autoSlide;
+
+      const totalSlides = slides.length;
+
+      function updateDots() {
+        dots.forEach(dot => dot.classList.remove('active'));
+        if (currentIndex === 1) dots[0].classList.add('active');
+        else if (currentIndex === 2) dots[1].classList.add('active');
+      }
+
+      function moveToSlide() {
+        track.style.transition = 'transform 0.75s ease-in-out';
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        updateDots();
+      }
+
+      function startAutoSlide() {
+        autoSlide = setInterval(() => {
+          goNext();
+        }, 4000);
+      }
+
+      function resetAutoSlide() {
+        clearInterval(autoSlide);
+        startAutoSlide();
+      }
+
+      function goNext() {
+        if (isAnimating) return;
+        isAnimating = true;
+        currentIndex++;
+        moveToSlide();
+      }
+
+      function goPrev() {
+        if (isAnimating) return;
+        isAnimating = true;
+        currentIndex--;
+        moveToSlide();
+      }
+
+      track.addEventListener('transitionend', function () {
+        if (currentIndex === totalSlides - 1) {
+          track.style.transition = 'none';
+          currentIndex = 1;
+          track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        if (currentIndex === 0) {
+          track.style.transition = 'none';
+          currentIndex = totalSlides - 2;
+          track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        updateDots();
+        isAnimating = false;
+      });
+
+      nextBtn.addEventListener('click', function () {
+        goNext();
+        resetAutoSlide();
+      });
+
+      prevBtn.addEventListener('click', function () {
+        goPrev();
+        resetAutoSlide();
+      });
+
+      dots.forEach(dot => {
+        dot.addEventListener('click', function () {
+          if (isAnimating) return;
+          const targetIndex = parseInt(this.getAttribute('data-index'));
+          currentIndex = targetIndex;
+          moveToSlide();
+          resetAutoSlide();
+        });
+      });
+
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      updateDots();
+      startAutoSlide();
+    })();
+  </script>
+
+</body>
+
+</html>

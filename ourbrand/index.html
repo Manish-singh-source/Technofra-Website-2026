@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Brands</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Animated Background */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      background: black;
+      height: 100vh; /* Full height for centering */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .animated-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #1f1f1f, #0b3466, #2389a9, #444);
+    background-size: 400% 400%;
+    animation: bgAnimation 10s ease infinite;
+    z-index: -1;
+}
+    @keyframes bgAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .card {
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Adjusted radius for a sleek look */
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37); /* Deep shadow for depth */
+    backdrop-filter: blur(10px); /* Blur for glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Soft border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: row;
+}
+
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-icon {
+      border-radius: 50%; /* Circular icon */
+      width: 150px;
+      height: auto;
+    }
+
+    .card-content {
+      text-align: left; /* Align text to the left */
+    }
+
+    .card-title {
+    font-size: 1.2rem;
+    color: currentColor;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+    .card-text {
+      font-size: 0.9rem;
+      color: #ccc; /* Lighter text color */
+    }
+    a{
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg"></div>
+
+  <!-- Cards Section -->
+  <div class="container">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <div class="logo-section text-center mb-4">
+        <a href="https://technofra.com/" target="_blank">
+            <img src="technofra.png" alt="Technofra Logo">
+        </a>
+      </div>
+
+      <div class="title-section text-center mb-4">
+        <h2>This Is Us, Our Brand, Taking Business To New Heights</h2>
+      </div>
+
+      <div class="row g-4 justify-content-center"> <!-- Centered row -->
+        <div class="col-md-6">
+          <a href="https://markidentitiez.com/" target="_blank" class="card">
+            <div class="card-icon">
+                <img src="mark.png" class="img-fluid" alt="">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Markidentitiez</h5>
+              <p class="card-text">
+                QSCERT MIDDLE EAST has established itself as a leading provider of diversified services in the region.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://blueorbith.com/" target="_blank" class="card">
+            <div class="card-icon">
+                <img src="blue.png" class="img-fluid" alt="">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Blueorbith</h5>
+              <p class="card-text">
+                QSCERT MIDDLE EAST has established itself as a leading provider of diversified services in the region.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://digikcon.com/" target="_blank" class="card">
+            <div class="card-icon">
+                <img src="digi.png" class="img-fluid" alt="">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Digickon</h5>
+              <p class="card-text">
+                QSCERT MIDDLE EAST has established itself as a leading provider of diversified services in the region.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://gridinfinity.com/" target="_blank" class="card">
+            <div class="card-icon">
+                <img src="grid.png" class="img-fluid" alt="">
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">gridinfinity</h5>
+              <p class="card-text">
+                QSCERT MIDDLE EAST has established itself as a leading provider of diversified services in the region.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .client-section {
+  position: relative;
+  padding: 100px 20px;
+  text-align: center;
+  background: url("image/bg.jpg") center/cover no-repeat;
+  color: #fff;
+}
+
+.client-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(70, 0, 0, 0.85);
+}
+
+.client-title {
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.client-subtitle {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+/* CAROUSEL */
+.client-carousel {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  z-index: 2;
+}
+
+.client-track {
+  overflow: hidden;
+}
+
+.client-slide {
+  display: none;
+}
+
+.client-slide.active-slide {
+  display: block;
+}
+
+/* GRID */
+.client-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+}
+
+.client-logo-box {
+  background: #fff;
+  color: #111;
+  border-radius: 14px;
+  padding: 40px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* NAV */
+.client-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  color: red;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.client-prev {
+  left: -25px;
+}
+
+.client-next {
+  right: -25px;
+}
+
+/* DOTS */
+.client-dots {
+  margin-top: 30px;
+}
+
+.client-dot {
+  height: 10px;
+  width: 10px;
+  background: #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.client-dot.active-dot {
+  background: #ff4d4d;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .client-logo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .client-logo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .client-title {
+    font-size: 32px;
+  }
+}
+
+  </style>
+  </head>
+  <body>
+    <section class="client-section">
+      <div class="client-overlay"></div>
+
+      <h2 class="client-title">OUR CLIENTS</h2>
+      <p class="client-subtitle">From Boutique to Enterprise, We Drive
+        Results</p>
+
+      <div class="client-carousel">
+        <button class="client-nav client-prev">&#10094;</button>
+
+        <div class="client-track">
+
+          <!-- SLIDE 1 -->
+          <div class="client-slide active-slide">
+            <div class="client-logo-grid">
+              <div class="client-logo-box">Nikon</div>
+              <div class="client-logo-box">A&E Networks</div>
+              <div class="client-logo-box">NYU</div>
+              <div class="client-logo-box">McLaren</div>
+              <div class="client-logo-box">ISUZU</div>
+
+              <div class="client-logo-box">Circa</div>
+              <div class="client-logo-box">Credit Suisse</div>
+              <div class="client-logo-box">WATTS</div>
+              <div class="client-logo-box">TDK</div>
+              <div class="client-logo-box">Honeywell</div>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div class="client-slide">
+            <div class="client-logo-grid">
+              <div class="client-logo-box">Google</div>
+              <div class="client-logo-box">Microsoft</div>
+              <div class="client-logo-box">Amazon</div>
+              <div class="client-logo-box">Intel</div>
+              <div class="client-logo-box">Adobe</div>
+
+              <div class="client-logo-box">Meta</div>
+              <div class="client-logo-box">IBM</div>
+              <div class="client-logo-box">Cisco</div>
+              <div class="client-logo-box">Oracle</div>
+              <div class="client-logo-box">Salesforce</div>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 -->
+          <div class="client-slide">
+            <div class="client-logo-grid">
+              <div class="client-logo-box">BMW</div>
+              <div class="client-logo-box">Audi</div>
+              <div class="client-logo-box">Tesla</div>
+              <div class="client-logo-box">Ford</div>
+              <div class="client-logo-box">Toyota</div>
+
+              <div class="client-logo-box">Sony</div>
+              <div class="client-logo-box">Panasonic</div>
+              <div class="client-logo-box">LG</div>
+              <div class="client-logo-box">Samsung</div>
+              <div class="client-logo-box">Philips</div>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="client-nav client-next">&#10095;</button>
+      </div>
+
+      <div class="client-dots">
+        <span class="client-dot active-dot"></span>
+        <span class="client-dot"></span>
+        <span class="client-dot"></span>
+      </div>
+
+      <script>
+    const clientSlides = document.querySelectorAll(".client-slide");
+const clientDots = document.querySelectorAll(".client-dot");
+let clientIndex = 0;
+
+function showClientSlide(i) {
+  clientSlides.forEach(slide => slide.classList.remove("active-slide"));
+  clientDots.forEach(dot => dot.classList.remove("active-dot"));
+
+  clientSlides[i].classList.add("active-slide");
+  clientDots[i].classList.add("active-dot");
+}
+
+document.querySelector(".client-next").onclick = () => {
+  clientIndex = (clientIndex + 1) % clientSlides.length;
+  showClientSlide(clientIndex);
+};
+
+document.querySelector(".client-prev").onclick = () => {
+  clientIndex = (clientIndex - 1 + clientSlides.length) % clientSlides.length;
+  showClientSlide(clientIndex);
+};
+
+clientDots.forEach((dot, i) => {
+  dot.onclick = () => {
+    clientIndex = i;
+    showClientSlide(clientIndex);
+  };
+});
+
+  </script>
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Practice</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f6f6;
+    }
+
+    /* CONTAINER */
+    .mlp-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 16px;
+    }
+
+    /* TITLE */
+    .mlp-title {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .mlp-title span {
+      background: #1f8f74;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 50%;
+    }
+
+    /* GRID */
+    .mlp-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    /* CARD */
+    .mlp-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 24px;
+    }
+
+    /* LEFT */
+    .mlp-avatars {
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    .mlp-avatars img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-left: -12px;
+    }
+
+    .mlp-avatars img:first-child {
+      margin-left: 0;
+    }
+
+    .mlp-card h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    .mlp-card p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* ================= TESTIMONIAL ================= */
+    .mlp-testimonial-card {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .mlp-testimonial-box {
+      padding: 24px;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mlp-testimonial-track {
+      display: flex;
+      width: 100%;
+      transition: transform 0.45s ease;
+      will-change: transform;
+    }
+
+    .mlp-testimonial-item {
+      flex: 0 0 100%;
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .mlp-testimonial-item img {
+      width: 140px;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 0;
+      display: block;
+    }
+
+    .mlp-testimonial-item p {
+      max-width: 280px;
+      margin: 0 auto;
+    }
+
+    /* RIGHT */
+    .mlp-orbit {
+      width: 160px;
+      height: 160px;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    /* STATS */
+    .mlp-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .mlp-stat h2 {
+      font-size: 40px;
+    }
+
+    .mlp-stat p {
+      font-size: 13px;
+      color: #777;
+    }
+
+    /* ================= RESPONSIVE ================= */
+
+    /* Tablet */
+    @media(max-width:992px) {
+      .mlp-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media(max-width:768px) {
+      .mlp-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .mlp-title {
+        font-size: 26px;
+      }
+
+      .mlp-orbit {
+        width: 130px;
+        height: 130px;
+      }
+
+      .mlp-stats {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media(max-width:480px) {
+      .mlp-testimonial-box {
+        padding: 20px 14px;
+      }
+
+      .mlp-stats {
+        grid-template-columns: 1fr;
+      }
+
+      .mlp-testimonial-item img {
+        width: 110px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="mlp-container">
+
+    <h1 class="mlp-title">
+      Efficiently Manage and Grow <span>↗</span> Your Practice
+    </h1>
+
+    <div class="mlp-grid">
+
+      <!-- LEFT -->
+      <div class="mlp-card">
+        <div class="mlp-avatars">
+          <img src="https://i.pravatar.cc/100?img=1">
+          <img src="https://i.pravatar.cc/100?img=2">
+          <img src="https://i.pravatar.cc/100?img=3">
+        </div>
+        <h3>Join Us And Take Your Medical Practice To New Heights.</h3>
+        <p>Serve more patients and increase earnings with ease.</p>
+      </div>
+
+      <!-- TESTIMONIAL -->
+      <div class="mlp-card mlp-testimonial-card">
+        <div class="mlp-testimonial-box">
+          <div class="mlp-testimonial-track" id="testimonialTrack">
+
+            <div class="mlp-testimonial-item">
+              <img src="https://i.pravatar.cc/300?img=11">
+              <p>Expand your medical practice like never before.</p>
+            </div>
+
+            <div class="mlp-testimonial-item">
+              <img src="https://i.pravatar.cc/300?img=12">
+              <p>Secure and efficient digital healthcare platform.</p>
+            </div>
+
+            <div class="mlp-testimonial-item">
+              <img src="https://i.pravatar.cc/300?img=13">
+              <p>Manage patients remotely with zero stress.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="mlp-card">
+        <div class="mlp-orbit"></div>
+        <h3 style="text-align:center;margin-top:16px;">
+          Care For More Patients From Home
+        </h3>
+      </div>
+
+    </div>
+
+    <!-- STATS -->
+    <div class="mlp-stats">
+      <div class="mlp-stat">
+        <h2 class="mlp-count" data-target="5" data-suffix="+">0+</h2>
+        <p>Million Visits</p>
+      </div>
+      <div class="mlp-stat">
+        <h2 class="mlp-count" data-target="40" data-suffix="%">0%</h2>
+        <p>Income Growth</p>
+      </div>
+      <div class="mlp-stat">
+        <h2 class="mlp-count" data-target="1200" data-suffix="+">0+</h2>
+        <p>Doctors</p>
+      </div>
+      <div class="mlp-stat">
+        <h2 class="mlp-count" data-target="24" data-suffix="/7">0/7</h2>
+        <p>Support</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    /* ONE TESTIMONIAL AT A TIME - SMOOTH/SEAMLESS LOOP */
+    const track = document.getElementById("testimonialTrack");
+    const realSlides = track ? Array.from(track.querySelectorAll(".mlp-testimonial-item")) : [];
+    const intervalMs = 3500;
+    const transitionMs = 600;
+    let timer = null;
+    let index = 0;
+    let isAnimating = false;
+
+    function applyPosition(withTransition = true) {
+      if (!track) return;
+      track.style.transition = withTransition ? `transform ${transitionMs}ms ease` : "none";
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function nextSlide() {
+      if (!track || realSlides.length <= 1 || isAnimating) return;
+      isAnimating = true;
+      index += 1;
+      applyPosition(true);
+    }
+
+    function startSlider() {
+      if (!track || realSlides.length <= 1) return;
+      if (timer) clearInterval(timer);
+      timer = setInterval(nextSlide, intervalMs);
+    }
+
+    if (track && realSlides.length) {
+      if (realSlides.length > 1) {
+        const firstClone = realSlides[0].cloneNode(true);
+        firstClone.setAttribute("aria-hidden", "true");
+        track.appendChild(firstClone);
+      }
+
+      applyPosition(false);
+      startSlider();
+
+      track.addEventListener("transitionend", () => {
+        if (realSlides.length <= 1) return;
+
+        if (index === realSlides.length) {
+          index = 0;
+          applyPosition(false);
+        }
+
+        requestAnimationFrame(() => {
+          isAnimating = false;
+        });
+      });
+
+      window.addEventListener("resize", () => {
+        applyPosition(false);
+      });
+
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+          if (timer) clearInterval(timer);
+          timer = null;
+        } else {
+          startSlider();
+        }
+      });
+    }
+
+    /* STATS COUNT-UP */
+    const countEls = Array.from(document.querySelectorAll(".mlp-count"));
+    const statsWrap = document.querySelector(".mlp-stats");
+    let hasCounted = false;
+
+    function formatCount(value) {
+      return value.toLocaleString("en-US");
+    }
+
+    function runCountUp() {
+      if (hasCounted || !countEls.length) return;
+      hasCounted = true;
+
+      countEls.forEach((el) => {
+        const target = Number(el.dataset.target || 0);
+        const suffix = el.dataset.suffix || "";
+        const duration = 1400;
+        const start = performance.now();
+
+        function tick(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          const current = Math.round(target * progress);
+          el.textContent = `${formatCount(current)}${suffix}`;
+          if (progress < 1) requestAnimationFrame(tick);
+        }
+
+        requestAnimationFrame(tick);
+      });
+    }
+
+    if (statsWrap) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              runCountUp();
+              observer.disconnect();
+            }
+          });
+        },
+        { threshold: 0.35 }
+      );
+      observer.observe(statsWrap);
+    } else {
+      runCountUp();
+    }
+  </script>
+
+</body>
+
+</html>

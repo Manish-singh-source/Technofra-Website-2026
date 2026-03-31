@@ -1,0 +1,84 @@
+[28-Mar-2026 11:30:59 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:31:13 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 11:31:57 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:36:00 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:36:39 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 11:37:55 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:38:06 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:41:18 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:41:40 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 11:53:44 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:53:45 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:53:46 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 11:53:53 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 12:54:17 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:09:30 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:09:48 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 13:12:03 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:12:13 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 13:14:14 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:17:34 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:17:51 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:19:47 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:23:27 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:23:36 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:23:38 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:24:02 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:24:44 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:25:09 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:27:49 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:28:13 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:28:14 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:28:15 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:29:28 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 13:30:16 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 14:51:56 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 14:52:16 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 14:52:23 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 14:52:53 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 14:53:09 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 14:53:16 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 15:00:11 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:02:07 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:03:24 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:03:31 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 15:09:26 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:09:36 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:09:45 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:12:45 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:13:49 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:14:07 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:14:16 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:14:30 Asia/Kolkata] Book call DB connection failed: [193.203.184.6:3306] (2002) Connection refused
+[28-Mar-2026 15:17:56 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:18:00 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:18:13 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:21:17 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u802703949_technofra'@'localhost' (using password: YES) in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:21:29 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u802703949_technofra'@'localhost' (using password: YES) in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:21:39 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u802703949_technofra'@'localhost' (using password: YES) in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:21:54 Asia/Kolkata] Book call DB connection failed: [127.0.0.1:3306] (1045) Access denied for user 'u802703949_technofra'@'localhost' (using password: YES)
+[28-Mar-2026 15:23:50 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:23:55 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:24:56 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:25:10 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:26:50 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:27:03 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 15:32:21 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:32:30 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:32:42 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:33:24 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:35:40 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:36:06 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:36:17 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 15:37:54 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:39:25 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:43:18 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[28-Mar-2026 15:55:20 Asia/Kolkata] Book call slots DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 15:56:43 Asia/Kolkata] Book call slots DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 15:58:14 Asia/Kolkata] Book call slots DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 16:01:51 Asia/Kolkata] Book call slots DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 16:02:11 Asia/Kolkata] Book call slots DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 16:02:17 Asia/Kolkata] Book call DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[28-Mar-2026 16:12:50 Asia/Kolkata] Book call slots DB connection failed: [srv1131.hstgr.io:3306] (2002) Network is unreachable
+[30-Mar-2026 18:08:37 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/get-booked-slots.php on line 36
+[30-Mar-2026 18:08:46 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/2002): Network is unreachable in /home/technofr/technofra.com/newtechnofra.com/book-call-handler.php on line 74

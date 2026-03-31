@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical App UI</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #fff;
+    }
+
+    .medx-section-root {
+      padding: 80px 0;
+    }
+
+    .medx-container-wrap {
+      margin: auto;
+      padding: 0 20px;
+      max-width: 1200px;
+    }
+
+    .medx-grid-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .medx-phone-bg {
+      background: #f3f6fb;
+      border-radius: 28px;
+      padding: 20px 20px 0 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .medx-phone-holder {
+      position: relative;
+      width: 340px;
+    }
+
+    .medx-phone-image {
+      width: 100%;
+      position: relative;
+      z-index: 2;
+      transition: 0.35s ease;
+      display: block;
+    }
+
+
+
+    .medx-slider-track {
+      display: flex;
+      gap: 16px;
+      will-change: transform;
+    }
+
+    .medx-slider-shell {
+      position: absolute;
+      top: 160px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 520px;
+      /* 🔥 smaller */
+      overflow: hidden;
+      z-index: 3;
+    }
+
+    .medx-slide-card {
+      min-width: 220px;
+      border-radius: 16px;
+    }
+
+    .medx-slide-card img {
+      width: 100%;
+      border-radius: 12px;
+      display: block;
+    }
+
+
+
+    .medx-content-column {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .medx-hero-wrapper {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .medx-hero-image {
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .medx-hero-text {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .medx-feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .medx-feature-box {
+      background: #fff;
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .medx-feature-icon {
+      width: 42px;
+      height: 42px;
+      background: #f3f6fb;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+
+    .medx-feature-title {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .medx-feature-desc {
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    @media (max-width: 992px) {
+      .medx-grid-layout {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .medx-feature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .medx-phone-holder {
+        width: 280px;
+      }
+
+      .medx-slider-shell {
+        width: 360px;
+        top: 140px;
+      }
+
+      .medx-slide-card {
+        min-width: 120px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="medx-section-root">
+    <div class="medx-container-wrap container">
+      <div class="medx-grid-layout">
+
+        <div class="medx-phone-bg">
+          <div class="medx-phone-holder">
+
+            <img src="assets/image/mobileapp/capture2.webp" class="medx-phone-image" id="phoneBg" alt="Phone screen">
+
+            <div class="medx-slider-shell">
+              <div class="medx-slider-track" id="medxSliderTrack">
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture2.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture3.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture4.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture5.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture6.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture7.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture8.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture9.webp" alt=""></div>
+                <div class="medx-slide-card"><img src="assets/image/mobileapp/capture10.webp" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="medx-content-column">
+          <div class="medx-hero-wrapper">
+            <img src="assets/image/sf.jpg" class="medx-hero-image" alt="Medical app">
+            <p class="medx-hero-text">
+              With our app, you can get expert medical advice right at your fingertips.
+            </p>
+          </div>
+
+          <div class="medx-feature-grid">
+            <div class="medx-feature-box">
+              <div class="medx-feature-icon">⏱</div>
+              <h4 class="medx-feature-title">Instant Consultations</h4>
+              <p class="medx-feature-desc">Say goodbye to long waits at the doctor's office.</p>
+            </div>
+
+            <div class="medx-feature-box">
+              <div class="medx-feature-icon">❤️</div>
+              <h4 class="medx-feature-title">Health Journey</h4>
+              <p class="medx-feature-desc">Track and manage your health anytime.</p>
+            </div>
+
+            <div class="medx-feature-box">
+              <div class="medx-feature-icon">👨‍⚕️</div>
+              <h4 class="medx-feature-title">Trusted Experts</h4>
+              <p class="medx-feature-desc">Consult verified doctors globally.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    window.addEventListener("load", function () {
+      const track = document.getElementById("medxSliderTrack");
+      const phoneBg = document.getElementById("phoneBg");
+
+      if (!track || !phoneBg) return;
+
+      const originalCards = Array.from(track.children);
+      const originalCount = originalCards.length;
+      const gap = 16;
+
+      if (!originalCount) return;
+
+      originalCards.forEach(card => track.appendChild(card.cloneNode(true)));
+      originalCards.forEach(card => track.appendChild(card.cloneNode(true)));
+
+      const allCards = track.children;
+      const cardWidth = allCards[0].offsetWidth + gap;
+
+      let position = originalCount;
+      let lastIndex = -1;
+
+      const speed = 0.006;
+      const changeStartPoint = 0.18;
+
+      track.style.transform = `translateX(-${position * cardWidth}px)`;
+
+      const firstImg = originalCards[0].querySelector("img");
+      if (firstImg) {
+        phoneBg.src = firstImg.src;
+      }
+
+      function animateSlider() {
+        position += speed;
+
+        if (position >= originalCount * 2) {
+          position = originalCount;
+        }
+
+        track.style.transform = `translateX(-${position * cardWidth}px)`;
+
+        const integerPart = Math.floor(position);
+        const decimalPart = position - integerPart;
+
+        let activeIndex;
+        if (decimalPart >= changeStartPoint) {
+          activeIndex = (integerPart + 1) % originalCount;
+        } else {
+          activeIndex = integerPart % originalCount;
+        }
+
+        if (activeIndex !== lastIndex) {
+          const activeImg = originalCards[activeIndex].querySelector("img");
+          if (activeImg) {
+            phoneBg.src = activeImg.src;
+          }
+          lastIndex = activeIndex;
+        }
+
+        requestAnimationFrame(animateSlider);
+      }
+
+      animateSlider();
+    });
+  </script>
+
+</body>
+
+</html>

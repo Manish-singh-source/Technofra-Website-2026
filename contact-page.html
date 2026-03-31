@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        :root {
+            --tf-primary: #003366;
+            --tf-primary-dark: #ff4a2f;
+            --tf-ink: #00d2ff;
+            --tf-text: #7d8493;
+            --tf-muted: #f5f5f7;
+            --tf-card: #ffffff;
+            --tf-border: rgba(21, 32, 71, 0.06);
+            --tf-shadow: 0 12px 30px rgba(20, 27, 61, 0.08);
+            --tf-radius: 22px;
+            --tf-container: 1180px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #f7f7f8;
+            color: var(--tf-ink);
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .tf-contact-container {
+            width: min(var(--tf-container), calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .tf-contact-section-space {
+            padding: 64px 0 0;
+        }
+
+        .tf-contact-section-tag {
+            width: fit-content;
+            margin: 0 auto 18px;
+            padding: 8px 18px;
+            border-radius: 999px;
+            background: #fff;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+            font-size: 12px;
+            color: #79808f;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tf-contact-section-tag::before,
+        .tf-contact-section-tag::after {
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--tf-primary);
+            box-shadow: 0 0 0 3px rgba(255, 91, 61, 0.12);
+        }
+
+        .tf-contact-section-heading {
+            text-align: center;
+            margin-bottom: 18px;
+            font-size: clamp(32px, 4vw, 58px);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+
+        .tf-contact-heading-accent {
+            color: var(--tf-primary);
+        }
+
+        .tf-contact-section-copy {
+            max-width: 760px;
+            text-align: center;
+            margin: 0 auto;
+            color: var(--tf-text);
+            font-size: 16px;
+        }
+
+        .tf-contact-info-cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 26px;
+            margin-top: 52px;
+        }
+
+        .tf-contact-info-card {
+            background: var(--tf-card);
+            border-radius: 24px;
+            padding: 28px 24px;
+            box-shadow: var(--tf-shadow);
+            border: 1px solid var(--tf-border);
+            min-height: 182px;
+        }
+
+        .tf-contact-info-icon {
+            font-size: 30px;
+            color: var(--tf-ink);
+            margin-bottom: 16px;
+        }
+
+        .tf-contact-info-label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #556070;
+            letter-spacing: 0.04em;
+        }
+
+        .tf-contact-info-title {
+            margin-top: 4px;
+            font-size: 25px;
+            line-height: 1.05;
+            font-weight: 700;
+            color: #161616;
+        }
+
+        .tf-contact-info-title span {
+            color: var(--tf-primary);
+        }
+
+        .tf-contact-info-card p,
+        .tf-contact-info-card a,
+        .tf-contact-info-card li {
+            color: var(--tf-text);
+            font-size: 15px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .tf-contact-meta {
+            margin-top: 16px;
+            display: grid;
+            gap: 6px;
+        }
+
+        .tf-contact-wrap {
+            display: grid;
+            grid-template-columns: 295px minmax(220px, 350px) 1fr;
+            align-items: end;
+            padding: 60px 0 0;
+        }
+
+        .tf-contact-chat-card {
+            background: linear-gradient(199deg, #034173 0%, #003366 100%);
+            color: #fff;
+            border-radius: 28px;
+            padding: 32px 28px;
+            box-shadow: 0 22px 40px rgb(2 62 113 / 12%);
+            align-self: center;
+            min-height: 342px;
+            margin-right: -50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .tf-contact-chat-icon {
+            width: 82px;
+            height: 82px;
+            background: rgba(255, 255, 255, 0.16);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            font-size: 30px;
+        }
+
+        .tf-contact-chat-card h3 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .tf-contact-chat-card p {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.86);
+            margin-bottom: 22px;
+        }
+
+        .tf-contact-chat-btn,
+        .tf-contact-submit-btn {
+            border: none;
+            cursor: pointer;
+            border-radius: 999px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            transition: 0.25s ease;
+            font-family: inherit;
+        }
+
+        .tf-contact-chat-btn {
+            width: fit-content;
+            margin: 0 auto;
+            padding: 14px 26px;
+            background: #fff;
+            color: var(--tf-ink);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .tf-contact-chat-btn:hover,
+        .tf-contact-submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .tf-contact-agent-box {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            min-height: 520px;
+        }
+
+        .tf-contact-agent-image {
+            max-height: 600px;
+            object-fit: contain;
+            filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.07));
+        }
+
+        .tf-contact-form-area {
+            align-self: center;
+            border: 1px solid #dfdfdf;
+            border-radius: 12px;
+            padding: 20px;
+            background: #fff;
+        }
+
+        .tf-contact-form-area .tf-contact-section-tag {
+            margin: 0 0 20px;
+        }
+
+        .tf-contact-form-area h2 {
+            line-height: 1.05;
+            margin-bottom: 26px;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: #161616;
+        }
+
+        .tf-contact-form-area h2 span {
+            color: var(--tf-primary);
+        }
+
+        .tf-contact-form {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        .tf-contact-form input,
+        .tf-contact-form textarea {
+            width: 100%;
+            border: none;
+            outline: none;
+            background: #f0f0f1;
+            color: #161616;
+            border-radius: 18px;
+            padding: 18px 18px;
+            font-size: 15px;
+            font-family: inherit;
+        }
+
+        .tf-contact-form input::placeholder,
+        .tf-contact-form textarea::placeholder {
+            color: #9a9fac;
+        }
+
+        .tf-contact-form textarea {
+            grid-column: 1 / -1;
+            resize: vertical;
+            min-height: 170px;
+        }
+
+        .tf-contact-submit-btn {
+            width: fit-content;
+            margin-top: 8px;
+            padding: 15px 28px;
+            background: #033e71;
+            color: #fff;
+            box-shadow: 0 14px 26px rgba(255, 91, 61, 0.24);
+        }
+
+        .tf-contact-map-wrap {
+            width: 100%;
+            border-radius: 0;
+            overflow: hidden;
+        }
+
+        .tf-contact-map-wrap iframe {
+            width: 100%;
+            height: 340px;
+            border: 0;
+            display: block;
+            filter: saturate(0.95) contrast(1.02);
+        }
+
+        @media (max-width: 1199px) {
+            .tf-contact-info-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .tf-contact-wrap {
+                grid-template-columns: 280px 280px 1fr;
+                gap: 22px;
+            }
+
+            .tf-contact-info-title {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .tf-contact-section-space {
+                padding-top: 44px;
+            }
+
+            .tf-contact-wrap {
+                grid-template-columns: 1fr;
+                align-items: center;
+                padding-top: 70px;
+                gap: 24px;
+            }
+
+            .tf-contact-chat-card {
+                order: 2;
+                max-width: 420px;
+                margin: 0 auto;
+            }
+
+            .tf-contact-agent-box {
+                order: 1;
+                min-height: auto;
+            }
+
+            .tf-contact-form-area {
+                order: 3;
+                max-width: 700px;
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            .tf-contact-form-area .tf-contact-section-tag {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .tf-contact-form-area h2,
+            .tf-contact-form-area p {
+                text-align: center;
+            }
+
+            .tf-contact-submit-btn {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .tf-contact-container {
+                width: min(100% - 22px, 100%);
+            }
+
+            .tf-contact-section-tag {
+                font-size: 11px;
+                padding: 7px 14px;
+            }
+
+            .tf-contact-section-copy {
+                font-size: 14px;
+            }
+
+            .tf-contact-info-cards {
+                grid-template-columns: 1fr;
+                gap: 18px;
+                margin-top: 34px;
+            }
+
+            .tf-contact-info-card {
+                min-height: auto;
+            }
+
+            .tf-contact-wrap {
+                gap: 24px;
+                padding: 52px 0 34px;
+            }
+
+            .tf-contact-chat-card {
+                min-height: auto;
+                padding: 26px 20px;
+            }
+
+            .tf-contact-agent-image {
+                max-height: 420px;
+            }
+
+            .tf-contact-form {
+                grid-template-columns: 1fr;
+            }
+
+            .tf-contact-map-wrap iframe {
+                height: 260px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tf-contact-section-heading {
+                font-size: 30px;
+            }
+
+            .tf-contact-info-title,
+            .tf-contact-form-area h2 {
+                font-size: 28px;
+            }
+
+            .tf-contact-agent-image {
+                max-height: 340px;
+            }
+
+            .tf-contact-chat-card h3 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="tf-contact-section-space">
+            <div class="container">
+                <div class="tf-contact-section-tag">Contact Info</div>
+                <h1 class="tf-contact-section-heading">
+                    <span class="tf-contact-heading-accent">Contact &amp; Join Together</span>
+                </h1>
+                <p class="tf-contact-section-copy">
+                    Sint nascetur facere, delectus conubia consequuntur, nonummy distinctio!
+                    Non officiis, id natus non nisl provident justo.
+                </p>
+
+                <div class="tf-contact-info-cards">
+                    <article class="tf-contact-info-card">
+                        <div class="tf-contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="tf-contact-info-label">Location..</div>
+                        <div class="tf-contact-info-title">Visit Us At</div>
+                        <div class="tf-contact-meta">
+                            <p>Office No. 501, 5th Floor, Ghanshyam Enclave, New Link Road, Kandivali (West), Mumbai -
+                                400067. Maharashtra - INDIA.</p>
+                        </div>
+                    </article>
+
+                    <article class="tf-contact-info-card">
+                        <div class="tf-contact-info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                        <div class="tf-contact-info-label">24*7 Service..</div>
+                        <div class="tf-contact-info-title">Call Us On</div>
+                        <div class="tf-contact-meta">
+                            <a href="tel:+918080803374">Sales : +91 8080 80 3374</a>
+                            <a href="tel:+918080803375">Sales : +91 8080 80 3375</a>
+                            <a href="tel:+918080621003">Support : +91 8080 62 1003</a>
+                            <a href="tel:+918080721003">Support : +91 8080 72 1003</a>
+                        </div>
+                    </article>
+
+                    <article class="tf-contact-info-card">
+                        <div class="tf-contact-info-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <div class="tf-contact-info-label">Drop a line..</div>
+                        <div class="tf-contact-info-title">Mail Address</div>
+                        <div class="tf-contact-meta">
+                            <a href="mailto:info@technofra.com">info@technofra.com</a>
+                            <a href="mailto:support@technofra.com">support@technofra.com</a>
+                        </div>
+                    </article>
+
+                    <article class="tf-contact-info-card">
+                        <div class="tf-contact-info-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div class="tf-contact-info-label">Office hours..</div>
+                        <div class="tf-contact-info-title">Opening Time</div>
+                        <div class="tf-contact-meta">
+                            <p>Mon - Sat : 9am - 6pm</p>
+                            <p>Sunday (Closed)</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="tf-contact-wrap">
+                    <aside class="tf-contact-chat-card">
+                        <div class="tf-contact-chat-icon"><i class="fa-regular fa-headset"></i></div>
+                        <h3>Chat With Live !</h3>
+                        <p>
+                            Porte. Erat gravida adipisci quibusdam faucibus diam molestias? Ante, arcu commodo, non!
+                            Phasellus risus.
+                        </p>
+                        <button class="tf-contact-chat-btn">LET'S CHAT</button>
+                    </aside>
+
+                    <div class="tf-contact-agent-box">
+                        <img class="tf-contact-agent-image" src="assets/image/home/cong.png"
+                            alt="Support representative" />
+                    </div>
+
+                    <section class="tf-contact-form-area">
+                        <div class="tf-contact-section-tag">Contact Us</div>
+                        <h2>Reach &amp; Get In Touch With Us !</h2>
+
+                        <form class="tf-contact-form">
+                            <input type="text" placeholder="Your Name*" />
+                            <input type="email" placeholder="Your Email*" />
+                            <input type="tel" placeholder="Your number*" />
+                            <input type="text" placeholder="Your Subject*" />
+                            <textarea placeholder="Enter message*"></textarea>
+                        </form>
+
+                        <button class="tf-contact-submit-btn">SEND MESSAGE</button>
+                    </section>
+                </div>
+            </div>
+
+            <div class="tf-contact-map-wrap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3767.817656548082!2d72.834758!3d19.203165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6ca84bfbc29%3A0xc30408ca949bffb8!2sTechnofra%20%7C%20Web%20Development%20%7C%20Digital%20Marketing%20Agency%20in%20Mumbai!5e0!3m2!1sen!2sus!4v1732790645015!5m2!1sen!2sus"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
