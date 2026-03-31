@@ -367,6 +367,47 @@ gtag('config', 'G-189WWHXLSS');
     line-height: 1;
     color: #1f2430;
 }
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .uxb_about_feature_grid {
+        gap: 10px 18px;
+    }
+
+    .uxb_about_feature_item {
+        font-size: 14px;
+        line-height: 1.35;
+    }
+
+    .uxb_about_exp_brochure_strip {
+        gap: 14px;
+        padding: 16px 18px;
+        align-items: center;
+    }
+
+    .uxb_about_exp_left_area {
+        min-width: 118px;
+    }
+
+    .uxb_about_exp_big_text {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .uxb_about_exp_small_text {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .uxb_about_exp_mid_divider {
+        margin: 0 2px;
+    }
+
+    .about-company-brochure-btn {
+        font-size: 14px;
+        padding: 12px 18px;
+        white-space: nowrap;
+    }
+}
 </style>
 <?php include 'navbar.php'; ?>
 <section class="rnHeroSlider">
@@ -378,7 +419,7 @@ gtag('config', 'G-189WWHXLSS');
 
         <div class="rnHeroContent">
             <!-- <div class="rnHeroEyebrow">NEW</div> -->
-            <h1>Transform Your Business with Latest
+            <h1>Transform Your Business with the Latest
                 Technology Solutions</h1>
             <p class="pb-20">Empower your business with cutting-edge technology solutions that boost efficiency,
                 innovation, growth,
@@ -753,9 +794,9 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
                 <div class="rnHeroButtons btnn">
                     <a href="https://wa.me/918080803374" class="finbiz-btn aos-init aos-animate" data-aos="fade-right"
-                        data-aos-duration="900" target="_blank">Let's Chat With Us
+                        data-aos-duration="900" target="_blank">Let's Chat
                     </a>
-                    <a href="tel:+918080803374" class="btn btn-outline-info" target="_blank">Let's Call With Us</a>
+                    <a href="tel:+918080803374" class="btn btn-outline-info" target="_blank">Call Us</a>
                 </div>
             </div>
 
@@ -847,7 +888,7 @@ gtag('config', 'G-189WWHXLSS');
                     </a>
 
                     <!-- 05 -->
-                    <a href="digikcon.com" target="_blank">
+                    <a href="social-media-marketing.php" target="_blank">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -887,7 +928,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
         <div class="medlaunch-grid " data-aos="fade-up" data-aos-duration="600">
             <div class="medlaunch-card medlaunch-info-card" data-aos="fade-up" data-aos-duration="600">
-                <div class="medlaunch-icon">🌐</div>
+                <div class="medlaunch-icon"><i class="fa-solid fa-globe"></i></div>
                 <h3 class="medlaunch-title">Innovative Solutions</h3>
                 <p class="medlaunch-text">
                     We deliver smart and scalable digital solutions that help businesses grow faster, improve
@@ -966,16 +1007,16 @@ gtag('config', 'G-189WWHXLSS');
                             <h2 class="eep-calendar-title">Book A Call With Us</h2>
                         </div>
                         <p class="eep-calendar-sub pt-2">
-                            Pick a date and a client to connect with one of our expert team members
+                            Pick a date and time to connect with one of our expert team members
                         </p>
                     </div>
                 </div>
 
                 <div class="eep-calendar-box">
                     <div class="eep-calendar-nav">
-                        <button id="prevMonth" class="eep-cal-btn" type="button">‹</button>
+                        <button id="prevMonth" class="eep-cal-btn" type="button">&#8249;</button>
                         <div id="monthLabel" class="eep-month-label">March 2026</div>
-                        <button id="nextMonth" class="eep-cal-btn" type="button">›</button>
+                        <button id="nextMonth" class="eep-cal-btn" type="button">&#8250;</button>
                     </div>
 
                     <div class="eep-calendar-week">
@@ -1425,7 +1466,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="text-center">
             <span class="crm-subtitle ">Client Review<img src="assets/image/arrow-red.png" alt="arrow"></span>
             <h2 class="dd-heading text-center" data-aos="fade-up" data-aos-duration="600">
-                Testimonial
+                Testimonials
             </h2>
         </div>
 
@@ -1730,7 +1771,7 @@ gtag('config', 'G-189WWHXLSS');
                                 </div>
                                 <a href="https://technofra.in/blog/" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        “The Complete Guide to App Development: From Idea to Launch”
+                                        "The Complete Guide to App Development: From Idea to Launch"
                                     </h2>
                                 </a>
                                 <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
@@ -1761,8 +1802,8 @@ gtag('config', 'G-189WWHXLSS');
                                 </div>
                                 <a href="https://technofra.in/blog/" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        “CodeCraft: Crafting the Web – Insights, Tips, and Tutorials for Modern Web
-                                        Development”
+                                        "CodeCraft: Crafting the Web - Insights, Tips, and Tutorials for Modern Web
+                                        Development"
                                     </h2>
                                 </a>
                                 <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
@@ -1793,7 +1834,7 @@ gtag('config', 'G-189WWHXLSS');
                                 </div>
                                 <a href="https://technofra.in/blog/" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        “Exploring the Latest Trends in IT: A Guide to the Hottest Technologies”
+                                        "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
                                 <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
@@ -1823,7 +1864,7 @@ gtag('config', 'G-189WWHXLSS');
                                 </div>
                                 <a href="https://technofra.in/blog/" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        “Exploring the Latest Trends in IT: A Guide to the Hottest Technologies”
+                                        "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
                                 <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
@@ -1853,7 +1894,7 @@ gtag('config', 'G-189WWHXLSS');
                                 </div>
                                 <a href="https://technofra.in/blog/" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        “Exploring the Latest Trends in IT: A Guide to the Hottest Technologies”
+                                        "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
                                 <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
@@ -1883,7 +1924,7 @@ gtag('config', 'G-189WWHXLSS');
                                 </div>
                                 <a href="https://technofra.in/blog/" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
-                                        “Exploring the Latest Trends in IT: A Guide to the Hottest Technologies”
+                                        "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
                                 <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More

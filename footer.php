@@ -201,7 +201,7 @@
              <div
                  class="modal-body register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate">
                  <!-- Job Application Form -->
-                 <form action="send7.php" method="post" enctype="multipart/form-data">
+                 <form action="send7.php" method="post" enctype="multipart/form-data" id="companyProfileForm">
                      <div class="container">
                          <div class="row">
                              <!-- Full Name -->
@@ -242,7 +242,10 @@
                              </div>
                              <!-- Submit Button -->
                              <div class="col-12   text-start">
-                                 <button type="submit" class="mt-3 btn btn-outline-info">Download Company Profile
+                                 <button type="submit" class="mt-3 btn btn-outline-info company-profile-submit-btn"
+                                     id="companyProfileSubmitBtn" data-default-text="Download Company Profile"
+                                     data-loading-text="Sending...">
+                                     Download Company Profile
                                  </button>
                              </div>
                          </div>
@@ -555,6 +558,39 @@ if (navClose && rightMenu) {
     updateDots();
     startAutoSlide();
 })();
+ </script>
+
+ <style>
+ .company-profile-submit-btn.is-loading {
+     opacity: 0.75;
+     cursor: not-allowed;
+     pointer-events: none;
+ }
+ </style>
+
+ <script>
+ (function() {
+     const companyProfileForm = document.getElementById('companyProfileForm');
+     const companyProfileSubmitBtn = document.getElementById('companyProfileSubmitBtn');
+
+     if (!companyProfileForm || !companyProfileSubmitBtn) {
+         return;
+     }
+
+     function resetCompanyProfileButton() {
+         companyProfileSubmitBtn.disabled = false;
+         companyProfileSubmitBtn.classList.remove('is-loading');
+         companyProfileSubmitBtn.innerHTML = companyProfileSubmitBtn.dataset.defaultText;
+     }
+
+     companyProfileForm.addEventListener('submit', function() {
+         companyProfileSubmitBtn.disabled = true;
+         companyProfileSubmitBtn.classList.add('is-loading');
+         companyProfileSubmitBtn.textContent = companyProfileSubmitBtn.dataset.loadingText;
+     });
+
+     window.addEventListener('pageshow', resetCompanyProfileButton);
+ })();
  </script>
 
  <!--build:js-->
