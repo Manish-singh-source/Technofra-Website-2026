@@ -122,7 +122,7 @@ $htmlbody = '
                                 </tr>
                                 <tr>
                                     <td style="padding:28px 24px 12px;">
-                                        <h2 style="margin:0; color:#0b2e59;">New Company Profile Request</h2>
+                                        <h2 style="margin:0; color:#0b2e59;">Company Profile Request</h2>
                                         <p style="margin:12px 0 0; color:#4a5568; line-height:1.7;">
                                             A visitor submitted the brochure request form on the website.
                                         </p>
@@ -240,7 +240,7 @@ $mail->addAddress('support@technofra.com');
 $mail->addReplyTo($email, $name);
 $mail->Subject = 'Company Profile Download Enquiry (' . $currentDateTime . ')';
 $mail->Body = $htmlbody;
-$mail->AltBody = "New company profile request from {$name} ({$email}).";
+$mail->AltBody = "Company profile request from {$name} ({$email}).";
 
 if (!$mail->send()) {
     header('Location: failed.php');
