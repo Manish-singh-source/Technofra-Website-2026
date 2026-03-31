@@ -840,14 +840,14 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss4.webp">
+                                    <img src="assets\image\home\digitals.png">
                                 </div>
                             </div>
                         </div>
                     </a>
 
                     <!-- 05 -->
-                    <a href="digikcon.com" target="_blank">
+                    <a href="social-media-marketing.php" target="_blank">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -859,7 +859,7 @@ gtag('config', 'G-189WWHXLSS');
                                     </p>
                                 </div>
                                 <div class="dd-card-back">
-                                    <img src="assets/image/home/ss5.webp">
+                                    <img src="assets\image\home\socails.png">
                                 </div>
                             </div>
                         </div>
