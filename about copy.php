@@ -215,7 +215,7 @@ a,
         <div class="lf-stats-grid" data-aos="fade-up" data-aos-duration="600">
             <div class="lf-stat-item">
                 <p>Year Experience</p>
-                <h3 class="lf-counter" data-count="13">0</h3>
+                <h3 class="lf-counter" data-count="14">0</h3>
             </div>
             <div class="lf-stat-item">
                 <p>Team Expert</p>

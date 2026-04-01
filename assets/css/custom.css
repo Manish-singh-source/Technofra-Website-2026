@@ -7128,25 +7128,25 @@
     }
 
 
-    .tfxIndusNav {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 52px;
-      height: 52px;
-      border: none;
-      border-radius: 50%;
-      background: #ffffff;
-      color: #ff6b57;
-      font-size: 18px;
-      cursor: pointer;
-      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
-      z-index: 5;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s ease;
-    }
+   .tfxIndusNav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #37c6f4;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
 
     .tfxIndusNav:hover {
       background: #fff4ef;

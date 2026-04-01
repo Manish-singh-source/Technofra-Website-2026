@@ -35,6 +35,7 @@ gtag('config', 'G-189WWHXLSS');
 .black {
     color: black;
 }
+
 .about-team-section {
     margin: 0 auto;
     padding: 40px 0px 40px;
@@ -178,9 +179,10 @@ a,
     justify-content: center;
 }
 
-.pb15{
-    padding-bottom:15px;
+.pb15 {
+    padding-bottom: 15px;
 }
+
 @media (max-width: 991.98px) {
     .hr-wrapper {
         padding: 50px 0 20px;
@@ -360,7 +362,7 @@ a,
 <div class="space60"></div>
 
 
- 
+
 
 <section class="wd-job-section">
     <div class="wd-job-container container">
@@ -412,10 +414,10 @@ a,
                 </ul>
             </div>
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="quote.php" class="hr-main-btn" id="applyBtn"
-                    data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Apply Now
+                <a href="quote.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"> Apply Now
                 </a>
-                <a href="about.php" class="btn btn-outline-info  " >Contact Us</a>
+                <a href="about.php" class="btn btn-outline-info  ">Contact Us</a>
             </div>
         </div>
 
@@ -687,12 +689,12 @@ a,
                                 <label for="cars" class="form-label">Roles*</label>
                                 <select name="role" id="cars" class="form-control ca-two-border">
                                     <option value="Roles">Roles</option>
-                                    <option value="Web Developer">Web Developer</option>
-                                    <option value="SEO Specialist">SEO Specialist</option>
-                                    <option value="Social Media">Social Media</option>
-                                    <option value="Graphic Designer">Graphic Designer</option>
-                                    <option value="UI/UX Designer">UI/UX Designer</option>
-                                    <option value="App Developer">App Developer</option>
+                                    <option value="" selected disabled>Select a service</option>
+                                    <option value="Web & App Development">Web & App Development</option>
+                                    <option value="eCommerce Development">eCommerce Development</option>
+                                    <option value="Branding">Branding</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Social Media Marketing">Social Media Marketing</option>
                                 </select>
                             </div>
 
@@ -811,23 +813,24 @@ a,
 <!-- SERVICES -->
 <section class="hfz-services-section ">
     <div class="hfz-container container">
-         <div class="row justify-content-center pb-30" data-aos="fade-up" data-aos-duration="600"
+        <div class="row justify-content-center pb-30" data-aos="fade-up" data-aos-duration="600"
             class="aos-init aos-animate">
             <div class="col-xl-7 ">
                 <div class="ins-title text-center">
-                 <span class="crm-subtitle ">Join Our Team</span> <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                    <span class="crm-subtitle ">Join Our Team</span> <img src="assets/image/arrow-red.png"
+                        alt="arrow"></span>
                     <h2>
-                       Why Join Technofra
+                        Why Join Technofra
                     </h2>
                     <p class="text-center">
-                    At Technofra, we create a growth-focused environment where talent is valued, ideas matter, and
-                    people get the opportunity to learn, contribute, and grow.
-                </p>
+                        At Technofra, we create a growth-focused environment where talent is valued, ideas matter, and
+                        people get the opportunity to learn, contribute, and grow.
+                    </p>
                 </div>
             </div>
         </div>
-         
-        <div class="hfz-services-grid">           
+
+        <div class="hfz-services-grid">
 
             <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
                 <i class="fa-solid fa-chart-line"></i>
@@ -877,7 +880,8 @@ a,
                 <i class="fas fa-trophy"></i>
                 <h4>Competitive Environment</h4>
                 <p>
-                    Work in a fast-paced, performance-driven setting that motivates you to improve, compete, and achieve your best every day.
+                    Work in a fast-paced, performance-driven setting that motivates you to improve, compete, and achieve
+                    your best every day.
                 </p>
             </div>
         </div>
@@ -1058,12 +1062,14 @@ a,
                                                     <label for="cars" class="form-label">Roles*</label>
                                                     <select name="role" id="cars" class="form-control ca-two-border">
                                                         <option value="Roles">Roles</option>
-                                                        <option value="Web Developer">Web Developer</option>
-                                                        <option value="SEO Specialist">SEO Specialist</option>
-                                                        <option value="Social Media">Social Media</option>
-                                                        <option value="Graphic Designer">Graphic Designer</option>
-                                                        <option value="UI/UX Designer">UI/UX Designer</option>
-                                                        <option value="App Developer">App Developer</option>
+                                                        <option value="" selected disabled>Select a service</option>
+                                                        <option value="Web & App Development">Web & App Development</option>
+                                                        <option value="eCommerce Development">eCommerce Development
+                                                        </option>
+                                                        <option value="Branding">Branding</option>
+                                                        <option value="Digital Marketing">Digital Marketing</option>
+                                                        <option value="Social Media Marketing">Social Media Marketing
+                                                        </option>
                                                     </select>
                                                 </div>
 

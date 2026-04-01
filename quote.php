@@ -42,8 +42,9 @@ gtag('config', 'G-189WWHXLSS');
                     <span class="span" data-aos="zoom-in-left" data-aos-duration="700"> Request a Quote</span>
                     <h1 class="tg-element-title">Tell Us About Your Project</h1>
                     <div class="space30"></div>
-                    <p class="white">Share your goals, timeline, and preferred service. Our team will review the scope and connect with a
-                    clear plan, timeline, and quotation tailored to your business.</p>
+                    <p class="white">Share your goals, timeline, and preferred service. Our team will review the scope
+                        and connect with a
+                        clear plan, timeline, and quotation tailored to your business.</p>
                 </div>
             </div>
         </div>
@@ -186,13 +187,11 @@ gtag('config', 'G-189WWHXLSS');
                                         class="risk-highlight-color">*</span></label>
                                 <select id="quoteService" name="designation" required>
                                     <option value="" selected disabled>Select a service</option>
-                                    <option value="Web Development">Web Development</option>
-                                    <option value="Application Development">Application Development</option>
-                                    <option value="Digital Marketing">Digital Marketing</option>
-                                    <option value="Payment Gateway">Payment Gateway</option>
+                                    <option value="Web Development">Web & App Development</option>
+                                    <option value="eCommerce Development">eCommerce Development</option>
                                     <option value="Branding">Branding</option>
-                                    <option value="Domain & Hosting">Domain & Hosting</option>
-                                    <option value="IT Infrastructure">IT Infrastructure</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Social Media Marketing">Social Media Marketing</option>
                                 </select>
                             </div>
 
