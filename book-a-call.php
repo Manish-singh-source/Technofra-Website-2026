@@ -7,7 +7,7 @@ $bookCallSettings = array_merge([
     'image_alt' => 'Book a call illustration',
     'image_classes' => 'img-fluid bac-image position-absolute pe-none z-n1 d-none d-lg-block',
     'eyebrow' => 'Contact Us',
-    'title' => 'Need a Successful Project?',
+    'title' => 'Need a Project Discussion?',
     'phone_label' => 'Call Us at:',
     'phone_number' => '+91 8080 80 3374',
     'benefits_title' => 'Your Benefits:',
@@ -373,7 +373,7 @@ a:hover, .btn-link:hover {
     <div class="container">
         <div class="<?php echo htmlspecialchars($bookCallSettings['row_classes']); ?>">
             <div class="<?php echo htmlspecialchars($bookCallSettings['left_col_classes']); ?>">
-                <div class="d-inline-block px-4 py-1 rounded-pill border mb-3">
+                <div class="d-inline-block py-1 rounded-pill border mb-3">
                     <p class="ma-warning-text fw-bold mb-0"><?php echo htmlspecialchars($bookCallSettings['eyebrow']); ?></p>
                 </div>
                 <h2 class="ail-title text-white fs-48 fw-600 mb-4"><?php echo htmlspecialchars($bookCallSettings['title']); ?></h2>

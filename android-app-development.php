@@ -471,7 +471,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="section-heading text-center" data-aos="fade-up" data-aos-offset="500"
             data-aos-easing="ease-in-sine">
             <div class="about-company-subtitle">
-                <span>Porocess</span>
+                <span>Process</span>
                 <img src="assets/image/arrow-red.png" alt="Arrow">
             </div>
             <h2>Mobile App Development Process</h2>
@@ -902,7 +902,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 </section>
-<section class="cta-subscribe bg-dark text-white ptb-40 position-relative">
+<!-- <section class="cta-subscribe bg-dark text-white ptb-40 position-relative">
     <div class="container">
         <div class="row justify-content-between">
 
@@ -925,7 +925,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 
-</section>
+</section> -->
 
 
 <?php include 'book-a-call.php'; ?>

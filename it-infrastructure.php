@@ -572,7 +572,7 @@
     </div>
 </section>
 
-<div class="cta9">
+<!-- <div class="cta9">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
@@ -597,7 +597,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

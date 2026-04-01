@@ -98,7 +98,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<section class="feature-section ptb-50">
+<section class="feature-section ptb-50 pt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-12">
@@ -289,7 +289,7 @@ gtag('config', 'G-189WWHXLSS');
                                     <li class="py-1"><i class="far fa-check-circle me-2 text-primary"></i> <span
                                             class="manishq">Add / replace favicon</span></li>
                                     <li class="py-1"><i class="far fa-check-circle me-2 text-primary"></i> <span
-                                            class="manishq">Malware clean up</span>/li>
+                                            class="manishq">Malware clean up</span></li>
                                     <li class="py-1"><i class="far fa-check-circle me-2 text-primary"></i> <span
                                             class="manishq">Migrate from host to host</span></li>
                                     <li class="py-1"><i class="far fa-check-circle me-2 text-primary"></i> <span

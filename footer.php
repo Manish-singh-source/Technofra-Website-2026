@@ -93,13 +93,13 @@
              <div class="twc-apps-row">
                  <div class="twc-available-text">COMING SOON</div>
 
-                 <a href="javascript:void(0);" target="_blank" class="APPS" contenteditable="false"
+                 <a href="app.php" target="_blank" class="APPS" contenteditable="false"
                      style="cursor: pointer; ">
 
                      <img src="assets/image/home/app0.webp" alt="image" class="lgs">
                  </a>
 
-                 <a href="javascript:void(0);" target="_blank" class="APPS" contenteditable="false"
+                 <a href="app.php" target="_blank" class="APPS" contenteditable="false"
                      style="cursor: pointer;">
                      <img src="assets/image/home/ios0.webp" alt="image" class="lgs">
                  </a>
@@ -174,7 +174,7 @@
                  <a href="contact.php">Contact Us</a>
                  <a href="portfolio.php">Portfolio</a>
                  <a href="https://technofra.in/blog/">Blog</a>
-                 <a href="sitemap.php">Sitemap</a>
+                 <a href="sitemap.html">Sitemap</a>
                  <a href="privacy-policy.php">Privacy Policy</a>
              </div>
 
