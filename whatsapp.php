@@ -147,10 +147,10 @@
                 <div class="app-two-cta-right px-md-0 pt-5 pt-md-0" data-aos="fade-left">
                     <div class="section-heading  bgc-background">
                         <h2 class="">
-                            Technofra The best Whatsapp Business API Provider India
+                            Technofra Trusted WhatsApp Business API Provider Worldwide
                         </h2>
                         <p>
-                            The WhatsApp Business API is an ideal solution for medium to large-sized businesses, enabling seamless communication with customers. With end-to-end encryption, it ensures secure interactions between businesses and users, safeguarding customer accounts and ensuring privacy. Experience secure and efficient customer engagement with our solution. #LeadingWhatsAppBusinessAPIProviderIndia
+                            Technofra is a trusted WhatsApp Business API provider helping businesses streamline customer communication at scale. Our solution enables secure, real-time messaging with end-to-end encryption, ensuring data privacy and reliability. Automate responses, improve customer support, and enhance engagement through seamless integration. Build stronger relationships and deliver efficient communication experiences with a powerful, scalable WhatsApp Business API solution.  
                         </p>
                     </div>
                     <div class="cta-count">

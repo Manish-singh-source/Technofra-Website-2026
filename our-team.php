@@ -45,7 +45,7 @@ gtag('config', 'G-189WWHXLSS');
 <title>Technofra</title>
 
 <?php include 'navbar.php'; ?>
-<section class="cyber-store-product" style="background: url('assets/image/teams/out-team-ban.webp')no-repeat center center">
+<!-- <section class="cyber-store-product" style="background: url('assets/image/teams/out-team-ban.webp')no-repeat center center">
     <div class="ptb-120" >
         <div class="container">
             <div class="row justify-content-center">
@@ -61,7 +61,25 @@ gtag('config', 'G-189WWHXLSS');
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<div class="hero9" style="background-image: url(assets/image/career/career-banner1.webp);">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+            <div class="col-lg-7 text-center">
+                <div class="main-heading">
+                    <span class="span" data-aos="zoom-in-left" data-aos-duration="700">Team</span>
+                    <h1 class="tg-element-title">Meet Our Team</h1>
+                    <p class="lead white">
+                        Seamlessly actualize client-based users after out-of-the-box value.
+                        Globally embrace strategic data through frictionless expertise.
+                    </p>
+                    <div class="space30"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <section class="about-team-wrapper container pb-60">
     <div class="about-team-section">
@@ -76,15 +94,13 @@ gtag('config', 'G-189WWHXLSS');
         </div>
 
         <div class="about-team-grid">
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets/image/teams/gopalsir.webp">
                 </div>
                 <h3 class="about-team-member-name">Gopal Giri</h3>
-                <p class="about-team-member-role">Director</p>
-                <p class="about-team-member-bio">
-                    Leads the organization with strategic planning and long-term business vision.
-                </p>
+                <p class="about-team-member-role">Director & Co-Founder</p>
+                 
             </article>
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
@@ -92,100 +108,95 @@ gtag('config', 'G-189WWHXLSS');
                     <img class="about-team-image" src="assets/image/teams/bhavna.webp">
                 </div>
                 <h3 class="about-team-member-name">Bhavna Giri</h3>
-                <p class="about-team-member-role">CEO</p>
-                <p class="about-team-member-bio">
-                    Oversees company operations and ensures the team works toward common goals.
-                </p>
+                <p class="about-team-member-role">CEO & Co-Founder</p>
+                 
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+                <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\shyam.webp">
                 </div>
                 <h3 class="about-team-member-name">Shyam Jaiswar</h3>
-                <p class="about-team-member-role">Business Developer</p>
-                <p class="about-team-member-bio">
+                <p class="about-team-member-role">Business Developer Head</p>
+                <!-- <p class="about-team-member-bio">
                     Identifies growth opportunities, builds client relationships, and drives business expansion
-                </p>
+                </p> -->
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets/image/teams/khushi.webp">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
                 <p class="about-team-member-role">Social Media Head</p>
-                <p class="about-team-member-bio">
+                <!-- <p class="about-team-member-bio">
                     Manages social media campaigns and builds engagement with the audience.
-                </p>
+                </p> -->
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets/image/teams/manish.webp">
                 </div>
                 <h3 class="about-team-member-name">Manish Singh</h3>
-                <p class="about-team-member-role">Web Developer</p>
-                <p class="about-team-member-bio">
+                <p class="about-team-member-role">Web Developer Head</p>
+                <!-- <p class="about-team-member-bio">
                     Develops responsive websites and maintains modern web functionality.
-                </p>
+                </p> -->
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\pradnya.webp">
                 </div>
                 <h3 class="about-team-member-name">Pradnya Jagdale</h3>
-                <p class="about-team-member-role">Web Developer</p>
-                <p class="about-team-member-bio">
-                    Designs, develops, and maintains responsive websites for better user experience.
-                </p>
+                <p class="about-team-member-role">Frontend Developer Head</p>               
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\saurabh.webp">
                 </div>
                 <h3 class="about-team-member-name">Saurabh Damale</h3>
-                <p class="about-team-member-role">Backend Developer </p>
-                <p class="about-team-member-bio">
+                <p class="about-team-member-role">Full-Stack Developer Head</p>
+                <!-- <p class="about-team-member-bio">
                     Builds, manages, and optimizes server-side systems, databases, and APIs to power and maintain
                     website backends.
-                </p>
+                </p> -->
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\roshan.webp">
                 </div>
                 <h3 class="about-team-member-name">Roshan Yadav</h3>
-                <p class="about-team-member-role">Web Developer</p>
-                <p class="about-team-member-bio">
+                <p class="about-team-member-role">Digital-Marketing Head</p>
+                <!-- <p class="about-team-member-bio">
                     Designs, develops, and maintains websites and web applications for optimal performance and user
                     experience.
-                </p>
+                </p> -->
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\shubham.webp">
                 </div>
                 <h3 class="about-team-member-name">Shubham Shinde</h3>
-                <p class="about-team-member-role">APP Developer</p>
-                <p class="about-team-member-bio">
+                <p class="about-team-member-role">APP Developer Head</p>
+                <!-- <p class="about-team-member-bio">
                     Designs, develops, and maintains mobile applications for smooth performance and user experience.
-                </p>
+                </p> -->
             </article>
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="800" class="aos-init aos-animate">
+            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\anjali.webp">
                 </div>
                 <h3 class="about-team-member-name">Anjali Jaiswar</h3>
-                <p class="about-team-member-role">Motion Graphic Designer</p>
-                <p class="about-team-member-bio">
+                <p class="about-team-member-role">Graphic Designer Head</p>
+                <!-- <p class="about-team-member-bio">
                     Creates engaging animations and visual effects for videos, advertisements, and digital content.
-                </p>
+                </p> -->
             </article>
 
         </div>
