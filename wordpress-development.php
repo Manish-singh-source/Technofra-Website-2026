@@ -257,7 +257,7 @@ gtag('config', 'G-189WWHXLSS');
                         <img src="https://avada.com/wp-content/uploads/2021/06/small-separator.png" alt="image">
                         <div class="d-flex">
                             <div class="cre">
-                                <span class="cre1">1000k+</span>
+                                <span class="cre1">1500+</span>
                                 <p>Projects Successfully Delivered</p>
                             </div> &nbsp;&nbsp;&nbsp;
                             <div class="cre">
@@ -887,7 +887,7 @@ gtag('config', 'G-189WWHXLSS');
     <!--faq section end-->
 
 
-    <div class="cta9">
+    <!-- <div class="cta9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -917,7 +917,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 

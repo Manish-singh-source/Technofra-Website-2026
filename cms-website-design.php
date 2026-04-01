@@ -124,7 +124,7 @@
             <div class="crm-title text-center">
               <span class="crm-subtitle">Why Choose Us <img src="assets/image/arrow-red.png"
                   alt="arrow"></span>
-              <h2 class="mt-1 clr-text">Why Us Quiety CRM</h2>
+              <h2 class="mt-1 clr-text">Why Choose Our CMS Services</h2>
             </div>
           </div>
         </div>
@@ -450,7 +450,7 @@
     </section>
     <?php include 'potfolio-slider.php'; ?>
     <!--faq section start-->
-    <section class="faq-section ptb-60">
+    <section class="faq-section pt-60">
       <div class="container">
 
         <div class="row justify-content-between">
@@ -553,7 +553,7 @@
         </div>
       </div>
     </section>
-    <div class="cta9">
+    <!-- <div class="cta9">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
@@ -576,7 +576,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <?php include 'book-a-call.php'; ?>
     <?php include 'footer.php'; ?>
