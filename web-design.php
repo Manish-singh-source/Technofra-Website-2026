@@ -35,7 +35,7 @@ gtag('config', 'G-189WWHXLSS');
 <title>Creative Website Design & Development Agency</title>
 <meta property="og:title" content="Website design & development Agency | Technofra">
 <meta property="og:description"
-    content="Boost your online presence with the top website development agency , India. We offer premium website design & development services.">
+    content="Boost your online presence with the top website development agency. We offer premium website design & development services.">
 
 <link rel="canonical" href="https://technofra.com/web-design.php">
 

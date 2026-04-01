@@ -26,8 +26,7 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<meta name="description"
-    content="I-Friz Cool (I) PVT. LTD.">
+<meta name="description" content="I-Friz Cool (I) PVT. LTD.">
 <title>I-Friz Cool (I) PVT. LTD. Case Study | Technofra</title>
 <style>
 .cover-image {
@@ -63,13 +62,12 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row">
             <div class="col-lg-12 col-md-12 ">
                 <div class="section-heading text-center">
-                    <h2 class="tex">Leading Flame Proof Air Conditioner Manufactures In India</h2>
+                    <h2 class="tex">Leading Flame Proof Air Conditioner Manufacturers</h2>
                     <p>
-                        The Best in Flameproof Manufacturing Company Since1996. At Frizcool India, we take pride in
-                        being India’s No.1 flame proof manufacturer, <br> known for our commitment to excellence,
-                        quality, and innovation. As the leading flame proof manufacturing company in India, our
-                        reputation is built on decadesof experience, cutting-edge technology, and are lentless focus on
-                        safety and reliability.
+                        A trusted name in flameproof manufacturing since 1996. At Frizcool, we take pride in
+                        being a leading flame proof manufacturer, known for our commitment to excellence,
+                        quality, and innovation. Our reputation is built on decades of experience, cutting-edge
+                        technology, and a relentless focus on safety and reliability.
                     </p>
 
                     <a href="frizcoolindia.php" class="btn btn-outline-info mt-20">Explore More</a>
@@ -115,14 +113,14 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row justify-content-between">
             <div class="col-lg-8 col-md-8">
                 <div class="section-heading">
-                    <h2 class="tex">The Best in Flameproof Manufacturing Company Since 1996</h2>
+                    <h2 class="tex">The Best in Flameproof Manufacturing Since 1996</h2>
                     <div class="space16"></div>
                     <p>
-                        Our Journey to Becoming the Best Since our inception, I-Friz Cool (I) PVT. LTD. has been at the
-                        fore front of the flameproof manufacturing industry. Our founder sen visioned creating a company
-                        that would not only meet the industrial demands for safety but would also set new benchmarks in
-                        quality and reliability. Today, weare proud to be recognized as the leading provider of
-                        flameproof solutions, trusted by businesses across India and around the globe.
+                        Our journey to becoming the best—since our inception, I-Friz Cool (I) Pvt. Ltd. has been at the
+                        forefront of the flameproof manufacturing industry. Our founder envisioned creating a company
+                        that would not only meet industrial safety demands but also set new benchmarks in quality and
+                        reliability. Today, we are proud to be recognized as a leading provider of flameproof solutions,
+                        trusted by businesses worldwide.
                     </p>
                 </div>
             </div>
