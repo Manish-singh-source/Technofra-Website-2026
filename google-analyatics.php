@@ -148,7 +148,7 @@
 
         <section class="feature-section pt-60 pb-60">
             <div class="container-fluid">
-                <div class="feature-container mx-lg-5 position-relative bg-gradient ptb-120 rounded-custom" data-aos="zoom-in">
+                <div class="feature-container mx-lg-5 position-relative bg-gradient ptb-50 rounded-custom" data-aos="zoom-in">
                     <img src="assets/image/api/feature-bg-1.webp" alt="feature-bg" class="feature-bg-mockup position-absolute w-100 h-100 left-0 right-0 top-0 bottom-0 rounded-custom">
                     <div class="container">
                         <div class="row">

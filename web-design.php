@@ -484,7 +484,7 @@ gtag('config', 'G-189WWHXLSS');
 }
 
 .baner {
-    background: url('assets/image/websitedevlopment/2 webp..webp')no-repeat;
+    background: url('assets/image/websitemaintenance/banner01.png')no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -873,7 +873,7 @@ article {
 <?php endif; ?>
 
 
-<section class="hero-section ptb-100  d-flex align-items-center bg-dark text-white position-relative baner">
+<section class="hero-section ptb-100  d-flex align-items-center text-white position-relative baner">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6">

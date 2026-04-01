@@ -31,7 +31,7 @@
 </style>
 <?php include 'navbar.php'; ?>
 
-<section class="page-header position-relative ptb-120 bg-dark" style="background: url('assets/image/bedcrum.png')no-repeat bottom left">
+<section class="page-header position-relative ptb-50 bg-dark" style="background: url('assets/image/bedcrum.png')no-repeat bottom left">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-12">

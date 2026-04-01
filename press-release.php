@@ -210,7 +210,7 @@
                     <div class="" style="padding: 15px; color: white;">
                         <h5 class="card-title">Technofra Highlights the Growing Importance of Social Media for Business Growth and Brand Visibility</h5>
                         <span class="badge bg-success">Issue Wire</span>
-                        <p class="card-text mt-2 mb-2">IMumbai, Maharashtra (Issuewire.com)  - In an era where digital interaction defines consumer behavior, social media has emerged as one of the most powerful tools for business growth, communication, and brand building.</p>
+                        <p class="card-text mt-2 mb-2">I Mumbai, Maharashtra (Issuewire.com)  - In an era where digital interaction defines consumer behavior, social media has emerged as one of the most powerful tools for business growth, communication, and brand building.</p>
                         <hr style="border-color: #555;">
                         <p class="card-text">Issue Wire</p>
                         <div class="hover-button">

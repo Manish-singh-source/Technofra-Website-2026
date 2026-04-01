@@ -887,7 +887,7 @@ gtag('config', 'G-189WWHXLSS');
     <!--faq section end-->
 
 
-    <div class="cta9">
+    <!-- <div class="cta9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -917,7 +917,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 

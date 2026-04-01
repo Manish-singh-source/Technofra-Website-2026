@@ -32,7 +32,7 @@
 <?php include 'navbar.php'; ?>
 
 <section
-    class="hero-section mt-80 ptb-120 h-faq-vh d-flex align-items-center bg-dark text-white position-relative "
+    class="hero-section mt-80 ptb-50 h-faq-vh d-flex align-items-center bg-dark text-white position-relative "
     style="background: url('assets/img/page-header-bg.svg')no-repeat bottom right">
     <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -53,7 +53,7 @@
 
 
 
-<section class="feature-tab-section ptb-120 bg-light-subtle">
+<section class="feature-tab-section ptb-50 bg-light-subtle">
     <div class="container">
         <div class="row justify-content-center align-content-center">
             <div class="col-md-10 col-lg-6">
