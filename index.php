@@ -1754,24 +1754,24 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
                                     <div class="pe-3">
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-user pe-2"></i>
                                             <span class="text-muted">Admin</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-calendar pe-2"></i>
                                             <span class="text-muted">May 3, 2024</span>
                                         </a>
                                     </div>
                                 </div>
-                                <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
                                         "The Complete Guide to App Development: From Idea to Launch"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                <a href="#" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -1786,25 +1786,25 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
                                     <div class="pe-3">
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-user pe-2"></i>
                                             <span class="text-muted">Admin</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-calendar pe-2"></i>
                                             <span class="text-muted">October 13, 2024</span>
                                         </a>
                                     </div>
                                 </div>
-                                <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
                                         "CodeCraft: Crafting the Web - Insights, Tips, and Tutorials for Modern Web
                                         Development"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                <a href="#" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -1819,24 +1819,55 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
                                     <div class="pe-3">
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-user pe-2"></i>
                                             <span class="text-muted">Admin</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-calendar pe-2"></i>
                                             <span class="text-muted">May 20, 2023</span>
                                         </a>
                                     </div>
                                 </div>
-                                <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                <a href="#" class="link-with-icon text-decoration-none">Read
+                                    More
+                                    <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="cyber-single-article p-3 border">
+                            <div class="image image-anime">
+                                <img src="assets/image/home/blog03.webp" alt="image">
+                            </div>
+                            <div class="article-content">
+                                <div class="article-info d-flex py-3">
+                                    <div class="pe-3">
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="fas fa-user pe-2"></i>
+                                            <span class="text-muted">Admin</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="fas fa-calendar pe-2"></i>
+                                            <span class="text-muted">May 20, 2023</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#" class="text-decoration-none">
+                                    <h2 class="h5 article-title limit-2-line-text">
+                                        "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
+                                    </h2>
+                                </a>
+                                <a href="#" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -1850,24 +1881,24 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
                                     <div class="pe-3">
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-user pe-2"></i>
                                             <span class="text-muted">Admin</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-calendar pe-2"></i>
                                             <span class="text-muted">May 20, 2023</span>
                                         </a>
                                     </div>
                                 </div>
-                                <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                <a href="#" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -1881,60 +1912,29 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="article-content">
                                 <div class="article-info d-flex py-3">
                                     <div class="pe-3">
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-user pe-2"></i>
                                             <span class="text-muted">Admin</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                        <a href="#" class="text-decoration-none">
                                             <i class="fas fa-calendar pe-2"></i>
                                             <span class="text-muted">May 20, 2023</span>
                                         </a>
                                     </div>
                                 </div>
-                                <a href="https://technofra.in/blog/" class="text-decoration-none">
+                                <a href="#" class="text-decoration-none">
                                     <h2 class="h5 article-title limit-2-line-text">
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                <a href="#" class="link-with-icon text-decoration-none">Read
                                     More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="cyber-single-article p-3 border">
-                            <div class="image image-anime">
-                                <img src="assets/image/home/blog03.webp" alt="image">
-                            </div>
-                            <div class="article-content">
-                                <div class="article-info d-flex py-3">
-                                    <div class="pe-3">
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
-                                            <i class="fas fa-user pe-2"></i>
-                                            <span class="text-muted">Admin</span>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="https://technofra.in/blog/" class="text-decoration-none">
-                                            <i class="fas fa-calendar pe-2"></i>
-                                            <span class="text-muted">May 20, 2023</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <a href="https://technofra.in/blog/" class="text-decoration-none">
-                                    <h2 class="h5 article-title limit-2-line-text">
-                                        "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
-                                    </h2>
-                                </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
-                                    More
-                                    <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 

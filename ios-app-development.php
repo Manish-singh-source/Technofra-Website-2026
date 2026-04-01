@@ -317,7 +317,7 @@ gtag('config', 'G-189WWHXLSS');
                             Custom <span class="gr-text">iOS</span> Application Development
                         </h2>
                         <p class="m-0" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                            Chetu specializes in leveraging the latest Apple technologies to create cutting-edge
+                            Technofra specializes in leveraging the latest Apple technologies to create cutting-edge
                             iOS apps. Our team harnesses the power of Swift, CoreML, CreateML, and more to offer
                             enhanced code completion and interactive previews through Xcode. We excel in
                             crafting expressive and intuitive APIs, thanks to the advancements in Swift, through
@@ -1100,7 +1100,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<section class="cta-subscribe bg-darks text-white ptb-40 position-relative">
+<!-- <section class="cta-subscribe bg-darks text-white ptb-40 position-relative">
     <div class="container">
         <div class="row justify-content-between">
 
@@ -1124,7 +1124,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 
-</section>
+</section> -->
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

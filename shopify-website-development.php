@@ -689,7 +689,7 @@
 
 
 
-    <section class="faq-section ptb-60">
+    <section class="faq-section pt-60">
         <div class="container">
 
             <div class="row justify-content-between">
@@ -773,7 +773,7 @@
             </div>
         </div>
     </section>
-    <div class="cta9">
+    <!-- <div class="cta9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -796,6 +796,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <?php include 'book-a-call.php'; ?>
     <?php include 'footer.php'; ?>
