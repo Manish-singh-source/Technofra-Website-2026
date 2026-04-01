@@ -421,7 +421,7 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="cht-card-content">
                         <div class="cht-card-date">November 28<sup>th</sup></div>
                         <div class="cht-card-desc">
-                            Founded Technotra, Specializing In Branding And Web Development
+                            Founded Technofra, Specializing In Branding And Web Development
                         </div>
                     </div>
 

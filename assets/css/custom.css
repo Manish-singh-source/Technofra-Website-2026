@@ -2700,6 +2700,7 @@
  }
 
  .twc-footer-wrap {
+    z-index: -1;
      position: relative;
      /* overflow: hidden; */
      background: linear-gradient(rgba(12, 18, 26, 0.82), rgba(12, 18, 26, 0.9)),

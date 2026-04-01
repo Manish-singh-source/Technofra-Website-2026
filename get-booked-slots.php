@@ -28,17 +28,48 @@ $db = $config['db'] ?? [];
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-$mysqli = new mysqli(
-    $db['host'] ?? '127.0.0.1',
-    $db['username'] ?? 'root',
-    $db['password'] ?? '',
-    $db['database'] ?? '',
-    (int) ($db['port'] ?? 3306)
-);
+$dbHost = trim((string) ($db['host'] ?? 'localhost'));
+$dbPort = (int) ($db['port'] ?? 3306);
+$dbUser = (string) ($db['username'] ?? 'root');
+$dbPass = (string) ($db['password'] ?? '');
+$dbName = (string) ($db['database'] ?? '');
 
-if ($mysqli->connect_errno) {
+$hostCandidates = array_values(array_unique(array_filter([
+    $dbHost,
+    $dbHost === '127.0.0.1' ? 'localhost' : null,
+    $dbHost === 'localhost' ? '127.0.0.1' : null,
+])));
+
+$mysqli = null;
+$lastConnectError = '';
+
+foreach ($hostCandidates as $hostCandidate) {
+    $connection = @new mysqli(
+        $hostCandidate,
+        $dbUser,
+        $dbPass,
+        $dbName,
+        $dbPort
+    );
+
+    if (!$connection->connect_errno) {
+        $mysqli = $connection;
+        break;
+    }
+
+    $lastConnectError = sprintf(
+        '[%s:%d] (%d) %s',
+        $hostCandidate,
+        $dbPort,
+        $connection->connect_errno,
+        $connection->connect_error
+    );
+}
+
+if (!$mysqli instanceof mysqli) {
+    error_log('Book call slots DB connection failed: ' . $lastConnectError);
     http_response_code(500);
-    echo json_encode(['success' => false, 'message' => 'Database connection failed.']);
+    echo json_encode(['success' => false, 'message' => 'Database connection failed. Please check host, database name, username, and password in book-call-config.php.']);
     exit;
 }
 

@@ -1,4 +1,11 @@
-<?php include 'header.php'; ?>
+<?php
+session_start();
+
+$bookCallStatus = $_SESSION['book_call_status'] ?? null;
+unset($_SESSION['book_call_status']);
+
+include 'header.php';
+?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
@@ -572,9 +579,298 @@ article {
         margin-top: 20px;
     }
 }
+
+.eep-status-alert {
+    max-width: 1180px;
+    margin: 24px auto 0;
+    padding: 14px 18px;
+    border-radius: 14px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.eep-status-alert.success {
+    background: #eaf8ef;
+    border: 1px solid #b8e2c3;
+    color: #146c2e;
+}
+
+.eep-status-alert.error {
+    background: #fff1f1;
+    border: 1px solid #f0b9b9;
+    color: #9c1d1d;
+}
+
+.eep-calendar-day[disabled],
+.eep-time-option[disabled] {
+    opacity: 0.35;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.eep-time-option[disabled] {
+    text-decoration: line-through;
+}
+
+.eep-book-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(7, 15, 43, 0.72);
+}
+
+.eep-book-modal.show {
+    display: flex;
+}
+
+.eep-book-modal-dialog {
+    width: 100%;
+    max-width: 520px;
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 24px 80px rgba(15, 23, 42, 0.24);
+    overflow: hidden;
+}
+
+.eep-book-modal-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 24px 24px 12px;
+}
+
+.eep-book-modal-head h3 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #101828;
+}
+
+.eep-book-modal-head p {
+    margin: 0;
+    color: #475467;
+}
+
+.eep-book-close {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #111827;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.eep-book-form {
+    padding: 0 24px 24px;
+}
+
+.eep-book-summary {
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    border-radius: 16px;
+    background: #f5f9ff;
+    border: 1px solid #dbe7ff;
+    color: #12315f;
+    font-size: 14px;
+}
+
+.eep-book-field {
+    margin-bottom: 16px;
+}
+
+.eep-book-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.eep-book-field input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d0d5dd;
+    border-radius: 14px;
+    padding: 0 16px;
+    font-size: 15px;
+    color: #101828;
+    outline: none;
+}
+
+.eep-book-field input:focus {
+    border-color: #16a34a;
+    box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.12);
+}
+
+.eep-book-submit {
+    width: 100%;
+    border: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 18px;
+}
+
+.webdesign-booking-card .eep-calendar-card {
+    width: 100%;
+}
+
+.webdesign-booking-card {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    inset: auto !important;
+}
+
+.webdesign-booking-card .eep-calendar-head {
+    margin-bottom: 12px;
+}
+
+.webdesign-booking-card .eep-calendar-title-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.webdesign-booking-card .eep-calendar-title {
+    font-size: 24px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.webdesign-booking-card .eep-calendar-sub {
+    font-size: 13px;
+}
+
+.webdesign-booking-card .eep-calendar-box {
+    padding: 12px;
+}
+
+.webdesign-booking-card .eep-month-label {
+    font-size: 16px;
+}
+
+.webdesign-booking-card .eep-calendar-week {
+    gap: 4px;
+    font-size: 10px;
+}
+
+.webdesign-booking-card .eep-calendar-grid {
+    gap: 4px;
+}
+
+.webdesign-booking-card .eep-calendar-empty,
+.webdesign-booking-card .eep-calendar-day {
+    height: 34px;
+}
+
+.webdesign-booking-card .eep-calendar-day {
+    font-size: 12px;
+}
+
+.webdesign-booking-card .eep-calendar-info {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.webdesign-booking-card .eep-selected-date,
+.webdesign-booking-card .eep-time-trigger {
+    padding: 10px 11px;
+    border-radius: 13px;
+    font-size: 13px;
+}
+
+.webdesign-booking-card .eep-time-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.webdesign-booking-card .eep-pill-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+}
+
+.webdesign-booking-card .eep-selected-date-text,
+.webdesign-booking-card .eep-time-text {
+    font-size: 12px;
+}
+
+.webdesign-booking-card .eep-time-option {
+    padding: 8px 7px;
+    font-size: 11px;
+}
+
+.webdesign-booking-card .eep-calendar-actions {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+}
+
+.webdesign-booking-card .eep-btn-green {
+    justify-content: center;
+    padding: 12px 12px;
+    font-size: 13px;
+    border-radius: 13px;
+}
+
+@media (max-width: 1199px) {
+    .webdesign-booking-card {
+        max-width: 390px;
+    }
+}
+
+@media (max-width: 576px) {
+    .eep-book-modal-dialog {
+        border-radius: 18px;
+    }
+
+    .eep-book-modal-head {
+        padding: 20px 20px 12px;
+    }
+
+    .eep-book-modal-head h3 {
+        font-size: 22px;
+    }
+
+    .eep-book-form {
+        padding: 0 20px 20px;
+    }
+
+    .webdesign-booking-card {
+        max-width: 100%;
+    }
+
+    .webdesign-booking-card .eep-calendar-title {
+        font-size: 24px;
+    }
+
+    .webdesign-booking-card .eep-calendar-box {
+        padding: 14px;
+    }
+
+    .webdesign-booking-card .eep-calendar-info {
+        grid-template-columns: 1fr;
+    }
+}
 </style>
 
 <?php include 'navbar.php'; ?>
+
+<?php if ($bookCallStatus): ?>
+<div class="eep-status-alert <?php echo htmlspecialchars($bookCallStatus['type']); ?>">
+    <?php echo htmlspecialchars($bookCallStatus['message']); ?>
+</div>
+<?php endif; ?>
 
 
 <section class="hero-section ptb-100  d-flex align-items-center bg-dark text-white position-relative baner">
@@ -929,11 +1225,12 @@ article {
                                                     <h5 class="heading-5 font-weight-semibold margin-bottom-5 clr-text">
                                                         Graphics Design
                                                     </h5>
+                                                   
                                                     <p class="clr-paragraph margin-bottom-8">
-                                                        Keep your website running smoothly with our ongoing maintenance
-                                                        and support services. We offer regular updates, security checks,
-                                                        and performance optimization to ensure your site remains fast,
-                                                        secure, and up-to-date.
+                                                        Improve your website's visual appeal with our graphic design
+                                                        services. We create custom banners, icons, page visuals, and
+                                                        brand-focused design elements that make your website look more
+                                                        professional, engaging, and easy to navigate.
                                                     </p>
                                                 </div>
                                             </div>
@@ -2054,7 +2351,7 @@ article {
         <div class="row justify-content-center">
             <div class="col-12">
                 <h6 class="heading-6  clr-white margin-bottom-8 font-weight-medium text-center" style="color: #ee7d25;">
-                    Trusted by More than 80 Million Users Globally
+                    Trusted by More than 25k Users Globally
                 </h6>
                 <div class="swiper ca-client-slider swiper-initialized swiper-horizontal swiper-pointer-events">
                     <div class="swiper-wrapper" id="swiper-wrapper-dc1b3157c3daebf4" aria-live="off"
@@ -2247,113 +2544,35 @@ article {
     </div>
 </section>
 
-<section class="ma-contact ptb-120 dpmb-150 dpmb-750  position-relative z-1">
-    <img src="assets/image/websitedevlopment/contact-man.webp" alt="image"
-        class="img-fluid ma-contact-img position-absolute pe-none z-n1 d-none d-lg-block">
-    <div class="container">
-        <div class="row justify-content-between g-4">
-            <div class="col-lg-6 col-xl-5">
-                <div class="d-inline-block px-4 py-1 rounded-pill border  mb-3">
-                    <p class="ma-warning-text fw-bold mb-0">Contact Us</p>
-                </div>
-                <h2 class="ail-title text-white fs-48 fw-600 mb-4">Need a Successful Project?</h2>
-                <p class="text-white fs-24 fw-medium mb-5">Call Us at: +91 8080 80 3374</p>
-                <h6 class="text-white fs-20 fw-medium mb-2">Your Benefits:</h6>
-                <div class="contact-benefit dp-r-10 bg-white bg-opacity-25 p-3 rounded-4 border">
-                    <ul class="list-unstyled d-flex flex-wrap list-two-col mb-0">
-                        <li class="py-1 text-white"><i class="far fa-check-circle me-2 text-primary"></i>Custom
-                            Solutions</li>
-                        <li class="py-1 text-white"><i class="far fa-check-circle me-2 text-primary"></i>Expert Advice
-                        </li>
-                        <li class="py-1 text-white"><i class="far fa-check-circle me-2 text-primary"></i>Quick Delivery
-                        </li>
-                        <li class="py-1 text-white"><i class="far fa-check-circle me-2 text-primary"></i>Affordable
-                            Pricing</li>
-                        <li class="py-1 text-white"><i class="far fa-check-circle me-2 text-primary"></i>Modern Tools
-                        </li>
-                        <li class="py-1 text-white"><i class="far fa-check-circle me-2 text-primary"></i>24/7 Support
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="col-lg-6 col-xl-5">
-                <div class="position-relative">
-                    <div class="ma-form-wrapper bg-white w-100 position-absolute shadow-sm px-4 py-5 rounded-3">
-                        <div class="text-center">
-                            <h6 class="text-black fs-20 fw-bold mb-4">Schedule a Free Consultation</h6>
-                        </div>
-                        <form action="send3.php" method="POST">
-                            <div class="d-flex flex-column gap-4">
-                                <div>
-                                    <label for="Name" class="bg-white text-black py-1">Full Name</label>
-                                    <input type="text" class="form-control px-4 border border-opacity-25 ma-form"
-                                        name="fname" required="" placeholder="Full Name">
-                                </div>
-                                <div>
-                                    <label for="Phone" class="bg-white text-black py-1">Phone</label>
-                                    <input type="text" class="form-control px-4 border border-opacity-25 ma-form"
-                                        name="contact" required="" placeholder="Phone">
-                                </div>
-
-                                <div>
-                                    <label for="Email" class="bg-white text-black py-1">Email</label>
-                                    <input type="email" class="form-control px-4 border border-opacity-25 ma-form"
-                                        name="email" required="" placeholder="Email">
-
-                                </div>
-                                <div>
-                                    <label for="website-type" class="bg-white text-black py-1">Type Of Website</label>
-                                    <select class="form-control form-select px-4 border border-opacity-25 ma-form"
-                                        name="website">
-                                        <option value="" disabled selected>Select A Website Type</option>
-                                        <option value="ecommerce">E-commerce Website</option>
-                                        <option value="business">Business Website</option>
-                                        <option value="portfolio">Portfolio Website</option>
-                                        <option value="blog">Blog Website</option>
-                                        <option value="personal">Personal Website</option>
-                                        <option value="nonprofit">Non-Profit/Charity Website</option>
-                                        <option value="educational">Educational/Institution Website</option>
-                                        <option value="membership">Membership Website</option>
-                                        <option value="news">News/Media Website</option>
-                                        <option value="landing">Landing Page</option>
-                                        <option value="forum">Forum/Community Website</option>
-                                        <option value="directory">Directory Website</option>
-                                        <option value="event">Event Website</option>
-                                        <option value="realestate">Real Estate Website</option>
-                                        <option value="saas">SaaS (Software as a Service) Website</option>
-                                        <option value="booking">Booking/Reservation Website</option>
-                                        <option value="healthcare">Healthcare/Medical Website</option>
-                                        <option value="entertainment">Entertainment/Streaming Website</option>
-                                    </select>
-
-                                </div>
-
-                                <div>
-                                    <label for="Email" class="bg-white text-black  py-1 ">Massage</label>
-                                    <textarea class="form-control px-4 border border-opacity-25 ma-form" name="message"
-                                        placeholder="Massage" style="height: 120px"></textarea>
-                                </div>
-                                <div>
-                                    <div class="form-group">
-
-                                        <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
-                                        <div class="col-12">
-                                            <div class="g-recaptcha"
-                                                data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button type="submit" class="btn btn-outline-info mt-4">Submit</a>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+$bookCallSettings = [
+    'section_classes' => 'ma-contact bac-section ptb-100  position-relative z-1',
+    'background_image' => 'assets/image/websitedevlopment/contact-bg.webp',
+    'image_src' => 'assets/image/websitedevlopment/contact-man.webp',
+    'image_alt' => 'Book a call illustration',
+    'image_classes' => 'img-fluid ma-contact-img bac-image position-absolute pe-none z-n1 d-none d-lg-block',
+    'eyebrow' => 'Contact Us',
+    'title' => 'Need a Successful Project?',
+    'phone_label' => 'Call Us at:',
+    'phone_number' => '+91 8080 80 3374',
+    'benefits_title' => 'Your Benefits:',
+    'benefit_box_classes' => 'contact-benefit bac-benefits dp-r-10 bg-white bg-opacity-25 p-3 rounded-4 border',
+    'card_shell_classes' => 'ma-form-wrapper bac-card-shell webdesign-booking-card bg-white w-100 shadow-sm px-4 py-3 rounded-6',
+    'benefits' => [
+        'Custom Solutions',
+        'Expert Advice',
+        'Quick Delivery',
+        'Affordable Pricing',
+        'Modern Tools',
+        '24/7 Support',
+        'SEO Friendly Structure',
+        'Mobile Responsive Design',
+        'Fast Loading Performance',
+        'Conversion Focused',
+    ],
+];
+include 'book-a-call.php';
+?>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {

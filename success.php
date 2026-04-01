@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
 <head>
     <style>
-       .success-page {
+      .success-page {
     position: relative;
     /* overflow: hidden; */
     padding: 170px 0 90px;
-    background: radial-gradient(circle at top left, rgb(0 163 255), transparent 35%), radial-gradient(circle at bottom right, rgba(20, 33, 61, 0.18), transparent 30%), linear-gradient(135deg, #0093ff99 0%, #eef6ff 100%);
+    background: radial-gradient(circle at top left, rgb(55 198 244), transparent 35%), radial-gradient(circle at bottom right, rgba(20, 33, 61, 0.18), transparent 30%), linear-gradient(135deg, #002769 0%, #eef6ff 100%);
 }
         .success-page::before,
         .success-page::after {
