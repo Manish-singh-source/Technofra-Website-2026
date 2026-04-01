@@ -614,7 +614,7 @@ gtag('config', 'G-189WWHXLSS');
                 <!-- <div class="uxb_about_mini_title"></div> -->
 
                 <h2 class="uxb_about_heading_title">
-                  Custom Website Design & Development Company for Global Businesses
+                    Custom Website Design & Development Company for Global Businesses
                 </h2>
 
                 <p class="uxb_about_para_text" data-aos="fade-right" data-aos-duration="600">
@@ -627,17 +627,17 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="uxb_about_feature_grid" data-aos="fade-right" data-aos-duration="600">
                     <div class="uxb_about_feature_item">
                         <span class="uxb_about_feature_check"></span>
-                        <span>Innovative IT Solutions</span>
+                        <h3 class="subp">Innovative IT Solutions</h3>
                     </div>
 
                     <div class="uxb_about_feature_item">
                         <span class="uxb_about_feature_check"></span>
-                        <span>Custom Web Design Services</span>
+                        <h3 class="subp">Custom Web Design Services</h3>
                     </div>
 
                     <div class="uxb_about_feature_item">
                         <span class="uxb_about_feature_check"></span>
-                        <span>Business Growth Strategies</span>
+                        <h3 class="subp">Business Growth Strategies</h3>
                     </div>
 
                     <div class="uxb_about_feature_item">
@@ -647,12 +647,12 @@ gtag('config', 'G-189WWHXLSS');
 
                     <div class="uxb_about_feature_item">
                         <span class="uxb_about_feature_check"></span>
-                        <span>Mission-Driven Development</span>
+                        <h3 class="subp">Mission-Driven Development</h3>
                     </div>
 
                     <div class="uxb_about_feature_item">
                         <span class="uxb_about_feature_check"></span>
-                        <span>Trusted Digital Partner</span>
+                        <h3 class="subp">Trusted Digital Partner</h3>
                     </div>
                 </div>
 
@@ -689,7 +689,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
 
                 <div class="uxb_about_trust_badge">
-                    <h3>Trusted By 2M+ Customers</h3>
+                    <h3>Trusted By 2.5K+ Customers</h3>
                     <!-- <p>Our Expert Team</p> -->
 
                     <div class="uxb_about_avatar_group_shell">
@@ -1056,11 +1056,8 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
 
 
-                <div class="eep-calendar-actions text-center">
-                    <!-- <a href="tel:+918080803374" class="eep-btn-outline">
-                        <i class="fa-solid fa-phone"></i>
-                        Connect Us +91 8080 80 3374
-                    </a> -->
+                <div class="mt-20 text-center">
+                   
 
                     <a href="#book-call" class="eep-btn-green" id="bookCallBtn">
                         <i class="fa-solid fa-calendar-plus"></i>
@@ -1774,7 +1771,8 @@ gtag('config', 'G-189WWHXLSS');
                                         "The Complete Guide to App Development: From Idea to Launch"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
+                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                    More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -1806,7 +1804,8 @@ gtag('config', 'G-189WWHXLSS');
                                         Development"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
+                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                    More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -1837,12 +1836,13 @@ gtag('config', 'G-189WWHXLSS');
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
+                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                    More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                      <div class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
                                 <img src="assets/image/home/blog03.webp" alt="image">
@@ -1867,12 +1867,13 @@ gtag('config', 'G-189WWHXLSS');
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
+                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                    More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                      <div class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
                                 <img src="assets/image/home/blog03.webp" alt="image">
@@ -1897,12 +1898,13 @@ gtag('config', 'G-189WWHXLSS');
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
+                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                    More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                      <div class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="cyber-single-article p-3 border">
                             <div class="image image-anime">
                                 <img src="assets/image/home/blog03.webp" alt="image">
@@ -1927,7 +1929,8 @@ gtag('config', 'G-189WWHXLSS');
                                         "Exploring the Latest Trends in IT: A Guide to the Hottest Technologies"
                                     </h2>
                                 </a>
-                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read More
+                                <a href="https://technofra.in/blog/" class="link-with-icon text-decoration-none">Read
+                                    More
                                     <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>

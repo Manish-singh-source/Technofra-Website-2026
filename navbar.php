@@ -515,7 +515,7 @@
                         </span>
 
                         <!-- Get a Quote Button -->
-                        <a href="quote.php" class="btn btn-outline-info mob_non tab-non">GET A QUOTE</a>
+                        <a href="quote.php" class="btn btn-outline-info mob_non tab-non">ENQUIRY NOW</a>
                         <div class="menu-sidebar dn tab-non">
                             <button style="border: none;"><img src="assets/image/icons/right_side_menu.png" style="border-radius: 0px;" alt="Toggler"></button>
                         </div>

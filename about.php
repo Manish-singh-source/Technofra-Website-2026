@@ -545,7 +545,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="ins-title text-center">
                     <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="arrow"></span>
                     <h2>
-                        Meet Our Expert Team
+                        Meet Our Leadership
                     </h2>
                 </div>
             </div>
