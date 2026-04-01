@@ -55,8 +55,8 @@
             padding-top: 20px;
         }
 
-        .ptb-120 {
-            padding: 90px 0;
+        .ptb-50 {
+            padding: 50px 0;
         }
     }
 
@@ -79,7 +79,7 @@
 <?php include 'navbar.php'; ?>
 
 
-<section class="hero-section ptb-120 bg-dark text-white"
+<section class="hero-section ptb-50 bg-dark text-white"
 style="background:
         url('assets/image/api/google-forms-banner.webp')no-repeat
         center center / cover">

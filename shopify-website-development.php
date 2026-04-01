@@ -410,7 +410,7 @@
             </div>
         </div>
     </section>
-    <div class="it-company-about-area ptb-120">
+    <div class="it-company-about-area ptb-50">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5">

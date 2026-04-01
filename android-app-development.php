@@ -126,8 +126,8 @@ gtag('config', 'G-189WWHXLSS');
 
 
 
-    .ptb-120 {
-        padding: 80px 0;
+    .ptb-50 {
+        padding: 50px 0;
     }
 
 }
@@ -181,7 +181,7 @@ gtag('config', 'G-189WWHXLSS');
 }
 </style>
 <?php include 'navbar.php'; ?>
-<section class="hero-section ptb-120 bg-purple text-white" style="background:
+<section class="hero-section ptb-50 bg-purple text-white" style="background:
         url('assets/image/mobileapp/and2.png')no-repeat
         center center / cover">
     <div class="container">

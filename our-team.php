@@ -46,7 +46,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <?php include 'navbar.php'; ?>
 <!-- <section class="cyber-store-product" style="background: url('assets/image/teams/out-team-ban.webp')no-repeat center center">
-    <div class="ptb-120" >
+    <div class="ptb-50" >
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">

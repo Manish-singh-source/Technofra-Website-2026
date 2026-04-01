@@ -26,7 +26,7 @@
     </script>
     <!--END MS Clarity -->
 
-    <title>CMS Website development in mumbai</title>
+    <title>CMS Website development</title>
     <link rel="canonical" href="https://technofra.com/CMS-website-design.php">
     
 
@@ -59,15 +59,15 @@
       }
 
       @media (max-width:480px) {
-        .ptb-120 {
-          padding: 107px 0 !important;
+        .ptb-50 {
+          padding: 50px 0 !important;
         }
       }
     </style>
 
     <?php include 'navbar.php'; ?>
 
-    <section class="crm-hero ptb-120 position-relative ban">
+    <section class="crm-hero ptb-50 position-relative ban">
 
       <div class="container">
         <div class="row justify-content-between align-items-center">

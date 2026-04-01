@@ -23,9 +23,9 @@
         y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
-<title>PPC Services Company in Mumbai | Technofra</title>
+<title>PPC Services Company  | Technofra</title>
 <meta name="description" content="Drive instant traffic and qualified leads with Technofra PPC services. We manage Google Ads, Meta Ads, remarketing, display campaigns, and conversion tracking.">
-<meta property="og:title" content="PPC Services Company in Mumbai | Technofra">
+<meta property="og:title" content="PPC Services Company | Technofra">
 <meta property="og:description" content="Technofra builds performance-driven PPC campaigns across Google and social platforms to increase visibility, leads, and return on ad spend.">
 <link rel="canonical" href="https://technofra.com/ppc.php">
 

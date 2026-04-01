@@ -114,7 +114,7 @@ gtag('config', 'G-189WWHXLSS');
 }
 </style>
 <?php include 'navbar.php'; ?>
-<section class="hero-section ptb-120 bg-hero text-white">
+<section class="hero-section ptb-50 bg-hero text-white">
     <div class="container">
         <div class="row justify-content-xl-between align-items-center">
             <div class="col-lg-7 col-xl-5 col-xl-5 col-md-10">

@@ -28,7 +28,7 @@ gtag('config', 'G-189WWHXLSS');
 <title>About Technofra - Leading Web & Digital Solutions Provider </title>
 <meta property="og:title" content="About Technofra - Leading Web & Digital Solutions Provider">
 <meta property="og:description"
-    content="The best web design & digital agency in Mumbai. We craft websites, apps, and marketing solutions to boost your brand online.">
+    content="The best web design & digital agency. We craft websites, apps, and marketing solutions to boost your brand online.">
 
 
 

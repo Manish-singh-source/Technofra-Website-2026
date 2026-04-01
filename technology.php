@@ -59,7 +59,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<section class="sc-team-section ptb-120 bg-white  position-relative z-1  border-line-bg">
+<section class="sc-team-section ptb-50 bg-white  position-relative z-1  border-line-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">

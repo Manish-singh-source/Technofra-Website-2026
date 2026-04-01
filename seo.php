@@ -23,9 +23,9 @@
         y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
-<title>SEO Services Company in Mumbai | Technofra</title>
+<title>SEO Services Company | Technofra</title>
 <meta name="description" content="Boost your rankings, traffic, and leads with Technofra SEO services. We offer on-page SEO, technical SEO, local SEO, off-page SEO, and content strategy.">
-<meta property="og:title" content="SEO Services Company in Mumbai | Technofra">
+<meta property="og:title" content="SEO Services Company | Technofra">
 <meta property="og:description" content="Technofra helps brands grow through result-driven SEO strategies including technical SEO, on-page SEO, local SEO, and link building.">
 <link rel="canonical" href="https://technofra.com/seo.php">
 

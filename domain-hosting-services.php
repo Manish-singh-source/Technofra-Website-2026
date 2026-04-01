@@ -25,6 +25,9 @@
 <meta property="og:description" content="Secure your online presence with our domain registration and hosting solutions. Technofra offers fast, secure, and scalable hosting plans. ">
      
 <style>
+    .ptb-50 {
+        padding: 50px 0;
+    }
     .bg-gradient {
         background: -webkit-gradient(linear, left top, right top, from(#000717), to(#002d97)) !important;
         background: linear-gradient(90deg, #709fb5, #0b3466) !important;
@@ -159,7 +162,7 @@
     </div>
 </div>
 
-<div class="rm-service-content-area ptb-120">
+<div class="rm-service-content-area ptb-50">
     <div class="container">
         <div class="row align-items-center dpreverse">
             <div class="col-lg-6">
@@ -185,7 +188,7 @@
     </div>
 </div>
 
-<div class="rm-service-content-area-two pb-100">
+<div class="rm-service-content-area-two ptb-50">
     <div class="container">
         <div class="row align-items-center dpreverse">
             <div class="col-lg-6 order">
@@ -208,7 +211,7 @@
 </div>
 
 
-<div class="rm-service-content-area pb-60 ">
+<div class="rm-service-content-area ptb-50 ">
     <div class="container">
         <div class="row align-items-center dpreverse">
             <div class="col-lg-6">
@@ -495,31 +498,6 @@
     </div>
 </section>
 
-<div class="cta9">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="heading6-w">
-                    <h2>Start Planning For
-                        Your Next Project</h2>
-                    <div class="space16"></div>
-                    <p>Feel free to customize this paragraph to better reflect the specific services offered by
-                        your IT solution &amp; the unique </p>
-
-                        <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5 mt-30"> <i class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-                        </a>
-
-                </div>
-            </div>
-
-            <div class="col-md-7">
-                <div class="images">
-                    <img src="assets/image/contact.webp" alt="image">
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

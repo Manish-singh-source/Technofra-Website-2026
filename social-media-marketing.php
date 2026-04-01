@@ -23,9 +23,9 @@
         y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
-<title>Social Media Marketing Services Company in Mumbai | Technofra</title>
+<title>Social Media Marketing Services Company | Technofra</title>
 <meta name="description" content="Build brand presence and generate engagement with Technofra social media marketing services. We manage content strategy, creative posting, paid promotions, reels, and performance reporting.">
-<meta property="og:title" content="Social Media Marketing Services Company in Mumbai | Technofra">
+<meta property="og:title" content="Social Media Marketing Services Company | Technofra">
 <meta property="og:description" content="Technofra helps brands grow on Instagram, Facebook, LinkedIn, and more with strategic social media marketing, content planning, creative execution, and ad support.">
 <link rel="canonical" href="https://technofra.com/social-media-marketing.php">
 

@@ -275,7 +275,7 @@
             </div>
         </div>
     </div>
-    <section class="ptb-120 bg-dark">
+    <section class="ptb-50 bg-dark">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6">
@@ -569,29 +569,7 @@
         </div>
     </section>
     <div class="cta9">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="heading6-w">
-                    <h2>Start Planning For
-                        Your Next Project</h2>
-                    <div class="space16"></div>
-                    <p>Feel free to customize this paragraph to better reflect the specific services offered by
-                        your IT solution &amp; the unique </p>
-
-                        <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5 mt-30"> <i class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-                        </a>
-                </div>
-            </div>
-
-            <div class="col-md-7">
-                <div class="images">
-                    <img src="assets/image/contact.webp" alt="image">
-
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </div>
     <?php include 'book-a-call.php'; ?>
     <?php include 'footer.php'; ?>
