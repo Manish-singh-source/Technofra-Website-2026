@@ -916,7 +916,7 @@
                         <a href="contact.php" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
                             Start Content Project
                         </a>
-                        <a href="quote.php" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
+                        <a href="enquirynow.php" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
                             Request Quote
                         </a>
                     </div>
@@ -1404,7 +1404,7 @@
                 <div class="col-lg-3">
                     <div class="cm-cta-actions">
                         <a href="contact.php" class="mt-3 btn btn-light me-auto">START PROJECT <i class="fas fa-arrow-right"></i></a>
-                        <a href="quote.php" class="mt-3 btn btn-outline-info me-auto">GET A QUOTE <i class="fas fa-arrow-right"></i></a>
+                        <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto">ENQUIRY NOW <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

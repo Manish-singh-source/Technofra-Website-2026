@@ -81,7 +81,7 @@ if (empty($recaptcha_decoded['success'])) {
 if (!empty($errors)) {
     echo '<script>';
     echo 'alert("' . implode('\\n', $errors) . '");';
-    echo 'window.location.href = "quote.php";';
+    echo 'window.location.href = "enquirynow.php";';
     echo '</script>';
     exit;
 }

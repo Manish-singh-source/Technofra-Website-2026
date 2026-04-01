@@ -25,7 +25,7 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<title>Request a Quote | Technofra</title>
+<title>Enquiry Now | Technofra</title>
 
 <style>
 
@@ -33,35 +33,24 @@ gtag('config', 'G-189WWHXLSS');
 
 <?php include 'navbar.php'; ?>
 
-<div class="hero9" style="background-image: url(assets/image/quotebn.png);">
+<div class="hero9" style="background-image: url(assets/image/enquirybn.png);">
     <div class="container">
         <div class="row align-items-center justify-content-center">
 
             <div class="col-lg-9 text-center">
                 <div class="main-heading">
-                    <span class="span" data-aos="zoom-in-left" data-aos-duration="700"> Request a Quote</span>
-                    <h1 class="tg-element-title">Tell Us About Your Project</h1>
+                    <span class="span" data-aos="zoom-in-left" data-aos-duration="700"> Enquiry Now</span>
+                    <h1 class="tg-element-title">Let Us Know Your Requirement</h1>
                     <div class="space30"></div>
-                    <p class="white">Share your goals, timeline, and preferred service. Our team will review the scope
-                        and connect with a
-                        clear plan, timeline, and quotation tailored to your business.</p>
+                    <p class="white">Share your requirement, service interest, and basic project details. Our team will
+                        review your enquiry and connect with the right guidance, next steps, and a suitable solution for
+                        your business.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<!-- <section class="quote-hero">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-9">
-                <span class="quote-badge"><i class="fas fa-paper-plane"></i> Request a Quote</span>
-                <h1>Tell Us About Your Project</h1>
-                
-            </div>
-        </div>
-    </div>
-</section> -->
+ 
 
 <section class="quote-main-section">
     <div class="container">
@@ -69,9 +58,9 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-5">
                 <div class="quote-side-card">
                     <!-- <span class="quote-side-kicker"><i class="fas fa-shield-alt"></i> Professional Planning</span> -->
-                    <h2>Get a clear scope before development starts</h2>
-                    <p>We use your submission to understand business goals, service needs, and delivery expectations so
-                        we can suggest the right solution from the start.</p>
+                    <h2>Share your enquiry and get the right direction</h2>
+                    <p>We use your submission to understand your business needs, service interest, and priorities so we
+                        can connect you with the most suitable team and solution from the start.</p>
 
                     <div class="quote-highlights">
                         <!-- <div class="quote-highlight-item">
@@ -85,16 +74,16 @@ gtag('config', 'G-189WWHXLSS');
                             <span class="quote-highlight-icon"><i class="fas fa-clock"></i></span>
                             <div>
                                 <h3>Faster response</h3>
-                                <p>Well-structured project details help our team review your requirement and respond
-                                    more efficiently.</p>
+                                <p>Clear enquiry details help our team understand your requirement quickly and respond
+                                    with the right assistance.</p>
                             </div>
                         </div>
                         <div class="quote-highlight-item">
                             <span class="quote-highlight-icon"><i class="fas fa-comments"></i></span>
                             <div>
                                 <h3>Direct communication</h3>
-                                <p>You can discuss your project scope, timeline, and next steps with our sales and
-                                    support team.</p>
+                                <p>You can discuss your requirement, service expectations, and next steps directly with
+                                    our team.</p>
                             </div>
                         </div>
                     </div>
@@ -149,9 +138,9 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-7">
                 <div class="quote-form-shell">
                     <!-- <span class="quote-form-kicker"><i class="fas fa-file-signature"></i> Project Brief</span> -->
-                    <h2>Request your custom quote</h2>
-                    <p>Complete the form below with accurate project information. This helps us review your requirement
-                        properly and send back a relevant estimate.</p>
+                    <h2>Send your enquiry</h2>
+                    <p>Complete the form below with accurate details so our team can review your enquiry properly and
+                        respond with relevant information.</p>
 
                     <form action="send1.php" class="risk-contact-form" method="POST">
                         <div class="row">
@@ -168,7 +157,7 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
 
                             <div class="col-md-6 quote-field">
-                                <label for="quoteCompany">Company Name <span
+                                <label for="quoteCompany">Company / Business Name <span
                                         class="risk-highlight-color">*</span></label>
                                 <input type="text" id="quoteCompany" name="company"
                                     placeholder="Enter your company name" autocomplete="organization" required>
@@ -183,7 +172,7 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
 
                             <div class="col-md-6 quote-field">
-                                <label for="quoteService">Service Required <span
+                                <label for="quoteService">Service Interested In <span
                                         class="risk-highlight-color">*</span></label>
                                 <select id="quoteService" name="designation" required>
                                     <option value="" selected disabled>Select a service</option>
@@ -196,7 +185,7 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
 
                             <div class="col-md-6 quote-field">
-                                <label for="quoteTimeline">Expected Timeline <span
+                                <label for="quoteTimeline">Preferred Timeline <span
                                         class="risk-highlight-color">*</span></label>
                                 <select id="quoteTimeline" name="delivery_time" required>
                                     <option value="" selected disabled>Select a timeline</option>
@@ -208,29 +197,29 @@ gtag('config', 'G-189WWHXLSS');
                             </div>
 
                             <div class="col-12 quote-field">
-                                <span class="quote-field-title">Project Type <span
+                                <span class="quote-field-title">Enquiry Type <span
                                         class="risk-highlight-color">*</span></span>
                                 <div class="quote-choice-group">
                                     <label class="quote-choice">
                                         <input type="radio" name="nature_of_project" value="New" required>
-                                        <span>New Project</span>
+                                        <span>New Requirement</span>
                                     </label>
                                     <label class="quote-choice">
                                         <input type="radio" name="nature_of_project" value="Redesign" required>
-                                        <span>Redesign</span>
+                                        <span>Upgrade / Redesign</span>
                                     </label>
                                     <label class="quote-choice">
                                         <input type="radio" name="nature_of_project" value="Development" required>
-                                        <span>Ongoing Development</span>
+                                        <span>Support / Ongoing Work</span>
                                     </label>
                                 </div>
                             </div>
 
                             <div class="col-12 quote-field">
-                                <label for="quoteMessage">Project Details <span
+                                <label for="quoteMessage">Enquiry Details <span
                                         class="risk-highlight-color">*</span></label>
                                 <textarea id="quoteMessage" name="message"
-                                    placeholder="Tell us about your goals, scope, features, audience, or any specific requirements."
+                                    placeholder="Tell us about your requirement, goals, preferred service, or any specific details you want to share."
                                     required></textarea>
                             </div>
                         </div>
@@ -241,10 +230,10 @@ gtag('config', 'G-189WWHXLSS');
                             <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
                         </div>
 
-                        <p class="quote-form-note">Please ensure the details are accurate so our team can share the
-                            right quotation and next steps.</p>
+                        <p class="quote-form-note">Please ensure the details are accurate so our team can review your
+                            enquiry and respond with the right next steps.</p>
 
-                        <button type="submit" class="quote-submit-btn mt-4">Request Quote</button>
+                        <button type="submit" class="quote-submit-btn mt-4">Submit Enquiry</button>
                     </form>
                 </div>
             </div>

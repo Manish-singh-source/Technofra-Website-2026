@@ -25,8 +25,8 @@
     })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<title>Digital Marketing Services – SEO, social media & PPC | Technofra</title>
-<meta property="og:title" content="Digital Marketing Services – SEO, social media & PPC | Technofra  ">
+<title>Digital Marketing Services - SEO, Social Media & PPC | Technofra</title>
+<meta property="og:title" content="Digital Marketing Services - SEO, Social Media & PPC | Technofra">
 <meta property="og:description" content="The best digital marketing company by Technofra. Our agency offers comprehensive digital marketing services, including online and internet marketing solutions.">
 
  
@@ -103,7 +103,7 @@
                     <img src="assets/image/digitalmarketing/user-group.png" alt="image" class="img-fluid">
                 </div>
                 <p class="margin-bottom-10 margin-bottom-xxl-25 text-center text-xl-end fs-20 clr-white font-weight-semibold lh-15">
-                    1000+ worldwide trust clients
+                    1000+ clients worldwide trust us
                 </p>
                 <div class="margin-bottom-6 text-center text-xl-end">
                     <img src="assets/image/digitalmarketing/social-media.png" alt="image" class="img-fluid">
@@ -142,10 +142,9 @@
             <div class="col-xxl-4">
                 <div class="ai-wt-enc-slider ai-wt-bg rounded-3 overflow-hidden mt-20 br-6">
                     <div class="p-4">
-                        <h4 class="text-white ff-risk-pri h5 mb-20">Embed Your Marketing Your Every Fevorite
+                        <h4 class="text-white ff-risk-pri h5 mb-20">Connect Your Marketing with Your Favorite
                             Tools</h4>
-                        <p>You wrote an article &amp; want to know if it is You don't have to be a
-                            SEO expert. </p>
+                        <p>Manage your campaigns across leading platforms and marketing tools with strategies built to improve visibility, engagement, and conversions.</p>
 
                     </div>
                     <div class="pb-20">
@@ -370,17 +369,17 @@
                     <div class="text-center">
                         <img class="img-fluid mt-30" src="assets/image/digitalmarketing/step-1.png" alt="">
                     </div>
-                    <h3 class="text-black ff-risk-pri fs-28 mb-20">Adding E-commerce  <br>
-                        Product list</h3>
-                    <p>You wrote an article and want to know if it is You don't have to be a SEO expert.</p>
+                    <h3 class="text-black ff-risk-pri fs-28 mb-20">Build Better E-commerce <br>
+                        Product Visibility</h3>
+                    <p>We help ecommerce brands improve product visibility with optimized listings, stronger content, and targeted digital promotion.</p>
                
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
                 <div class="bg-white p-4 rounded-3 risk-shadow mt-20 position-relative z-1" data-aos="fade-left">
                     <img class="img-fluid position-absolute right-0 bottom-0 z--1" src="assets/image/digitalmarketing/step-box-2.png" alt="">
-                    <h3 class="text-black ff-risk-pri fs-28 mb-20">SEO tool to Optimize Your Content for First Page Rankings</h3>
-                    <p>You wrote an article and want to know if it is You don't have to be a SEO expert.</p>
+                    <h3 class="text-black ff-risk-pri fs-28 mb-20">SEO Strategies to Improve Search Rankings</h3>
+                    <p>Our SEO approach focuses on keyword targeting, on-page improvements, and content optimization to help your business gain stronger search visibility.</p>
                 
                     <div class="text-center">
                         <img class="img-fluid" src="assets/image/digitalmarketing/step-2.png" alt="">
@@ -402,9 +401,9 @@
                 <div class="col-lg-9 col-md-9">
                     <div class="cyber-cta-info position-relative">
                         <div>
-                            <h2 class="text-white"> 24/7 Chat Support
-                                for Quiety
-                                Desk Users</h2>
+                            <h2 class="text-white">24/7 Marketing Support
+                                for Your
+                                Growing Brand</h2>
 
                         </div>
                     </div>
@@ -528,16 +527,16 @@
             <div class="col-lg-6">
                 <div class="digi-how-works-left">
                     <div class="crm-title">
-                        <span class="crm-subtitle ">Trusted web design agency <img src="assets/image/arrow-red.png" alt="arrow"></span>
+                        <span class="crm-subtitle ">Trusted digital marketing partner <img src="assets/image/arrow-red.png" alt="arrow"></span>
                     </div>
                     <h2>
-                        Why should choose our
-                        <span class="text-orang">design agency</span>
+                        Why choose our
+                        <span class="text-orang">digital marketing team</span>
                     </h2>
                     <p>
-                        There are many variations of simply free text passages of available but the majority have suffered alteration in some form, by injected hum randomis words which don't slightly.
+                        We combine creativity, strategy, and performance-driven execution to help businesses increase brand visibility, generate quality leads, and improve conversions.
                     </p>
-                    <h4 class="ptb-20 fz-20">Proin est lacus, sagittislobortis iaculise get sagittislo</h4>
+                    <h4 class="ptb-20 fz-20">From SEO and paid campaigns to content and social media, we create digital strategies that support measurable business growth.</h4>
                 </div>
 
                 <div class="row">
@@ -615,7 +614,7 @@
                                     <div class="accordion-body">
                                         We offer a wide range of services, including:
 
-                                        1. SEO: Improving your website’s ranking on search engines.
+                                        1. SEO: Improving your website's ranking on search engines.
                                         2. Social Media Marketing: Managing and growing your social media presence.
                                         3. PPC Advertising: Creating and optimizing paid ad campaigns.
                                         4. Content Marketing: Producing engaging content to attract and retain customers.
@@ -674,7 +673,7 @@
                 <div class="col-lg-9 col-md-9">
                     <div class="cyber-cta-info position-relative">
                         <div>
-                            <h2 class="text-white">Get a quote or reach out to us today!</h2>
+                            <h2 class="text-white">Enquiry Now or reach out to us today!</h2>
                             <p class="lead text-white mb-0">
                                 Get Your Quote or Call : +91 8080 80 3374
                             </p>
@@ -683,7 +682,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="cyber-cta-btn">
-                    <a href="quote.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">GET A QUOTE <i class="fas fa-arrow-right"></i></a>
+                    <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
                         
                     </div>
                 </div>
@@ -694,3 +693,4 @@
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>
+

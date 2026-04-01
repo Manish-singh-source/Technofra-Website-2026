@@ -625,7 +625,7 @@
                     <div class="col-lg-9 col-md-9">
                         <div class="cyber-cta-info position-relative">
                             <div class="">
-                                <h2 class="text-white">Get a quote or reach out to us today!</h2>
+                                <h2 class="text-white">Enquiry Now or reach out to us today!</h2>
                                 <p class="lead text-white mb-0">
                                     Get Your Quote or Call : +91 8080 80 3374
                                 </p>
@@ -634,7 +634,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="cyber-cta-btn">
-                            <a href="quote.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">GET A QUOTE <i class="fas fa-arrow-right"></i></a>
+                            <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -778,7 +778,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="heading6-w">
-                        <h2>Get a quote or reach out to us today!</h2>
+                        <h2>Enquiry Now or reach out to us today!</h2>
                         <div class="space16"></div>
                         <p>Feel free to customize this paragraph to better reflect the specific services offered by
                             your IT solution &amp; the unique </p>

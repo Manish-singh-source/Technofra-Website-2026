@@ -34,9 +34,9 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-8 col-lg-10">
-                <h2 class="aih-hero-title text-white fs-72">Empowering Innovation with
+                <h1 class="aih-hero-title text-white fs-72">Empowering Innovation with
                     <span class="aih-color">AI Solutions</span>
-                </h2>
+                </h1>
             </div>
             <div class="col-xl-4 col-lg-7">
                 <p class="clr-text-1 lead ">Revolutionize your business with cutting-edge AI technologies. From automation to insights, we deliver smarter, faster, and efficient solutions tailored to your needs.</p>

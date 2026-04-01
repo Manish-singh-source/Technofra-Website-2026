@@ -325,7 +325,7 @@ a,
                 </ul>
 
                 <!-- <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                    <a href="quote.php" class="hr-main-btn" data-aos="fade-up" data-aos-duration="600">
+                    <a href="enquirynow.php" class="hr-main-btn" data-aos="fade-up" data-aos-duration="600">
                         Join Our Team
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
@@ -414,10 +414,10 @@ a,
                 </ul>
             </div>
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="quote.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"> Apply Now
                 </a>
-                <a href="about.php" class="btn btn-outline-info  ">Contact Us</a>
+                <a href="contact.php" class="btn btn-outline-info  ">Contact Us</a>
             </div>
         </div>
 
@@ -477,11 +477,11 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="quote.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Apply Now
                 </a>
-                <a href="about.php" class="btn btn-outline-info ">
+                <a href="contact.php" class="btn btn-outline-info ">
                     Contact Us
                 </a>
             </div>
@@ -559,11 +559,11 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="quote.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Apply Now
                 </a>
-                <a href="about.php" class="btn btn-outline-info ">
+                <a href="contact.php" class="btn btn-outline-info ">
                     Contact Us
                 </a>
             </div>
@@ -625,11 +625,11 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="quote.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Apply Now
                 </a>
-                <a href="about.php" class="btn btn-outline-info ">
+                <a href="contact.php" class="btn btn-outline-info ">
                     Contact Us
                 </a>
             </div>
@@ -651,7 +651,7 @@ a,
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Job Application Form</h1>
+                <h2 class="modal-title fs-5" id="staticBackdropLabel">Job Application Form</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div
@@ -1020,7 +1020,7 @@ a,
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Job Application Form</h1>
+                                    <h2 class="modal-title fs-5" id="staticBackdropLabel">Job Application Form</h2>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>

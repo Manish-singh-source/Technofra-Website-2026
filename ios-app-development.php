@@ -287,7 +287,7 @@ gtag('config', 'G-189WWHXLSS');
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 col-xl-5 col-xl-5 col-md-10">
                 <div class="hero-content-wrap mt-5 crm-title mt-lg-0 mt-xl-0">
-                    <h1 class="fw-bold display-5">IOS APP DEVELOPMENT
+                    <h1 class="fw-bold display-5">iOS APP DEVELOPMENT
                         SERVICES</h1>
                     <p class="lead">
                         Make the most of iOS mobile app development to bring truly useful and captivating

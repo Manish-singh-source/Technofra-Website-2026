@@ -137,7 +137,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-10">
                 <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-                    <h1 class="fw-bold display-5 text-white">IT Infrastructure Services & Solution</h1>
+                    <h1 class="fw-bold display-5 text-white">IT Infrastructure Services & Solutions</h1>
                     <p class="lead">Empower your business with our robust IT infrastructure solutions. At Technofra, we specialize in delivering end-to-end IT services tailored to meet your specific needs. With our expertise, you can enhance efficiency, productivity, and security across your entire organization.
                     </p>
 
@@ -160,7 +160,7 @@
     </div>
 </section>
 
-<section class="ptb-100">
+<section class="ptb-50">
     <div class="container">
         <div class="row align-items-center">
          
@@ -170,7 +170,7 @@
                     <div class="row g-0">
                         <div class="col-lg-5">
                             <div class="sheild-img">
-                                <img src="assets/image/itinfrastructure/it-03.webp" alt="Sheild" class="img-fluid d-none d-lg-block" />
+                                <img src="assets/image/itinfrastructure/it-03.webp" alt="Shield" class="img-fluid d-none d-lg-block" />
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12">
@@ -204,8 +204,8 @@
                         </li>
                         <li class="py-1 d-flex">
                             <i class="fas fa-check-circle me-2 text-primary"></i>
-                            <p class="pmt">Event
-                                Server Management: Efficiently manage and maintain server infrastructure for peak performance.</p>
+                            <p class="pmt">Server
+                                Management: Efficiently manage and maintain server infrastructure for peak performance.</p>
                         </li>
                         <li class="py-1 d-flex">
                             <i class="fas fa-check-circle me-2 text-primary"></i>
@@ -215,7 +215,7 @@
                         <li class="py-1 d-flex">
                             <i class="fas fa-check-circle me-2 text-primary"></i>
 
-                            <p class="pmt">Sales Security Solutions: Implement robust cybersecurity measures to safeguard against threats.</p>
+                            <p class="pmt">Security Solutions: Implement robust cybersecurity measures to safeguard against threats.</p>
                         </li>
                         <li class="py-1 d-flex">
                             <i class="fas fa-check-circle me-2 text-primary"></i>
@@ -242,9 +242,9 @@
                 <div class="col-lg-9 col-md-9">
                     <div class="cyber-cta-info position-relative">
                         <div class="">
-                            <h2 class="text-white"> 24/7 Chat Support
-                                for Quiety
-                                Desk Users</h2>
+                            <h2 class="text-white">24/7 IT Support
+                                for Your
+                                Business Operations</h2>
 
                         </div>
                     </div>
@@ -259,7 +259,7 @@
     </div>
 </section>
 <!-- tech tabs start -->
-<section class="ptb-100 bg-dark">
+<section class="ptb-50 bg-dark">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-6">
@@ -470,14 +470,14 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="p-3">
-                    <!--                     
-                    <span class="text-pink fw-bold mb-3 d-inline-block">About The Quiety</span> -->
-                    <h2 class="mb-4">About The Quiety</h2>
+                    <!--
+                    <span class="text-pink fw-bold mb-3 d-inline-block">About Our Services</span> -->
+                    <h2 class="mb-4">About Our IT Infrastructure Expertise</h2>
                     <p>
-                        Technofra. stands out as a trusted partner for IT infrastructure solutions. With years of experience and a team of certified experts, we deliver customized solutions tailored to your unique needs. Our commitment to excellence, customer satisfaction, and continuous innovation sets us apart in the industry.
+                        Technofra stands out as a trusted partner for IT infrastructure solutions. With years of experience and a team of skilled professionals, we deliver customized services designed to improve performance, security, and scalability across your IT environment. Our commitment to excellence, customer satisfaction, and continuous innovation sets us apart in the industry.
                     </p>
                     <p class="mb-4">
-                        But perhaps what truly sets us apart is our unwavering commitment to customer satisfaction. We prioritize your needs and vision, working closely with you every step of the way to ensure that the final product exceeds your expectations. With us, you're not just getting an app; you're getting a partner dedicated to your success. Choose us for mobile app development that's not just exceptional, but truly tailored to your unique requirements.
+                        What truly sets us apart is our practical and proactive approach to infrastructure management. From planning and deployment to monitoring and ongoing support, we work closely with your team to deliver solutions that align with your operational goals. Whether you need network upgrades, secure cloud integration, server management, or dependable data protection, we help create an IT environment that supports growth and long-term stability.
                     </p>
 
                 </div>
@@ -572,32 +572,7 @@
     </div>
 </section>
 
-<div class="cta9">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="heading6-w">
-                    <h2>Start Planning For
-                        Your Next Project</h2>
-                    <div class="space16"></div>
-                    <p>Feel free to customize this paragraph to better reflect the specific services offered by
-                        your IT solution &amp; the unique </p>
-
-                        <a href="tel:+918080803374" target="_blank" class="btn btn-outline-info rounded-5 mt-30"> <i class="fa-light fa-phone-volume"></i> +91 8080 80 3374
-                        </a>
-
-                </div>
-            </div>
-
-            <div class="col-md-7">
-                <div class="images">
-                    <img src="assets/image/contact.webp" alt="image">
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ 
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

@@ -84,7 +84,7 @@
                                     <li><a href='contact.php'>Contact us</a></li>
                                     <li><a href='support.php'>Support</a></li>
                                     <li><a href='technology.php'>Technology</a></li>
-                                    <li><a href='quote.php'>Request a Quote</a></li>
+                                    <li><a href='enquirynow.php'>Enquiry Now</a></li>
                                     <li>
                                         <a href='https://mycrm.technofra.co.in/authentication/login'
                                             target="_blank">

@@ -553,8 +553,8 @@
                         <a href="contact.php" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
                             Launch PPC Campaign
                         </a>
-                        <a href="quote.php" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
-                            Request Quote
+                        <a href="enquirynow.php" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
+                            Enquiry Now
                         </a>
                     </div>
                     <div class="ppc-mini-proof">
@@ -986,7 +986,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="cyber-cta-btn">
-                        <a href="quote.php" class="mt-3 btn btn-outline-info me-auto">GET A QUOTE <i class="fas fa-arrow-right"></i></a>
+                        <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto">Enquiry Now <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

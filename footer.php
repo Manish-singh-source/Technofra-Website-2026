@@ -28,7 +28,7 @@
                          </li>
                          <li><a href="ios-app-development.php"><i class="fa-solid fa-angle-right"></i>App
                                  Development</a></li>
-                         <li><a href="shopify-development.php"><i class="fa-solid fa-angle-right"></i>E-Commerce
+                         <li><a href="shopify-website-development.php"><i class="fa-solid fa-angle-right"></i>E-Commerce
                                  Development</a></li>
                          <li><a href="branding.php"><i class="fa-solid fa-angle-right"></i>Branding</a></li>
                          <li><a href="digital-marketing.php"><i class="fa-solid fa-angle-right"></i>Digital
