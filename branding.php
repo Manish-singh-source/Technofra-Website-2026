@@ -681,14 +681,14 @@
                 </div>
                 <div class="hero-box2">
                     <div class="heading">
-                        <h3>1250+</h3>
+                        <h3>1550+</h3>
                         <h6>Clients</h6>
                         <p>Happy and Loyal Clients</p>
                     </div>
                 </div>
                 <div class="hero-box3">
                     <div class="heading">
-                        <h3>13+</h3>
+                        <h3>14+</h3>
                         <h6>Exprience</h6>
                         <p>Branding Excellence</p>
                     </div>

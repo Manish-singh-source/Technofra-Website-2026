@@ -92,6 +92,11 @@ gtag('config', 'G-189WWHXLSS');
     }
 }
 
+.about-team-section {
+    margin: 0 auto;
+    padding: 40px 0px 0px;
+}
+
 /* Medium Devices (Tablets) */
 @media (min-width: 769px) and (max-width: 992px) {
     .mob-year {
@@ -202,12 +207,12 @@ gtag('config', 'G-189WWHXLSS');
                 <!-- Left Side -->
                 <div class="about-company-left" data-aos="fade-right" data-aos-duration="600">
                     <div class="about-company-image-box">
-                        <img src="assets/image/about/abs.webp" alt="About Company Image">
+                        <img src="assets/image/about/abs1.png" alt="About Company Image">
                     </div>
 
                     <div class="about-company-stats">
                         <div class="about-company-experience">
-                            <span>13+</span>
+                            <span>14+</span>
                             <p>Years of Experience</p>
                         </div>
 
@@ -229,27 +234,27 @@ gtag('config', 'G-189WWHXLSS');
                         From Start to Success Technofra’s Milestones in Technology
                     </h2>
 
-                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">                      
-                        <div class="about-company-item-content">                           
+                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">
+                        <div class="about-company-item-content">
                             <p>
                                 Welcome to Technofra, your all-in-one destination for digital solutions. We specialize
-                                in website and mobile app development ,  branding, digital marketing, payment & API
+                                in website and mobile app development , branding, digital marketing, payment & API
                                 integration, domain & hosting, and IT infrastructure.
 
                             </p>
                         </div>
                     </div>
-                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">                       
-                        <div class="about-company-item-content">                           
+                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">
+                        <div class="about-company-item-content">
                             <p>
                                 Our expertise and dedication to excellence help businesses succeed and thrive in the
                                 digital era with innovative and efficient solutions.
                             </p>
                         </div>
                     </div>
-                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">                       
+                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">
                         <div class="about-company-item-content">
-                                                       <p>
+                            <p>
                                 Technofra was founded in 2012 with a passion for technology and a commitment to
                                 excellence. Over the years, we have grown into a trusted partner for businesses
                                 worldwide. Our journey began with a small team of dedicated professionals, and today we
@@ -260,8 +265,8 @@ gtag('config', 'G-189WWHXLSS');
                         </div>
                     </div>
 
-                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">                       
-                        <div class="about-company-item-content">                           
+                    <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">
+                        <div class="about-company-item-content">
                             <p>
                                 From launching our first website to integrating complex APIs, our journey is marked by
                                 numerous milestones and achievements. Each project has been a learning experience,
@@ -393,7 +398,7 @@ gtag('config', 'G-189WWHXLSS');
 
 </div>
 
- 
+
 
 <section class=" cht-section">
     <div class="container">
@@ -540,7 +545,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="ins-title text-center">
                     <span class="crm-subtitle ">Our Team <img src="assets/image/arrow-red.png" alt="arrow"></span>
                     <h2>
-                        Meet Our Expert Team
+                        Meet Our Leadership
                     </h2>
                 </div>
             </div>
