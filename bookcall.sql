@@ -3,6 +3,7 @@ CREATE TABLE `bookcall` (
   `name` varchar(150) NOT NULL,
   `email` varchar(150) NOT NULL,
   `phone` varchar(25) NOT NULL,
+  `meeting_agenda` text NOT NULL,
   `booking_date` date NOT NULL,
   `booking_time` time NOT NULL,
   `booking_datetime` datetime NOT NULL,

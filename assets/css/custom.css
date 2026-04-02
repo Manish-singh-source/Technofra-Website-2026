@@ -7019,11 +7019,11 @@
      border-radius: 18px;
  }
 
- .tfxIndusTrack {
-     display: flex;
-     transition: transform 0.75s ease-in-out;
-     will-change: transform;
- }
+.tfxIndusTrack {
+    display: flex;
+    transition: transform 1.9s ease-in-out;
+    will-change: transform;
+}
 
  .tfxIndusSlide {
      min-width: 100%;
