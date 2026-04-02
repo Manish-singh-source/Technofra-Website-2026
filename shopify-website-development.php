@@ -104,7 +104,7 @@
     }
 
     @media (min-width: 1025px) and (max-width: 1280px) {
-        .ptb-100 {
+        .ptb-50 {
             padding: 50px 0;
         }
 
@@ -115,13 +115,13 @@
     }
 
     @media only screen and (min-width : 1380px) and (max-width : 1600px) {
-        .ptb-100 {
-            padding: 70px 0;
+        .ptb-50 {
+            padding: 50px 0;
         }
     }
 
     @media (max-width:480px) {
-        .ptb-100 {
+        .ptb-50 {
             padding: 50px 0;
         }
 
@@ -468,7 +468,7 @@
         </div>
     </div>
     <!-- About -->
-    <section class="faq-section bg-light-subtle ptb-100">
+    <section class="faq-section bg-light-subtle ptb-50">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -485,7 +485,7 @@
         </div>
     </section>
     <!-- CTA  -->
-    <div class="sections ptb-100">
+    <div class="sections ptb-50">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-12">
@@ -549,7 +549,7 @@
 
 
     <!-- Testimonial -->
-    <div class="ca-two-tesimonial-area pt-100 bg-light-subtle  pb-40 position-relative">
+    <div class="ca-two-tesimonial-area pt-50 bg-light-subtle  pb-40 position-relative">
         <div class="container">
             <div class="container">
                 <div class="row justify-content-between">
@@ -563,7 +563,7 @@
                                     <h5 class="ca-two-title ca-two-body-clr-two fs-36 fw-500 flh-48 mb-0">
                                         <span class="counter">10</span>k
                                     </h5>
-                                    <p class="ca-two-body-clr flh-24 mb-0">Truest Clients </p>
+                                    <p class="ca-two-body-clr flh-24 mb-0">Truested Clients </p>
                                 </div>
                                 <div class="ca-two-counter-item pl-50 ca-two-dotted-left-border ca-two-border-color-two pb-30">
                                     <h5 class="ca-two-title ca-two-body-clr-two fs-36 fw-500 flh-48 mb-0">
@@ -577,7 +577,7 @@
                                     <h5 class="ca-two-title ca-two-body-clr-two fs-36 fw-500 flh-48 mb-0">
                                         <span class="counter">500</span>+
                                     </h5>
-                                    <p class="ca-two-body-clr flh-24 mb-0">Ord Delivered</p>
+                                    <p class="ca-two-body-clr flh-24 mb-0">Orders Delivered</p>
                                 </div>
                                 <div class="ca-two-counter-item pl-50 ca-two-dotted-left-border ca-two-border-color-two pt-30">
                                     <h5 class="ca-two-title ca-two-body-clr-two fs-36 fw-500 flh-48 mb-0">
@@ -593,19 +593,19 @@
                         <div class="ca-two-min-testimonial swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti.webp" alt="not found">
+                                    <img src="assets\image/shopify\noti.webp" alt="not found" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti1.webp" alt="not found">
+                                    <img src="assets\image/shopify\noti1.webp" alt="not found" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti2.webp" alt="not found">
+                                    <img src="assets\image/shopify\noti2.webp" alt="not found" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti3.webp" alt="not found">
+                                    <img src="assets\image/shopify\noti3.webp" alt="not found" class="border border-2 rounded-3">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets\image/shopify\noti4.webp" alt="not found">
+                                    <img src="assets\image/shopify\noti4.webp" alt="not found" class="border border-2 rounded-3">
                                 </div>
                             </div>
                         </div>
@@ -615,7 +615,7 @@
         </div>
     </div>
     <!-- Testimonial -->
-    <section class="ptb-60">
+    <section class="ptb-50">
         <div class="container">
             <div class="cyber-cta-bg p-5 rounded-custom" style="
                 background: url('assets/image/cta.webp') no-repeat center
@@ -642,7 +642,7 @@
         </div>
     </section>
     <!--feature section start-->
-    <section class="feature-section two-bg-dark-light ptb-100">
+    <section class="feature-section two-bg-dark-light ptb-50">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6">
@@ -689,11 +689,11 @@
 
 
 
-    <section class="faq-section pt-60">
+    <section class="faq-section pt-50">
         <div class="container">
 
             <div class="row justify-content-between">
-                <div class="section-heading text-center">
+                <div class="text-center">
                     <h2>Frequently Asked Questions</h2>
                 </div>
                 <div class="col-lg-12">

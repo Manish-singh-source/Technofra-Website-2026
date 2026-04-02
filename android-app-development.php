@@ -134,7 +134,7 @@ gtag('config', 'G-189WWHXLSS');
 
 @media (min-width: 991px) {
     .ptb-100 {
-        padding: 80px 0 80px 0;
+        padding: 50px 0 50px 0;
     }
 
 

@@ -330,7 +330,7 @@ gtag('config', 'G-189WWHXLSS');
     </section> -->
 
     <!-- SERVICES -->
-    <section class="hfz-services-section">
+    <section class="ptb-50">
         <div class="hfz-container container">
             <div class="hfz-services-grid">
                 <div class="hfz-services-intro" data-aos="fade-up" data-aos-duration="600">

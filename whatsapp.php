@@ -138,7 +138,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<section class="app-two-cta ptb-100 bgc-background">
+<section class="app-two-cta ptb-50 bgc-background">
     <div class="container">
         <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 col-xl-6">

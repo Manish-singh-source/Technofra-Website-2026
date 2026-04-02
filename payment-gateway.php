@@ -609,7 +609,7 @@
             <div class="col-lg-5 col-md-5">
                 <div class="subscribe-info-wrap  position-relative z-2 mt-60">
                     <div class="mb-20">
-                        <h2>Book a One-on-One Meeting with Our Product Expert</h2>
+                        <h2>Book a One Call with Our Expert Team Members</h2>
                         <p>Want better messaging? Talk to our team to improve how you communicate and make a bigger impact. Get started today.</p>
 
                     </div>
