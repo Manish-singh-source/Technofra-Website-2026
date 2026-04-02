@@ -611,7 +611,7 @@ if (navClose && rightMenu) {
     }
 
     function moveToSlide() {
-        track.style.transition = 'transform 0.75s ease-in-out';
+        track.style.transition = 'transform 1.6s ease-in-out';
         track.style.transform = `translateX(-${currentIndex * 100}%)`;
         updateDots();
     }
@@ -619,7 +619,7 @@ if (navClose && rightMenu) {
     function startAutoSlide() {
         autoSlide = setInterval(() => {
             goNext();
-        }, 4000);
+        }, 7000);
     }
 
     function resetAutoSlide() {

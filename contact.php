@@ -283,18 +283,30 @@ gtag('config', 'G-189WWHXLSS');
     color: #111827;
 }
 
-.eep-book-field input {
+.eep-book-field input,
+.eep-book-field textarea {
     width: 100%;
-    height: 50px;
     border: 1px solid #d0d5dd;
     border-radius: 14px;
     padding: 0 16px;
     font-size: 15px;
     color: #101828;
     outline: none;
+    font-family: inherit;
 }
 
-.eep-book-field input:focus {
+.eep-book-field input {
+    height: 50px;
+}
+
+.eep-book-field textarea {
+    min-height: 110px;
+    padding: 14px 16px;
+    resize: vertical;
+}
+
+.eep-book-field input:focus,
+.eep-book-field textarea:focus {
     border-color: #16a34a;
     box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.12);
 }
@@ -864,6 +876,11 @@ a:hover, .btn-link:hover {
             <div class="eep-book-field">
                 <label for="bookCallPhone">Number</label>
                 <input type="tel" id="bookCallPhone" name="phone" placeholder="Enter your number" required>
+            </div>
+
+            <div class="eep-book-field">
+                <label for="bookCallAgenda">Meeting Agenda</label>
+                <textarea id="bookCallAgenda" name="meeting_agenda" placeholder="Enter your meeting agenda" rows="4" required></textarea>
             </div>
 
             <button type="submit" class="eep-book-submit">Submit Booking</button>

@@ -111,7 +111,7 @@ function fetchGoogleAccessToken(array $googleCalendarConfig)
     return [$decoded['access_token'], null];
 }
 
-function createGoogleMeetLink(array $googleCalendarConfig, DateTime $bookingDateTime, $name, $email)
+function createGoogleMeetLink(array $googleCalendarConfig, DateTime $bookingDateTime, $name, $email, $meetingAgenda)
 {
     list($accessToken, $tokenError) = fetchGoogleAccessToken($googleCalendarConfig);
 
@@ -128,7 +128,7 @@ function createGoogleMeetLink(array $googleCalendarConfig, DateTime $bookingDate
 
     $eventPayload = [
         'summary' => 'Book a Call - ' . $name,
-        'description' => 'Booking created from Technofra website for ' . $name . ' (' . $email . ').',
+        'description' => 'Booking created from Technofra website for ' . $name . ' (' . $email . '). Agenda: ' . $meetingAgenda,
         'start' => [
             'dateTime' => $startDateTime->format(DateTime::RFC3339),
             'timeZone' => $timezone,
@@ -226,6 +226,120 @@ function createGoogleMeetLink(array $googleCalendarConfig, DateTime $bookingDate
     ], null];
 }
 
+function renderEmailInfoRow($label, $value)
+{
+    return '
+        <tr>
+            <td style="padding:12px 14px;border-bottom:1px solid #e8edf2;font-size:13px;font-weight:700;color:#3f4348;width:170px;vertical-align:top;">' . $label . '</td>
+            <td style="padding:12px 14px;border-bottom:1px solid #e8edf2;font-size:13px;line-height:1.7;color:#60656b;">' . $value . '</td>
+        </tr>
+    ';
+}
+
+function renderBookCallEmail(array $options)
+{
+    $preheader = $options['preheader'];
+    $headline = $options['headline'];
+    $lead = $options['lead'];
+    $ctaLabel = $options['cta_label'];
+    $ctaHref = $options['cta_href'];
+    $summaryTitle = $options['summary_title'];
+    $summaryRows = $options['summary_rows'];
+    $stepsTitle = $options['steps_title'];
+    $steps = $options['steps'];
+    $footerTitle = $options['footer_title'];
+    $footerLinks = $options['footer_links'];
+    $footerNote = $options['footer_note'];
+    $preheaderDate = $options['preheader_date'] ?? '';
+    $introHtml = $options['intro_html'] ?? '';
+    $closingHtml = $options['closing_html'] ?? '';
+    $accentColor = $options['accent_color'] ?? '#003366';
+
+    $summaryHtml = '';
+    foreach ($summaryRows as $row) {
+        $summaryHtml .= renderEmailInfoRow($row['label'], $row['value']);
+    }
+
+    $stepsHtml = '';
+    foreach ($steps as $step) {
+        $stepsHtml .= '
+            <tr>
+                <td style="padding:0 0 18px;vertical-align:top;">
+                    <table role="presentation" style="width:100%;border-collapse:collapse;">
+                        <tr>
+                            <td style="width:42px;vertical-align:top;padding-right:14px;">
+                                <div style="width:34px;height:34px;border:1px solid ' . $accentColor . ';color:' . $accentColor . ';font-size:18px;font-weight:700;line-height:34px;text-align:center;">' . $step['icon'] . '</div>
+                            </td>
+                            <td style="vertical-align:top;">
+                                <div style="font-size:14px;font-weight:700;line-height:1.5;color:#3f4348;margin-bottom:4px;">' . $step['title'] . '</div>
+                                <div style="font-size:13px;line-height:1.7;color:#737980;">' . $step['text'] . '</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        ';
+    }
+
+    $footerLinksHtml = '';
+    $footerLinksCount = count($footerLinks);
+    foreach ($footerLinks as $index => $link) {
+        $footerLinksHtml .= '<a href="' . $link['href'] . '" style="color:' . $accentColor . ';text-decoration:none;">' . $link['label'] . '</a>';
+        if ($index < $footerLinksCount - 1) {
+            $footerLinksHtml .= '<span style="color:#a0a0a0;padding:0 8px;">|</span>';
+        }
+    }
+
+    return '
+    <div style="margin:0;padding:20px 0;background:#f3f3f3;font-family:Arial,Helvetica,sans-serif;color:#4a4a4a;">
+        <div style="width:100%;max-width:560px;margin:0 auto;background:#ffffff;">
+            <div style="padding:18px 28px 0;font-size:11px;color:#8a8a8a;">
+                <table role="presentation" style="width:100%;border-collapse:collapse;">
+                    <tr>
+                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;">' . $preheader . '</td>
+                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;text-align:right;">' . $preheaderDate . '</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div style="padding:34px 80px 10px;">
+                <div style="margin-bottom:22px;">
+                    <img src="https://technofra.com/assets/image/favicon.png" alt="Technofra" style="width:50px;height:auto;display:block;">
+                </div>
+                <h1 style="margin:0 0 24px;font-size:24px;line-height:1.25;color:#3f4348;font-weight:700;">' . $headline . '</h1>
+                <div style="margin:0;font-size:16px;line-height:1.7;color:#60656b;">' . $lead . '</div>
+                ' . $introHtml . '
+                <a href="' . $ctaHref . '" style="display:inline-block;margin-top:28px;background:' . $accentColor . ';color:#ffffff;text-decoration:none;padding:16px 34px;font-size:14px;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,0.12);">' . $ctaLabel . '</a>
+            </div>
+
+            <div style="margin:48px 80px 40px;border:1px solid rgba(0,51,102,0.35);padding:34px 30px 26px;">
+                <h2 style="margin:0 0 24px;font-size:18px;font-weight:700;color:#3f4348;">' . $summaryTitle . '</h2>
+                <table role="presentation" style="width:100%;border-collapse:collapse;margin-bottom:26px;">
+                    ' . $summaryHtml . '
+                </table>
+
+                <div style="border-top:1px solid #e6e6e6;padding-top:24px;">
+                    <h3 style="margin:0 0 24px;font-size:16px;font-weight:700;color:#3f4348;">' . $stepsTitle . '</h3>
+                    <table role="presentation" style="width:100%;border-collapse:collapse;">
+                        ' . $stepsHtml . '
+                    </table>
+                </div>
+            </div>
+
+            <div style="padding:0 80px 26px;">
+                <h3 style="margin:0 0 20px;font-size:15px;color:#555b61;">' . $footerTitle . '</h3>
+                <div style="font-size:14px;line-height:1.8;">' . $footerLinksHtml . '</div>
+            </div>
+
+            <div style="margin:24px 50px 0;background:#f4f6f8;padding:28px 28px 26px;font-size:11px;line-height:1.8;color:#8a9198;">
+                ' . $closingHtml . '
+                <div>' . $footerNote . '</div>
+            </div>
+        </div>
+    </div>
+    ';
+}
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     redirectWithStatus('error', 'Invalid request method.');
 }
@@ -240,10 +354,11 @@ $config = require $configPath;
 $name = trim($_POST['name'] ?? '');
 $email = trim($_POST['email'] ?? '');
 $phone = trim($_POST['phone'] ?? '');
+$meetingAgenda = trim($_POST['meeting_agenda'] ?? '');
 $bookingDate = trim($_POST['booking_date'] ?? '');
 $bookingTime = trim($_POST['booking_time'] ?? '');
 
-if ($name === '' || $email === '' || $phone === '' || $bookingDate === '' || $bookingTime === '') {
+if ($name === '' || $email === '' || $phone === '' || $meetingAgenda === '' || $bookingDate === '' || $bookingTime === '') {
     redirectWithStatus('error', 'Please fill all booking details before submitting the form.');
 }
 
@@ -329,6 +444,7 @@ $createTableSql = "CREATE TABLE IF NOT EXISTS bookcall (
     name VARCHAR(150) NOT NULL,
     email VARCHAR(150) NOT NULL,
     phone VARCHAR(25) NOT NULL,
+    meeting_agenda TEXT NOT NULL,
     booking_date DATE NOT NULL,
     booking_time TIME NOT NULL,
     booking_datetime DATETIME NOT NULL,
@@ -341,6 +457,7 @@ if (!$mysqli->query($createTableSql)) {
 }
 
 $mysqli->query('ALTER TABLE bookcall ADD UNIQUE KEY unique_booking_slot (booking_date, booking_time)');
+$mysqli->query("ALTER TABLE bookcall ADD COLUMN meeting_agenda TEXT NOT NULL AFTER phone");
 
 $bookingDateForDb = $bookingDateTime->format('Y-m-d');
 $bookingTimeForDb = $bookingDateTime->format('H:i:s');
@@ -366,7 +483,7 @@ if ($slotCheck->num_rows > 0) {
 $slotCheck->close();
 
 $insert = $mysqli->prepare(
-    'INSERT INTO bookcall (name, email, phone, booking_date, booking_time, booking_datetime) VALUES (?, ?, ?, ?, ?, ?)'
+    'INSERT INTO bookcall (name, email, phone, meeting_agenda, booking_date, booking_time, booking_datetime) VALUES (?, ?, ?, ?, ?, ?, ?)'
 );
 
 if (!$insert) {
@@ -375,10 +492,11 @@ if (!$insert) {
 }
 
 $insert->bind_param(
-    'ssssss',
+    'sssssss',
     $name,
     $email,
     $phone,
+    $meetingAgenda,
     $bookingDateForDb,
     $bookingTimeForDb,
     $bookingDateTimeForDb
@@ -401,7 +519,7 @@ $meetProblem = false;
 $meetMessage = '';
 
 if (googleCalendarIsReady($googleCalendarConfig)) {
-    list($meetData, $meetError) = createGoogleMeetLink($googleCalendarConfig, $bookingDateTime, $name, $email);
+    list($meetData, $meetError) = createGoogleMeetLink($googleCalendarConfig, $bookingDateTime, $name, $email, $meetingAgenda);
 
     if (!$meetData) {
         $meetProblem = true;
@@ -422,122 +540,100 @@ if ($smtpReady) {
     $safeName = htmlspecialchars($name);
     $safeEmail = htmlspecialchars($email);
     $safePhone = htmlspecialchars($phone);
+    $safeMeetingAgenda = nl2br(htmlspecialchars($meetingAgenda));
     $safeFormattedDate = htmlspecialchars($formattedDate);
     $safeFormattedTime = htmlspecialchars($formattedTime);
     $safeSubmittedAt = htmlspecialchars((new DateTime('now'))->format('d M Y H:i'));
 
     if (!empty($meetData['meet_link'])) {
         $safeMeetLink = htmlspecialchars($meetData['meet_link']);
-        $meetSectionAdmin = '
-        <tr>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;width:180px;">Google Meet Link</td>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;"><a href="' . $safeMeetLink . '" style="color:#0f766e;text-decoration:none;">Join Google Meet</a></td>
-        </tr>
-        <tr>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Meeting Duration</td>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . (int) ($meetData['duration_minutes'] ?? 30) . ' minutes</td>
-        </tr>
-    ';
-        $meetSectionClient = '
-        <tr>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;width:180px;">Google Meet Link</td>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;"><a href="' . $safeMeetLink . '" style="color:#0f766e;text-decoration:none;">Join Google Meet</a></td>
-        </tr>
-        <tr>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Meeting Note</td>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;">Please join the call using the above link at your selected time.</td>
-        </tr>
-    ';
+        $meetSectionAdmin = [
+            ['label' => 'Google Meet Link', 'value' => '<a href="' . $safeMeetLink . '" style="color:#003366;text-decoration:none;">Join Google Meet</a>'],
+            ['label' => 'Meeting Duration', 'value' => (int) ($meetData['duration_minutes'] ?? 30) . ' minutes'],
+        ];
+        $meetSectionClient = [
+            ['label' => 'Google Meet Link', 'value' => '<a href="' . $safeMeetLink . '" style="color:#003366;text-decoration:none;">Join Google Meet</a>'],
+            ['label' => 'Meeting Note', 'value' => 'Please join the call using the above link at your selected time.'],
+        ];
     } elseif (googleCalendarIsReady($googleCalendarConfig)) {
-        $meetSectionAdmin = '
-        <tr>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;width:180px;">Google Meet Link</td>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;">Could not be created automatically. Please create it manually.</td>
-        </tr>
-    ';
-        $meetSectionClient = '
-        <tr>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;width:180px;">Google Meet Link</td>
-            <td style="padding:12px 16px;border:1px solid #d9e2ec;">We could not attach the Google Meet link automatically right now. Our team will share it with you shortly.</td>
-        </tr>
-    ';
+        $meetSectionAdmin = [
+            ['label' => 'Google Meet Link', 'value' => 'Could not be created automatically. Please create it manually.'],
+        ];
+        $meetSectionClient = [
+            ['label' => 'Google Meet Link', 'value' => 'We could not attach the Google Meet link automatically right now. Our team will share it with you shortly.'],
+        ];
     }
 
-    $adminBody = '
-        <div style="margin:0;padding:24px;background:#f4f7fb;font-family:Arial,sans-serif;color:#102a43;">
-            <table role="presentation" style="width:100%;max-width:700px;margin:0 auto;border-collapse:collapse;background:#ffffff;border:1px solid #d9e2ec;">
-                <tr>
-                    <td style="padding:24px 28px;background:linear-gradient(135deg,#0f766e,#155e75);color:#ffffff;">
-                        <h2 style="margin:0;font-size:26px;line-height:1.3;">New Book A Call Request</h2>
-                        <p style="margin:8px 0 0;font-size:14px;opacity:0.95;">A new booking has been submitted from the Technofra website.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding:24px 28px;">
-                        <table role="presentation" style="width:100%;border-collapse:collapse;font-size:14px;">
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;width:180px;">Name</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeName . '</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Email</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeEmail . '</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Phone</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safePhone . '</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Booking Date</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeFormattedDate . '</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Booking Time</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeFormattedTime . '</td>
-                            </tr>
-                            ' . $meetSectionAdmin . '
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Submitted At</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeSubmittedAt . '</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    ';
+    $adminSummaryRows = array_merge([
+        ['label' => 'Name', 'value' => $safeName],
+        ['label' => 'Email', 'value' => $safeEmail],
+        ['label' => 'Phone', 'value' => $safePhone],
+        ['label' => 'Meeting Agenda', 'value' => $safeMeetingAgenda],
+        ['label' => 'Booking Date', 'value' => $safeFormattedDate],
+        ['label' => 'Booking Time', 'value' => $safeFormattedTime],
+    ], $meetSectionAdmin, [
+        ['label' => 'Submitted At', 'value' => $safeSubmittedAt],
+    ]);
 
-    $clientBody = '
-        <div style="margin:0;padding:24px;background:#f4f7fb;font-family:Arial,sans-serif;color:#102a43;">
-            <table role="presentation" style="width:100%;max-width:700px;margin:0 auto;border-collapse:collapse;background:#ffffff;border:1px solid #d9e2ec;">
-                <tr>
-                    <td style="padding:24px 28px;background:linear-gradient(135deg,#14532d,#15803d);color:#ffffff;">
-                        <h2 style="margin:0;font-size:26px;line-height:1.3;">Booking Confirmed</h2>
-                        <p style="margin:8px 0 0;font-size:14px;opacity:0.95;">Thank you for booking a call with Technofra.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding:24px 28px;">
-                        <p style="margin:0 0 16px;font-size:15px;">Hi ' . $safeName . ',</p>
-                        <p style="margin:0 0 20px;font-size:14px;line-height:1.7;">We have received your booking request successfully. Here are your call details.</p>
-                        <table role="presentation" style="width:100%;border-collapse:collapse;font-size:14px;">
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;width:180px;">Booking Date</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeFormattedDate . '</td>
-                            </tr>
-                            <tr>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;background:#f8fafc;font-weight:700;">Booking Time</td>
-                                <td style="padding:12px 16px;border:1px solid #d9e2ec;">' . $safeFormattedTime . '</td>
-                            </tr>
-                            ' . $meetSectionClient . '
-                        </table>
-                        <p style="margin:20px 0 0;font-size:14px;line-height:1.7;">Our team will connect with you shortly.</p>
-                        <p style="margin:16px 0 0;font-size:14px;line-height:1.7;">Regards,<br>Technofra Team</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    ';
+    $clientSummaryRows = array_merge([
+        ['label' => 'Booking Date', 'value' => $safeFormattedDate],
+        ['label' => 'Booking Time', 'value' => $safeFormattedTime],
+        ['label' => 'Meeting Agenda', 'value' => $safeMeetingAgenda],
+        ['label' => 'Contact Email', 'value' => $safeEmail],
+        ['label' => 'Contact Phone', 'value' => $safePhone],
+    ], $meetSectionClient);
+
+    $adminBody = renderBookCallEmail([
+        'preheader' => 'A new call booking has been submitted on the Technofra website.',
+        'headline' => 'New Book A Call Request',
+        'lead' => 'A new enquiry has just been scheduled. Below is the complete booking summary captured from the website form.',
+        'cta_label' => 'Review Booking',
+        'cta_href' => 'mailto:' . $safeEmail,
+        'summary_title' => 'Booking Summary',
+        'summary_rows' => $adminSummaryRows,
+        'steps_title' => 'Recommended Next Steps',
+        'steps' => [
+            ['icon' => '1', 'title' => 'Review the client details', 'text' => 'Verify the submitted contact information and preferred meeting slot.'],
+            ['icon' => '2', 'title' => 'Prepare for the discussion', 'text' => 'Check project context so the conversation starts with the right direction.'],
+            ['icon' => '3', 'title' => 'Connect on time', 'text' => 'Use the shared meeting details and follow up quickly if anything needs rescheduling.'],
+        ],
+        'footer_title' => 'Quick Actions',
+        'footer_links' => [
+            ['label' => 'Reply to Client', 'href' => 'mailto:' . $safeEmail],
+            ['label' => 'Visit Website', 'href' => 'https://technofra.com/'],
+            ['label' => 'Support Team', 'href' => 'mailto:' . htmlspecialchars($mailConfig['from_email'])],
+        ],
+        'footer_note' => 'This notification was generated automatically after a successful booking submission on the Technofra website.',
+        'preheader_date' => $safeSubmittedAt,
+        'accent_color' => '#003366',
+    ]);
+
+    $clientBody = renderBookCallEmail([
+        'preheader' => 'Your call with Technofra has been booked successfully.',
+        'headline' => 'Your Call Is Confirmed',
+        'lead' => 'Thank you for scheduling a call with Technofra. Your booking has been received successfully, and our team is looking forward to speaking with you.',
+        'intro_html' => '<p style="margin:18px 0 0;font-size:14px;line-height:1.8;color:#60656b;">Hi ' . $safeName . ', here are your confirmed booking details.</p>',
+        'cta_label' => 'Contact Technofra',
+        'cta_href' => 'mailto:' . htmlspecialchars($mailConfig['from_email']),
+        'summary_title' => 'Call Details',
+        'summary_rows' => $clientSummaryRows,
+        'steps_title' => 'What Happens Next',
+        'steps' => [
+            ['icon' => '1', 'title' => 'Keep your slot reserved', 'text' => 'Please be available on the selected date and time so we can start on schedule.'],
+            ['icon' => '2', 'title' => 'Join using the shared details', 'text' => 'If a Google Meet link is included above, simply open it a few minutes before the call starts.'],
+            ['icon' => '3', 'title' => 'Expect a focused discussion', 'text' => 'Our team will connect with you to understand your goals and guide the next steps clearly.'],
+        ],
+        'footer_title' => 'Helpful Links',
+        'footer_links' => [
+            ['label' => 'Email Us', 'href' => 'mailto:' . htmlspecialchars($mailConfig['from_email'])],
+            ['label' => 'Visit Website', 'href' => 'index.php'],
+            ['label' => 'Call Support', 'href' => 'tel:' . preg_replace('/\s+/', '', $safePhone)],
+        ],
+        'footer_note' => 'If you need to update your booking, please reply to this email and our team will assist you.',
+        'preheader_date' => $safeSubmittedAt,
+        'closing_html' => '<div style="margin-bottom:14px;">Regards,<br>Technofra Team</div>',
+        'accent_color' => '#003366',
+    ]);
 
     $adminMailer = new PHPMailer();
     $adminMailer->isSMTP();
