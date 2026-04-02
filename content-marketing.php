@@ -913,12 +913,10 @@
                         Attract the right audience and build stronger trust with content that informs, engages, and converts. Technofra helps businesses create strategic content across websites, blogs, campaigns, and customer journeys.
                     </p>
                     <div class="cm-hero-actions d-flex gap-8 flex-wrap">
-                        <a href="contact.php" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
-                            Start Content Project
+                        <a href="enquirynow" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
+                             Enquiry Now
                         </a>
-                        <a href="enquirynow.php" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
-                            Request Quote
-                        </a>
+                         
                     </div>
                     <div class="cm-proof-strip">
                         <div class="cm-proof-card">
@@ -1069,6 +1067,30 @@
                 <div class="cm-service-pill">
                     <span class="cm-service-pill-icon"><i class="fa-solid fa-chart-line"></i></span>
                     <span>Performance Reporting</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cyber-cta pt10 pb10">
+    <div class="container">
+        <div class="cm-cta-card">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="cyber-cta-info position-relative">
+                        <div>
+                            <h2 class="text-white">Need content that attracts the right audience and drives action?</h2>
+                            <p class="lead text-white mb-0">
+                                Talk to Technofra and build a content marketing strategy tailored to your business, audience, and growth goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cm-cta-actions">
+                        <!-- <a href="contact" class="mt-3 btn btn-light me-auto">START PROJECT <i class="fas fa-arrow-right"></i></a> -->
+                        <a href="enquirynow" class="mt-3 btn btn-outline-info me-auto">ENQUIRY NOW <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1387,30 +1409,7 @@
     </div>
 </section>
 
-<section class="cyber-cta ptb-60">
-    <div class="container">
-        <div class="cm-cta-card">
-            <div class="row">
-                <div class="col-lg-9 col-md-9">
-                    <div class="cyber-cta-info position-relative">
-                        <div>
-                            <h2 class="text-white">Need content that attracts the right audience and drives action?</h2>
-                            <p class="lead text-white mb-0">
-                                Talk to Technofra and build a content marketing strategy tailored to your business, audience, and growth goals.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="cm-cta-actions">
-                        <a href="contact.php" class="mt-3 btn btn-light me-auto">START PROJECT <i class="fas fa-arrow-right"></i></a>
-                        <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto">ENQUIRY NOW <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

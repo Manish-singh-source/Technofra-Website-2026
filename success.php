@@ -229,8 +229,8 @@
             </div>
 
             <div class="success-actions">
-                <a href="index.php" class="success-btn success-btn-primary">Back To Home</a>
-                <a href="contact.php" class="success-btn success-btn-secondary">Contact Again</a>
+                <a href="index" class="success-btn success-btn-primary">Back To Home</a>
+                <a href="contact" class="success-btn success-btn-secondary">Contact Again</a>
             </div>
         </div>
     </div>

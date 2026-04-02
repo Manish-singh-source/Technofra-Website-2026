@@ -4,7 +4,7 @@
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-footer-items footer-logo-area">
                     <div class="footer-logo">
-                        <a href="index.php"><img src="assets/image/technofra-logo.png" alt="image"
+                        <a href="index"><img src="assets/image/technofra-logo.png" alt="image"
                                 width="200px"></a>
                     </div>
                     <div class="space20"></div>
@@ -46,13 +46,13 @@
                         <div class="single-footer-items">
                             <h3 class="footer-title">SERVICES</h5>
                                 <ul>
-                                    <li><a href='web-design.php'>Website Development</a></li>
-                                    <li><a href='shopify-website-development.php'>Shopify Development</a></li>
-                                    <li><a href='wordpress-development.php'>Wordpress Development</a></li>
-                                    <li><a href='branding.php'>Branding</a></li>
-                                    <li><a href='digital-marketing.php'>Digital Marketing</a></li>
-                                    <li><a href='domain-hosting-services.php'>Domain & Hosting</a></li>
-                                    <li><a href='it-infrastructure.php'>IT Infrastructure</a></li>
+                                    <li><a href='web-design'>Website Development</a></li>
+                                    <li><a href='shopify-website-development'>Shopify Development</a></li>
+                                    <li><a href='wordpress-development'>Wordpress Development</a></li>
+                                    <li><a href='branding'>Branding</a></li>
+                                    <li><a href='digital-marketing'>Digital Marketing</a></li>
+                                    <li><a href='domain-hosting-services'>Domain & Hosting</a></li>
+                                    <li><a href='it-infrastructure'>IT Infrastructure</a></li>
 
                                 </ul>
                         </div>
@@ -62,14 +62,14 @@
                         <div class="single-footer-items">
                             <h3 class="footer-title">API</h3>
                                 <ul>
-                                    <li><a href='sms-otp.php'>SMS/OTP</a></li>
-                                    <li><a href='whatsapp.php'>WhatsApp</a></li>
-                                    <li><a href='email-form.php'>Email Form</a></li>
-                                    <li><a href='chatbot.php'>Chat Bot</a></li>
-                                    <li><a href='google-forms.php'>Google Forms</a></li>
-                                    <li><a href='ivr-call.php'>IVR/Call</a></li>
-                                    <li><a href='payment-gateway.php'>Payment Gateway</a></li>
-                                    <li><a href='google-analyatics.php'>Google Analytics</a></li>
+                                    <li><a href='sms-otp'>SMS/OTP</a></li>
+                                    <li><a href='whatsapp'>WhatsApp</a></li>
+                                    <li><a href='email-form'>Email Form</a></li>
+                                    <li><a href='chatbot'>Chat Bot</a></li>
+                                    <li><a href='google-forms'>Google Forms</a></li>
+                                    <li><a href='ivr-call'>IVR/Call</a></li>
+                                    <li><a href='payment-gateway'>Payment Gateway</a></li>
+                                    <li><a href='google-analyatics'>Google Analytics</a></li>
 
                                 </ul>
                         </div>
@@ -78,13 +78,13 @@
                         <div class="single-footer-items">
                             <h3 class="footer-title">QUICK</h5>
                                 <ul>
-                                    <li><a href='index.php'>Home</a></li>
-                                    <li><a href='about.php'>About Us</a></li>
-                                    <li><a href='our-team.php'>Our Team</a></li>
-                                    <li><a href='contact.php'>Contact us</a></li>
-                                    <li><a href='support.php'>Support</a></li>
-                                    <li><a href='technology.php'>Technology</a></li>
-                                    <li><a href='enquirynow.php'>Enquiry Now</a></li>
+                                    <li><a href='index'>Home</a></li>
+                                    <li><a href='about'>About Us</a></li>
+                                    <li><a href='our-team'>Our Team</a></li>
+                                    <li><a href='contact'>Contact us</a></li>
+                                    <li><a href='support'>Support</a></li>
+                                    <li><a href='technology'>Technology</a></li>
+                                    <li><a href='enquirynow'>Enquiry Now</a></li>
                                     <li>
                                         <a href='https://mycrm.technofra.co.in/authentication/login'
                                             target="_blank">
@@ -97,7 +97,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='faq.php'>
+                                        <a href='faq'>
                                             FAQ
                                         </a>
                                     </li>
@@ -112,12 +112,12 @@
 
                     <ul>
                         <li><a href='sitemap.html'>Site Map</a></li>
-                        <li><a href='privacy-policy.php'>Privacy Policy</a></li>
-                        <!-- <li><a href='terms-and-conditions.php'>Terms & Conditions</a></li> -->
-                        <li><a href='cancellation-policy.php'>Cancellation Policy</a></li>
-                        <li><a href='refund-policy.php'>Refund Policy</a></li>
-                        <li><a href='return-policy.php'>Return Policy</a></li>
-                        <li><a href="press-release.php">Press Release</a></li>
+                        <li><a href='privacy-policy'>Privacy Policy</a></li>
+                        <!-- <li><a href='terms-and-conditions'>Terms & Conditions</a></li> -->
+                        <li><a href='cancellation-policy'>Cancellation Policy</a></li>
+                        <li><a href='refund-policy'>Refund Policy</a></li>
+                        <li><a href='return-policy'>Return Policy</a></li>
+                        <li><a href="press-release">Press Release</a></li>
 
                     </ul>
                     <p class="text-white footer_avb_app">AVAILABLE ON</p>
@@ -180,13 +180,13 @@
         </div>
         <div class="col-lg-12 text-center pt-25 footer_bottom">
             <ul class="font-white">
-                <li class="list-inline-item"><a href="about.php">About Us </a>&nbsp;&nbsp;&nbsp;|</li>
-                <li class="list-inline-item"><a href="contact.php">Contact Us</a> &nbsp;&nbsp;&nbsp;|</li>
-                <li class="list-inline-item"><a href="portfolio.php">Portfolio</a> &nbsp;&nbsp;&nbsp;|</li>
+                <li class="list-inline-item"><a href="about">About Us </a>&nbsp;&nbsp;&nbsp;|</li>
+                <li class="list-inline-item"><a href="contact">Contact Us</a> &nbsp;&nbsp;&nbsp;|</li>
+                <li class="list-inline-item"><a href="portfolio">Portfolio</a> &nbsp;&nbsp;&nbsp;|</li>
                 <li class="list-inline-item"><a href="https://technofra.in/blog/">Blog</a> &nbsp;&nbsp;&nbsp;|</li>
-                <li class="list-inline-item"><a href="sitemap.php">Sitemap</a>&nbsp;&nbsp;&nbsp;|</li>
-                <li class="list-inline-item"><a href="privacy-policy.php">Privacy Policy</a>&nbsp;&nbsp;&nbsp;</li>
-                <!-- <li class="list-inline-item"><a href="terms-and-conditions.php">Terms & Conditions</a></li> -->
+                <li class="list-inline-item"><a href="sitemap">Sitemap</a>&nbsp;&nbsp;&nbsp;|</li>
+                <li class="list-inline-item"><a href="privacy-policy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;</li>
+                <!-- <li class="list-inline-item"><a href="terms-and-conditions">Terms & Conditions</a></li> -->
             </ul>
         </div>
         <div class="copyright-area">

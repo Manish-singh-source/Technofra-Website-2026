@@ -38,8 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 $name = trim($_POST['name'] ?? '');
 $email = trim($_POST['email'] ?? ''); 
-$contact = trim($_POST['contact'] ?? '');
-$message = trim($_POST['Message'] ?? $_POST['message'] ?? '');
+$contact = trim($_POST['contact'] ?? ''); 
 $hidden_field = trim($_POST['hidden_field'] ?? '');
 $recaptcha_response = trim($_POST['g-recaptcha-response'] ?? '');
 $currentDateTime = date('Y-m-d H:i:s');
@@ -51,7 +50,7 @@ if ($hidden_field !== '') {
     $errors[] = 'Bot detected.';
 }
 
-if ($name === '' || $email === ''  || $contact === '' || $message === '') {
+if ($name === '' || $email === ''  || $contact === '' ) {
     $errors[] = 'All fields are required.';
 }
 
@@ -145,10 +144,7 @@ $htmlbody = '
                                                     <td style="color:#334155;">' . $safe_contact . '</td>
                                                 </tr>
                                                 
-                                                <tr>
-                                                    <td width="180" style="color:#0b2e59;"><strong>Message</strong></td>
-                                                    <td style="color:#334155;">' . $safe_message . '</td>
-                                                </tr>
+                                             
                                                 <tr>
                                                     <td width="180" style="color:#0b2e59;"><strong>Requested At</strong></td>
                                                     <td style="color:#334155;">' . htmlspecialchars($currentDateTime, ENT_QUOTES, 'UTF-8') . '</td>

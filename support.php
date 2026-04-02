@@ -185,7 +185,7 @@
         </div>
         <div class="col-lg-3">
           <div class="cyber-cta-btn">
-          <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
+          <a href="enquirynow" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
                         
           </div>
         </div>

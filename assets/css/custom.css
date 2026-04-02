@@ -5179,8 +5179,8 @@
      margin-bottom: 15px;
  }
 
- .wd-job-skills h4,
- .wd-job-info h4 {
+ .wd-job-skills h3,
+ .wd-job-info h3 {
      font-family: 'Rajdhani', sans-serif;
      font-size: 22px;
      margin-bottom: 12px;
@@ -5989,15 +5989,36 @@
      grid-auto-rows: 1fr;
  }
 
- .medlaunch-card {
-     min-height: 360px;
-     display: flex;
-     flex-direction: column;
- }
+.medlaunch-card {
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+}
 
- .medlaunch-green-card .medlaunch-text {
-     color: rgba(255, 255, 255, 0.92);
- }
+.medlaunch-info-card,
+.medlaunch-green-card {
+    gap: 16px;
+}
+
+.medlaunch-icon {
+    margin-bottom: 0;
+}
+
+.medlaunch-title {
+    margin-bottom: 0;
+    min-height: 58px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.medlaunch-text {
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.medlaunch-green-card .medlaunch-text {
+    color: rgba(255, 255, 255, 0.92);
+}
 
  .medlaunch-green-card .medlaunch-users {
      position: static;
@@ -6032,16 +6053,17 @@
      z-index: 0;
  }
 
- .medlaunch-image-content {
-     position: relative;
-     z-index: 2;
-     display: flex;
-     flex-direction: column;
-     gap: 12px;
-     margin-top: auto;
-     padding: 32px;
-     color: #ffffff;
- }
+.medlaunch-image-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100%;
+    margin-top: auto;
+    padding: 32px;
+    color: #ffffff;
+}
 
  .medlaunch-image-content .medlaunch-label {
      position: static;
@@ -6275,9 +6297,10 @@
          padding: 24px 20px;
      }
 
-     .medlaunch-title {
-         font-size: 22px;
-     }
+    .medlaunch-title {
+        font-size: 22px;
+        min-height: auto;
+    }
 
      .medlaunch-label {
          left: 12px;
@@ -7713,6 +7736,11 @@
      transition: transform 0.25s ease, box-shadow 0.25s ease;
  }
 
+ a#applyBtn:hover {
+    color: white;
+    background: #37c6f4;
+}
+
  .quote-submit-btn:hover {
      transform: translateY(-2px);
      box-shadow: 0 18px 34px rgba(15, 76, 129, 0.22);
@@ -7790,3 +7818,10 @@
  .ptb-50 {
      padding: 50px 0;
  }
+a.finbiz-btn:hover {
+    background-color: #37c6f4;
+    color: white;
+}
+.ptb-40{
+    padding: 40px 0;
+}

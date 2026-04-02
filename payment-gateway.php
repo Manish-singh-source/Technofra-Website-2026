@@ -102,7 +102,7 @@
                         securely.
                     </p>
 
-                    <a href="contact.php" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Get Started</a>
+                    <a href="contact" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Get Started</a>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -164,7 +164,7 @@
                             convenience. Additionally, our agency distinguishes itself with personalized support
                             and tailored solutions to meet your specific business needs.</p>
                     </div>
-                    <a href="contact.php" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Get Started</a>
+                    <a href="contact" class="btn risk-outline-btn mt-40 risk-color ff-risk-pri fs-14 fw-700">Get Started</a>
                 </div>
             </div>
         </div>

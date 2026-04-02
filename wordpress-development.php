@@ -572,7 +572,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="hover-area">
                                     <div class="hover-heaer">
 
-                                        <a href="sms-otp-transactional.php">SEO-Optimized</a>
+                                        <a href="sms-otp-transactional">SEO-Optimized</a>
                                     </div>
                                     <p>Built-in features and plugins make it simple to rank higher in
                                         search engines.</p>
@@ -585,7 +585,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="hover-area">
                                     <div class="hover-heaer">
 
-                                        <a href="whatsapp-transactional.php">Customizable Designs</a>
+                                        <a href="whatsapp-transactional">Customizable Designs</a>
                                     </div>
                                     <p>Choose from thousands of themes or create a custom design.</p>
                                 </div>
@@ -597,7 +597,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="hover-area">
                                     <div class="hover-heaer">
 
-                                        <a href="email-enquriy-form-integration.php">Scalability</a>
+                                        <a href="email-enquriy-form-integration">Scalability</a>
                                     </div>
                                     <p>Whether you're a small startup or a growing enterprise,
                                         WordPress grows with you.</p>
@@ -610,7 +610,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="hover-area">
                                     <div class="hover-heaer">
 
-                                        <a href="chatbot-integration.php">User-Friendly Interface</a>
+                                        <a href="chatbot-integration">User-Friendly Interface</a>
                                     </div>
                                     <p>Easily manage your website without any technical skills.</p>
                                 </div>
@@ -623,7 +623,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="hover-area">
                                     <div class="hover-heaer">
 
-                                        <a href="google-analyatics.php">Powerful Plugins</a>
+                                        <a href="google-analyatics">Powerful Plugins</a>
                                     </div>
                                     <p>Add endless functionality, from contact forms to e-commerce
                                         capabilities.</p>
@@ -650,7 +650,7 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 
-    <section class="cyber-cta ptb-60">
+    <section class="cyber-cta pt10 pb10">
         <div class="container">
             <div class="cyber-cta-bg p-5 rounded-custom" style="
                 background: url('assets/image/cta.webp') no-repeat center
@@ -669,7 +669,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="col-lg-3">
                         <div class="cyber-cta-btn">
-                            <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false"
+                            <a href="enquirynow" class="mt-3 btn btn-outline-info me-auto" contenteditable="false"
                                 style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
 
                         </div>
@@ -700,72 +700,72 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-lg-6 pe-5">
                     <div class="row">
                         <div class="col-6">
-                            <a href="aakriti-space.php">
+                            <a href="aakriti-space">
                                 <img src="assets/image/casestudy/aakriti.webp" class="pti" alt="image">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="creativeprintinks.php">
+                            <a href="creativeprintinks">
                                 <img src="assets/image/casestudy/creative-print-ink.png" class="pti" alt="image">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <a href="deltacab.php">
+                            <a href="deltacab">
                                 <img src="assets/image/casestudy/delta.webp" class="pti" alt="image">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="dipuenterprises.php">
+                            <a href="dipuenterprises">
                                 <img src="assets/image/casestudy/dipu.webp" class="pti" alt="image">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <a href="finwert.php">
+                            <a href="finwert">
                                 <img src="assets/image/casestudy/finwert.webp" class="pti" alt="image">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="fragomatrix.php">
+                            <a href="fragomatrix">
                                 <img src="assets/image/casestudy/fragomatrix.webp" class="pti" alt="image">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <a href="globalocean.php">
+                            <a href="globalocean">
                                 <img src="assets/image/casestudy/globalocean.webp" class="pti" alt="image">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="instacraves.php">
+                            <a href="instacraves">
                                 <img src="assets/image/casestudy/Instacraves.webp" class="pti" alt="image">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <a href="ish.php">
+                            <a href="ish">
                                 <img src="assets/image/casestudy/ish.webp" class="pti" alt="image">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="sukanya.php">
+                            <a href="sukanya">
                                 <img src="assets/image/casestudy/sukanya.webp" class="pti" class="pti" alt="image">
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <a href="viraj-prints.php">
+                            <a href="viraj-prints">
                                 <img src="assets/image/casestudy/vp&son.webp" class="pti" alt="image">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="urban-sports.php">
+                            <a href="urban-sports">
                                 <img src="assets/image/casestudy/urban-sports.webp" class="pti" alt="image">
                             </a>
                         </div>

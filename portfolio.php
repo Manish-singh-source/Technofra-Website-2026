@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
@@ -341,18 +341,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="frizcoolindia.php" class="qty-portfolio__img-link">
+                            <a href="frizcoolindia" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/Frizschool/main.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="frizcoolindia.php" class="aih-color-two fw-400">
+                            <a href="frizcoolindia" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Frizcool India</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="frizcoolindia.php" class="link-with-icon text-decoration-none but">
+                            <a href="frizcoolindia" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -370,18 +370,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="shivam.php" class="qty-portfolio__img-link">
+                            <a href="shivam" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/shivam/shivam.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="shivam.php" class="aih-color-two fw-400">
+                            <a href="shivam" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Shivam Industries</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="shivam.php" class="link-with-icon text-decoration-none but">
+                            <a href="shivam" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -399,18 +399,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="texon.php" class="qty-portfolio__img-link">
+                            <a href="texon" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/texon/banner.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="texon.php" class="aih-color-two fw-400">
+                            <a href="texon" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Texon Corporation</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="texon.php" class="link-with-icon text-decoration-none but">
+                            <a href="texon" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -428,18 +428,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="dynarx.php" class="qty-portfolio__img-link">
+                            <a href="dynarx" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/dynarx.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="dynarx.php" class="aih-color-two fw-400">
+                            <a href="dynarx" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">dynarx</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="dynarx.php" class="link-with-icon text-decoration-none but">
+                            <a href="dynarx" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -456,18 +456,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="karantelecom.php" class="qty-portfolio__img-link">
+                            <a href="karantelecom" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/karantelecom.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="karantelecom.php" class="aih-color-two fw-400">
+                            <a href="karantelecom" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Karan Telecom</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="karantelecom.php" class="link-with-icon text-decoration-none but">
+                            <a href="karantelecom" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -484,18 +484,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="sunriseconsultancy.php" class="qty-portfolio__img-link">
+                            <a href="sunriseconsultancy" class="qty-portfolio__img-link">
                                 <img src="assets\image\casestudy\sunriseconsultancy.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="sunriseconsultancy.php" class="aih-color-two fw-400">
+                            <a href="sunriseconsultancy" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Sunrise Consultancy</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="sunriseconsultancy.php" class="link-with-icon text-decoration-none but">
+                            <a href="sunriseconsultancy" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -512,18 +512,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="lifelike.php" class="qty-portfolio__img-link">
+                            <a href="lifelike" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/lifelike.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="lifelike.php" class="aih-color-two fw-400">
+                            <a href="lifelike" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">LifeLike</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="lifelike.php" class="link-with-icon text-decoration-none but">
+                            <a href="lifelike" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -540,18 +540,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="torshaapharma.php" class="qty-portfolio__img-link">
+                            <a href="torshaapharma" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/torshaa.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="torshaapharma.php" class="aih-color-two fw-400">
+                            <a href="torshaapharma" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Torshaa Pharma</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="torshaapharma.php" class="link-with-icon text-decoration-none but">
+                            <a href="torshaapharma" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -569,18 +569,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="Jaijagannathpuri.php" class="qty-portfolio__img-link">
+                            <a href="Jaijagannathpuri" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/jaijagannath.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="Jaijagannathpuri.php" class="aih-color-two fw-400">
+                            <a href="Jaijagannathpuri" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Jai Jagannath Charitable Trust</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="Jaijagannathpuri.php" class="link-with-icon text-decoration-none but">
+                            <a href="Jaijagannathpuri" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -597,18 +597,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="aspirias.php" class="qty-portfolio__img-link">
+                            <a href="aspirias" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/aspirias.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="aspirias.php" class="aih-color-two fw-400">
+                            <a href="aspirias" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Aspirias</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="aspirias.php" class="link-with-icon text-decoration-none but">
+                            <a href="aspirias" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -625,18 +625,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="wotm.php" class="qty-portfolio__img-link">
+                            <a href="wotm" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/wotm.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="wotm.php" class="aih-color-two fw-400">
+                            <a href="wotm" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">WOTM</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="wotm.php" class="link-with-icon text-decoration-none but">
+                            <a href="wotm" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -653,18 +653,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="vlegends.php" class="qty-portfolio__img-link">
+                            <a href="vlegends" class="qty-portfolio__img-link">
                                 <img src="assets\image\casestudy\vlegends.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="vlegends.php" class="aih-color-two fw-400">
+                            <a href="vlegends" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">VLegends</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="vlegends.php" class="link-with-icon text-decoration-none but">
+                            <a href="vlegends" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -681,18 +681,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="transhubtech.php" class="qty-portfolio__img-link">
+                            <a href="transhubtech" class="qty-portfolio__img-link">
                                 <img src="assets\image\casestudy\transhubtech.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="transhubtech.php" class="aih-color-two fw-400">
+                            <a href="transhubtech" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">TransHub</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="transhubtech.php" class="link-with-icon text-decoration-none but">
+                            <a href="transhubtech" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -710,18 +710,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="srb-computers.php" class="qty-portfolio__img-link">
+                            <a href="srb-computers" class="qty-portfolio__img-link">
                                 <img src="assets\image\casestudy\portfolio.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="srb-computers.php" class="aih-color-two fw-400">
+                            <a href="srb-computers" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">SRB Computers Private Limited </h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="srb-computers.php" class="link-with-icon text-decoration-none but">
+                            <a href="srb-computers" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -738,18 +738,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="aeritx.php" class="qty-portfolio__img-link">
+                            <a href="aeritx" class="qty-portfolio__img-link">
                                 <img src="assets\image\casestudy\aeritx.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="aeritx.php" class="aih-color-two fw-400">
+                            <a href="aeritx" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Aeritx </h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="aeritx.php" class="link-with-icon text-decoration-none but">
+                            <a href="aeritx" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -766,18 +766,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="yash-tools.php" class="qty-portfolio__img-link">
+                            <a href="yash-tools" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/yashtools.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="yash-tools.php" class="aih-color-two fw-400">
+                            <a href="yash-tools" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Yash Tools</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="yash-tools.php" class="link-with-icon text-decoration-none but">
+                            <a href="yash-tools" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -794,18 +794,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="chem-pharma.php" class="qty-portfolio__img-link">
+                            <a href="chem-pharma" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/chempharma.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="chem-pharma.php" class="aih-color-two fw-400">
+                            <a href="chem-pharma" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Chempharma Jobs</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="chem-pharma.php" class="link-with-icon text-decoration-none but">
+                            <a href="chem-pharma" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -820,18 +820,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="dipuenterprises.php" class="qty-portfolio__img-link">
+                            <a href="dipuenterprises" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/dipu.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="dipuenterprises.php" class="aih-color-two fw-400">
+                            <a href="dipuenterprises" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Dipu Enterprises Pvt. Ltd.</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="dipuenterprises.php" class="link-with-icon text-decoration-none but">
+                            <a href="dipuenterprises" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -848,18 +848,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="global-ocean.php" class="qty-portfolio__img-link">
+                            <a href="global-ocean" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/globalocean.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="global-ocean.php" class="aih-color-two fw-400">
+                            <a href="global-ocean" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Global Ocean</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="global-ocean.php" class="link-with-icon text-decoration-none but">
+                            <a href="global-ocean" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -876,18 +876,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="ish.php" class="qty-portfolio__img-link">
+                            <a href="ish" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/ish.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="ish.php" class="aih-color-two fw-400">
+                            <a href="ish" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">ISH International</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="ish.php" class="link-with-icon text-decoration-none but">
+                            <a href="ish" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -904,18 +904,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="rupalplastic.php" class="qty-portfolio__img-link">
+                            <a href="rupalplastic" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/rupalplastic.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="rupalplastic.php" class="aih-color-two fw-400">
+                            <a href="rupalplastic" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Rupal Plastic</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="rupalplastic.php" class="link-with-icon text-decoration-none but">
+                            <a href="rupalplastic" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -932,18 +932,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="sanjay-agencies.php" class="qty-portfolio__img-link">
+                            <a href="sanjay-agencies" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/sanjayagencies.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="sanjay-agencies.php" class="aih-color-two fw-400">
+                            <a href="sanjay-agencies" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Sanjay Agencies</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="sanjay-agencies.php" class="link-with-icon text-decoration-none but">
+                            <a href="sanjay-agencies" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -960,18 +960,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="sukanya.php" class="qty-portfolio__img-link">
+                            <a href="sukanya" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/sukanya.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="sukanya.php" class="aih-color-two fw-400">
+                            <a href="sukanya" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Sukanya India</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="sukanya.php" class="link-with-icon text-decoration-none but">
+                            <a href="sukanya" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -988,18 +988,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="visitmadhisland.php" class="qty-portfolio__img-link">
+                            <a href="visitmadhisland" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/visitmadh.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="visitmadhisland.php" class="aih-color-two fw-400">
+                            <a href="visitmadhisland" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Visit Madh Island</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="visitmadhisland.php" class="link-with-icon text-decoration-none but">
+                            <a href="visitmadhisland" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1016,18 +1016,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="aakriti-space.php" class="qty-portfolio__img-link">
+                            <a href="aakriti-space" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/aakriti.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="aakriti-space.php" class="aih-color-two fw-400">
+                            <a href="aakriti-space" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Aakriti Space</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="aakriti-space.php" class="link-with-icon text-decoration-none but">
+                            <a href="aakriti-space" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1044,18 +1044,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="instacraves.php" class="qty-portfolio__img-link">
+                            <a href="instacraves" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/Instacraves.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="instacraves.php" class="aih-color-two fw-400">
+                            <a href="instacraves" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Instacraves</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="instacraves.php" class="link-with-icon text-decoration-none but">
+                            <a href="instacraves" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1072,18 +1072,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="napoleon.php" class="qty-portfolio__img-link">
+                            <a href="napoleon" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/naploean.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="napoleon.php" class="aih-color-two fw-400">
+                            <a href="napoleon" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Napoleon AC Mumbai</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="napoleon.php" class="link-with-icon text-decoration-none but">
+                            <a href="napoleon" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1100,18 +1100,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="deltacab.php" class="qty-portfolio__img-link">
+                            <a href="deltacab" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/delta.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="deltacab.php" class="aih-color-two fw-400">
+                            <a href="deltacab" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Delta Cab</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="deltacab.php" class="link-with-icon text-decoration-none but">
+                            <a href="deltacab" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1128,18 +1128,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="fragomatrix.php" class="qty-portfolio__img-link">
+                            <a href="fragomatrix" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/fragomatrix.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="fragomatrix.php" class="aih-color-two fw-400">
+                            <a href="fragomatrix" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Frago Matrix</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="fragomatrix.php" class="link-with-icon text-decoration-none but">
+                            <a href="fragomatrix" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1156,18 +1156,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="jpc.php" class="qty-portfolio__img-link">
+                            <a href="jpc" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/jpc.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="jpc.php" class="aih-color-two fw-400">
+                            <a href="jpc" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">JPC </h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="jpc.php" class="link-with-icon text-decoration-none but">
+                            <a href="jpc" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1185,18 +1185,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="spaceage.php" class="qty-portfolio__img-link">
+                            <a href="spaceage" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/Spacage.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="spaceage.php" class="aih-color-two fw-400">
+                            <a href="spaceage" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Spaceage Consultants </h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="spaceage.php" class="link-with-icon text-decoration-none but">
+                            <a href="spaceage" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1213,18 +1213,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="travest.php" class="qty-portfolio__img-link">
+                            <a href="travest" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/trevest-holiday.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="travest.php" class="aih-color-two fw-400">
+                            <a href="travest" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Travest Holidays</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="travest.php" class="link-with-icon text-decoration-none but">
+                            <a href="travest" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1241,18 +1241,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="shreeram-interiors.php" class="qty-portfolio__img-link">
+                            <a href="shreeram-interiors" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/shreeram-interior.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="shreeram-interiors.php" class="aih-color-two fw-400">
+                            <a href="shreeram-interiors" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Shreeram Interiors</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="shreeram-interiors.php" class="link-with-icon text-decoration-none but">
+                            <a href="shreeram-interiors" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1270,18 +1270,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="mehtas-group.php" class="qty-portfolio__img-link">
+                            <a href="mehtas-group" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/mehtagroup.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="mehtas-group.php" class="aih-color-two fw-400">
+                            <a href="mehtas-group" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Mehtas Group</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="mehtas-group.php" class="link-with-icon text-decoration-none but">
+                            <a href="mehtas-group" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1298,18 +1298,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="mateo.php" class="qty-portfolio__img-link">
+                            <a href="mateo" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/Mateo.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="mateo.php" class="aih-color-two fw-400">
+                            <a href="mateo" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Mateo Corporate Gifts</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="mateo.php" class="link-with-icon text-decoration-none but">
+                            <a href="mateo" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1326,18 +1326,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="manvi-interior.php" class="qty-portfolio__img-link">
+                            <a href="manvi-interior" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/manvi-interior.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="manvi-interior.php" class="aih-color-two fw-400">
+                            <a href="manvi-interior" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Manvi Interior</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="manvi-interior.php" class="link-with-icon text-decoration-none but">
+                            <a href="manvi-interior" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1354,18 +1354,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="urcfo.php" class="qty-portfolio__img-link">
+                            <a href="urcfo" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/urcfo.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="urcfo.php" class="aih-color-two fw-400">
+                            <a href="urcfo" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">UR CFO</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="urcfo.php" class="link-with-icon text-decoration-none but">
+                            <a href="urcfo" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1382,18 +1382,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="urban-sports.php" class="qty-portfolio__img-link">
+                            <a href="urban-sports" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/urban-sports.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="urban-sports.php" class="aih-color-two fw-400">
+                            <a href="urban-sports" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Urban Sports</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="urban-sports.php" class="link-with-icon text-decoration-none but">
+                            <a href="urban-sports" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1411,18 +1411,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="viraj-prints.php" class="qty-portfolio__img-link">
+                            <a href="viraj-prints" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/viraj-prints.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="viraj-prints.php" class="aih-color-two fw-400">
+                            <a href="viraj-prints" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Viraj Prints</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="viraj-prints.php" class="link-with-icon text-decoration-none but">
+                            <a href="viraj-prints" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1439,18 +1439,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="vpsons.php" class="qty-portfolio__img-link">
+                            <a href="vpsons" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/vp&son.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="vpsons.php" class="aih-color-two fw-400">
+                            <a href="vpsons" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">V P & SONS</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="vpsons.php" class="link-with-icon text-decoration-none but">
+                            <a href="vpsons" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1467,18 +1467,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="linkpromotions.php" class="qty-portfolio__img-link">
+                            <a href="linkpromotions" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/link-promtion.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="linkpromotions.php" class="aih-color-two fw-400">
+                            <a href="linkpromotions" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Link Promotions And Exhibits</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="linkpromotions.php" class="link-with-icon text-decoration-none but">
+                            <a href="linkpromotions" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1495,18 +1495,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="rnisargfoundation.php" class="qty-portfolio__img-link">
+                            <a href="rnisargfoundation" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/rnisargfoundation.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="rnisargfoundation.php" class="aih-color-two fw-400">
+                            <a href="rnisargfoundation" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 "> Rnisarg Foundation (NGO) </h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="rnisargfoundation.php" class="link-with-icon text-decoration-none but">
+                            <a href="rnisargfoundation" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1523,18 +1523,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="creativeprintinks.php" class="qty-portfolio__img-link">
+                            <a href="creativeprintinks" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/creative-print-ink.png" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="creativeprintinks.php" class="aih-color-two fw-400">
+                            <a href="creativeprintinks" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Creative Print Inks</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="creativeprintinks.php" class="link-with-icon text-decoration-none but">
+                            <a href="creativeprintinks" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1551,18 +1551,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="rajprbha.php" class="qty-portfolio__img-link">
+                            <a href="rajprbha" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/rajprbha.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="rajprbha.php" class="aih-color-two fw-400">
+                            <a href="rajprbha" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Rajprabha</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="rajprbha.php" class="link-with-icon text-decoration-none but">
+                            <a href="rajprbha" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1579,18 +1579,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="finwert.php" class="qty-portfolio__img-link">
+                            <a href="finwert" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/finwert.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="finwert.php" class="aih-color-two fw-400">
+                            <a href="finwert" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Finwert</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="finwert.php" class="link-with-icon text-decoration-none but">
+                            <a href="finwert" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>
@@ -1607,18 +1607,18 @@
                             <span class="portdot"></span>
                         </div>
                         <div class="qty-portfolio__img">
-                            <a href="shahkatariya.php" class="qty-portfolio__img-link">
+                            <a href="shahkatariya" class="qty-portfolio__img-link">
                                 <img src="assets/image/casestudy/shahkathariya.webp" alt="image" class="img-fluid">
                             </a>
                         </div>
                         <div class="qty-portfolio__body">
-                            <a href="shahkatariya.php" class="aih-color-two fw-400">
+                            <a href="shahkatariya" class="aih-color-two fw-400">
                                 <h6 class="aih-color-two fw-400 ">Shah & Kathariya</h6>
                             </a>
                         </div>
 
                         <div class="hover-button">
-                            <a href="shahkatariya.php" class="link-with-icon text-decoration-none but">
+                            <a href="shahkatariya" class="link-with-icon text-decoration-none but">
                                 View <i class="fas fa-arrow-right rot"></i>
                             </a>
                         </div>

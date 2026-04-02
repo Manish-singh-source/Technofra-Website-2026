@@ -50,14 +50,17 @@ gtag('config', 'G-189WWHXLSS');
     transition: 0.8s ease-in-out;
 
 }
-.eep-btn-green{
-   justify-content: center;
+
+.eep-btn-green {
+    justify-content: center;
 }
+
 @media (max-width: 576px) {
 
-.eep-calendar-info {
-    display: grid !important;
-}
+    .eep-calendar-info {
+        display: grid !important;
+    }
+
     .dis-hide {
         visibility: hidden;
     }
@@ -430,8 +433,8 @@ gtag('config', 'G-189WWHXLSS');
                 and long-term success.
             </p>
             <div class="rnHeroButtons">
-                <a href="web-design.php" class="rnHeroBtnLight">Website Development</a>
-                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
+                <a href="web-design" class="rnHeroBtnLight">Website Development</a>
+                <a href="contact#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -449,8 +452,8 @@ gtag('config', 'G-189WWHXLSS');
                 growth.
             </p>
             <div class="rnHeroButtons">
-                <a href="ios-app-development.php" class="rnHeroBtnLight">App Development</a>
-                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
+                <a href="ios-app-development" class="rnHeroBtnLight">App Development</a>
+                <a href="contact#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -468,8 +471,8 @@ gtag('config', 'G-189WWHXLSS');
                 attract customers, and fuel growth.
             </p>
             <div class="rnHeroButtons">
-                <a href="branding.php" class="rnHeroBtnLight">Branding</a>
-                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
+                <a href="branding" class="rnHeroBtnLight">Branding</a>
+                <a href="contact#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -487,8 +490,8 @@ gtag('config', 'G-189WWHXLSS');
                 engagement, and customer satisfaction.
             </p>
             <div class="rnHeroButtons">
-                <a href="ui-ux.php" class="rnHeroBtnLight">UI/UX Design</a>
-                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
+                <a href="ui-ux" class="rnHeroBtnLight">UI/UX Design</a>
+                <a href="contact#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -506,8 +509,8 @@ gtag('config', 'G-189WWHXLSS');
                 convenient online payment experiences.
             </p>
             <div class="rnHeroButtons">
-                <a href="payment-gateway.php" class="rnHeroBtnLight">Payment Integration</a>
-                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
+                <a href="payment-gateway" class="rnHeroBtnLight">Payment Integration</a>
+                <a href="contact#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -525,8 +528,8 @@ gtag('config', 'G-189WWHXLSS');
                 audiences, and drive results.
             </p>
             <div class="rnHeroButtons">
-                <a href="digital-marketing.php" class="rnHeroBtnLight">Digital Marketing</a>
-                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
+                <a href="digital-marketing" class="rnHeroBtnLight">Digital Marketing</a>
+                <a href="contact#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -810,7 +813,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="dd-left-cards">
 
                     <!-- 01 -->
-                    <a href="web-design.php">
+                    <a href="web-design">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -829,7 +832,7 @@ gtag('config', 'G-189WWHXLSS');
                     </a>
 
                     <!-- 02 -->
-                    <a href="shopify-website-development.php">
+                    <a href="shopify-website-development">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front" style="background-color: #0b2e59;color: #ffffff;">
@@ -850,7 +853,7 @@ gtag('config', 'G-189WWHXLSS');
                     </a>
 
                     <!-- 03 -->
-                    <a href="branding.php">
+                    <a href="branding">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -873,7 +876,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="dd-right-cards" data-aos="fade-up" data-aos-duration="600">
 
                     <!-- 04 -->
-                    <a href="digital-marketing.php">
+                    <a href="digital-marketing">
                         <div class="dd-card">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -892,7 +895,7 @@ gtag('config', 'G-189WWHXLSS');
                     </a>
 
                     <!-- 05 -->
-                    <a href="social-media-marketing.php" target="_blank">
+                    <a href="social-media-marketing" target="_blank">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -1061,7 +1064,7 @@ gtag('config', 'G-189WWHXLSS');
 
 
                 <div class="mt-20 text-center">
-                   
+
 
                     <a href="#book-call" class="eep-btn-green" id="bookCallBtn">
                         <i class="fa-solid fa-calendar-plus"></i>
@@ -1300,8 +1303,8 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusTitle">Dental</div>
                             </div>
                             <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrGolf"><i class="fa-solid fa-golf-ball-tee"></i></div>
-                                <div class="tfxIndusTitle">Golf Cart</div>
+                                <div class="tfxIndusIcon tfxClrClean"><i class="fa-solid fa-broom"></i></div>
+                                <div class="tfxIndusTitle">Cleaning</div>
                             </div>
                             <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrHvac"><i class="fa-solid fa-fan"></i></div>
@@ -1384,19 +1387,19 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusIcon tfxClrManufacturing"><i class="fa-solid fa-industry"></i></div>
                                 <div class="tfxIndusTitle">Manufacturing</div>
                             </div>
-                             <div class="tfxIndusCard">
+                            <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i>
                                 </div>
                                 <div class="tfxIndusTitle">Attorney</div>
                             </div>
-                           
+
                         </div>
                     </div>
 
                     <!-- Clone First Slide -->
                     <div class="tfxIndusSlide">
                         <div class="tfxIndusGrid">
-                             <div class="tfxIndusCard">
+                            <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
                                 <div class="tfxIndusTitle">IT Services</div>
                             </div>
@@ -1414,8 +1417,8 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusTitle">Dental</div>
                             </div>
                             <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrGolf"><i class="fa-solid fa-golf-ball-tee"></i></div>
-                                <div class="tfxIndusTitle">Golf Cart</div>
+                                <div class="tfxIndusIcon tfxClrClean"><i class="fa-solid fa-broom"></i></div>
+                                <div class="tfxIndusTitle">Cleaning</div>
                             </div>
                             <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrHvac"><i class="fa-solid fa-fan"></i></div>
@@ -1445,7 +1448,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusIcon tfxClrPest"><i class="fa-solid fa-bug"></i></div>
                                 <div class="tfxIndusTitle">Pest Control</div>
                             </div>
-                           
+
                         </div>
                     </div>
 

@@ -414,7 +414,7 @@ gtag('config', 'G-189WWHXLSS');
 }
 
 .contact-booking-copy {
-    margin-bottom: 18px;
+    
 }
 
 .contact-booking-illustration {
@@ -687,7 +687,7 @@ a:hover, .btn-link:hover {
         </div>
     </div>
 </section>
-<section class="integration-section pt-50" id="contactForm">
+<section class="integration-section pt-60" id="contactForm">
     <div class="container">
         <div class="row align-items-start">
             <div class="col-lg-3">
@@ -778,13 +778,13 @@ a:hover, .btn-link:hover {
                                         class="text-danger">*</span></label>
                                 <div class="input-group mb-3">
                                     <input type="text" name="fname" class="form-control" required=""
-                                        placeholder="First name" aria-label="First Name">
+                                        placeholder="First Name" aria-label="First Name">
                                 </div>
                             </div>
                             <div class="col-sm-6 ">
                                 <label for="lastName" class="mb-1">Last Name <span class="text-danger"> *</span></label>
                                 <div class="input-group mb-3">
-                                    <input type="text" name="lname" class="form-control" placeholder="Last name"
+                                    <input type="text" name="lname" class="form-control" placeholder="Last Name"
                                         aria-label="Last Name">
                                 </div>
                             </div>
@@ -805,12 +805,12 @@ a:hover, .btn-link:hover {
                             <div class="col-sm-12">
                                 <label for="yourMessage" class="mb-1">Message <span class="text-danger"></span></label>
                                 <div class="input-group mb-3">
-                                    <textarea class="form-control" name="massage" placeholder="Massage"
+                                    <textarea class="form-control" name="massage" placeholder="Message"
                                         style="height: 80px"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <button type="submit" class="btn btn-outline-info mt-4">Submit</button>
+                                <a type="submit" class="finbiz-btn mt-4 ">Submit</a>
                             </div>
                             <div class="col-sm-8">
                                 <div class="form-group">

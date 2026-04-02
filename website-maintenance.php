@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
 <script>
@@ -227,7 +227,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
                 <div class="col-lg-3">
                     <div class="cyber-cta-btn">
-                        <a href="contact.php" class="mt-3 btn btn-outline-info me-auto">Request a Quotation<i
+                        <a href="contact" class="mt-3 btn btn-outline-info me-auto">Request a Quotation<i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>

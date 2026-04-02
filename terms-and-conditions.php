@@ -33,7 +33,7 @@
                 <div class="col-md-8 col-lg-6">
                     <div class="section-heading text-center mb-5">
                         <h1 class="display-5 fw-bold pb-20 text-white">Terms and Conditions</h1>
-                        <p class="lead"><span class="span"><a href="index.php" class="text-white">Home</a> <span class="arrow text-white"><i class="fa-regular fa-angle-right"></i></span> Terms and Conditions</span>
+                        <p class="lead"><span class="span"><a href="index" class="text-white">Home</a> <span class="arrow text-white"><i class="fa-regular fa-angle-right"></i></span> Terms and Conditions</span>
                         </p>
                     </div>
                 </div>

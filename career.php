@@ -325,11 +325,11 @@ a,
                 </ul>
 
                 <!-- <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                    <a href="enquirynow.php" class="hr-main-btn" data-aos="fade-up" data-aos-duration="600">
+                    <a href="enquirynow" class="hr-main-btn" data-aos="fade-up" data-aos-duration="600">
                         Join Our Team
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
-                    <a href="about.php" class="btn btn-outline-info  " data-aos="fade-up"
+                    <a href="about" class="btn btn-outline-info  " data-aos="fade-up"
                         data-aos-duration="600">Explore More</a>
                 </div> -->
             </div>
@@ -382,7 +382,7 @@ a,
                 <img src="assets/image/arrow-red.png" alt="Arrow">
             </div>
 
-            <h2 class="wd-job-title">Senior Website Developer</h2>
+            <h2 class="wd-job-title">Website Developer</h2>
 
             <p class="wd-job-desc">
                 Build modern, responsive, and high-performance websites using latest technologies.
@@ -390,7 +390,7 @@ a,
             </p>
 
             <div class="wd-job-skills">
-                <h4>Required Skills</h4>
+                <h3>Required Skills</h3>
                 <div class="wd-job-skill-tags">
                     <span>HTML5</span>
                     <span>CSS3</span>
@@ -402,11 +402,11 @@ a,
                 </div>
             </div>
             <div class="wd-job-info pb15">
-                <h4>Years Of Experience</h4>
+                <h3>Years Of Experience</h3>
                 <p>1-2+ Years</p>
             </div>
             <div class="wd-job-info">
-                <h4>Responsibilities</h4>
+                <h3>Responsibilities</h3>
                 <ul>
                     <li><i class="fa-solid fa-angle-right lcl"></i> Build responsive websites</li>
                     <li><i class="fa-solid fa-angle-right lcl"></i> Convert designs to code</li>
@@ -414,10 +414,10 @@ a,
                 </ul>
             </div>
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"> Apply Now
                 </a>
-                <a href="contact.php" class="btn btn-outline-info  ">Contact Us</a>
+                <a href="contact" class="btn btn-outline-info  ">Contact Us</a>
             </div>
         </div>
 
@@ -434,7 +434,7 @@ a,
                 <img src="assets/image/arrow-red.png" alt="Arrow">
             </div>
 
-            <h2 class="wd-job-title">Senior Graphic Designer</h2>
+            <h2 class="wd-job-title">Graphic Designer</h2>
 
             <p class="wd-job-desc">
                 Join our creative team to design visually compelling graphics, branding materials, and digital assets.
@@ -444,7 +444,7 @@ a,
 
             <!-- SKILLS -->
             <div class="wd-job-skills">
-                <h4>Required Skills</h4>
+                <h3>Required Skills</h3>
                 <div class="wd-job-skill-tags">
                     <span>Adobe Photoshop</span>
                     <span>Adobe Illustrator</span>
@@ -457,13 +457,13 @@ a,
                 </div>
             </div>
             <div class="wd-job-info pb15">
-                <h4>Years Of Experience</h4>
+                <h3>Years Of Experience</h3>
                 <p>1-2+ Years</p>
             </div>
 
             <!-- RESPONSIBILITIES -->
             <div class="wd-job-info">
-                <h4>Responsibilities</h4>
+                <h3>Responsibilities</h3>
                 <ul>
                     <li><i class="fa-solid fa-angle-right lcl"></i> Create engaging graphics for web, social media, and
                         marketing campaigns.</li>
@@ -477,11 +477,11 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Apply Now
                 </a>
-                <a href="contact.php" class="btn btn-outline-info ">
+                <a href="contact" class="btn btn-outline-info ">
                     Contact Us
                 </a>
             </div>
@@ -518,7 +518,7 @@ a,
                 <img src="assets/image/arrow-red.png" alt="Arrow">
             </div>
 
-            <h2 class="wd-job-title">Senior Social Media Marketing Executive</h2>
+            <h2 class="wd-job-title">Social Media Marketing Executive</h2>
 
             <p class="wd-job-desc">
                 Join our marketing team to plan, create, and manage engaging social media campaigns.
@@ -528,7 +528,7 @@ a,
 
             <!-- SKILLS -->
             <div class="wd-job-skills">
-                <h4>Required Skills</h4>
+                <h3>Required Skills</h3>
                 <div class="wd-job-skill-tags">
                     <span>Social Media Strategy</span>
                     <span>Content Creation</span>
@@ -541,13 +541,13 @@ a,
             </div>
 
             <div class="wd-job-info pb15">
-                <h4>Years Of Experience</h4>
+                <h3>Years Of Experience</h3>
                 <p>1-2+ Years</p>
             </div>
 
             <!-- RESPONSIBILITIES -->
             <div class="wd-job-info">
-                <h4>Responsibilities</h4>
+                <h3>Responsibilities</h3>
                 <ul>
                     <li><i class="fa-solid fa-angle-right lcl"></i> Plan and execute social media strategies across
                         platforms.</li>
@@ -559,11 +559,11 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Apply Now
                 </a>
-                <a href="contact.php" class="btn btn-outline-info ">
+                <a href="contact" class="btn btn-outline-info ">
                     Contact Us
                 </a>
             </div>
@@ -582,7 +582,7 @@ a,
                 <img src="assets/image/arrow-red.png" alt="Arrow">
             </div>
 
-            <h2 class="wd-job-title">Senior App Developer</h2>
+            <h2 class="wd-job-title">App Developer</h2>
 
             <p class="wd-job-desc">
                 Join our mobile development team to build high-performance and scalable mobile applications.
@@ -592,7 +592,7 @@ a,
 
             <!-- SKILLS -->
             <div class="wd-job-skills">
-                <h4>Required Skills</h4>
+                <h3>Required Skills</h3>
                 <div class="wd-job-skill-tags">
                     <span>Android Development</span>
                     <span>iOS Development</span>
@@ -606,13 +606,13 @@ a,
             </div>
 
             <div class="wd-job-info pb15">
-                <h4>Years Of Experience</h4>
+                <h3>Years Of Experience</h3>
                 <p>1-2+ Years</p>
             </div>
 
             <!-- RESPONSIBILITIES -->
             <div class="wd-job-info">
-                <h4>Responsibilities</h4>
+                <h3>Responsibilities</h3>
                 <ul>
                     <li><i class="fa-solid fa-angle-right lcl"></i> Develop and maintain mobile applications for Android
                         and iOS platforms.</li>
@@ -625,11 +625,11 @@ a,
 
             <!-- CTA -->
             <div class="mt-4 d-flex align-items-center gap-4 hr-cta-group">
-                <a href="enquirynow.php" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
+                <a href="enquirynow" class="hr-main-btn" id="applyBtn" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Apply Now
                 </a>
-                <a href="contact.php" class="btn btn-outline-info ">
+                <a href="contact" class="btn btn-outline-info ">
                     Contact Us
                 </a>
             </div>
@@ -877,11 +877,11 @@ a,
                 </p>
             </div>
             <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
-                <i class="fas fa-trophy"></i>
-                <h4>Competitive Environment</h4>
+                <i class="fa-solid fa-coins"></i>
+                <h4>Competitive Pay</h4>
                 <p>
-                    Work in a fast-paced, performance-driven setting that motivates you to improve, compete, and achieve
-                    your best every day.
+                    Receive fair and competitive compensation that reflects your skills, experience, and contributions,
+                    with opportunities for growth as you progress.
                 </p>
             </div>
         </div>
@@ -920,7 +920,7 @@ a,
                     <img class="about-team-image" src="assets/image/teams/khushi.webp">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
-                <p class="about-team-member-role">Social Media Head</p>
+                <p class="about-team-member-role">Digital-Marketing Head</p>
                 <!-- <p class="about-team-member-bio">
                     Manages social media campaigns and builds engagement with the audience.
                 </p> -->
@@ -948,29 +948,29 @@ a,
                 </p>
             </article> -->
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
+            <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\saurabh.webp">
                 </div>
                 <h3 class="about-team-member-name">Saurabh Damale</h3>
                 <p class="about-team-member-role">Full-Stack Developer Head</p>
-                <!-- <p class="about-team-member-bio">
+                <p class="about-team-member-bio">
                     Builds, manages, and optimizes server-side systems, databases, and APIs to power and maintain
                     website backends.
-                </p> -->
-            </article>
+                </p>  
+            </article> -->
 
-            <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
+            <!-- <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
                     <img class="about-team-image" src="assets\image\teams\roshan.webp">
                 </div>
                 <h3 class="about-team-member-name">Roshan Yadav</h3>
                 <p class="about-team-member-role">Digital-Marketing Head</p>
-                <!-- <p class="about-team-member-bio">
+                <p class="about-team-member-bio">
                     Designs, develops, and maintains websites and web applications for optimal performance and user
                     experience.
-                </p> -->
-            </article>
+                </p> 
+            </article> -->
 
             <article class="about-team-card" data-aos="fade-up" data-aos-duration="600" class="aos-init aos-animate">
                 <div class="about-team-image-box">
@@ -988,7 +988,7 @@ a,
                     <img class="about-team-image" src="assets\image\teams\anjali.webp">
                 </div>
                 <h3 class="about-team-member-name">Anjali Jaiswar</h3>
-                <p class="about-team-member-role">Graphic Designer Head</p>
+                <p class="about-team-member-role">Graphic Designing Head</p>
                 <!-- <p class="about-team-member-bio">
                     Creates engaging animations and visual effects for videos, advertisements, and digital content.
                 </p> -->
@@ -1063,7 +1063,8 @@ a,
                                                     <select name="role" id="cars" class="form-control ca-two-border">
                                                         <option value="Roles">Roles</option>
                                                         <option value="" selected disabled>Select a service</option>
-                                                        <option value="Web & App Development">Web & App Development</option>
+                                                        <option value="Web & App Development">Web & App Development
+                                                        </option>
                                                         <option value="eCommerce Development">eCommerce Development
                                                         </option>
                                                         <option value="Branding">Branding</option>
@@ -1189,14 +1190,14 @@ a,
         <div class="modal-content">
 
             <div class="modal-header">
-                <h4 class="modal-title">Senior Graphic Designer – Technofra</h4>
+                <h4 class="modal-title">Graphic Designer – Technofra</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
             <div class="modal-body">
                 <h5>Job Description</h5>
                 <p>
-                    The Senior Graphic Designer will lead design projects from concept to execution, ensuring
+                    The Graphic Designer will lead design projects from concept to execution, ensuring
                     creativity, brand consistency, and high-quality output. The role involves collaborating with
                     cross-functional teams, mentoring junior designers, and working on diverse projects such as
                     branding, marketing campaigns, web design, UI/UX elements, and digital content

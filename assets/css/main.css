@@ -30199,10 +30199,9 @@ a,
     transition: all .3s ease-in-out
 }
 
-a:hover,
-.btn-link:hover {
-    color: #00D0FF;
-    text-decoration: none
+a:hover, .btn-link:hover {
+    color: #ffffff;
+    text-decoration: none; 
 }
 
 .navbar-collapse li a {
@@ -35481,9 +35480,9 @@ li.setup-process-item:not(:last-child):before {
     font-size: 28px
 }
 
-.cyber-cta {
+/* .cyber-cta {
     margin-top: -100px
-}
+} */
 
 .cyber-video-img {
     height: 100%;

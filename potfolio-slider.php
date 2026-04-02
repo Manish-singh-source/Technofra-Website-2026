@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="col-lg-2">
-                <a href="portfolio.php" target="blank" class="btn btn-outline-info mt-20">Explore More</a>
+                <a href="portfolio" target="blank" class="btn btn-outline-info mt-20">Explore More</a>
             </div>
         </div>
         <!-- <div class="space30"></div> -->
@@ -29,10 +29,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="frizcoolindia.php" target="blank">I-Friz Cool (I) PVT. LTD</a></h3>
+                                <h3><a href="frizcoolindia" target="blank">I-Friz Cool (I) PVT. LTD</a></h3>
                             </div>
                             <p>AC</p>
-                            <a href="frizcoolindia.php" target="blank" class="learn">View More <span><i
+                            <a href="frizcoolindia" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -50,10 +50,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="texon.php" target="blank">Shivam Industries</a></h3>
+                                <h3><a href="texon" target="blank">Shivam Industries</a></h3>
                             </div>
                             <p>Chemicals</p>
-                            <a href="shivam.php" target="blank" class="learn">View More <span><i
+                            <a href="shivam" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -71,10 +71,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="texon.php" target="blank">Texon Corporation</a></h3>
+                                <h3><a href="texon" target="blank">Texon Corporation</a></h3>
                             </div>
                             <p>Life Science</p>
-                            <a href="texon.php" target="blank" class="learn">View More <span><i
+                            <a href="texon" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -92,10 +92,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="dynarx.php" target="blank">DYNARX</a></h3>
+                                <h3><a href="dynarx" target="blank">DYNARX</a></h3>
                             </div>
                             <p>Chemicals</p>
-                            <a href="dynarx.php" target="blank" class="learn">View More <span><i
+                            <a href="dynarx" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -112,10 +112,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="torshaapharma.php" target="blank">TORSHAA PHARMA</a></h3>
+                                <h3><a href="torshaapharma" target="blank">TORSHAA PHARMA</a></h3>
                             </div>
                             <p>Chemicals</p>
-                            <a href="torshaapharma.php" target="blank" class="learn">View More <span><i
+                            <a href="torshaapharma" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -132,10 +132,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="sunriseconsultancy.php" target="blank">SUNRISE CONSULTANCY</a></h3>
+                                <h3><a href="sunriseconsultancy" target="blank">SUNRISE CONSULTANCY</a></h3>
                             </div>
                             <p>Business Website</p>
-                            <a href="sunriseconsultancy.php" target="blank" class="learn">View More <span><i
+                            <a href="sunriseconsultancy" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -152,10 +152,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="karantelecom.php" target="blank">KARAN TELECOM</a></h3>
+                                <h3><a href="karantelecom" target="blank">KARAN TELECOM</a></h3>
                             </div>
                             <p>Business Website</p>
-                            <a href="karantelecom.php" target="blank" class="learn">View More <span><i
+                            <a href="karantelecom" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -172,10 +172,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="lifelike.php" target="blank">LIFE LIKE</a></h3>
+                                <h3><a href="lifelike" target="blank">LIFE LIKE</a></h3>
                             </div>
                             <p>Business Website</p>
-                            <a href="lifelike.php" target="blank" class="learn">View More <span><i
+                            <a href="lifelike" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -193,10 +193,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="sukanya.php" target="blank">SUKANYA</a></h3>
+                                <h3><a href="sukanya" target="blank">SUKANYA</a></h3>
                             </div>
                             <p>E-commerce</p>
-                            <a href="sukanya.php" target="blank" class="learn">View More <span><i
+                            <a href="sukanya" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -213,10 +213,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="wotm.php" target="blank">WOTM</a></h3>
+                                <h3><a href="wotm" target="blank">WOTM</a></h3>
                             </div>
                             <p>E-commerce</p>
-                            <a href="wotm.php" target="blank" class="learn">View More <span><i
+                            <a href="wotm" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -232,10 +232,10 @@
                         </div>
                         <div class="heading">
                             <div class="dpflex">
-                                <h3><a href="aspirias.php" target="blank">ASPIRIAS</a></h3>
+                                <h3><a href="aspirias" target="blank">ASPIRIAS</a></h3>
                             </div>
                             <p>Educational</p>
-                            <a href="aspirias.php" target="blank" class="learn">View More <span><i
+                            <a href="aspirias" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -251,10 +251,10 @@
                         </div>
                         <div class="heading">
                             <div class="dpflex">
-                                <h3><a href="ish.php" target="blank">ISH</a></h3>
+                                <h3><a href="ish" target="blank">ISH</a></h3>
                             </div>
                             <p>E-commerce</p>
-                            <a href="ish.php" target="blank" class="learn">View More <span><i
+                            <a href="ish" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -271,10 +271,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="visitmadhisland.php" target="blank">VISIT MADHISLAND</a></h3>
+                                <h3><a href="visitmadhisland" target="blank">VISIT MADHISLAND</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="visitmadhisland.php" target="blank" class="learn">View More <span><i
+                            <a href="visitmadhisland" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -291,10 +291,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="aeritx.php" target="blank">AERITX</a></h3>
+                                <h3><a href="aeritx" target="blank">AERITX</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="aeritx.php" target="blank" class="learn">View More <span><i
+                            <a href="aeritx" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -311,10 +311,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="vpsons.php" target="blank">VP & SONS</a></h3>
+                                <h3><a href="vpsons" target="blank">VP & SONS</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="vpsons.php" target="blank" class="learn">View More <span><i
+                            <a href="vpsons" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -331,10 +331,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="srb-computers.php" target="blank">SRB COMPUTERS PRIVATE LIMITED </a></h3>
+                                <h3><a href="srb-computers" target="blank">SRB COMPUTERS PRIVATE LIMITED </a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="srb-computers.php" target="blank" class="learn">View More <span><i
+                            <a href="srb-computers" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -351,10 +351,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="urban-sports.php" target="blank">URBAN SPORTS</a></h3>
+                                <h3><a href="urban-sports" target="blank">URBAN SPORTS</a></h3>
                             </div>
                             <p>Booking Websites</p>
-                            <a href="urban-sports.php" target="blank" class="learn">View More <span><i
+                            <a href="urban-sports" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -371,10 +371,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="rnisargfoundation.php" target="blank">RNISARG FOUNDATION</a></h3>
+                                <h3><a href="rnisargfoundation" target="blank">RNISARG FOUNDATION</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="rnisargfoundation.php" target="blank" class="learn">View More <span><i
+                            <a href="rnisargfoundation" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -391,11 +391,11 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="Jaijagannathpuri.php" target="blank">JAI JAGANNATH CHARITABLE TRUST</a>
+                                <h3><a href="Jaijagannathpuri" target="blank">JAI JAGANNATH CHARITABLE TRUST</a>
                                 </h3>
                             </div>
                             <p>Jagannath Temple</p>
-                            <a href="Jaijagannathpuri.php" target="blank" class="learn">View More <span><i
+                            <a href="Jaijagannathpuri" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -412,10 +412,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="travest.php" target="blank">TRAVEST HOLIDAYS</a></h3>
+                                <h3><a href="travest" target="blank">TRAVEST HOLIDAYS</a></h3>
                             </div>
                             <p>Travest Booking</p>
-                            <a href="travest.php" target="blank" class="learn">View More <span><i
+                            <a href="travest" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -431,10 +431,10 @@
                         </div>
                         <div class="heading">
                             <div class="dpflex">
-                                <h3><a href="fragomatrix.php">FRAGOMATRIX</a></h3>
+                                <h3><a href="fragomatrix">FRAGOMATRIX</a></h3>
                             </div>
                             <p>Branding Websites</p>
-                            <a href="fragomatrix.php" target="blank" class="learn">View More <span><i
+                            <a href="fragomatrix" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -452,10 +452,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="napoleon.php">NAPOLEON</a></h3>
+                                <h3><a href="napoleon">NAPOLEON</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="napoleon.php" target="blank" class="learn">View More <span><i
+                            <a href="napoleon" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -472,10 +472,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="sanjay-agencies.php" target="blank">SANJAY AGENCIES</a></h3>
+                                <h3><a href="sanjay-agencies" target="blank">SANJAY AGENCIES</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="sanjay-agencies.php" target="blank" class="learn">View More <span><i
+                            <a href="sanjay-agencies" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -492,10 +492,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="yashtools.php" target="blank">YASHTOOLS</a></h3>
+                                <h3><a href="yashtools" target="blank">YASHTOOLS</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="yashtools.php" target="blank" class="learn">View More <span><i
+                            <a href="yashtools" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -512,10 +512,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="vlegends.php" target="blank">V LEGENDS </a></h3>
+                                <h3><a href="vlegends" target="blank">V LEGENDS </a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="vlegends.php" target="blank" class="learn">View More <span><i
+                            <a href="vlegends" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -531,10 +531,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="transhubtech.php" target="blank">TRANSHUB TECH</a></h3>
+                                <h3><a href="transhubtech" target="blank">TRANSHUB TECH</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="transhubtech.php" target="blank" class="learn">View More <span><i
+                            <a href="transhubtech" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -550,10 +550,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="jpc.php" target="blank">JPC</a></h3>
+                                <h3><a href="jpc" target="blank">JPC</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="jpc.php" target="blank" class="learn">View More <span><i
+                            <a href="jpc" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -570,10 +570,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="linkpromotions.php" target="blank">LINKPROMOTIONS</a></h3>
+                                <h3><a href="linkpromotions" target="blank">LINKPROMOTIONS</a></h3>
                             </div>
                             <p>Business Websites </p>
-                            <a href="linkpromotions.php" target="blank" class="learn">View More <span><i
+                            <a href="linkpromotions" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -590,10 +590,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="urcfo.php" target="blank">UR CFO</a></h3>
+                                <h3><a href="urcfo" target="blank">UR CFO</a></h3>
                             </div>
                             <p>Accounting</p>
-                            <a href="urcfo.php" target="blank" class="learn">View More <span><i
+                            <a href="urcfo" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -609,10 +609,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="viraj-prints.php" target="blank">VIRAJPRINTS</a></h3>
+                                <h3><a href="viraj-prints" target="blank">VIRAJPRINTS</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="viraj-prints.php" target="blank" class="learn">View More <span><i
+                            <a href="viraj-prints" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -629,10 +629,10 @@
                         <div class="heading">
                             <div class="dpflex">
 
-                                <h3><a href="deltacab.php" target="blank">DELTACAB</a></h3>
+                                <h3><a href="deltacab" target="blank">DELTACAB</a></h3>
                             </div>
                             <p>Business Websites</p>
-                            <a href="deltacab.php" target="blank" class="learn">View More <span><i
+                            <a href="deltacab" target="blank" class="learn">View More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>

@@ -157,7 +157,7 @@ gtag('config', 'G-189WWHXLSS');
                     Technofra builds strong digital brands through websites, apps, branding, marketing, and smart tech
                     solutions.
                 </p>
-                <a href="contact.php" class="hfz-btn hfz-btn-contact">Contact Us</a>
+                <a href="contact" class="hfz-btn hfz-btn-contact">Contact Us</a>
             </div>
         </div>
     </section>
@@ -173,7 +173,7 @@ gtag('config', 'G-189WWHXLSS');
                         We deliver innovative solutions that combine creativity, technology, and strategy to help
                         businesses grow, adapt, and succeed in a competitive market.
                     </p>
-                    <a href="technology.php">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="technology">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
 
                 <div class="hfz-feature-card hfz-feature-card-active" data-aos="fade-up" data-aos-duration="600">
@@ -183,7 +183,7 @@ gtag('config', 'G-189WWHXLSS');
                         Our professional team combines creativity, expertise, and technology to deliver reliable digital
                         solutions that help businesses achieve long-term growth.
                     </p>
-                    <a href="our-team.php">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="our-team">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
 
                 <div class="hfz-feature-card" data-aos="fade-up" data-aos-duration="600">
@@ -193,7 +193,7 @@ gtag('config', 'G-189WWHXLSS');
                         Our 24/7 support ensures reliable assistance whenever you need it, helping your business run
                         smoothly with quick solutions and dedicated service.
                     </p>
-                    <a href="support.php">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="support">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </div>
@@ -343,7 +343,7 @@ gtag('config', 'G-189WWHXLSS');
                         Technofra, established in 2012, is driven by a clear mission and vision to deliver innovative
                         digital solutions that empower businesses globally.
                     </p>
-                    <!-- <a href="index.php" class="hfz-btn hfz-btn-view">View All</a> -->
+                    <!-- <a href="index" class="hfz-btn hfz-btn-view">View All</a> -->
                 </div>
 
                 <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
@@ -579,7 +579,7 @@ gtag('config', 'G-189WWHXLSS');
                     <img class="about-team-image" src="assets/image/teams/khushi.webp">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
-                <p class="about-team-member-role">Social Media Head</p>
+                <p class="about-team-member-role">Digital Marketing Head</p>
                 <p class="about-team-member-bio">
                     Manages social media campaigns and builds engagement with the audience.
                 </p>

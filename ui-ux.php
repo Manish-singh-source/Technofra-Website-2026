@@ -1,4 +1,4 @@
-﻿<?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <title>UI/UX Design Services | Seamless & Engaging Experiences | Technofra</title>
 <meta name="description"
     content="We specialize in UI/UX design services that enhance user satisfaction by providing seamless navigation and optimizing every interaction for web & mobile.">
@@ -130,7 +130,7 @@ gtag('config', 'G-189WWHXLSS');
                         <div class="aiart-hero-right">
                             <img src="assets/image/uiux/banner01.webp" alt="image"
                                 class="aiart-hero-img position-absolute img-fluid z--1">
-                            <a href="contact.php"
+                            <a href="contact"
                                 class="aiart-un-btn aiart-gd-bg text-white fw-700 rounded-circle d-flex align-items-center justify-content-center flex-column gap-0 position-absolute">
                                 <span class="d-flex align-items-center justify-content-center gap-3">
                                     Get

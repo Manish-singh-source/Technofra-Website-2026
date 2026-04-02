@@ -287,7 +287,7 @@
             <nav class="navbar navbar-expand-xl navbar-dark sticky-header z-10">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
 
-                    <a href="index.php" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                    <a href="index" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/image/icons/technofra_logo.png" alt="logo"
                             class="img-fluid logo-white tech_logo" />
                         <img src="assets/image/icons/technofra_logo.png" alt="logo"
@@ -300,8 +300,8 @@
                     <div class="clearfix"></div>
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                            <li><a href="index.php" class="nav-link">Home</a></li>
-                            <li><a href="about.php" class="nav-link">About US</a></li>
+                            <li><a href="index" class="nav-link">Home</a></li>
+                            <li><a href="about" class="nav-link">About US</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">Services</a>
@@ -309,59 +309,59 @@
                                     <div class="dropdown-grid rounded-custom width-full-3 services-mega-grid">
                                         <div class="dropdown-grid-item bg-white radius-left-side services-panel">
                                             <h6 class="drop-heading">WEB & APP SOLUTIONS</h6>
-                                            <a href="web-design.php" class="dropdown-link">
+                                            <a href="web-design" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="flaticon-web-programming"></i>
                                                 </span>
                                                 <div class="drop-title">Web Design & Development</div>
                                             </a>
-                                            <a href="shopify-website-development.php" class="dropdown-link">
+                                            <a href="shopify-website-development" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-code"></i>
 
                                                 </span>
                                                 <div class="drop-title">Shopify</div>
                                             </a>
-                                            <a href="wordpress-development.php" class="dropdown-link">
+                                            <a href="wordpress-development" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fab fa-wordpress"></i>
                                                 </span>
                                                 <div class="drop-title">WordPress</div>
                                             </a>
-                                            <a href="cms-website-design.php" class="dropdown-link">
+                                            <a href="cms-website-design" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-file-code"></i>
 
                                                 </span>
                                                 <div class="drop-title">CMS</div>
                                             </a>
-                                            <a href="ios-app-development.php" class="dropdown-link">
+                                            <a href="ios-app-development" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-mobile-alt"></i>
                                                 </span>
                                                 <div class="drop-title">ios App</div>
                                             </a>
-                                            <a href="android-app-development.php" class="dropdown-link">
+                                            <a href="android-app-development" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-mobile-alt"></i>
                                                 </span>
                                                 <div class="drop-title">Android App</div>
                                             </a>
-                                            <a href="website-maintenance.php" class="dropdown-link">
+                                            <a href="website-maintenance" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-code-branch"></i>
                                                 </span>
                                                 <div class="drop-title">Web & App Maintenance</div>
                                             </a>
                                             <h6 class="drop-heading">Hosting & IT Services</h6>
-                                            <a href="domain-hosting-services.php" class="dropdown-link">
+                                            <a href="domain-hosting-services" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="flaticon-server-storage"></i>
                                                 </span>
                                                 <div class="drop-title">Domain & Hosting
                                                 </div>
                                             </a>
-                                            <a href="it-infrastructure.php" class="dropdown-link">
+                                            <a href="it-infrastructure" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-laptop-code"></i>
 
@@ -372,14 +372,14 @@
                                         </div>
                                         <div class="dropdown-grid-item bg-white services-panel">
                                            <h6 class="drop-heading">BRANDING</h6>
-                                            <a href="branding.php" class="dropdown-link">
+                                            <a href="branding" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="flaticon-vector"></i>
                                                 </span>
                                                 <div class="drop-title">Branding
                                                 </div>
                                             </a>
-                                            <a href="ui-ux.php" class="dropdown-link">
+                                            <a href="ui-ux" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-palette"></i>
                                                 </span>
@@ -387,31 +387,31 @@
                                                 </div>
                                             </a>
                                             <h6 class="drop-heading">Online Marketing Services</h6>
-                                            <a href="digital-marketing.php" class="dropdown-link">
+                                            <a href="digital-marketing" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-chart-line"></i>
                                                 </span>
                                                 <div class="drop-title">DIGITAL MARKETING</div>
                                             </a>
-                                            <a href="seo.php" class="dropdown-link">
+                                            <a href="seo" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-search"></i>
                                                 </span>
                                                 <div class="drop-title">Search Engine Optimization (SEO)</div>
                                             </a>
-                                            <a href="ppc.php" class="dropdown-link">
+                                            <a href="ppc" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-bullhorn"></i>
                                                 </span>
                                                 <div class="drop-title">Paid Marketing (PPC)</div>
                                             </a>
-                                            <a href="social-media-marketing.php" class="dropdown-link">
+                                            <a href="social-media-marketing" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-share-alt"></i>
                                                 </span>
                                                 <div class="drop-title">Social Media Marketing</div>
                                             </a>
-                                            <a href="content-marketing.php" class="dropdown-link">
+                                            <a href="content-marketing" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-pen-nib"></i>
                                                 </span>
@@ -424,57 +424,57 @@
                                         <div class="dropdown-grid-item last-item bg-light-subtle radius-right-side services-panel">
 
                                             <h6 class="drop-heading">api integration</h6>
-                                            <a href="sms-otp.php" class="dropdown-link">
+                                            <a href="sms-otp" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-key"></i>
                                                 </span>
                                                 <div class="drop-title">SMS/OTP</div>
                                             </a>
-                                            <a href="whatsapp.php" class="dropdown-link">
+                                            <a href="whatsapp" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fab fa-whatsapp"></i>
                                                 </span>
                                                 <div class="drop-title">WhatsApp</div>
                                             </a>
-                                            <a href="email-form.php" class="dropdown-link">
+                                            <a href="email-form" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-envelope"></i>
                                                 </span>
                                                 <div class="drop-title">Email Form</div>
                                             </a>
-                                            <a href="chatbot.php" class="dropdown-link">
+                                            <a href="chatbot" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-comments"></i>
 
                                                 </span>
                                                 <div class="drop-title">Chat Bot</div>
                                             </a>
-                                            <a href="google-analyatics.php" class="dropdown-link">
+                                            <a href="google-analyatics" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="flaticon-analytics"></i>
                                                 </span>
                                                 <div class="drop-title">Google Analytics</div>
                                             </a>
-                                            <a href="google-forms.php" class="dropdown-link">
+                                            <a href="google-forms" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="flaticon-clipboard"></i>
                                                 </span>
                                                 <div class="drop-title">Google Forms</div>
                                             </a>
-                                            <a href="ivr-call.php" class="dropdown-link">
+                                            <a href="ivr-call" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="flaticon-headset"></i>
                                                 </span>
                                                 <div class="drop-title">IVR/Call</div>
                                             </a>
-                                            <a href="payment-gateway.php" class="dropdown-link">
+                                            <a href="payment-gateway" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fa fa-credit-card"></i>
                                                 </span>
                                                 <div class="drop-title">Payment Gateway
                                                 </div>
                                             </a>
-                                            <a href="ai.php" class="dropdown-link">
+                                            <a href="ai" class="dropdown-link">
                                                 <span class="me-2">
                                                     <i class="fas fa-robot"></i>
                                                 </span>
@@ -486,9 +486,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="portfolio.php" class="nav-link">Portfolio</a></li>
-                            <li><a href="career.php" class="nav-link">Career</a></li>
-                            <li><a href="contact.php" class="nav-link">Contact</a></li>
+                            <li><a href="portfolio" class="nav-link">Portfolio</a></li>
+                            <li><a href="career" class="nav-link">Career</a></li>
+                            <li><a href="contact" class="nav-link">Contact</a></li>
 
 
 
@@ -512,7 +512,7 @@
                         </span>
 
                         <!-- ENQUIRY NOW Button -->
-                        <a href="enquirynow.php" class="btn btn-outline-info mob_non tab-non">ENQUIRY NOW</a>
+                        <a href="enquirynow" class="btn btn-outline-info mob_non tab-non">ENQUIRY NOW</a>
                         <div class="menu-sidebar dn tab-non">
                             <button style="border: none;"><img src="assets/image/icons/right_side_menu.png" style="border-radius: 0px;" alt="Toggler"></button>
                         </div>
@@ -568,7 +568,7 @@
     </section>
     <div class="offcanvas dpbgback offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
         <div class="offcanvas-header d-flex align-items-center mt-4">
-            <a href="index.php" class="d-flex align-items-center mb-md-0 text-decoration-none">
+            <a href="index" class="d-flex align-items-center mb-md-0 text-decoration-none">
                 <img src="assets/image/icons/technofra_logo.png" alt="logo" class="img-fluid ps-2 tech_logo" />
             </a>
             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -578,8 +578,8 @@
         <div class="offcanvas-body z-10">
        
             <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                <li><a href="index.php" class="nav-link">Home</a></li>
-                <li><a href="about.php" class="nav-link">About US</a></li>
+                <li><a href="index" class="nav-link">Home</a></li>
+                <li><a href="about" class="nav-link">About US</a></li>
              
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -588,43 +588,43 @@
                         <div class="dropdown-grid rounded-custom width-full-3 services-mega-grid">
                             <div class="dropdown-grid-item bg-white services-panel">
                                 <h6 class="drop-heading">WEB & APP SOLUTIONS</h6>
-                                <a href="web-design.php" class="dropdown-link">
+                                <a href="web-design" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-web-programming"></i>
                                     </span>
                                     <div class="drop-title">Web Design & Development</div>
                                 </a>
-                                <a href="shopify-website-development.php" class="dropdown-link">
+                                <a href="shopify-website-development" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-web-programming"></i>
                                     </span>
                                     <div class="drop-title">Shopify</div>
                                 </a>
-                                <a href="wordpress-development.php" class="dropdown-link">
+                                <a href="wordpress-development" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-web-programming"></i>
                                     </span>
                                     <div class="drop-title">WordPress</div>
                                 </a>
-                                <a href="cms-website-design.php" class="dropdown-link">
+                                <a href="cms-website-design" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-web-programming"></i>
                                     </span>
                                     <div class="drop-title">CMS</div>
                                 </a>
-                                <a href="ios-app-development.php" class="dropdown-link">
+                                <a href="ios-app-development" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-mobile-alt"></i>
                                     </span>
                                     <div class="drop-title">ios App</div>
                                 </a>
-                                <a href="android-app-development.php" class="dropdown-link">
+                                <a href="android-app-development" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-mobile-alt"></i>
                                     </span>
                                     <div class="drop-title">Android App</div>
                                 </a>
-                                <a href="website-maintenance.php" class="dropdown-link">
+                                <a href="website-maintenance" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-web-programming"></i>
                                     </span>
@@ -633,14 +633,14 @@
                             </div>
                             <div class="dropdown-grid-item bg-white services-panel">
                                 <h6 class="drop-heading">BRANDING</h6>
-                                <a href="branding.php" class="dropdown-link">
+                                <a href="branding" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-vector"></i>
                                     </span>
                                     <div class="drop-title">Branding
                                     </div>
                                 </a>
-                                <a href="ui-ux.php" class="dropdown-link">
+                                <a href="ui-ux" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-palette"></i>
                                     </span>
@@ -648,31 +648,31 @@
                                     </div>
                                 </a>
                                 <h6 class="drop-heading">Online Marketing Services</h6>
-                                <a href="digital-marketing.php" class="dropdown-link">
+                                <a href="digital-marketing" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-chart-line"></i>
                                     </span>
                                     <div class="drop-title">DIGITAL MARKETING</div>
                                 </a>
-                                <a href="seo.php" class="dropdown-link">
+                                <a href="seo" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-search"></i>
                                     </span>
                                     <div class="drop-title">Search Engine Optimization (SEO)</div>
                                 </a>
-                                <a href="ppc.php" class="dropdown-link">
+                                <a href="ppc" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-bullhorn"></i>
                                     </span>
                                     <div class="drop-title">Paid Marketing (PPC)</div>
                                 </a>
-                                <a href="social-media-marketing.php" class="dropdown-link">
+                                <a href="social-media-marketing" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-share-alt"></i>
                                     </span>
                                     <div class="drop-title">Social Media Marketing</div>
                                 </a>
-                                <a href="content-marketing.php" class="dropdown-link">
+                                <a href="content-marketing" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-pen-nib"></i>
                                     </span>
@@ -680,14 +680,14 @@
                                 </a>
                                 <h6 class="drop-heading">Hosting & IT Services</h6>
 
-                                <a href="domain-hosting-services.php" class="dropdown-link">
+                                <a href="domain-hosting-services" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-server-storage"></i>
                                     </span>
                                     <div class="drop-title">Domain & Hosting
                                     </div>
                                 </a>
-                                <a href="it-infrastructure.php" class="dropdown-link">
+                                <a href="it-infrastructure" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-laptop-code"></i>
 
@@ -703,56 +703,56 @@
                        
                             <div class="dropdown-grid-item last-item bg-light-subtle services-panel">
                                 <h6 class="drop-heading">api integration</h6>
-                                <a href="sms-otp.php" class="dropdown-link">
+                                <a href="sms-otp" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-key"></i>
                                     </span>
                                     <div class="drop-title">SMS/OTP</div>
                                 </a>
-                                <a href="whatsapp.php" class="dropdown-link">
+                                <a href="whatsapp" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fab fa-whatsapp"></i>
                                     </span>
                                     <div class="drop-title">WhatsApp</div>
                                 </a>
-                                <a href="email-form.php" class="dropdown-link">
+                                <a href="email-form" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-envelope"></i>
                                     </span>
                                     <div class="drop-title">Email Form</div>
                                 </a>
-                                <a href="chatbot.php" class="dropdown-link">
+                                <a href="chatbot" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-comments"></i>
                                     </span>
                                     <div class="drop-title">Chat Bot</div>
                                 </a>
-                                <a href="google-analyatics.php" class="dropdown-link">
+                                <a href="google-analyatics" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-analytics"></i>
                                     </span>
                                     <div class="drop-title">Google Analytics</div>
                                 </a>
-                                <a href="google-forms.php" class="dropdown-link">
+                                <a href="google-forms" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-clipboard"></i>
                                     </span>
                                     <div class="drop-title">Google Forms</div>
                                 </a>
-                                <a href="ivr-call.php" class="dropdown-link">
+                                <a href="ivr-call" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="flaticon-headset"></i>
                                     </span>
                                     <div class="drop-title">IVR/Call</div>
                                 </a>
-                                <a href="payment-gateway.php" class="dropdown-link">
+                                <a href="payment-gateway" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fa fa-credit-card"></i>
                                     </span>
                                     <div class="drop-title">Payment Gateway
                                     </div>
                                 </a>
-                                <a href="ai.php" class="dropdown-link">
+                                <a href="ai" class="dropdown-link">
                                     <span class="me-2">
                                         <i class="fas fa-robot"></i>
                                     </span>
@@ -769,16 +769,16 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">Digital Marketing</a>
                     <ul class="dropdown-menu border-0 rounded-custom shadow py-2 bg-white">
-                        <li><a class="dropdown-item" href="digital-marketing.php">Overview</a></li>
-                        <li><a class="dropdown-item" href="seo.php">SEO</a></li>
-                        <li><a class="dropdown-item" href="ppc.php">PPC</a></li>
-                        <li><a class="dropdown-item" href="social-media-marketing.php">Social Media Marketing</a></li>
-                        <li><a class="dropdown-item" href="content-marketing.php">Content Marketing</a></li>
+                        <li><a class="dropdown-item" href="digital-marketing">Overview</a></li>
+                        <li><a class="dropdown-item" href="seo">SEO</a></li>
+                        <li><a class="dropdown-item" href="ppc">PPC</a></li>
+                        <li><a class="dropdown-item" href="social-media-marketing">Social Media Marketing</a></li>
+                        <li><a class="dropdown-item" href="content-marketing">Content Marketing</a></li>
                     </ul>
                 </li>
-                <li><a href="portfolio.php" class="nav-link">Portfolio</a></li>
-                <li><a href="career.php" class="nav-link">Career</a></li>
-                <li><a href="contact.php" class="nav-link">Contact</a></li>
+                <li><a href="portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="career" class="nav-link">Career</a></li>
+                <li><a href="contact" class="nav-link">Contact</a></li>
 
 
 

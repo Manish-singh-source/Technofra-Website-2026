@@ -49,7 +49,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-md-8 col-lg-6">
                     <div class="section-heading text-center mb-5">
                         <h1 class="display-5 fw-bold pb-20 text-white">Technologies</h1>
-                        <p class="lead"><span class="span"> <a href="index.php">Home</a> <span class="arrow"><i
+                        <p class="lead"><span class="span"> <a href="index">Home</a> <span class="arrow"><i
                                         class="fa-regular fa-angle-right"></i></span>Technologies</span>
                         </p>
                     </div>

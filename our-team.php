@@ -128,7 +128,7 @@ gtag('config', 'G-189WWHXLSS');
                     <img class="about-team-image" src="assets/image/teams/khushi.webp">
                 </div>
                 <h3 class="about-team-member-name">Khushi Yadav</h3>
-                <p class="about-team-member-role">Social Media Head</p>
+                <p class="about-team-member-role">Digital-Marketing Head</p>
                 <!-- <p class="about-team-member-bio">
                     Manages social media campaigns and builds engagement with the audience.
                 </p> -->
@@ -170,7 +170,7 @@ gtag('config', 'G-189WWHXLSS');
                     <img class="about-team-image" src="assets\image\teams\roshan.webp">
                 </div>
                 <h3 class="about-team-member-name">Roshan Yadav</h3>
-                <p class="about-team-member-role">Digital-Marketing Head</p>
+                <p class="about-team-member-role">Social Media Marketing Head</p>
                 <!-- <p class="about-team-member-bio">
                     Designs, develops, and maintains websites and web applications for optimal performance and user
                     experience.
@@ -193,7 +193,7 @@ gtag('config', 'G-189WWHXLSS');
                     <img class="about-team-image" src="assets\image\teams\anjali.webp">
                 </div>
                 <h3 class="about-team-member-name">Anjali Jaiswar</h3>
-                <p class="about-team-member-role">Graphic Designer Head</p>
+                <p class="about-team-member-role">Graphic Design Head</p>
                 <!-- <p class="about-team-member-bio">
                     Creates engaging animations and visual effects for videos, advertisements, and digital content.
                 </p> -->

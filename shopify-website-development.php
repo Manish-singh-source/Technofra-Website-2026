@@ -447,7 +447,7 @@
                             <h6 class="clr-paragraph fs-20 fw-600 flh-28 mt-40">Let's Connect Innovate, Collaborate,<br> and Succeed Together.
                             </h6>
                             <div class="d-flex align-items-center flex-wrap gap-20 mt-30">
-                                <a href="contact.php" class="btn btn-outline-info  rounded-5">Contact Us</a>
+                                <a href="contact" class="btn btn-outline-info  rounded-5">Contact Us</a>
                                 <div class="it-company-social-area d-flex align-items-center gap-4">
                                     <p class=" fw-500 mb-0">Follow Us</p>
                                     <div class="it-company-social-icons d-flex align-items-center">
@@ -528,7 +528,7 @@
                                     Seamlessly Integrated with Shopify and 20+ Essential Tools to Enhance Your Online Store's Performance!
                                 </h2>
                                 <div class="d-flex align-items-center mb-2 gap-4 flex-wrap">
-                                    <a href="contact.php" class="btn btn-outline-info">
+                                    <a href="contact" class="btn btn-outline-info">
                                         Get Started
                                     </a>
 
@@ -587,7 +587,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="contact.php" class="btn btn-outline-info mt-5 rounded-5">Get in Touch</a>
+                        <a href="contact" class="btn btn-outline-info mt-5 rounded-5">Get in Touch</a>
                     </div>
                     <div class="col-lg-6">
                         <div class="ca-two-min-testimonial swiper">
@@ -634,7 +634,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="cyber-cta-btn">
-                            <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
+                            <a href="enquirynow" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

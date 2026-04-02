@@ -86,7 +86,7 @@
                 </p>
                 <div class="d-flex gap-8 flex-wrap">
 
-                    <a href="contact.php" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
+                    <a href="contact" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
                         Get Started
                     </a>
 
@@ -391,7 +391,7 @@
 </div>
 
 
-<section class="cyber-cta ptb-60">
+<section class="pt10 pb10">
     <div class="container">
         <div class="cyber-cta-bg p-5 rounded-custom" style="
                 background: url('assets/image/cta.webp') no-repeat center
@@ -410,7 +410,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="cyber-cta-btn">
-                        <a href="contact.php" class="mt-3 btn btn-outline-info me-auto">Contact Now <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact" class="mt-3 btn btn-outline-info me-auto">Contact Now <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -499,11 +499,11 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="800">
                 <div class="case-box">
                     <div class="image">
-                        <img src="assets/image/digitalmarketing/wdd.webp" alt="image">
+                        <img src="assets/image/digitalmarketing/conv.png" alt="image">
                     </div>
                     <div class="hover-area">
-                        <h4><a href="https://digikcon.com/google-ads">Web Design & Development</a></h4>
-                        <p>A user-friendly and SEO-optimized website is essential for any successful digital marketing strategy.</p>
+                        <h4><a href="https://digikcon.com/google-ads">Conversion Rate Optimization</a></h4>
+                        <p>Improve your website performance by converting more visitors into customers through data-driven strategies.</p>
                         <a href="https://digikcon.com/google-ads" class="learn">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                     </div>
                 </div>
@@ -663,33 +663,7 @@
         </div>
     </div>
 </section>
-<section class="cyber-cta ptb-60">
-    <div class="container">
-        <div class="cyber-cta-bg p-5 rounded-custom" style="
-                background: url('assets/image/cta.webp') no-repeat center
-                  center / cover;
-              ">
-            <div class="row">
-                <div class="col-lg-9 col-md-9">
-                    <div class="cyber-cta-info position-relative">
-                        <div>
-                            <h2 class="text-white">Enquiry Now or reach out to us today!</h2>
-                            <p class="lead text-white mb-0">
-                                Get Your Quote or Call : +91 8080 80 3374
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="cyber-cta-btn">
-                    <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false" style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+ 
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

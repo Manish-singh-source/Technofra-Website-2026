@@ -6,7 +6,7 @@
 
                  <div class="twc-about-col">
                      <div class="twc-brand-logo">
-                         <a href="index.php">
+                         <a href="index">
                              <img src="assets\image\icons\technofra_logo.png" alt="Technofra Logo" width="200">
                          </a>
                      </div>
@@ -24,16 +24,16 @@
                  <div class="twc-news-col-1">
                      <h3 class="twc-footer-title">Services</h3>
                      <ul class="twc-news-list">
-                         <li><a href="web-design.php"><i class="fa-solid fa-angle-right"></i>Website Development</a>
+                         <li><a href="web-design"><i class="fa-solid fa-angle-right"></i>Website Development</a>
                          </li>
-                         <li><a href="ios-app-development.php"><i class="fa-solid fa-angle-right"></i>App
+                         <li><a href="ios-app-development"><i class="fa-solid fa-angle-right"></i>App
                                  Development</a></li>
-                         <li><a href="shopify-website-development.php"><i class="fa-solid fa-angle-right"></i>E-Commerce
+                         <li><a href="shopify-website-development"><i class="fa-solid fa-angle-right"></i>E-Commerce
                                  Development</a></li>
-                         <li><a href="branding.php"><i class="fa-solid fa-angle-right"></i>Branding</a></li>
-                         <li><a href="digital-marketing.php"><i class="fa-solid fa-angle-right"></i>Digital
+                         <li><a href="branding"><i class="fa-solid fa-angle-right"></i>Branding</a></li>
+                         <li><a href="digital-marketing"><i class="fa-solid fa-angle-right"></i>Digital
                                  Marketing</a></li>
-                         <li><a href="social-media-marketing.php"><i class="fa-solid fa-angle-right"></i>Social Media
+                         <li><a href="social-media-marketing"><i class="fa-solid fa-angle-right"></i>Social Media
                                  Marketing</a></li>
                      </ul>
                  </div>
@@ -41,12 +41,12 @@
                  <div class="twc-news-col-2">
                      <h3 class="twc-footer-title">API</h3>
                      <ul class="twc-news-list">
-                         <li><a href="sms-otp.php"><i class="fa-solid fa-angle-right"></i>SMS/OTP</a></li>
-                         <li><a href="whatsapp.php"><i class="fa-solid fa-angle-right"></i>WhatsApp</a></li>
-                         <li><a href="email-form.php"><i class="fa-solid fa-angle-right"></i>Email Form</a></li>
-                         <li><a href="chatbot.php"><i class="fa-solid fa-angle-right"></i>Chat Bot</a></li>
-                         <li><a href="google-forms.php"><i class="fa-solid fa-angle-right"></i>Google Forms</a></li>
-                         <li><a href="payment-gateway.php"><i class="fa-solid fa-angle-right"></i>Payment Gateway</a>
+                         <li><a href="sms-otp"><i class="fa-solid fa-angle-right"></i>SMS/OTP</a></li>
+                         <li><a href="whatsapp"><i class="fa-solid fa-angle-right"></i>WhatsApp</a></li>
+                         <li><a href="email-form"><i class="fa-solid fa-angle-right"></i>Email Form</a></li>
+                         <li><a href="chatbot"><i class="fa-solid fa-angle-right"></i>Chat Bot</a></li>
+                         <li><a href="google-forms"><i class="fa-solid fa-angle-right"></i>Google Forms</a></li>
+                         <li><a href="payment-gateway"><i class="fa-solid fa-angle-right"></i>Payment Gateway</a>
                          </li>
                      </ul>
                  </div>
@@ -91,15 +91,15 @@
 
          <div class="twc-footer-middle">
              <div class="twc-apps-row">
-                 <div class="twc-available-text">COMING SOON</div>
+                 <!-- <div class="twc-available-text">COMING SOON</div> -->
 
-                 <a href="app.php" target="_blank" class="APPS" contenteditable="false"
+                 <a href="app" target="_blank" class="APPS" contenteditable="false"
                      style="cursor: pointer; ">
 
                      <img src="assets/image/home/app0.webp" alt="image" class="lgs">
                  </a>
 
-                 <a href="app.php" target="_blank" class="APPS" contenteditable="false"
+                 <a href="app" target="_blank" class="APPS" contenteditable="false"
                      style="cursor: pointer;">
                      <img src="assets/image/home/ios0.webp" alt="image" class="lgs">
                  </a>
@@ -170,12 +170,12 @@
 
          <div class="twc-footer-bottom">
              <div class="twc-bottom-links">
-                 <a href="about.php">About Us </a>
-                 <a href="contact.php">Contact Us</a>
-                 <a href="portfolio.php">Portfolio</a>
+                 <a href="about">About Us </a>
+                 <a href="contact">Contact Us</a>
+                 <a href="portfolio">Portfolio</a>
                  <a href="https://technofra.in/blog/">Blog</a>
                  <a href="sitemap.html">Sitemap</a>
-                 <a href="privacy-policy.php">Privacy Policy</a>
+                 <a href="privacy-policy">Privacy Policy</a>
              </div>
 
              <div class="twc-copyright">
@@ -192,7 +192,7 @@
  </footer>
  <style>
  .company-profile-modal .modal-dialog {
-     max-width: 600px;
+     max-width: 400px;
      display: flex;
      align-items: center;
      min-height: calc(100vh - 2rem);
@@ -300,7 +300,12 @@
      .company-profile-modal .modal-header {
          padding: 18px 18px 12px;
      }
-
+    
+    
+     .company-profile-modal .modal-dialog {
+     max-width: 330px;
+     display: flex;     
+ }
      .company-profile-modal .modal-body {
          padding: 18px !important;
      }
@@ -591,13 +596,20 @@ if (navClose && rightMenu) {
 (function() {
     const track = document.getElementById('tfxIndusTrack');
     const slides = document.querySelectorAll('.tfxIndusSlide');
+    const viewport = document.querySelector('.tfxIndusViewport');
     const prevBtn = document.querySelector('.tfxIndusPrev');
     const nextBtn = document.querySelector('.tfxIndusNext');
     const dots = document.querySelectorAll('.tfxIndusDot');
 
+    if (!track || !slides.length || !viewport || !prevBtn || !nextBtn || !dots.length) {
+        return;
+    }
+
     let currentIndex = 1;
     let isAnimating = false;
     let autoSlide;
+    const transitionDuration = 1.2;
+    const autoSlideDelay = 5500;
 
     const totalSlides = slides.length;
 
@@ -608,19 +620,24 @@ if (navClose && rightMenu) {
     }
 
     function moveToSlide() {
-        track.style.transition = 'transform 0.75s ease-in-out';
+        track.style.transition = `transform ${transitionDuration}s ease-in-out`;
         track.style.transform = `translateX(-${currentIndex * 100}%)`;
         updateDots();
     }
 
     function startAutoSlide() {
+        clearInterval(autoSlide);
         autoSlide = setInterval(() => {
             goNext();
-        }, 4000);
+        }, autoSlideDelay);
+    }
+
+    function stopAutoSlide() {
+        clearInterval(autoSlide);
     }
 
     function resetAutoSlide() {
-        clearInterval(autoSlide);
+        stopAutoSlide();
         startAutoSlide();
     }
 
@@ -674,6 +691,9 @@ if (navClose && rightMenu) {
             resetAutoSlide();
         });
     });
+
+    viewport.addEventListener('mouseenter', stopAutoSlide);
+    viewport.addEventListener('mouseleave', startAutoSlide);
 
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
     updateDots();

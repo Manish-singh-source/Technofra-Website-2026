@@ -111,7 +111,7 @@
                     <h1 class="tg-element-title">Press Release</h1>
                     <div class="space30"></div>
                     <!-- <div class="buttons">
-            <a href="contact.php" class="btn btn-outline-info rounded-5 theme-btn16">Schedule A Consultation</a>
+            <a href="contact" class="btn btn-outline-info rounded-5 theme-btn16">Schedule A Consultation</a>
           </div> -->
                 </div>
             </div>

@@ -550,12 +550,12 @@
                         </p>
                     </div>
                     <div class="d-flex gap-8 flex-wrap">
-                        <a href="contact.php" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
-                            Launch PPC Campaign
-                        </a>
-                        <a href="enquirynow.php" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
+                        <a href="enquirynow" class="link d-inline-flex br-6 bgc-white text-center font-weight-bold padding-y-5 padding-x-12 clr-text :clr-text flex-shrink-0 lh-1">
                             Enquiry Now
                         </a>
+                        <!-- <a href="enquirynow" class="link d-inline-flex br-6 border border-white text-center font-weight-bold padding-y-5 padding-x-12 clr-white flex-shrink-0 lh-1">
+                            Enquiry Now
+                        </a> -->
                     </div>
                     <div class="ppc-mini-proof">
                         <div class="ppc-mini-proof-item">
@@ -666,6 +666,30 @@
                     <span class="ppc-pill">Remarketing</span>
                     <span class="ppc-pill">Conversion Tracking</span>
                     <span class="ppc-pill">Landing Page Optimization</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-40">
+    <div class="container">
+        <div class="cyber-cta-bg p-5 rounded-custom" style="background: url('assets/image/cta.webp') no-repeat center center / cover;">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="cyber-cta-info position-relative">
+                        <div>
+                            <h2 class="text-white">Need more qualified clicks, leads, and better ad performance?</h2>
+                            <p class="lead text-white mb-0">
+                                Talk to Technofra and build a PPC strategy tailored to your goals, audience, and budget.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cyber-cta-btn">
+                        <a href="enquirynow" class="mt-3 btn btn-outline-info me-auto">Enquiry Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -970,29 +994,7 @@
     </div>
 </section>
 
-<section class="cyber-cta ptb-60">
-    <div class="container">
-        <div class="cyber-cta-bg p-5 rounded-custom" style="background: url('assets/image/cta.webp') no-repeat center center / cover;">
-            <div class="row">
-                <div class="col-lg-9 col-md-9">
-                    <div class="cyber-cta-info position-relative">
-                        <div>
-                            <h2 class="text-white">Need more qualified clicks, leads, and better ad performance?</h2>
-                            <p class="lead text-white mb-0">
-                                Talk to Technofra and build a PPC strategy tailored to your goals, audience, and budget.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="cyber-cta-btn">
-                        <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto">Enquiry Now <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <?php include 'book-a-call.php'; ?>
 <?php include 'footer.php'; ?>

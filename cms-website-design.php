@@ -1,4 +1,4 @@
-﻿    <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-189WWHXLSS"></script>
     <script>
@@ -214,7 +214,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="col-lg-3">
                         <div class="cyber-cta-btn">
-                            <a href="enquirynow.php" class="mt-3 btn btn-outline-info me-auto" contenteditable="false"
+                            <a href="enquirynow" class="mt-3 btn btn-outline-info me-auto" contenteditable="false"
                                 style="cursor: pointer;">Enquiry Now <i class="fas fa-arrow-right"></i></a>
 
                         </div>
@@ -235,7 +235,7 @@ gtag('config', 'G-189WWHXLSS');
                                     class="ms-1"></span>
                             <h2 class="text-white mb-0">See where your efforts are paying off and adjust your strategy
                             </h2>
-                            <a href="contact.php" class="mt-40 btn btn-outline-info">Explore More</a>
+                            <a href="contact" class="mt-40 btn btn-outline-info">Explore More</a>
                         </div>
                     </div>
                     <div class="col-xl-6">

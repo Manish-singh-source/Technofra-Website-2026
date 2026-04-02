@@ -70,7 +70,7 @@ gtag('config', 'G-189WWHXLSS');
                         technology, and a relentless focus on safety and reliability.
                     </p>
 
-                    <a href="frizcoolindia.php" class="btn btn-outline-info mt-20">Explore More</a>
+                    <a href="frizcoolindia" class="btn btn-outline-info mt-20">Explore More</a>
                 </div>
             </div>
         </div>
