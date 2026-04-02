@@ -46,14 +46,18 @@ gtag('config', 'G-189WWHXLSS');
 
 <style>
 .eep-btn-green:hover {
-    color: #036
+    color: #036;
     transition: 0.8s ease-in-out;
 
 }
-
+.eep-btn-green{
+   justify-content: center;
+}
 @media (max-width: 576px) {
 
-
+.eep-calendar-info {
+    display: grid !important;
+}
     .dis-hide {
         visibility: hidden;
     }
