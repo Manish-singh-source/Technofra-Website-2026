@@ -46,6 +46,9 @@
         padding: 50px 0;
     }
 
+    .ptb-150 {
+        padding: 150px 0px;
+    }
     .domain-hosting-page .pt-120 {
         padding-top: 50px;
     }
@@ -174,7 +177,7 @@
 <?php include 'navbar.php'; ?>
 <div class="domain-hosting-page">
 <!-- Hero -->
-<div class="bg-gradient  pt-120 pb-120 position-relative mob-mt-40">
+<div class="bg-gradient  ptb-150 position-relative mob-mt-40">
     <div class="container">
         <div class="position-relative">
             <div class="row align-items-center justify-content-between">

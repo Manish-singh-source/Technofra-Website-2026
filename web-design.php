@@ -484,7 +484,7 @@ gtag('config', 'G-189WWHXLSS');
 }
 
 .baner {
-    background: url('assets/image/websitemaintenance/banner01.png')no-repeat;
+    background: url('assets/image/websitemaintenance/banner011.png')no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -879,7 +879,7 @@ article {
             <div class="col-lg-6">
                 <div class="hero-content-wrap">
 
-                    <h1 class="fw-bold display-5">Web Design and Development Company</h1>
+                    <h1 class="fw-bold display-5 white">Web Design and Development Company</h1>
                     <p class="lead mt-3">At Technofra, we specialize in creating stunning, high-performance websites
                         that drive traffic, engage visitors, and convert leads. With 14+ years of experience and a team
                         of dedicated professionals, we offer tailored website development services to meet the unique

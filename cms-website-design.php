@@ -67,7 +67,7 @@
 
     <?php include 'navbar.php'; ?>
 
-    <section class="crm-hero ptb-50 position-relative ban">
+    <section class="crm-hero ptb-120 position-relative ban">
 
       <div class="container">
         <div class="row justify-content-between align-items-center">

@@ -569,7 +569,7 @@ a:hover, .btn-link:hover {
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 mob-mt-40">
+            <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow  d-flex flex-column h-100">
                     <div class="sc-pricing-title dp-f-a">
                         <span class="fas fa-map-marker-alt fa-3x text-primary"></span>
@@ -586,7 +586,7 @@ a:hover, .btn-link:hover {
 
                 </div>
             </div>
-            <div class="col-lg-4 mob-mt-40">
+            <!-- <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow  d-flex flex-column h-100">
                     <div class="sc-pricing-title dp-f-a">
                         <span class="fas fa-map-marker-alt fa-3x text-primary"></span>
@@ -603,7 +603,7 @@ a:hover, .btn-link:hover {
 
                 </div>
             </div>
-            <div class="col-lg-4 mob-mt-40">
+            <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow  d-flex flex-column h-100">
                     <div class="sc-pricing-title dp-f-a">
                         <span class="fas fa-map-marker-alt fa-3x text-primary"></span>
@@ -620,9 +620,9 @@ a:hover, .btn-link:hover {
 
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center pt-40">
-            <div class="col-lg-4 mob-mt-40">
+        </div> 
+        <div class="row justify-content-center pt-40">-->
+            <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow  d-flex flex-column h-100">
                     <div class="sc-pricing-title dp-f-a">
                         <span class="fas fa-phone fa-3x text-primary"></span>
@@ -647,7 +647,7 @@ a:hover, .btn-link:hover {
 
                 </div>
             </div>
-            <div class="col-lg-4 mob-mt-40">
+            <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow  d-flex flex-column h-100">
                     <div class="sc-pricing-title dp-f-a">
                         <span class="fas fa-envelope fa-3x text-primary"></span>
@@ -666,7 +666,7 @@ a:hover, .btn-link:hover {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mob-mt-40">
+            <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow d-flex flex-column h-100">
                     <div class="sc-pricing-title dp-f-a">
                         <span class="fas fa-clock fa-3x text-primary"></span>
