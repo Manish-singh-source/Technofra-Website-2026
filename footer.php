@@ -192,7 +192,7 @@
  </footer>
  <style>
  .company-profile-modal .modal-dialog {
-     max-width: 760px;
+     max-width: 600px;
      display: flex;
      align-items: center;
      min-height: calc(100vh - 2rem);
@@ -200,7 +200,7 @@
  
  .company-profile-modal .modal-content {
      border: 0;
-     border-radius: 28px;
+     border-radius: 8px;
      overflow: hidden;
      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
      box-shadow: 0 28px 90px rgba(15, 23, 42, 0.22);
@@ -230,8 +230,7 @@
  }
 
  .company-profile-form-shell {
-     display: grid;
-     grid-template-columns: repeat(2, minmax(0, 1fr));
+     display: grid;      
      gap: 14px 18px;
  }
 
@@ -326,6 +325,7 @@
              </div>
              <div
                  class="modal-body register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate">
+                 <p>Fill in your details and we’ll email you the company profile.</p>
                  <!-- Job Application Form -->
                  <form action="send7.php" method="post" enctype="multipart/form-data" id="companyProfileForm">
                      <div class="company-profile-form-shell">
@@ -355,10 +355,7 @@
                                      enter a valid phone number (10 digits)</span>
                              </div>
                              <!-- Location -->
-                             <div class="company-profile-field text-start">
-                                 <label class="form-label">Message</label>
-                                 <input type="text" class="form-control ca-two-border" name="Message">
-                             </div>
+                            
  
  
                              <input type="text" name="hidden_field" style="display:none;" tabindex="-1">

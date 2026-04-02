@@ -29,6 +29,10 @@ gtag('config', 'G-189WWHXLSS');
 
 
 <style>
+.ptb-100 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
 @media (min-width: 1025px) and (max-width: 1280px) {
 
     .manishq {
@@ -52,7 +56,7 @@ gtag('config', 'G-189WWHXLSS');
 </style>
 <?php include 'navbar.php'; ?>
 <section class="hero-section pt-60 pb-60 text-white bg-dark bg-cl bpd mob-mt-40" style="background:
-        url('assets/image/websitemaintenance/banner01.png')no-repeat
+        url('assets/image/websitemaintenance/banner011.png')no-repeat
         center center / cover">
     <div class="container">
         <div class="row align-items-center">
@@ -232,7 +236,7 @@ gtag('config', 'G-189WWHXLSS');
     </div>
 </section>
 
-<section class="process-section bg-light-subtle ptb-100">
+<section class="process-section bg-light-subtle ptb-50">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
@@ -333,10 +337,10 @@ gtag('config', 'G-189WWHXLSS');
         </div>
     </div>
 </section>
-<section class="faq-section ptb-60">
+<section class="faq-section pt-20 pb-60">
     <div class="container">
 
-        <div class="row justify-content-between pt-40">
+        <div class="row justify-content-between">
             <div class="section-heading text-center">
                 <h2>Frequently Asked Questions</h2>
             </div>

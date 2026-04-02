@@ -568,6 +568,7 @@ article {
     border: 1px solid #38d1fe;
     -webkit-transition: .5s;
     transition: .5s;
+    color: #dbdbdb;
 }
 
 .btn-38-outline:hover {

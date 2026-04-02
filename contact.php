@@ -687,7 +687,7 @@ a:hover, .btn-link:hover {
         </div>
     </div>
 </section>
-<section class="integration-section pt-100">
+<section class="integration-section pt-50" id="contactForm">
     <div class="container">
         <div class="row align-items-start">
             <div class="col-lg-3">
@@ -766,10 +766,10 @@ a:hover, .btn-link:hover {
                         class="img-fluid ma-contact-img pe-none z-n1 d-none d-lg-block">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" >
                 <div class="register-wrap p-5 bg-white shadow rounded-custom position-relative aos-init aos-animate mb-30"
                     data-aos="fade-up" data-aos-delay="150">
-                    <form action="send" method="POST">
+                    <form action="send" method="POST" >
                         <h3 class="mb-3 fw-medium">Contact Us</h3>
 
                         <div class="row">

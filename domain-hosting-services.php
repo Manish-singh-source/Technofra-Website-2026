@@ -42,7 +42,7 @@
         padding: 50px 0;
     }
 
-    .domain-hosting-page .ptb-100 {
+    .domain-hosting-page .ptb-50 {
         padding: 50px 0;
     }
 
@@ -87,7 +87,7 @@
             padding-bottom: 56px;
         }
 
-        .domain-hosting-page .ptb-100 {
+        .domain-hosting-page .ptb-50 {
             padding: 48px 0;
         }
 
@@ -137,8 +137,8 @@
             padding-bottom: 80px;
         }
 
-        .domain-hosting-page .ptb-100 {
-            padding: 72px 0;
+        .domain-hosting-page .ptb-50 {
+            padding: 50px 0;
         }
 
         .domain-hosting-page .ptb-60 {
@@ -366,7 +366,7 @@
 </div>
 
 
-<section class="ptb-100 bg-light-subtle">
+<section class="ptb-50 bg-light-subtle">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
@@ -478,7 +478,7 @@
 </section>
 
 
-<section class="ptb-100 bg-white position-relative z-1">
+<section class="ptb-50 bg-white position-relative z-1">
 
     <div class="container">
         <div class="row g-4 justify-content-between">

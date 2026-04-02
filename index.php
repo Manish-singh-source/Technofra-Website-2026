@@ -431,7 +431,7 @@ gtag('config', 'G-189WWHXLSS');
             </p>
             <div class="rnHeroButtons">
                 <a href="web-design.php" class="rnHeroBtnLight">Website Development</a>
-                <a href="contact.php" class="rnHeroBtnDark">Contact Us</a>
+                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -450,7 +450,7 @@ gtag('config', 'G-189WWHXLSS');
             </p>
             <div class="rnHeroButtons">
                 <a href="ios-app-development.php" class="rnHeroBtnLight">App Development</a>
-                <a href="contact.php" class="rnHeroBtnDark">Contact Us</a>
+                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -469,7 +469,7 @@ gtag('config', 'G-189WWHXLSS');
             </p>
             <div class="rnHeroButtons">
                 <a href="branding.php" class="rnHeroBtnLight">Branding</a>
-                <a href="contact.php" class="rnHeroBtnDark">Contact Us</a>
+                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -488,7 +488,7 @@ gtag('config', 'G-189WWHXLSS');
             </p>
             <div class="rnHeroButtons">
                 <a href="ui-ux.php" class="rnHeroBtnLight">UI/UX Design</a>
-                <a href="contact.php" class="rnHeroBtnDark">Contact Us</a>
+                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -507,7 +507,7 @@ gtag('config', 'G-189WWHXLSS');
             </p>
             <div class="rnHeroButtons">
                 <a href="payment-gateway.php" class="rnHeroBtnLight">Payment Integration</a>
-                <a href="contact.php" class="rnHeroBtnDark">Contact Us</a>
+                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -526,7 +526,7 @@ gtag('config', 'G-189WWHXLSS');
             </p>
             <div class="rnHeroButtons">
                 <a href="digital-marketing.php" class="rnHeroBtnLight">Digital Marketing</a>
-                <a href="contact.php" class="rnHeroBtnDark">Contact Us</a>
+                <a href="contact.php#contactForm" class="rnHeroBtnDark">Contact Us</a>
             </div>
         </div>
     </div>
@@ -1272,8 +1272,9 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusTitle">Manufacturing</div>
                             </div>
                             <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
-                                <div class="tfxIndusTitle">IT Services</div>
+                                <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+                                <div class="tfxIndusTitle">Attorney</div>
                             </div>
                         </div>
                     </div>
@@ -1282,9 +1283,8 @@ gtag('config', 'G-189WWHXLSS');
                     <div class="tfxIndusSlide">
                         <div class="tfxIndusGrid">
                             <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i>
-                                </div>
-                                <div class="tfxIndusTitle">Attorney</div>
+                                <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
+                                <div class="tfxIndusTitle">IT Services</div>
                             </div>
                             <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrAutoRepair"><i class="fa-solid fa-user-gear"></i></div>
@@ -1384,20 +1384,21 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusIcon tfxClrManufacturing"><i class="fa-solid fa-industry"></i></div>
                                 <div class="tfxIndusTitle">Manufacturing</div>
                             </div>
-                            <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
-                                <div class="tfxIndusTitle">IT Services</div>
+                             <div class="tfxIndusCard">
+                                <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i>
+                                </div>
+                                <div class="tfxIndusTitle">Attorney</div>
                             </div>
+                           
                         </div>
                     </div>
 
                     <!-- Clone First Slide -->
                     <div class="tfxIndusSlide">
                         <div class="tfxIndusGrid">
-                            <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrAttorney"><i class="fa-solid fa-scale-balanced"></i>
-                                </div>
-                                <div class="tfxIndusTitle">Attorney</div>
+                             <div class="tfxIndusCard">
+                                <div class="tfxIndusIcon tfxClrIT"><i class="fa-solid fa-laptop-code"></i></div>
+                                <div class="tfxIndusTitle">IT Services</div>
                             </div>
                             <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrAutoRepair"><i class="fa-solid fa-user-gear"></i></div>
@@ -1444,6 +1445,7 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusIcon tfxClrPest"><i class="fa-solid fa-bug"></i></div>
                                 <div class="tfxIndusTitle">Pest Control</div>
                             </div>
+                           
                         </div>
                     </div>
 
