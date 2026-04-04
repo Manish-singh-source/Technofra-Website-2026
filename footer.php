@@ -6,7 +6,7 @@
 
                  <div class="twc-about-col">
                      <div class="twc-brand-logo">
-                         <a href="index">
+                         <a href="https://technofra.com/">
                              <img src="assets\image\icons\technofra_logo.png" alt="Technofra Logo" width="200">
                          </a>
                      </div>
@@ -192,25 +192,28 @@
  </footer>
  <style>
  .company-profile-modal .modal-dialog {
-     max-width: 400px;
-     display: flex;
-     align-items: center;
-     min-height: calc(100vh - 2rem);
- }
- 
- .company-profile-modal .modal-content {
-     border: 0;
-     border-radius: 8px;
-     overflow: hidden;
-     background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      max-width: 400px;
+      width: calc(100% - 2rem);
+      margin: 1rem auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: calc(100vh - 2rem);
+  }
+  
+  .company-profile-modal .modal-content {
+      width: 100%;
+      border: 0;
+      border-radius: 8px;
+      overflow: hidden;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
      box-shadow: 0 28px 90px rgba(15, 23, 42, 0.22);
  }
  
 .company-profile-modal .modal-header {
     padding: 22px 26px 16px;
     border-bottom: 1px solid rgba(148, 163, 184, 0.22);
-    background: linear-gradient(
-128deg, #1b59da 0%, #00a6fd 100%);
+    background: #003366;
 }
  
  .company-profile-modal .modal-title {
@@ -273,17 +276,17 @@
      line-height: 1.4;
  }
 
- .company-profile-submit-btn {
-     margin-top: 4px !important;
-     min-height: 50px;
-     padding: 12px 24px;
-     border: 0;
-     border-radius: 14px;
-     background: linear-gradient(135deg, #1d4ed8 0%, #0ea5e9 100%);
-     color: #ffffff;
-     font-weight: 700;
-     box-shadow: 0 16px 30px rgba(29, 78, 216, 0.22);
- }
+.company-profile-submit-btn {
+    margin-top: 4px !important;
+    min-height: 50px;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 8px;
+    background: #003366;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 0 16px 30px rgba(29, 78, 216, 0.22);
+}
 
  .company-profile-submit-btn:hover {
      color: #ffffff;
@@ -296,27 +299,30 @@
      box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.14);
  }
  
- @media (max-width: 767.98px) {
-     .company-profile-modal .modal-header {
-         padding: 18px 18px 12px;
-     }
-    
-    
-     .company-profile-modal .modal-dialog {
-     max-width: 330px;
-     display: flex;     
- }
-     .company-profile-modal .modal-body {
-         padding: 18px !important;
-     }
+  @media (max-width: 767.98px) {
+      .company-profile-modal .modal-header {
+          padding: 18px 18px 12px;
+      }
+     
+     
+      .company-profile-modal .modal-dialog {
+          max-width: min(330px, calc(100vw - 24px));
+          width: calc(100vw - 24px);
+          margin: 0.75rem auto;
+          display: flex;
+          justify-content: center;
+      }
+      .company-profile-modal .modal-body {
+          padding: 18px !important;
+      }
 
-     .company-profile-modal .modal-dialog {
-         min-height: calc(100vh - 1rem);
-     }
- 
-     .company-profile-form-shell {
-         grid-template-columns: 1fr;
-         gap: 12px;
+      .company-profile-modal .modal-dialog {
+          min-height: calc(100vh - 1.5rem);
+      }
+  
+      .company-profile-form-shell {
+          grid-template-columns: 1fr;
+          gap: 12px;
      }
  }
  </style>

@@ -49,7 +49,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-md-8 col-lg-6">
                     <div class="section-heading text-center mb-5">
                         <h1 class="display-5 fw-bold pb-20 text-white">Technologies</h1>
-                        <p class="lead"><span class="span"> <a href="index">Home</a> <span class="arrow"><i
+                        <p class="lead"><span class="span"> <a href="https://technofra.com/">Home</a> <span class="arrow"><i
                                         class="fa-regular fa-angle-right"></i></span>Technologies</span>
                         </p>
                     </div>
@@ -308,7 +308,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Next Js</h5>
+                                    <h5 class="mt-4 mb-2">Next.js</h5>
 
                                 </div>
                             </div>
@@ -367,7 +367,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">GraphQl</h5>
+                                    <h5 class="mt-4 mb-2">GraphQL</h5>
 
                                 </div>
                             </div>
@@ -400,7 +400,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Microsoft.net</h5>
+                                    <h5 class="mt-4 mb-2">Microsoft .NET</h5>
 
                                 </div>
                             </div>
@@ -421,7 +421,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Node js</h5>
+                                    <h5 class="mt-4 mb-2">Node.js</h5>
 
                                 </div>
                             </div>
@@ -481,7 +481,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Wordpress</h5>
+                                    <h5 class="mt-4 mb-2">WordPress</h5>
 
                                 </div>
                             </div>
@@ -492,7 +492,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Woo Commerce</h5>
+                                    <h5 class="mt-4 mb-2"> WooCommerce</h5>
 
                                 </div>
                             </div>
@@ -525,7 +525,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Maganto</h5>
+                                    <h5 class="mt-4 mb-2">Magento</h5>
 
                                 </div>
                             </div>
@@ -596,7 +596,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Digital ocean</h5>
+                                    <h5 class="mt-4 mb-2">DigitalOcean</h5>
 
                                 </div>
                             </div>
@@ -618,7 +618,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">kubernetes</h5>
+                                    <h5 class="mt-4 mb-2">Kubernetes</h5>
 
                                 </div>
                             </div>
@@ -764,7 +764,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">No SQL</h5>
+                                    <h5 class="mt-4 mb-2">NoSQL</h5>
 
                                 </div>
                             </div>
@@ -808,7 +808,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Mongo DB</h5>
+                                    <h5 class="mt-4 mb-2">MongoDB</h5>
 
                                 </div>
 
@@ -903,7 +903,7 @@ gtag('config', 'G-189WWHXLSS');
                                             class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">Hp Quicktest</h5>
+                                    <h5 class="mt-4 mb-2">HP QuickTest</h5>
 
                                 </div>
 

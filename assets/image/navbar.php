@@ -287,7 +287,7 @@
             <nav class="navbar navbar-expand-xl navbar-dark sticky-header z-10">
                 <div class="container d-flex align-items-center justify-content-lg-between position-relative">
 
-                    <a href="index" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                    <a href="https://technofra.com/" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
                         <img src="assets/image/icons/technofra_logo.png" alt="logo"
                             class="img-fluid logo-white tech_logo" />
                         <img src="assets/image/icons/technofra_logo.png" alt="logo"
@@ -300,7 +300,7 @@
                     <div class="clearfix"></div>
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                            <li><a href="index" class="nav-link">Home</a></li>
+                            <li><a href="https://technofra.com/" class="nav-link">Home</a></li>
                             <li><a href="about" class="nav-link">About US</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -568,7 +568,7 @@
     </section>
     <div class="offcanvas dpbgback offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
         <div class="offcanvas-header d-flex align-items-center mt-4">
-            <a href="index" class="d-flex align-items-center mb-md-0 text-decoration-none">
+            <a href="https://technofra.com/" class="d-flex align-items-center mb-md-0 text-decoration-none">
                 <img src="assets/image/icons/technofra_logo.png" alt="logo" class="img-fluid ps-2 tech_logo" />
             </a>
             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -578,7 +578,7 @@
         <div class="offcanvas-body z-10">
        
             <ul class="nav col-12 col-md-auto justify-content-center main-menu">
-                <li><a href="index" class="nav-link">Home</a></li>
+                <li><a href="https://technofra.com/" class="nav-link">Home</a></li>
                 <li><a href="about" class="nav-link">About US</a></li>
              
                 <li class="nav-item dropdown">

@@ -382,7 +382,7 @@ $client_mail->Port = 587;
 $client_mail->setFrom('support@technofra.com', 'Technofra');
 $client_mail->addAddress($email);
 $client_mail->isHTML(true);
-$client_mail->Subject = 'Thank You for Contacting Technofra (' . $currentDateTime . ')'; 
+$client_mail->Subject = 'Thank You for Your Enquiry – Technofra Team (' . $currentDateTime . ')'; 
 $client_mail->Body = $client_htmlbody;
 
 // Send Client Email

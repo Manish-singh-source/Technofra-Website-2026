@@ -585,7 +585,7 @@ if ($smtpReady) {
 
     $adminBody = renderBookCallEmail([
         'preheader' => 'A new call booking has been submitted on the Technofra website.',
-        'headline' => 'New Book A Call Request',
+        'headline' => 'Appointment Scheduled via Website – Technofra',
         'lead' => 'A new enquiry has just been scheduled. Below is the complete booking summary captured from the website form.',
         'cta_label' => 'Review Booking',
         'cta_href' => 'mailto:' . $safeEmail,
@@ -610,7 +610,7 @@ if ($smtpReady) {
 
     $clientBody = renderBookCallEmail([
         'preheader' => 'Your call with Technofra has been booked successfully.',
-        'headline' => 'Your Call Is Confirmed',
+        'headline' => 'Your Call with Technofra is Confirmed',
         'lead' => 'Thank you for scheduling a call with Technofra. Your booking has been received successfully, and our team is looking forward to speaking with you.',
         'intro_html' => '<p style="margin:18px 0 0;font-size:14px;line-height:1.8;color:#60656b;">Hi ' . $safeName . ', here are your confirmed booking details.</p>',
         'cta_label' => 'Contact Technofra',

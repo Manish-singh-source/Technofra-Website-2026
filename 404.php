@@ -49,7 +49,7 @@
                             <h1 class="display-5 fw-bold">Page Not Found</h1>
                             <p class="lead">Efficiently reinvent next-generation scenarios without focused networks. Collaboratively productize superior technology before robust potentialities. </p>
 
-                            <a href="index" class="btn btn-primary mt-4">Go Back Home</a>
+                            <a href="https://technofra.com/" class="btn btn-primary mt-4">Go Back Home</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-8 mt-5 d-none d-md-block d-lg-block">

@@ -343,7 +343,7 @@ gtag('config', 'G-189WWHXLSS');
                         Technofra, established in 2012, is driven by a clear mission and vision to deliver innovative
                         digital solutions that empower businesses globally.
                     </p>
-                    <!-- <a href="index" class="hfz-btn hfz-btn-view">View All</a> -->
+                    <!-- <a href="https://technofra.com/" class="hfz-btn hfz-btn-view">View All</a> -->
                 </div>
 
                 <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
