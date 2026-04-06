@@ -5676,6 +5676,49 @@
      background: linear-gradient(135deg, #00c2ff, #008cff);
  }
 
+ .tf-chatbot-footer button:disabled,
+ .tf-chatbot-footer input:disabled {
+     opacity: 0.7;
+     cursor: not-allowed;
+ }
+
+ .tf-msg-typing {
+     display: inline-flex;
+     align-items: center;
+     gap: 6px;
+     min-height: 44px;
+ }
+
+ .tf-msg-typing span {
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     background: #7b8fb0;
+     animation: tfChatTyping 1s infinite ease-in-out;
+ }
+
+ .tf-msg-typing span:nth-child(2) {
+     animation-delay: 0.15s;
+ }
+
+ .tf-msg-typing span:nth-child(3) {
+     animation-delay: 0.3s;
+ }
+
+ @keyframes tfChatTyping {
+     0%,
+     80%,
+     100% {
+         transform: translateY(0);
+         opacity: 0.45;
+     }
+
+     40% {
+         transform: translateY(-3px);
+         opacity: 1;
+     }
+ }
+
  @media (max-width: 576px) {
      .tf-chatbot-wrap {
          right: 23px;

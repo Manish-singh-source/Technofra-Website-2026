@@ -249,7 +249,10 @@
      </div>
  </div>
  <!-- Floating Chatbot -->
- <div class="tf-chatbot-wrap">
+ <?php $tfBasePath = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '')), '/.'); ?>
+ <div class="tf-chatbot-wrap"
+     data-page="<?php echo htmlspecialchars(parse_url($_SERVER['REQUEST_URI'] ?? 'index', PHP_URL_PATH) ?: 'index', ENT_QUOTES, 'UTF-8'); ?>"
+     data-endpoint="<?php echo htmlspecialchars(($tfBasePath !== '' ? $tfBasePath : '') . '/chatbot-handler', ENT_QUOTES, 'UTF-8'); ?>">
      <button class="tf-chatbot-toggle" id="tfChatbotToggle" aria-label="Open chat">
          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
              <path
@@ -262,7 +265,7 @@
          <div class="tf-chatbot-header">
              <div>
                  <h4>Technofra Support</h4>
-                 <span>Typically replies instantly</span>
+                 <span>Live support assistant</span>
              </div>
              <button class="tf-chatbot-close" id="tfChatbotClose" aria-label="Close chat">×</button>
          </div>
@@ -279,8 +282,8 @@
          </div>
 
          <div class="tf-chatbot-footer">
-             <input type="text" id="tfChatbotInput" placeholder="Type your message..." />
-             <button id="tfChatbotSend">Send</button>
+             <input type="text" id="tfChatbotInput" placeholder="Type your message..." autocomplete="off" />
+             <button id="tfChatbotSend" type="button">Send</button>
          </div>
      </div>
  </div>
@@ -392,6 +395,206 @@ if (navClose && rightMenu) {
 
  <script>
 (function() {
+    const widget = document.querySelector(".tf-chatbot-wrap");
+    const toggleBtn = document.getElementById("tfChatbotToggle");
+    const closeBtn = document.getElementById("tfChatbotClose");
+    const chatBox = document.getElementById("tfChatbotBox");
+    const sendBtn = document.getElementById("tfChatbotSend");
+    const input = document.getElementById("tfChatbotInput");
+    const body = document.getElementById("tfChatbotBody");
+
+    if (!widget || !toggleBtn || !closeBtn || !chatBox || !sendBtn || !input || !body) {
+        return;
+    }
+
+    const endpoint = widget.dataset.endpoint || "chatbot-handler.php";
+    const currentPage = widget.dataset.page || window.location.pathname;
+    const defaultButtonText = sendBtn.textContent;
+    const introMessages = body.querySelectorAll(".tf-msg-bot");
+    let historyLoaded = false;
+    let isSending = false;
+
+    closeBtn.innerHTML = "&times;";
+
+    if (introMessages.length > 0) {
+        introMessages[0].innerHTML = "Hi there!<br>Welcome to Technofra. How can we help you today?";
+    }
+
+    function toggleChat(forceOpen) {
+        if (typeof forceOpen === "boolean") {
+            chatBox.classList.toggle("active", forceOpen);
+        } else {
+            chatBox.classList.toggle("active");
+        }
+
+        if (chatBox.classList.contains("active")) {
+            setTimeout(function() {
+                input.focus();
+            }, 150);
+        }
+    }
+
+    function appendMessage(text, type, allowHtml) {
+        const message = document.createElement("div");
+        message.className = "tf-msg " + (type === "user" ? "tf-msg-user" : "tf-msg-bot");
+
+        if (allowHtml) {
+            message.innerHTML = text;
+        } else {
+            message.textContent = text;
+        }
+
+        body.appendChild(message);
+        body.scrollTop = body.scrollHeight;
+        return message;
+    }
+
+    function createTypingMessage() {
+        const typingMessage = document.createElement("div");
+        typingMessage.className = "tf-msg tf-msg-bot tf-msg-typing";
+        typingMessage.innerHTML = "<span></span><span></span><span></span>";
+        body.appendChild(typingMessage);
+        body.scrollTop = body.scrollHeight;
+        return typingMessage;
+    }
+
+    function setSendingState(state) {
+        isSending = state;
+        input.disabled = state;
+        sendBtn.disabled = state;
+        sendBtn.textContent = state ? "Sending..." : defaultButtonText;
+    }
+
+    async function requestChat(payload) {
+        const formData = new URLSearchParams();
+
+        Object.keys(payload).forEach(function(key) {
+            formData.append(key, payload[key]);
+        });
+
+        const response = await fetch(endpoint, {
+            method: "POST",
+            credentials: "same-origin",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                "Accept": "application/json"
+            },
+            body: formData.toString()
+        });
+
+        const responseText = await response.text();
+        let data = null;
+
+        try {
+            data = JSON.parse(responseText);
+        } catch (error) {
+            console.error("Chatbot endpoint returned non-JSON response:", responseText);
+            throw new Error("Invalid server response.");
+        }
+
+        if (!response.ok || !data.success) {
+            throw new Error(data.message || "Chat request failed.");
+        }
+
+        return data;
+    }
+
+    async function loadHistory() {
+        if (historyLoaded) {
+            return;
+        }
+
+        historyLoaded = true;
+
+        try {
+            const data = await requestChat({
+                action: "history"
+            });
+
+            if (!Array.isArray(data.history) || !data.history.length) {
+                return;
+            }
+
+            body.innerHTML = "";
+
+            data.history.forEach(function(item) {
+                appendMessage(item.html || "", item.role === "user" ? "user" : "bot", true);
+            });
+        } catch (error) {
+            historyLoaded = false;
+        }
+    }
+
+    async function sendMessage() {
+        const text = input.value.trim();
+
+        if (!text || isSending) {
+            return;
+        }
+
+        appendMessage(text, "user", false);
+        input.value = "";
+
+        const typingMessage = createTypingMessage();
+        setSendingState(true);
+
+        try {
+            const data = await requestChat({
+                action: "message",
+                message: text,
+                page: currentPage
+            });
+
+            typingMessage.remove();
+            appendMessage(data.reply || "Thanks for your message. Our team will get back to you shortly.", "bot", true);
+        } catch (error) {
+            typingMessage.remove();
+            appendMessage(
+                'Sorry, live chat is temporarily unavailable.<br>Please use <a href="https://wa.me/918080721003" target="_blank" rel="noopener noreferrer">WhatsApp</a> or our <a href="contact">contact page</a>.',
+                "bot",
+                true
+            );
+        } finally {
+            setSendingState(false);
+            input.focus();
+        }
+    }
+
+    toggleBtn.addEventListener("click", async function() {
+        const willOpen = !chatBox.classList.contains("active");
+        toggleChat(willOpen);
+
+        if (willOpen) {
+            await loadHistory();
+        }
+    });
+
+    closeBtn.addEventListener("click", function() {
+        toggleChat(false);
+    });
+
+    sendBtn.addEventListener("click", sendMessage);
+
+    input.addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            sendMessage();
+        }
+    });
+
+    document.addEventListener("click", function(e) {
+        const insideWidget = e.target.closest(".tf-chatbot-wrap");
+
+        if (!insideWidget && chatBox.classList.contains("active")) {
+            toggleChat(false);
+        }
+    });
+})();
+</script>
+
+<script>
+(function() {
+    return;
     const toggleBtn = document.getElementById("tfChatbotToggle");
     const closeBtn = document.getElementById("tfChatbotClose");
     const chatBox = document.getElementById("tfChatbotBox");
