@@ -4,7 +4,7 @@
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-footer-items footer-logo-area">
                     <div class="footer-logo">
-                        <a href="index"><img src="assets/image/technofra-logo.png" alt="image"
+                        <a href="https://technofra.com/"><img src="assets/image/technofra-logo.png" alt="image"
                                 width="200px"></a>
                     </div>
                     <div class="space20"></div>
@@ -48,7 +48,7 @@
                                 <ul>
                                     <li><a href='web-design'>Website Development</a></li>
                                     <li><a href='shopify-website-development'>Shopify Development</a></li>
-                                    <li><a href='wordpress-development'>Wordpress Development</a></li>
+                                    <li><a href='wordpress-development'>WordPress Development</a></li>
                                     <li><a href='branding'>Branding</a></li>
                                     <li><a href='digital-marketing'>Digital Marketing</a></li>
                                     <li><a href='domain-hosting-services'>Domain & Hosting</a></li>

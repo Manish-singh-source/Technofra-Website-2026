@@ -1340,7 +1340,7 @@ article {
                             <div class="risk-counter-item risk-border-left risk-border-color pl-40 mt-20">
                                 <h3 class=" fs-56 ff-dmsans fw-700"><span class="counter">85</span>%
                                 </h3>
-                                <p class=" ff-dmsans ">Clients Ring back for Enhancement in their business</p>
+                                <p class=" ff-dmsans ">Clients return for further business enhancements</p>
                             </div>
                         </div>
                     </div>
@@ -1503,7 +1503,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/crossplatform.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Crossplatform</h6>
+                                                        <h6 class="mb-0 mt-4">Cross-Platform</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1515,7 +1515,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/ios.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">IOS</h6>
+                                                        <h6 class="mb-0 mt-4">iOS</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1633,7 +1633,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/frontend/nextjs.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Next Js</h6>
+                                                        <h6 class="mb-0 mt-4">Next.js</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1714,7 +1714,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/graphql.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">GraphQl</h6>
+                                                        <h6 class="mb-0 mt-4">GraphQL</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1750,7 +1750,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/microsoft.net.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Microsoft.net</h6>
+                                                        <h6 class="mb-0 mt-4">Microsoft .NET</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1774,7 +1774,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/backend/node-js.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Node js</h6>
+                                                        <h6 class="mb-0 mt-4">Node.js</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1820,7 +1820,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/maganto.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Maganto</h6>
+                                                        <h6 class="mb-0 mt-4">Magento</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1856,7 +1856,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/woo-commerce.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Woo Commerce</h6>
+                                                        <h6 class="mb-0 mt-4"> WooCommerce</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1868,7 +1868,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/e-commerce/wordpress.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Wordpress</h6>
+                                                        <h6 class="mb-0 mt-4">WordPress</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1902,7 +1902,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/digital-ocean.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Digital ocean</h6>
+                                                        <h6 class="mb-0 mt-4">DigitalOcean</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1986,7 +1986,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/devops/kubernetes.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">kubernetes</h6>
+                                                        <h6 class="mb-0 mt-4">Kubernetes</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -2080,7 +2080,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/mongo-db.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Mongo DB</h6>
+                                                        <h6 class="mb-0 mt-4">MongoDB</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -2104,7 +2104,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/database/nosql.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">No SQL</h6>
+                                                        <h6 class="mb-0 mt-4">NoSQL</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -2174,7 +2174,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/quality/hp-quicktest.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Hp Quicktest</h6>
+                                                        <h6 class="mb-0 mt-4">HP QuickTest</h6>
                                                     </div>
                                                 </li>
                                             </ul>

@@ -234,7 +234,7 @@ $mail = build_mailer();
 $mail->setFrom('support@technofra.com', 'Technofra');
 $mail->addAddress('support@technofra.com');
 $mail->addReplyTo($email, $name);
-$mail->Subject = 'Company Profile Download Enquiry (' . $currentDateTime . ')';
+$mail->Subject = 'New Brochure Download Enquiry – Technofra Website (' . $currentDateTime . ')';
 $mail->Body = $htmlbody;
 $mail->AltBody = "Company profile request from {$name} ({$email}).";
 
@@ -249,7 +249,7 @@ $client_mail->addAddress($email, $name);
 $client_mail->addBCC('support@technofra.com', 'Technofra Admin');
 $client_mail->Subject = 'Thank you for requesting the Technofra company profile';
 $client_mail->Body = $client_htmlbody;
-$client_mail->AltBody = "Thank you for requesting the Technofra company profile. The brochure PDF is attached with this email.";
+$client_mail->AltBody = "Download - Technofra Company Profile.";
 $client_mail->addAttachment($brochure_path, 'technofra-brochure.pdf');
 
 if (!$client_mail->send()) {

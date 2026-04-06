@@ -57,160 +57,145 @@
     gtag('config', 'G-189WWHXLSS');
 </script>
 <style>
-    .pd {
-        cursor: pointer;
-        padding: 10px 15px !important;
-    }
+   .pd {
+    cursor: pointer;
+    padding: 10px 15px !important;
+}
 
+.lis {
+    display: flex !important;
+    align-items: flex-end !important;
+    gap: 15px;
+}
+
+@media (max-width:480px) {
     .lis {
-        display: flex !important;
-        align-items: flex-end !important;
-        /* justify-content: space-between !important; */
-        gap: 15px;
+        display: block !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .pd {
+        font-size: 10px;
+    }
+}
+
+.d-f {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.bg-card {
+    background: linear-gradient(180deg, rgba(202, 222, 168, 0.43) 12.86%, rgba(11, 139, 109, 0.43) 100%);
+    border-radius: 8px !important;
+}
+
+.bg-card {
+    background: #b9d4f0 !important;
+    border-radius: 8px !important;
+}
+
+.bg-pink {
+    color: #fff;
+    background-color: #175cff;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.border-pink {
+    border: 1px solid #175cff;
+}
+
+.bg-pink:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #175cff;
+    color: #737373 !important;
+}
+
+.ev-ab-img ul li:last-child {
+    width: 230px;
+    height: 230px;
+    background-color: #175cff;
+    border-radius: 8px;
+    bottom: -20%;
+    left: 21%;
+    z-index: 4;
+}
+
+.digi-service-single {
+    transition: all .3s ease-in-out;
+    border-radius: 8px;
+    border: 1px solid rgba(17, 24, 39, .12);
+    padding: 48px 24px 30px 24px;
+    height: 262px;
+}
+
+.sc-feedback-section.dg-feedback-bg {
+    margin-top: 0px !important;
+}
+
+@media (min-width: 1200px) {
+
+    .hero-ten {
+        padding: 90px 0;
     }
 
-    @media (max-width:480px) {
-        .lis {
-            display: block !important;
-
-        }
-
-    }
-
-    @media (min-width: 1025px) and (max-width: 1280px) {
-        .pd {
-            font-size: 10px;
-        }
-    }
-
-    .d-f {
-
-        display: flex;
-        align-items: baseline;
-        justify-content: space-around;
-        align-content: stretch;
-    }
-
-    .bg-card {
-        background: linear-gradient(180deg, rgba(202, 222, 168, 0.43) 12.86%, rgba(11, 139, 109, 0.43) 100%);
-        border-radius: 5px !important;
-    }
-
-    .bg-card {
-        background: #b9d4f0 !important;
-        border-radius: 10px !important;
-    }
-
-
-    .bg-pink {
-        color: #fff;
-        background-color: #175cff;
-        border: 1px solid rgba(0, 0, 0, 0);
-    }
-
-    .border-pink {
-        border: 1px solid #175cff;
-    }
-
-    .bg-pink:hover {
-        background-color: rgba(0, 0, 0, 0);
-        border: 1px solid #175cff;
-        color: #737373 !important;
-    }
-
-    .ev-ab-img ul li:last-child {
-        width: 230px;
-        height: 230px;
-        background-color: #175cff;
-        border-radius: 50%;
-        bottom: -20%;
-        left: 21%;
-        z-index: 4;
+    .cyber-about-box {
+        padding: 30px 20px;
+        box-shadow: 10px 10px 66px 0px rgba(136, 136, 136, .15);
+        background-color: #fff;
+        border-radius: 8px;
+        height: 275px !important;
     }
 
     .digi-service-single {
-        -webkit-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
         border-radius: 8px;
         border: 1px solid rgba(17, 24, 39, .12);
         padding: 48px 24px 30px 24px;
-        height: 262px;
+        height: 200px;
     }
 
-    .sc-feedback-section.dg-feedback-bg {
-        margin-top: 0px !important;
+    .sc-feedback-card {
+        padding: 40px 24px 0px 24px;
+        box-sizing: border-box;
     }
 
-    @media (min-width: 1200px) {
-
-
-        .hero-ten {
-            padding: 90px 0;
-        }
-
-        .cyber-about-box {
-            padding: 30px 20px;
-            -webkit-box-shadow: 10px 10px 66px 0px rgba(136, 136, 136, .15);
-            box-shadow: 10px 10px 66px 0px rgba(136, 136, 136, .15);
-            background-color: #fff;
-            border-radius: 10px;
-            height: 275px !important;
-        }
-
-        .digi-service-single {
-            -webkit-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
-            border-radius: 8px;
-            border: 1px solid rgba(17, 24, 39, .12);
-            padding: 48px 24px 30px 24px;
-            height: 200px;
-        }
-
-
-        .sc-feedback-card {
-            padding: 40px 24px 0px 24px;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-        }
-
-        .ptb-100 {
-            padding: 80px 0 80px 0;
-        }
-
-        .pt-120 {
-            padding-top: 80px;
-        }
-
-        .digi-service-single {
-            -webkit-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
-            border-radius: 8px;
-            border: 1px solid rgba(17, 24, 39, .12);
-            padding: 48px 24px 30px 24px;
-            height: 230px;
-        }
+    .ptb-100 {
+        padding: 80px 0 80px 0;
     }
 
-    @media (max-width: 576px) {
-        .digi-service-single {
-            -webkit-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
-            border-radius: 8px;
-            border: 1px solid rgba(17, 24, 39, .12);
-            padding: 48px 24px 30px 24px;
-            height: 161px;
-        }
-
-        .ptb-100 {
-            padding: 50px 0 50px 0;
-        }
-
-        .ptb-100 {
-            padding: 50px 0 50px 0;
-        }
-
-
+    .pt-120 {
+        padding-top: 80px;
     }
+
+    .digi-service-single {
+        transition: all .3s ease-in-out;
+        border-radius: 8px;
+        border: 1px solid rgba(17, 24, 39, .12);
+        padding: 48px 24px 30px 24px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 576px) {
+    .digi-service-single {
+        transition: all .3s ease-in-out;
+        border-radius: 8px;
+        border: 1px solid rgba(17, 24, 39, .12);
+        padding: 48px 24px 30px 24px;
+        height: 161px;
+    }
+
+    .ptb-100 {
+        padding: 50px 0 50px 0;
+    }
+
+    .ptb-100 {
+        padding: 50px 0 50px 0;
+    }
+}
 </style>
 
 <?php include 'navbar.php'; ?>
@@ -224,9 +209,9 @@
                         <span class="text-pink fw-bold">
 
                         </span>
-                        <h1 class="fw-bold display-5 text-white">Streamline Communication with SMS and OTP APIs!</h1>
+                        <h1 class="fw-bold display-5 text-white">Streamline Communication with SMS & OTP API Solutions</h1>
                         <p class="lead">
-                            Send secure One-Time Passwords and multilingual messages effortlessly using advanced SMS and Translation APIs. Simplify authentication and connect globally!
+                            Send secure One-Time Passwords and multilingual messages effortlessly using advanced SMS and Translation APIs. Simplify authentication and connect with users globally.
                         </p>
 
                     </div>
@@ -393,7 +378,7 @@
                     </h4>
 
                     <p>
-                        Uniquely promote adaptive quality vectors rather than stand-alone e-markets. Pontificate alternative architectures whereas iterate
+                        We provide secure, scalable, and reliable SMS solutions designed to improve communication, enhance security, and support business growth.
                     </p>
                 </div>
 
@@ -583,7 +568,7 @@
                 <div class="section-heading" data-aos="fade-up">
 
                     <h2>Boost security and engagement with SMS-OTP API integration!</h2>
-                    <p>Technofra is a leader in the SMS industry, delivering expertise you can trust. Integrate SMS-OTP APIs to enhance user authentication, boost security, and ensure real-time engagement. It’s a reliable, efficient solution for safeguarding data and connecting with customers instantly.</p>
+                    <p>Technofra is a trusted provider of SMS solutions, delivering reliable and scalable communication services. Integrate SMS-OTP APIs to enhance user authentication, boost security, and ensure real-time engagement. It’s a reliable, efficient solution for safeguarding data and connecting with customers instantly.</p>
                     <ul class="list-unstyled mt-5 lis">
 
                         <li class="d-flex align-items-start mb-4 ">

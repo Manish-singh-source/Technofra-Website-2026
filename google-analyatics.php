@@ -375,7 +375,7 @@
                         <div class="section-heading" data-aos="fade-up">
 
                             <h2>Optimize Security and Engagement Metrics with Google Analytics</h2>
-                            <p>Technofra is a leader in the SMS industry, delivering expertise you can trust. Integrate Google Analytics to gain actionable insights, track user behavior, and optimize your digital strategies. It’s a reliable, efficient solution for understanding your audience, enhancing user engagement, and driving data-informed decisions for business growth.</p>
+                            <p>Technofra is a trusted provider of SMS solutions, delivering reliable and scalable communication services. Integrate Google Analytics to gain actionable insights, track user behavior, and optimize your digital strategies. It’s a reliable, efficient solution for understanding your audience, enhancing user engagement, and driving data-informed decisions for business growth.</p>
                             <ul class="list-unstyled mt-5 lis">
 
                                 <li class="d-flex align-items-start mb-4 ">

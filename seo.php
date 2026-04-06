@@ -244,8 +244,8 @@ gtag('config', 'G-189WWHXLSS');
 .seo-overview-card {
     position: relative;
     height: 100%;
-    padding: 44px 34px;
-    border-radius: 28px;
+    padding: 45px 34px;
+    border-radius: 8px;
     background: linear-gradient(180deg, #ffffff 0%, #f6fbff 100%);
     box-shadow: 0 22px 50px rgba(7, 33, 63, 0.08);
 }
@@ -254,7 +254,7 @@ gtag('config', 'G-189WWHXLSS');
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 28px;
+    border-radius: 8px;
     padding: 1px;
     background: linear-gradient(135deg, rgba(11, 52, 102, 0.18), rgba(111, 255, 233, 0.4));
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -268,7 +268,7 @@ gtag('config', 'G-189WWHXLSS');
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(11, 52, 102, 0.08);
-    border-radius: 24px;
+    border-radius: 8px;
     padding: 28px;
     background: linear-gradient(180deg, #fff 0%, #f7fbff 100%);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -293,9 +293,9 @@ gtag('config', 'G-189WWHXLSS');
     margin-bottom: 15px;
 }
 
-.seo-highlight-card p {
+/* .seo-highlight-card p {
     margin-top: auto;
-}
+} */
 
 .seo-pill-section {
     padding-top: 42px;
@@ -321,7 +321,7 @@ gtag('config', 'G-189WWHXLSS');
     justify-content: center;
     gap: 14px;
     padding: 22px;
-    border-radius: 28px;
+    border-radius: 8px;
     background: linear-gradient(180deg, #f7fbff 0%, #edf7ff 100%);
     box-shadow: inset 0 0 0 1px rgba(11, 52, 102, 0.08);
 }
@@ -353,8 +353,8 @@ gtag('config', 'G-189WWHXLSS');
     display: flex;
     flex-direction: column;
     background: #fff;
-    border-radius: 16px;
-    padding: 28px 24px;
+    border-radius: 8px;
+    padding: 50px 24px;
     box-shadow: 0 18px 48px rgba(11, 52, 102, 0.08);
 }
 
@@ -410,7 +410,7 @@ gtag('config', 'G-189WWHXLSS');
 
 .seo-growth-panel {
     padding: 34px;
-    border-radius: 28px;
+    border-radius: 8px;
     background: linear-gradient(135deg, #082540 0%, #0d4d78 100%);
     color: #fff;
     height: 100%;
@@ -461,9 +461,12 @@ gtag('config', 'G-189WWHXLSS');
     display: flex;
     flex-direction: column;
     padding: 24px;
-    border-radius: 22px;
+    border-radius: 8px;
     background: #0b1f37;
     height: 100%;
+}
+.digi-how-works-left{
+    padding-bottom:20px ;
 }
 
 .seo-why-card img {
@@ -603,7 +606,7 @@ gtag('config', 'G-189WWHXLSS');
                     <span class="seo-kicker"><i class="fa-solid fa-magnifying-glass-chart"></i> Search Visibility That
                         Converts</span>
                     <div class="seo-hero-copy">
-                        <h1 class="fw-bold display-5 clr-white">SEO Services Company</h1>
+                        <h1 class="fw-bold display-5 clr-white">SEO Services Company for Business Growth</h1>
                         <p class="lead clr-white margin-bottom-10 font-weight-medium">
                             Grow your visibility, rankings, and qualified leads with a focused SEO strategy. Technofra
                             helps businesses improve search presence through technical fixes, content planning, keyword
@@ -698,7 +701,7 @@ gtag('config', 'G-189WWHXLSS');
 
 <section class="ptb-50 bg-white">
     <div class="container">
-        <div class="row align-items-center gy-4">
+        <div class="row gy-4">
             <div class="col-lg-6">
                 <div class="seo-overview-card">
                     <h2 class="text-black ff-risk-pri mb-20">SEO Overview</h2>
@@ -751,9 +754,9 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-lg-9 col-md-9">
                     <div class="cyber-cta-info position-relative">
                         <div>
-                            <h2 class="text-white">Need more qualified clicks, leads, and better ad performance?</h2>
+                            <h2 class="text-white">Need more qualified traffic, leads, and better search performance? </h2>
                             <p class="lead text-white mb-0">
-                                Talk to Technofra and build a PPC strategy tailored to your goals, audience, and budget.
+                                Talk to Technofra and build an SEO strategy tailored to your goals.
                             </p>
                         </div>
                     </div>
@@ -786,7 +789,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/sco.webp" alt="On-page SEO"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 class="mb-15">On-Page SEO</h4>
+                    <h4 >On-Page SEO</h4>
                     <p class="mb-0">We optimize titles, meta descriptions, headings, internal links, schema
                         opportunities, image alt text, and landing page relevance so each page clearly targets the right
                         search intent.</p>
@@ -796,7 +799,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/wdd.webp" alt="Technical SEO"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 class="mb-15">Technical SEO</h4>
+                    <h4 >Technical SEO</h4>
                     <p class="mb-0">From crawlability and indexing to page speed, mobile usability, structured data,
                         redirects, canonicals, and Core Web Vitals, we improve the technical base that search engines
                         rely on.</p>
@@ -806,7 +809,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/content-marketing.webp" alt="Content SEO"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 class="mb-15">Content SEO</h4>
+                    <h4 >Content SEO</h4>
                     <p class="mb-0">We plan content clusters, service pages, blogs, FAQs, and supporting pages that help
                         your website rank for short-tail and long-tail keywords with useful, conversion-focused content.
                     </p>
@@ -815,7 +818,7 @@ gtag('config', 'G-189WWHXLSS');
             <div class="col-lg-4 col-md-6">
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/ppc.webp" alt="Local SEO" class="img-fluid rounded-3 mb-20">
-                    <h4 class="mb-15">Local SEO</h4>
+                    <h4 >Local SEO</h4>
                     <p class="mb-0">For local businesses, we improve Google Business Profile visibility, location pages,
                         citations, reviews, and map pack relevance to bring more nearby leads and calls.</p>
                 </div>
@@ -824,7 +827,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/email-marketing.webp" alt="Off-page SEO"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 class="mb-15">Off-Page SEO</h4>
+                    <h4 >Off-Page SEO</h4>
                     <p class="mb-0">We support authority growth through ethical link acquisition, brand mentions,
                         citations, and outreach activities that strengthen domain trust over time.</p>
                 </div>
@@ -833,7 +836,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="seo-highlight-card">
                     <img src="assets/image/digitalmarketing/smm.webp" alt="SEO reporting"
                         class="img-fluid rounded-3 mb-20">
-                    <h4 class="mb-15">SEO Reporting and Growth Tracking</h4>
+                    <h4 >SEO Reporting and Growth Tracking</h4>
                     <p class="mb-0">We track rankings, traffic quality, landing page performance, conversions, and
                         search trends so you always know what is improving and where to scale next.</p>
                 </div>

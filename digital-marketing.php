@@ -418,7 +418,7 @@
     </div>
 </section>
 
-<div class="case10 pb-40">
+<div class="case10 pb-40 pt-60">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 m-auto text-center">
@@ -531,7 +531,7 @@
                     </div>
                     <h2>
                         Why choose our
-                        <span class="text-orang">digital marketing team</span>
+                        <span class="text-orang">Digital Marketing team</span>
                     </h2>
                     <p>
                         We combine creativity, strategy, and performance-driven execution to help businesses increase brand visibility, generate quality leads, and improve conversions.
@@ -581,12 +581,12 @@
                             <div class="accordion-item border border-2 active">
                                 <h5 class="accordion-header" id="faq-2-1">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2-1" aria-expanded="false">
-                                        What is digital marketing, and why is it important for my business?
+                                        What is Digital Marketing, and why is it important for my business?
                                     </button>
                                 </h5>
                                 <div id="collapse-2-1" class="accordion-collapse collapse " aria-labelledby="faq-2-1" data-bs-parent="#accordionExample-2">
                                     <div class="accordion-body">
-                                        Digital marketing encompasses all online efforts to promote your business, including search engine optimization (SEO), social media marketing, email campaigns, and pay-per-click (PPC) advertising. It is important because it allows you to reach a global audience, target specific demographics, track performance in real-time, and achieve higher ROI compared to traditional marketing methods.
+                                        Digital Marketing encompasses all online efforts to promote your business, including search engine optimization (SEO), social media marketing, email campaigns, and pay-per-click (PPC) advertising. It is important because it allows you to reach a global audience, target specific demographics, track performance in real-time, and achieve higher ROI compared to traditional marketing methods.
 
                                     </div>
                                 </div>

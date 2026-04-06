@@ -29,27 +29,29 @@ gtag('config', 'G-189WWHXLSS');
     background: linear-gradient(201.26deg, #0d3567 9.67%, rgb(56 209 254) 89.93%);
 }
 
-    @media (max-width:480px) {
-        .fs-142 {
-            font-size: 65px;
-        }
+@media (max-width:480px) {
+    .fs-142 {
+        font-size: 65px;
     }
-    .txte-white{
-        color: white !important;
-    }
-    .twc-footer-wrap {
+}
+
+.txte-white {
+    color: white !important;
+}
+
+.twc-footer-wrap {
     z-index: 0;
     position: relative;
     /* overflow: hidden; */
     background: linear-gradient(rgba(12, 18, 26, 0.82), rgba(12, 18, 26, 0.9)),
-         radial-gradient(circle at top left, rgba(255, 255, 255, 0.035) 0, transparent 32%),
-         radial-gradient(circle at top right, rgba(255, 255, 255, 0.03) 0, transparent 28%),
-         repeating-linear-gradient(135deg,
-             rgba(255, 255, 255, 0.018) 0,
-             rgba(255, 255, 255, 0.018) 1px,
-             transparent 1px,
-             transparent 32px),
-         linear-gradient(180deg, #28303d 0%, #171d27 45%, #111821 100%);
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.035) 0, transparent 32%),
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.03) 0, transparent 28%),
+        repeating-linear-gradient(135deg,
+            rgba(255, 255, 255, 0.018) 0,
+            rgba(255, 255, 255, 0.018) 1px,
+            transparent 1px,
+            transparent 32px),
+        linear-gradient(180deg, #28303d 0%, #171d27 45%, #111821 100%);
     border-top: 6px solid #00d0ff;
 }
 </style>
@@ -243,14 +245,14 @@ gtag('config', 'G-189WWHXLSS');
                             <img src="assets/image/uiux/user-interface.png" style="margin-bottom:10px" ;>
 
                             <p>
-                                Look and feel that enhances the overall user experience.
+                                We create a look and feel that enhances the overall user experience.
                             </p>
                         </li>
                         <li>
                             <img src="assets/image/uiux/user-experience.png" style="margin-bottom:10px" ;>
 
                             <p>
-                                Defines the way the end user will interact with the product.
+                                We define how end users interact with the product.
                             </p>
                         </li>
                     </ul>
@@ -332,12 +334,12 @@ gtag('config', 'G-189WWHXLSS');
     <section class="ptb-50 bg-dark">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-10 col-md-6">
                     <div class="text-center">
-                        <h2>We Build any Kind of Technology</h2>
+                        <h2>We Create Designs for All Types of Technologies</h2>
                         <p>
-                            Credibly grow premier ideas rather than bricks-and-clicks strategic
-                            theme areas distributed for stand-alone web-readiness.
+                            We craft modern UI/UX designs that combine creativity and functionality to improve user
+                            experience, increase conversions, and drive business growth.
                         </p>
                     </div>
                 </div>

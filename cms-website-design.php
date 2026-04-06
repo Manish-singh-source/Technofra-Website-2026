@@ -77,8 +77,7 @@ gtag('config', 'G-189WWHXLSS');
 
                         <div class="crm-hero-bottom mt-20">
                             <p class="text-white lead">Efficient content management system to implement faster changes.
-                                Shifting paradigms from a content management engine to create a unique and responsive
-                                customer experience platform</p>
+                                Shifting from a traditional content management engine to a unique and responsive customer experience platform.</p>
 
                         </div>
                     </div>

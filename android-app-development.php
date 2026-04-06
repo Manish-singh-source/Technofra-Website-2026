@@ -279,8 +279,7 @@ gtag('config', 'G-189WWHXLSS');
                 <i class="fa-solid fa-cart-shopping"></i>
                 <h4>eCommerce App</h4>
                 <p>
-                    Make online shopping experiences delightful for customers with Android eCommerce App
-                    Development and convert an online store into a powerful sales engine.
+                    Create delightful online shopping experiences with Android eCommerce app development and turn your store into a powerful sales engine
                 </p>
             </div>
 
@@ -546,7 +545,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="officeContent_v1">
                         <h3>Testing &amp; Compliance</h3>
-                        <p>Architecture, Design, Development</p>
+                        <p>Testing, QA, Performance checks, Compliance</p>
                     </div>
                 </div>
 

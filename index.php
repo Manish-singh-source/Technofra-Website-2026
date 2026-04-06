@@ -51,6 +51,14 @@ gtag('config', 'G-189WWHXLSS');
 
 }
 
+.tfxClrElectric {
+    color: #00a2ff;
+}
+
+.tfxClrClean {
+    color: #2ECC71;
+}
+
 .eep-btn-green {
     justify-content: center;
 }
@@ -678,7 +686,7 @@ gtag('config', 'G-189WWHXLSS');
                 <!-- <div class="uxb_about_mini_title"></div> -->
 
                 <h2 class="uxb_about_heading_title">
-                    Custom Website Design & Development Company for Global Businesses
+                    Your End-to-End Digital & Branding Partner for Business Growth
                 </h2>
 
                 <p class="uxb_about_para_text" data-aos="fade-right" data-aos-duration="600">
@@ -952,7 +960,7 @@ gtag('config', 'G-189WWHXLSS');
                     </a>
 
                     <!-- 05 -->
-                    <a href="social-media-marketing" target="_blank">
+                    <a href="social-media-marketing">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">
@@ -1201,7 +1209,8 @@ gtag('config', 'G-189WWHXLSS');
 
             <div class="eep-book-field">
                 <label for="bookCallAgenda">Meeting Agenda</label>
-                <textarea id="bookCallAgenda" name="meeting_agenda" placeholder="Enter your meeting agenda" rows="4" required></textarea>
+                <textarea id="bookCallAgenda" name="meeting_agenda" placeholder="Enter your meeting agenda" rows="4"
+                    required></textarea>
             </div>
 
             <button type="submit" class="eep-book-submit">Submit Booking</button>
@@ -1374,8 +1383,8 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusTitle">Construction</div>
                             </div>
                             <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrDental"><i class="fa-solid fa-tooth"></i></div>
-                                <div class="tfxIndusTitle">Dental</div>
+                                <div class="tfxIndusIcon tfxClrElectric"><i class="fa-solid fa-bolt"></i></div>
+                                <div class="tfxIndusTitle">Electrician</div>
                             </div>
                             <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrClean"><i class="fa-solid fa-broom"></i></div>
@@ -1488,8 +1497,8 @@ gtag('config', 'G-189WWHXLSS');
                                 <div class="tfxIndusTitle">Construction</div>
                             </div>
                             <div class="tfxIndusCard">
-                                <div class="tfxIndusIcon tfxClrDental"><i class="fa-solid fa-tooth"></i></div>
-                                <div class="tfxIndusTitle">Dental</div>
+                                <div class="tfxIndusIcon tfxClrElectric"><i class="fa-solid fa-bolt"></i></div>
+                                <div class="tfxIndusTitle">Electrician</div>
                             </div>
                             <div class="tfxIndusCard">
                                 <div class="tfxIndusIcon tfxClrClean"><i class="fa-solid fa-broom"></i></div>

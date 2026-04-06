@@ -408,7 +408,7 @@ $mail->Port = 587;
 $mail->setFrom('support@technofra.com', 'Technofra');
 $mail->addAddress('support@technofra.com');
 $mail->isHTML(true);
-$mail->Subject = 'New quote request from the Technofra website (' . $currentDateTime . ')';
+$mail->Subject = 'New Project Enquiry Received – Technofra Website (' . $currentDateTime . ')';
 $mail->Body = $htmlbody;
 
 // Send Admin Email
@@ -430,7 +430,7 @@ $client_mail->Port = 587;
 $client_mail->setFrom('support@technofra.com', 'Technofra');
 $client_mail->addAddress($email);
 $client_mail->isHTML(true);
-$client_mail->Subject = 'Thank You for Contacting Technofra (' . $currentDateTime . ')';
+$client_mail->Subject = 'Thank You for Your Enquiry – Technofra Team Will Get Back to You (' . $currentDateTime . ')';
 $client_mail->Body = $client_htmlbody;
 
 // Send Client Email

@@ -6,7 +6,7 @@
 
                  <div class="twc-about-col">
                      <div class="twc-brand-logo">
-                         <a href="index">
+                         <a href="https://technofra.com/">
                              <img src="assets\image\icons\technofra_logo.png" alt="Technofra Logo" width="200">
                          </a>
                      </div>
@@ -93,14 +93,12 @@
              <div class="twc-apps-row">
                  <!-- <div class="twc-available-text">COMING SOON</div> -->
 
-                 <a href="app" target="_blank" class="APPS" contenteditable="false"
-                     style="cursor: pointer; ">
+                 <a href="app" target="_blank" class="APPS" contenteditable="false" style="cursor: pointer; ">
 
                      <img src="assets/image/home/app0.webp" alt="image" class="lgs">
                  </a>
 
-                 <a href="app" target="_blank" class="APPS" contenteditable="false"
-                     style="cursor: pointer;">
+                 <a href="app" target="_blank" class="APPS" contenteditable="false" style="cursor: pointer;">
                      <img src="assets/image/home/ios0.webp" alt="image" class="lgs">
                  </a>
 
@@ -173,9 +171,9 @@
                  <a href="about">About Us </a>
                  <a href="contact">Contact Us</a>
                  <a href="portfolio">Portfolio</a>
-                 <a href="https://technofra.in/blog/">Blog</a>
-                 <a href="sitemap.html">Sitemap</a>
                  <a href="privacy-policy">Privacy Policy</a>
+                 <a href="refund-policy">Refund Policy</a>
+                 <a href="sitemap.html">Sitemap</a>
              </div>
 
              <div class="twc-copyright">
@@ -190,138 +188,9 @@
      </div>
 
  </footer>
- <style>
- .company-profile-modal .modal-dialog {
-     max-width: 400px;
-     display: flex;
-     align-items: center;
-     min-height: calc(100vh - 2rem);
- }
  
- .company-profile-modal .modal-content {
-     border: 0;
-     border-radius: 8px;
-     overflow: hidden;
-     background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-     box-shadow: 0 28px 90px rgba(15, 23, 42, 0.22);
- }
- 
-.company-profile-modal .modal-header {
-    padding: 22px 26px 16px;
-    border-bottom: 1px solid rgba(148, 163, 184, 0.22);
-    background: linear-gradient(
-128deg, #1b59da 0%, #00a6fd 100%);
-}
- 
- .company-profile-modal .modal-title {
-     font-size: 1.45rem;
-     font-weight: 700;
-     color: #ffffff;
- }
- 
- .company-profile-modal .modal-body {
-     padding: 24px 26px 26px !important;
-     box-shadow: none !important;
- }
-
- .company-profile-modal .btn-close {
-     filter: invert(1);
-     opacity: 0.95;
- }
-
- .company-profile-form-shell {
-     display: grid;      
-     gap: 14px 18px;
- }
-
- .company-profile-field {
-     margin-bottom: 0 !important;
- }
-
-.company-profile-actions,
- .company-profile-captcha {
-     grid-column: 1 / -1;
- }
-
- .company-profile-field .form-label {
-     margin-bottom: 6px;
-     font-size: 14px;
-     font-weight: 600;
-     color: #0f172a;
- }
- 
- .company-profile-field .form-control {
-     min-height: 50px;
-     padding: 10px 16px;
-     border: 1px solid #dbe3f0;
-     border-radius: 14px;
-     background: #ffffff;
-     box-shadow: none;
-     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
- }
- 
- .company-profile-field .form-control:focus {
-     border-color: #2563eb;
-     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
-     transform: translateY(-1px);
- }
- 
- .company-profile-field span {
-     display: inline-block;
-     margin-top: 5px;
-     font-size: 12px;
-     line-height: 1.4;
- }
-
- .company-profile-submit-btn {
-     margin-top: 4px !important;
-     min-height: 50px;
-     padding: 12px 24px;
-     border: 0;
-     border-radius: 14px;
-     background: linear-gradient(135deg, #1d4ed8 0%, #0ea5e9 100%);
-     color: #ffffff;
-     font-weight: 700;
-     box-shadow: 0 16px 30px rgba(29, 78, 216, 0.22);
- }
-
- .company-profile-submit-btn:hover {
-     color: #ffffff;
-     transform: translateY(-1px);
-     box-shadow: 0 20px 36px rgba(29, 78, 216, 0.28);
- }
-
- .company-profile-submit-btn:focus {
-     color: #ffffff;
-     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.14);
- }
- 
- @media (max-width: 767.98px) {
-     .company-profile-modal .modal-header {
-         padding: 18px 18px 12px;
-     }
-    
-    
-     .company-profile-modal .modal-dialog {
-     max-width: 330px;
-     display: flex;     
- }
-     .company-profile-modal .modal-body {
-         padding: 18px !important;
-     }
-
-     .company-profile-modal .modal-dialog {
-         min-height: calc(100vh - 1rem);
-     }
- 
-     .company-profile-form-shell {
-         grid-template-columns: 1fr;
-         gap: 12px;
-     }
- }
- </style>
- <div class="modal fade company-profile-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal fade company-profile-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
      <div class="modal-dialog modal-dialog-centered modal-lg">
          <div class="modal-content">
              <div class="modal-header">
@@ -334,47 +203,45 @@
                  <!-- Job Application Form -->
                  <form action="send7.php" method="post" enctype="multipart/form-data" id="companyProfileForm">
                      <div class="company-profile-form-shell">
-                             <!-- Full Name -->
-                             <div class="company-profile-field text-start">
-                                 <label for="name" class="form-label">Full Name*</label>
-                                 <input type="text" class="form-control ca-two-border" name="name" id="name" required>
-                                  <span id="name-error" style="color: red; display: none;">Please
-                                      enter a valid name (letters only)</span>
-                             </div>
- 
-                             <!-- Email -->
-                             <div class="company-profile-field text-start">
-                                 <label for="email" class="form-label">Email ID*</label>
-                                 <input type="email" class="form-control ca-two-border" name="email" id="email"
-                                     required>
-                                 <span id="email-error" style="color: red; display: none;">Please
-                                     enter a valid email address</span>
-                             </div>
- 
-                             <!-- Contact Details -->
-                             <div class="company-profile-field text-start">
-                                 <label for="phone" class="form-label">Contact Details*</label>
-                                 <input type="tel" class="form-control ca-two-border" name="contact" id="phone"
-                                     required>
-                                 <span id="phone-error" style="color: red; display: none;">Please
-                                     enter a valid phone number (10 digits)</span>
-                             </div>
-                             <!-- Location -->
-                            
- 
- 
-                             <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
-                             <div class="company-profile-captcha">
-                                 <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
-                             </div>
-                             <!-- Submit Button -->
-                             <div class="company-profile-actions text-start">
-                                 <button type="submit" class="mt-3 btn btn-outline-info company-profile-submit-btn"
-                                     id="companyProfileSubmitBtn" data-default-text="Download Company Profile"
-                                     data-loading-text="Sending...">
-                                     Download Company Profile
-                                 </button>
-                             </div>
+                         <!-- Full Name -->
+                         <div class="company-profile-field text-start">
+                             <label for="name" class="form-label">Full Name*</label>
+                             <input type="text" class="form-control ca-two-border" name="name" id="name" required>
+                             <span id="name-error" style="color: red; display: none;">Please
+                                 enter a valid name (letters only)</span>
+                         </div>
+
+                         <!-- Email -->
+                         <div class="company-profile-field text-start">
+                             <label for="email" class="form-label">Email ID*</label>
+                             <input type="email" class="form-control ca-two-border" name="email" id="email" required>
+                             <span id="email-error" style="color: red; display: none;">Please
+                                 enter a valid email address</span>
+                         </div>
+
+                         <!-- Contact Details -->
+                         <div class="company-profile-field text-start">
+                             <label for="phone" class="form-label">Contact Details*</label>
+                             <input type="tel" class="form-control ca-two-border" name="contact" id="phone" required>
+                             <span id="phone-error" style="color: red; display: none;">Please
+                                 enter a valid phone number (10 digits)</span>
+                         </div>
+                         <!-- Location -->
+
+
+
+                         <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
+                         <div class="company-profile-captcha">
+                             <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
+                         </div>
+                         <!-- Submit Button -->
+                         <div class="company-profile-actions text-start">
+                             <button type="submit" class="mt-3 btn btn-outline-info company-profile-submit-btn"
+                                 id="companyProfileSubmitBtn" data-default-text="Download Company Profile"
+                                 data-loading-text="Sending...">
+                                 Download Company Profile
+                             </button>
+                         </div>
                      </div>
                  </form>
              </div>
@@ -382,7 +249,10 @@
      </div>
  </div>
  <!-- Floating Chatbot -->
- <div class="tf-chatbot-wrap">
+ <?php $tfBasePath = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '')), '/.'); ?>
+ <div class="tf-chatbot-wrap"
+     data-page="<?php echo htmlspecialchars(parse_url($_SERVER['REQUEST_URI'] ?? 'index', PHP_URL_PATH) ?: 'index', ENT_QUOTES, 'UTF-8'); ?>"
+     data-endpoint="<?php echo htmlspecialchars(($tfBasePath !== '' ? $tfBasePath : '') . '/chatbot-handler', ENT_QUOTES, 'UTF-8'); ?>">
      <button class="tf-chatbot-toggle" id="tfChatbotToggle" aria-label="Open chat">
          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
              <path
@@ -395,7 +265,7 @@
          <div class="tf-chatbot-header">
              <div>
                  <h4>Technofra Support</h4>
-                 <span>Typically replies instantly</span>
+                 <span>Live support assistant</span>
              </div>
              <button class="tf-chatbot-close" id="tfChatbotClose" aria-label="Close chat">×</button>
          </div>
@@ -412,8 +282,8 @@
          </div>
 
          <div class="tf-chatbot-footer">
-             <input type="text" id="tfChatbotInput" placeholder="Type your message..." />
-             <button id="tfChatbotSend">Send</button>
+             <input type="text" id="tfChatbotInput" placeholder="Type your message..." autocomplete="off" />
+             <button id="tfChatbotSend" type="button">Send</button>
          </div>
      </div>
  </div>
@@ -525,6 +395,206 @@ if (navClose && rightMenu) {
 
  <script>
 (function() {
+    const widget = document.querySelector(".tf-chatbot-wrap");
+    const toggleBtn = document.getElementById("tfChatbotToggle");
+    const closeBtn = document.getElementById("tfChatbotClose");
+    const chatBox = document.getElementById("tfChatbotBox");
+    const sendBtn = document.getElementById("tfChatbotSend");
+    const input = document.getElementById("tfChatbotInput");
+    const body = document.getElementById("tfChatbotBody");
+
+    if (!widget || !toggleBtn || !closeBtn || !chatBox || !sendBtn || !input || !body) {
+        return;
+    }
+
+    const endpoint = widget.dataset.endpoint || "chatbot-handler.php";
+    const currentPage = widget.dataset.page || window.location.pathname;
+    const defaultButtonText = sendBtn.textContent;
+    const introMessages = body.querySelectorAll(".tf-msg-bot");
+    let historyLoaded = false;
+    let isSending = false;
+
+    closeBtn.innerHTML = "&times;";
+
+    if (introMessages.length > 0) {
+        introMessages[0].innerHTML = "Hi there!<br>Welcome to Technofra. How can we help you today?";
+    }
+
+    function toggleChat(forceOpen) {
+        if (typeof forceOpen === "boolean") {
+            chatBox.classList.toggle("active", forceOpen);
+        } else {
+            chatBox.classList.toggle("active");
+        }
+
+        if (chatBox.classList.contains("active")) {
+            setTimeout(function() {
+                input.focus();
+            }, 150);
+        }
+    }
+
+    function appendMessage(text, type, allowHtml) {
+        const message = document.createElement("div");
+        message.className = "tf-msg " + (type === "user" ? "tf-msg-user" : "tf-msg-bot");
+
+        if (allowHtml) {
+            message.innerHTML = text;
+        } else {
+            message.textContent = text;
+        }
+
+        body.appendChild(message);
+        body.scrollTop = body.scrollHeight;
+        return message;
+    }
+
+    function createTypingMessage() {
+        const typingMessage = document.createElement("div");
+        typingMessage.className = "tf-msg tf-msg-bot tf-msg-typing";
+        typingMessage.innerHTML = "<span></span><span></span><span></span>";
+        body.appendChild(typingMessage);
+        body.scrollTop = body.scrollHeight;
+        return typingMessage;
+    }
+
+    function setSendingState(state) {
+        isSending = state;
+        input.disabled = state;
+        sendBtn.disabled = state;
+        sendBtn.textContent = state ? "Sending..." : defaultButtonText;
+    }
+
+    async function requestChat(payload) {
+        const formData = new URLSearchParams();
+
+        Object.keys(payload).forEach(function(key) {
+            formData.append(key, payload[key]);
+        });
+
+        const response = await fetch(endpoint, {
+            method: "POST",
+            credentials: "same-origin",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                "Accept": "application/json"
+            },
+            body: formData.toString()
+        });
+
+        const responseText = await response.text();
+        let data = null;
+
+        try {
+            data = JSON.parse(responseText);
+        } catch (error) {
+            console.error("Chatbot endpoint returned non-JSON response:", responseText);
+            throw new Error("Invalid server response.");
+        }
+
+        if (!response.ok || !data.success) {
+            throw new Error(data.message || "Chat request failed.");
+        }
+
+        return data;
+    }
+
+    async function loadHistory() {
+        if (historyLoaded) {
+            return;
+        }
+
+        historyLoaded = true;
+
+        try {
+            const data = await requestChat({
+                action: "history"
+            });
+
+            if (!Array.isArray(data.history) || !data.history.length) {
+                return;
+            }
+
+            body.innerHTML = "";
+
+            data.history.forEach(function(item) {
+                appendMessage(item.html || "", item.role === "user" ? "user" : "bot", true);
+            });
+        } catch (error) {
+            historyLoaded = false;
+        }
+    }
+
+    async function sendMessage() {
+        const text = input.value.trim();
+
+        if (!text || isSending) {
+            return;
+        }
+
+        appendMessage(text, "user", false);
+        input.value = "";
+
+        const typingMessage = createTypingMessage();
+        setSendingState(true);
+
+        try {
+            const data = await requestChat({
+                action: "message",
+                message: text,
+                page: currentPage
+            });
+
+            typingMessage.remove();
+            appendMessage(data.reply || "Thanks for your message. Our team will get back to you shortly.", "bot", true);
+        } catch (error) {
+            typingMessage.remove();
+            appendMessage(
+                'Sorry, live chat is temporarily unavailable.<br>Please use <a href="https://wa.me/918080721003" target="_blank" rel="noopener noreferrer">WhatsApp</a> or our <a href="contact">contact page</a>.',
+                "bot",
+                true
+            );
+        } finally {
+            setSendingState(false);
+            input.focus();
+        }
+    }
+
+    toggleBtn.addEventListener("click", async function() {
+        const willOpen = !chatBox.classList.contains("active");
+        toggleChat(willOpen);
+
+        if (willOpen) {
+            await loadHistory();
+        }
+    });
+
+    closeBtn.addEventListener("click", function() {
+        toggleChat(false);
+    });
+
+    sendBtn.addEventListener("click", sendMessage);
+
+    input.addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            sendMessage();
+        }
+    });
+
+    document.addEventListener("click", function(e) {
+        const insideWidget = e.target.closest(".tf-chatbot-wrap");
+
+        if (!insideWidget && chatBox.classList.contains("active")) {
+            toggleChat(false);
+        }
+    });
+})();
+</script>
+
+<script>
+(function() {
+    return;
     const toggleBtn = document.getElementById("tfChatbotToggle");
     const closeBtn = document.getElementById("tfChatbotClose");
     const chatBox = document.getElementById("tfChatbotBox");
@@ -702,36 +772,36 @@ if (navClose && rightMenu) {
  </script>
 
  <style>
- .company-profile-submit-btn.is-loading {
-     opacity: 0.75;
-     cursor: not-allowed;
-     pointer-events: none;
- }
+.company-profile-submit-btn.is-loading {
+    opacity: 0.75;
+    cursor: not-allowed;
+    pointer-events: none;
+}
  </style>
 
  <script>
- (function() {
-     const companyProfileForm = document.getElementById('companyProfileForm');
-     const companyProfileSubmitBtn = document.getElementById('companyProfileSubmitBtn');
+(function() {
+    const companyProfileForm = document.getElementById('companyProfileForm');
+    const companyProfileSubmitBtn = document.getElementById('companyProfileSubmitBtn');
 
-     if (!companyProfileForm || !companyProfileSubmitBtn) {
-         return;
-     }
+    if (!companyProfileForm || !companyProfileSubmitBtn) {
+        return;
+    }
 
-     function resetCompanyProfileButton() {
-         companyProfileSubmitBtn.disabled = false;
-         companyProfileSubmitBtn.classList.remove('is-loading');
-         companyProfileSubmitBtn.innerHTML = companyProfileSubmitBtn.dataset.defaultText;
-     }
+    function resetCompanyProfileButton() {
+        companyProfileSubmitBtn.disabled = false;
+        companyProfileSubmitBtn.classList.remove('is-loading');
+        companyProfileSubmitBtn.innerHTML = companyProfileSubmitBtn.dataset.defaultText;
+    }
 
-     companyProfileForm.addEventListener('submit', function() {
-         companyProfileSubmitBtn.disabled = true;
-         companyProfileSubmitBtn.classList.add('is-loading');
-         companyProfileSubmitBtn.textContent = companyProfileSubmitBtn.dataset.loadingText;
-     });
+    companyProfileForm.addEventListener('submit', function() {
+        companyProfileSubmitBtn.disabled = true;
+        companyProfileSubmitBtn.classList.add('is-loading');
+        companyProfileSubmitBtn.textContent = companyProfileSubmitBtn.dataset.loadingText;
+    });
 
-     window.addEventListener('pageshow', resetCompanyProfileButton);
- })();
+    window.addEventListener('pageshow', resetCompanyProfileButton);
+})();
  </script>
 
  <!--build:js-->
