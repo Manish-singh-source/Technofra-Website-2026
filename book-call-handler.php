@@ -230,8 +230,8 @@ function renderEmailInfoRow($label, $value)
 {
     return '
         <tr>
-            <td style="padding:12px 14px;border-bottom:1px solid #e8edf2;font-size:13px;font-weight:700;color:#3f4348;width:170px;vertical-align:top;">' . $label . '</td>
-            <td style="padding:12px 14px;border-bottom:1px solid #e8edf2;font-size:13px;line-height:1.7;color:#60656b;">' . $value . '</td>
+            <td style="padding:12px 10px;border-bottom:1px solid #e8edf2;font-size:13px;font-weight:700;color:#3f4348;width:120px;vertical-align:top;word-break:break-word;">' . $label . '</td>
+            <td style="padding:12px 10px;border-bottom:1px solid #e8edf2;font-size:13px;line-height:1.7;color:#60656b;word-break:break-word;">' . $value . '</td>
         </tr>
     ';
 }
@@ -291,53 +291,68 @@ function renderBookCallEmail(array $options)
     }
 
     return '
-    <div style="margin:0;padding:20px 0;background:#f3f3f3;font-family:Arial,Helvetica,sans-serif;color:#4a4a4a;">
-        <div style="width:100%;max-width:560px;margin:0 auto;background:#ffffff;">
-            <div style="padding:18px 28px 0;font-size:11px;color:#8a8a8a;">
-                <table role="presentation" style="width:100%;border-collapse:collapse;">
+    <div style="margin:0;padding:12px 0;background:#f3f3f3;font-family:Arial,Helvetica,sans-serif;color:#4a4a4a;">
+        <div style="width:100%;max-width:560px;margin:0 auto;background:#ffffff;border-radius:18px;overflow:hidden;">
+            <div style="padding:16px 16px 0;font-size:11px;color:#8a8a8a;">
+                <table role="presentation" style="width:100%;border-collapse:collapse;table-layout:fixed;">
                     <tr>
-                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;">' . $preheader . '</td>
-                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;text-align:right;">' . $preheaderDate . '</td>
+                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;padding:0 8px 8px 0;">' . $preheader . '</td>
+                        <td style="font-size:11px;line-height:1.5;color:#8a8a8a;text-align:right;white-space:nowrap;padding:0 0 8px 8px;">' . $preheaderDate . '</td>
                     </tr>
                 </table>
             </div>
 
-            <div style="padding:34px 80px 10px;">
+            <div style="padding:28px 20px 8px;">
                 <div style="margin-bottom:22px;">
                     <img src="https://technofra.com/assets/image/favicon.png" alt="Technofra" style="width:50px;height:auto;display:block;">
                 </div>
-                <h1 style="margin:0 0 24px;font-size:24px;line-height:1.25;color:#3f4348;font-weight:700;">' . $headline . '</h1>
-                <div style="margin:0;font-size:16px;line-height:1.7;color:#60656b;">' . $lead . '</div>
+                <h1 style="margin:0 0 20px;font-size:24px;line-height:1.25;color:#3f4348;font-weight:700;">' . $headline . '</h1>
+                <div style="margin:0;font-size:15px;line-height:1.7;color:#60656b;">' . $lead . '</div>
                 ' . $introHtml . '
-                <a href="' . $ctaHref . '" style="display:inline-block;margin-top:28px;background:' . $accentColor . ';color:#ffffff;text-decoration:none;padding:16px 34px;font-size:14px;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,0.12);">' . $ctaLabel . '</a>
+                <a href="' . $ctaHref . '" style="display:inline-block;margin-top:24px;background:' . $accentColor . ';color:#ffffff;text-decoration:none;padding:14px 24px;font-size:14px;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,0.12);border-radius:12px;">' . $ctaLabel . '</a>
             </div>
 
-            <div style="margin:48px 80px 40px;border:1px solid rgba(0,51,102,0.35);padding:34px 30px 26px;">
-                <h2 style="margin:0 0 24px;font-size:18px;font-weight:700;color:#3f4348;">' . $summaryTitle . '</h2>
-                <table role="presentation" style="width:100%;border-collapse:collapse;margin-bottom:26px;">
+            <div style="margin:28px 16px 24px;border:1px solid rgba(0,51,102,0.18);border-radius:16px;padding:22px 16px 18px;">
+                <h2 style="margin:0 0 18px;font-size:18px;font-weight:700;color:#3f4348;">' . $summaryTitle . '</h2>
+                <table role="presentation" style="width:100%;border-collapse:collapse;margin-bottom:22px;table-layout:fixed;">
                     ' . $summaryHtml . '
                 </table>
 
-                <div style="border-top:1px solid #e6e6e6;padding-top:24px;">
-                    <h3 style="margin:0 0 24px;font-size:16px;font-weight:700;color:#3f4348;">' . $stepsTitle . '</h3>
+                <div style="border-top:1px solid #e6e6e6;padding-top:20px;">
+                    <h3 style="margin:0 0 20px;font-size:16px;font-weight:700;color:#3f4348;">' . $stepsTitle . '</h3>
                     <table role="presentation" style="width:100%;border-collapse:collapse;">
                         ' . $stepsHtml . '
                     </table>
                 </div>
             </div>
 
-            <div style="padding:0 80px 26px;">
-                <h3 style="margin:0 0 20px;font-size:15px;color:#555b61;">' . $footerTitle . '</h3>
+            <div style="padding:0 20px 22px;">
+                <h3 style="margin:0 0 16px;font-size:15px;color:#555b61;">' . $footerTitle . '</h3>
                 <div style="font-size:14px;line-height:1.8;">' . $footerLinksHtml . '</div>
             </div>
 
-            <div style="margin:24px 50px 0;background:#f4f6f8;padding:28px 28px 26px;font-size:11px;line-height:1.8;color:#8a9198;">
+            <div style="margin:12px 16px 0;background:#f4f6f8;border-radius:14px;padding:20px 16px 18px;font-size:11px;line-height:1.8;color:#8a9198;">
                 ' . $closingHtml . '
                 <div>' . $footerNote . '</div>
             </div>
         </div>
     </div>
     ';
+}
+
+function resolveTimezone($timezone)
+{
+    $timezone = trim((string) $timezone);
+
+    if ($timezone === '') {
+        return null;
+    }
+
+    try {
+        return new DateTimeZone($timezone);
+    } catch (Exception $exception) {
+        return null;
+    }
 }
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -357,6 +372,7 @@ $phone = trim($_POST['phone'] ?? '');
 $meetingAgenda = trim($_POST['meeting_agenda'] ?? '');
 $bookingDate = trim($_POST['booking_date'] ?? '');
 $bookingTime = trim($_POST['booking_time'] ?? '');
+$userTimezone = trim($_POST['user_timezone'] ?? '');
 
 if ($name === '' || $email === '' || $phone === '' || $meetingAgenda === '' || $bookingDate === '' || $bookingTime === '') {
     redirectWithStatus('error', 'Please fill all booking details before submitting the form.');
@@ -366,7 +382,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     redirectWithStatus('error', 'Please enter a valid email address.');
 }
 
-if (!preg_match('/^[0-9+\-\s]{10,15}$/', $phone)) {
+if (!preg_match('/^[0-9+\-\s()]{7,20}$/', $phone)) {
     redirectWithStatus('error', 'Please enter a valid phone number.');
 }
 
@@ -513,6 +529,18 @@ $mysqli->close();
 
 $formattedDate = $bookingDateTime->format('d M Y');
 $formattedTime = $bookingDateTime->format('H:i');
+$formattedTimeIst = $formattedTime . ' IST';
+$clientTimezoneObject = resolveTimezone($userTimezone);
+$clientDateTime = clone $bookingDateTime;
+$clientTimezoneLabel = 'IST';
+
+if ($clientTimezoneObject instanceof DateTimeZone) {
+    $clientDateTime->setTimezone($clientTimezoneObject);
+    $clientTimezoneLabel = $clientDateTime->format('T');
+}
+
+$clientFormattedDate = $clientDateTime->format('d M Y');
+$clientFormattedTime = $clientDateTime->format('H:i') . ' ' . $clientTimezoneLabel;
 $mailProblem = false;
 $meetData = null;
 $meetProblem = false;
@@ -542,8 +570,11 @@ if ($smtpReady) {
     $safePhone = htmlspecialchars($phone);
     $safeMeetingAgenda = nl2br(htmlspecialchars($meetingAgenda));
     $safeFormattedDate = htmlspecialchars($formattedDate);
-    $safeFormattedTime = htmlspecialchars($formattedTime);
+    $safeFormattedTime = htmlspecialchars($formattedTimeIst);
+    $safeClientFormattedDate = htmlspecialchars($clientFormattedDate);
+    $safeClientFormattedTime = htmlspecialchars($clientFormattedTime);
     $safeSubmittedAt = htmlspecialchars((new DateTime('now'))->format('d M Y H:i'));
+    $safeUserTimezone = htmlspecialchars($clientTimezoneObject instanceof DateTimeZone ? $clientTimezoneObject->getName() : 'Asia/Kolkata');
 
     if (!empty($meetData['meet_link'])) {
         $safeMeetLink = htmlspecialchars($meetData['meet_link']);
@@ -571,13 +602,14 @@ if ($smtpReady) {
         ['label' => 'Meeting Agenda', 'value' => $safeMeetingAgenda],
         ['label' => 'Booking Date', 'value' => $safeFormattedDate],
         ['label' => 'Booking Time', 'value' => $safeFormattedTime],
+        ['label' => 'Client Timezone', 'value' => $safeUserTimezone],
     ], $meetSectionAdmin, [
         ['label' => 'Submitted At', 'value' => $safeSubmittedAt],
     ]);
 
     $clientSummaryRows = array_merge([
-        ['label' => 'Booking Date', 'value' => $safeFormattedDate],
-        ['label' => 'Booking Time', 'value' => $safeFormattedTime],
+        ['label' => 'Booking Date', 'value' => $safeClientFormattedDate],
+        ['label' => 'Booking Time', 'value' => $safeClientFormattedTime],
         ['label' => 'Meeting Agenda', 'value' => $safeMeetingAgenda],
         ['label' => 'Contact Email', 'value' => $safeEmail],
         ['label' => 'Contact Phone', 'value' => $safePhone],

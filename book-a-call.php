@@ -91,6 +91,10 @@ a:hover, .btn-link:hover {
 }
 
 .bac-card-shell .eep-calendar-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
     margin-bottom: 12px;
 }
 
@@ -112,7 +116,35 @@ a:hover, .btn-link:hover {
 }
 
 .bac-card-shell .eep-calendar-box {
+    background: #f9fbfc;
+    border: 1px solid #eef2f6;
+    border-radius: 26px;
     padding: 12px;
+}
+
+.bac-card-shell .eep-calendar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.bac-card-shell .eep-cal-btn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    font-size: 18px;
+    color: #495066;
+    transition: 0.2s ease;
+}
+
+.bac-card-shell .eep-cal-btn:hover {
+    transform: translateY(-1px);
 }
 
 .bac-card-shell .eep-month-label {
@@ -120,11 +152,18 @@ a:hover, .btn-link:hover {
 }
 
 .bac-card-shell .eep-calendar-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     gap: 4px;
     font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #9aa3b2;
 }
 
 .bac-card-shell .eep-calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     gap: 4px;
 }
 
@@ -134,10 +173,35 @@ a:hover, .btn-link:hover {
 }
 
 .bac-card-shell .eep-calendar-day {
+    border: 1px solid #edf1f5;
+    background: #ffffff;
+    color: #2f3750;
     font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.bac-card-shell .eep-calendar-day:hover {
+    background: #f5f8fb;
+}
+
+.bac-card-shell .eep-calendar-day.eep-is-today {
+    background: #eefaf3;
+    color: #2d7d5d;
+    font-weight: 700;
+}
+
+.bac-card-shell .eep-calendar-day.eep-is-selected {
+    border: none;
+    background: #5ccf91;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 0 10px 20px rgba(92, 207, 145, 0.28);
 }
 
 .bac-card-shell .eep-calendar-info {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
     margin-top: 12px;
@@ -145,29 +209,118 @@ a:hover, .btn-link:hover {
 
 .bac-card-shell .eep-selected-date,
 .bac-card-shell .eep-time-trigger {
+    width: 100%;
+    min-width: 0;
     padding: 10px 11px;
     border-radius: 13px;
     font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bac-card-shell .eep-selected-date {
+    background: #f6faf8;
+    color: #2d7d5d;
+    border: 1px solid #dff1e8;
+}
+
+.bac-card-shell .eep-time-picker-wrap {
+    position: relative;
+    min-width: 0;
+}
+
+.bac-card-shell .eep-time-trigger {
+    text-decoration: none;
+    background: #f7f9fc;
+    color: #2f3750;
+    border: 1px solid #eef2f6;
+    cursor: pointer;
+    text-align: left;
+}
+
+.bac-card-shell .eep-time-trigger.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
 }
 
 .bac-card-shell .eep-pill-icon {
     width: 30px;
     height: 30px;
     border-radius: 9px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+}
+
+.bac-card-shell .eep-selected-date .eep-pill-icon {
+    background: #e7f7ef;
+}
+
+.bac-card-shell .eep-time-trigger .eep-pill-icon {
+    background: #eef4ff;
 }
 
 .bac-card-shell .eep-selected-date-text,
 .bac-card-shell .eep-time-text {
     font-size: 12px;
+    text-overflow: ellipsis;
+}
+
+.bac-card-shell .eep-time-text {
+    flex: 1;
+}
+
+.bac-card-shell .eep-time-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #eef2f6;
+    border-radius: 18px;
+    padding: 12px;
+    max-height: 220px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 18px 35px rgba(20, 28, 45, 0.12);
+    display: none;
+    z-index: 20;
+}
+
+.bac-card-shell .eep-time-dropdown.show {
+    display: block;
 }
 
 .bac-card-shell .eep-time-grid {
+    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
 }
 
 .bac-card-shell .eep-time-option {
+    border: 1px solid #edf1f5;
+    background: #fff;
+    color: #2f3750;
+    border-radius: 12px;
     padding: 8px 7px;
     font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.bac-card-shell .eep-time-option:hover {
+    background: #f5f8fb;
+}
+
+.bac-card-shell .eep-time-option.active {
+    background: #5ccf91;
+    color: #fff;
+    border-color: #5ccf91;
 }
 
 .bac-card-shell .eep-calendar-actions {
@@ -295,6 +448,56 @@ a:hover, .btn-link:hover {
     box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.12);
 }
 
+.bac-phone-group {
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 12px;
+}
+
+.bac-book-field select {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d0d5dd;
+    border-radius: 14px;
+    padding: 0 16px;
+    font-size: 15px;
+    color: #101828;
+    background: #ffffff;
+    outline: none;
+    font-family: inherit;
+}
+
+.bac-book-field select:focus {
+    border-color: #16a34a;
+    box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.12);
+}
+
+.bac-timezone-note {
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #475467;
+}
+
+.bac-timezone-note strong {
+    color: #12315f;
+}
+
+.bac-local-time-note {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #475467;
+}
+
+.bac-local-time-note strong {
+    color: #12315f;
+}
+
+.bac-book-summary-line {
+    margin-top: 6px;
+}
+
 .bac-book-submit {
     width: 100%;
     border: 0;
@@ -306,8 +509,8 @@ a:hover, .btn-link:hover {
     padding: 14px 18px;
 }
 
-.bac-calendar-day[disabled],
-.bac-time-option[disabled] {
+.bac-card-shell .eep-calendar-day[disabled],
+.bac-card-shell .eep-time-option[disabled] {
     opacity: 0.35;
     cursor: not-allowed;
     pointer-events: none;
@@ -362,6 +565,10 @@ a:hover, .btn-link:hover {
 
     .bac-book-form {
         padding: 0 20px 20px;
+    }
+
+    .bac-phone-group {
+        grid-template-columns: 1fr;
     }
 }
 </style>
@@ -462,6 +669,12 @@ a:hover, .btn-link:hover {
                             </div>
                         </div>
 
+                        <div class="bac-timezone-note">
+                            <strong>All slots are scheduled in IST</strong>
+                            <span id="viewerTimezoneNote"></span>
+                            <div id="selectedLocalTimeNote" class="bac-local-time-note"></div>
+                        </div>
+
                         <div class="eep-calendar-actions text-center">
                             <a href="#book-call" class="eep-btn-green" id="bookCallBtn">
                                 <i class="fa-solid fa-calendar-plus"></i>
@@ -488,11 +701,13 @@ a:hover, .btn-link:hover {
         <form class="bac-book-form" action="book-call-handler.php" method="post">
             <div class="bac-book-summary">
                 <strong>Date:</strong> <span id="modalSelectedDate">Not selected</span><br>
-                <strong>Time:</strong> <span id="modalSelectedTime">Not selected</span>
+                <div class="bac-book-summary-line"><strong>Time (IST):</strong> <span id="modalSelectedTime">Not selected</span></div>
+                <div class="bac-book-summary-line"><strong>Your Local Time:</strong> <span id="modalSelectedLocalTime">Not selected</span></div>
             </div>
 
             <input type="hidden" name="booking_date" id="bookingDateInput">
             <input type="hidden" name="booking_time" id="bookingTimeInput">
+            <input type="hidden" name="user_timezone" id="userTimezoneInput">
 
             <div class="bac-book-field">
                 <label for="bookCallName">Name</label>
@@ -506,7 +721,12 @@ a:hover, .btn-link:hover {
 
             <div class="bac-book-field">
                 <label for="bookCallPhone">Number</label>
-                <input type="tel" id="bookCallPhone" name="phone" placeholder="Enter your number" required>
+                <div class="bac-phone-group">
+                    <select id="bookCallCountryCode" aria-label="Select country code">
+                        <option value="+91" selected>India (+91)</option>
+                    </select>
+                    <input type="tel" id="bookCallPhone" name="phone" placeholder="Enter your phone number" pattern="[0-9\\-\\s()]{6,18}" title="Enter a valid phone number." required>
+                </div>
             </div>
 
             <div class="bac-book-field">
@@ -539,28 +759,836 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
     const bookCallClose = document.getElementById("bookCallClose");
     const modalSelectedDate = document.getElementById("modalSelectedDate");
     const modalSelectedTime = document.getElementById("modalSelectedTime");
+    const modalSelectedLocalTime = document.getElementById("modalSelectedLocalTime");
+    const bookCallCountryCode = document.getElementById("bookCallCountryCode");
+    const bookCallPhone = document.getElementById("bookCallPhone");
     const bookingDateInput = document.getElementById("bookingDateInput");
     const bookingTimeInput = document.getElementById("bookingTimeInput");
+    const userTimezoneInput = document.getElementById("userTimezoneInput");
+    const selectedLocalTimeNote = document.getElementById("selectedLocalTimeNote");
+    const viewerTimezoneNote = document.getElementById("viewerTimezoneNote");
 
     if (
         !monthLabel || !calendarGrid || !selectedDateText || !selectedTimeText ||
         !prevMonth || !nextMonth || !timeTrigger || !timeDropdown || !timeGrid ||
         !bookCallBtn || !bookCallModal || !bookCallClose || !modalSelectedDate ||
-        !modalSelectedTime || !bookingDateInput || !bookingTimeInput
+        !modalSelectedTime || !modalSelectedLocalTime || !bookCallCountryCode ||
+        !bookCallPhone || !bookingDateInput || !bookingTimeInput || !userTimezoneInput ||
+        !selectedLocalTimeNote || !viewerTimezoneNote
     ) {
         return;
     }
 
+    const istTimezone = "Asia/Kolkata";
+    const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone || "Local Time";
     const now = new Date();
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     let viewYear = now.getFullYear();
     let viewMonth = now.getMonth();
     let selectedDate = null;
     let selectedTime = null;
     let bookedSlots = [];
+    const countryCodes = [{
+            name: "Afghanistan",
+            code: "+93"
+        },
+        {
+            name: "Albania",
+            code: "+355"
+        },
+        {
+            name: "Algeria",
+            code: "+213"
+        },
+        {
+            name: "Andorra",
+            code: "+376"
+        },
+        {
+            name: "Angola",
+            code: "+244"
+        },
+        {
+            name: "Antigua and Barbuda",
+            code: "+1-268"
+        },
+        {
+            name: "Argentina",
+            code: "+54"
+        },
+        {
+            name: "Armenia",
+            code: "+374"
+        },
+        {
+            name: "Australia",
+            code: "+61"
+        },
+        {
+            name: "Austria",
+            code: "+43"
+        },
+        {
+            name: "Azerbaijan",
+            code: "+994"
+        },
+        {
+            name: "Bahamas",
+            code: "+1-242"
+        },
+        {
+            name: "Bahrain",
+            code: "+973"
+        },
+        {
+            name: "Bangladesh",
+            code: "+880"
+        },
+        {
+            name: "Barbados",
+            code: "+1-246"
+        },
+        {
+            name: "Belarus",
+            code: "+375"
+        },
+        {
+            name: "Belgium",
+            code: "+32"
+        },
+        {
+            name: "Belize",
+            code: "+501"
+        },
+        {
+            name: "Benin",
+            code: "+229"
+        },
+        {
+            name: "Bhutan",
+            code: "+975"
+        },
+        {
+            name: "Bolivia",
+            code: "+591"
+        },
+        {
+            name: "Bosnia and Herzegovina",
+            code: "+387"
+        },
+        {
+            name: "Botswana",
+            code: "+267"
+        },
+        {
+            name: "Brazil",
+            code: "+55"
+        },
+        {
+            name: "Brunei",
+            code: "+673"
+        },
+        {
+            name: "Bulgaria",
+            code: "+359"
+        },
+        {
+            name: "Burkina Faso",
+            code: "+226"
+        },
+        {
+            name: "Burundi",
+            code: "+257"
+        },
+        {
+            name: "Cambodia",
+            code: "+855"
+        },
+        {
+            name: "Cameroon",
+            code: "+237"
+        },
+        {
+            name: "Canada",
+            code: "+1"
+        },
+        {
+            name: "Cape Verde",
+            code: "+238"
+        },
+        {
+            name: "Central African Republic",
+            code: "+236"
+        },
+        {
+            name: "Chad",
+            code: "+235"
+        },
+        {
+            name: "Chile",
+            code: "+56"
+        },
+        {
+            name: "China",
+            code: "+86"
+        },
+        {
+            name: "Colombia",
+            code: "+57"
+        },
+        {
+            name: "Comoros",
+            code: "+269"
+        },
+        {
+            name: "Congo",
+            code: "+242"
+        },
+        {
+            name: "Costa Rica",
+            code: "+506"
+        },
+        {
+            name: "Croatia",
+            code: "+385"
+        },
+        {
+            name: "Cuba",
+            code: "+53"
+        },
+        {
+            name: "Cyprus",
+            code: "+357"
+        },
+        {
+            name: "Czech Republic",
+            code: "+420"
+        },
+        {
+            name: "Denmark",
+            code: "+45"
+        },
+        {
+            name: "Djibouti",
+            code: "+253"
+        },
+        {
+            name: "Dominica",
+            code: "+1-767"
+        },
+        {
+            name: "Dominican Republic",
+            code: "+1-809"
+        },
+        {
+            name: "Ecuador",
+            code: "+593"
+        },
+        {
+            name: "Egypt",
+            code: "+20"
+        },
+        {
+            name: "El Salvador",
+            code: "+503"
+        },
+        {
+            name: "Equatorial Guinea",
+            code: "+240"
+        },
+        {
+            name: "Eritrea",
+            code: "+291"
+        },
+        {
+            name: "Estonia",
+            code: "+372"
+        },
+        {
+            name: "Eswatini",
+            code: "+268"
+        },
+        {
+            name: "Ethiopia",
+            code: "+251"
+        },
+        {
+            name: "Fiji",
+            code: "+679"
+        },
+        {
+            name: "Finland",
+            code: "+358"
+        },
+        {
+            name: "France",
+            code: "+33"
+        },
+        {
+            name: "Gabon",
+            code: "+241"
+        },
+        {
+            name: "Gambia",
+            code: "+220"
+        },
+        {
+            name: "Georgia",
+            code: "+995"
+        },
+        {
+            name: "Germany",
+            code: "+49"
+        },
+        {
+            name: "Ghana",
+            code: "+233"
+        },
+        {
+            name: "Greece",
+            code: "+30"
+        },
+        {
+            name: "Grenada",
+            code: "+1-473"
+        },
+        {
+            name: "Guatemala",
+            code: "+502"
+        },
+        {
+            name: "Guinea",
+            code: "+224"
+        },
+        {
+            name: "Guinea-Bissau",
+            code: "+245"
+        },
+        {
+            name: "Guyana",
+            code: "+592"
+        },
+        {
+            name: "Haiti",
+            code: "+509"
+        },
+        {
+            name: "Honduras",
+            code: "+504"
+        },
+        {
+            name: "Hungary",
+            code: "+36"
+        },
+        {
+            name: "Iceland",
+            code: "+354"
+        },
+        {
+            name: "India",
+            code: "+91"
+        },
+        {
+            name: "Indonesia",
+            code: "+62"
+        },
+        {
+            name: "Iran",
+            code: "+98"
+        },
+        {
+            name: "Iraq",
+            code: "+964"
+        },
+        {
+            name: "Ireland",
+            code: "+353"
+        },
+        {
+            name: "Israel",
+            code: "+972"
+        },
+        {
+            name: "Italy",
+            code: "+39"
+        },
+        {
+            name: "Jamaica",
+            code: "+1-876"
+        },
+        {
+            name: "Japan",
+            code: "+81"
+        },
+        {
+            name: "Jordan",
+            code: "+962"
+        },
+        {
+            name: "Kazakhstan",
+            code: "+7"
+        },
+        {
+            name: "Kenya",
+            code: "+254"
+        },
+        {
+            name: "Kiribati",
+            code: "+686"
+        },
+        {
+            name: "Kuwait",
+            code: "+965"
+        },
+        {
+            name: "Kyrgyzstan",
+            code: "+996"
+        },
+        {
+            name: "Laos",
+            code: "+856"
+        },
+        {
+            name: "Latvia",
+            code: "+371"
+        },
+        {
+            name: "Lebanon",
+            code: "+961"
+        },
+        {
+            name: "Lesotho",
+            code: "+266"
+        },
+        {
+            name: "Liberia",
+            code: "+231"
+        },
+        {
+            name: "Libya",
+            code: "+218"
+        },
+        {
+            name: "Liechtenstein",
+            code: "+423"
+        },
+        {
+            name: "Lithuania",
+            code: "+370"
+        },
+        {
+            name: "Luxembourg",
+            code: "+352"
+        },
+        {
+            name: "Madagascar",
+            code: "+261"
+        },
+        {
+            name: "Malawi",
+            code: "+265"
+        },
+        {
+            name: "Malaysia",
+            code: "+60"
+        },
+        {
+            name: "Maldives",
+            code: "+960"
+        },
+        {
+            name: "Mali",
+            code: "+223"
+        },
+        {
+            name: "Malta",
+            code: "+356"
+        },
+        {
+            name: "Marshall Islands",
+            code: "+692"
+        },
+        {
+            name: "Mauritania",
+            code: "+222"
+        },
+        {
+            name: "Mauritius",
+            code: "+230"
+        },
+        {
+            name: "Mexico",
+            code: "+52"
+        },
+        {
+            name: "Micronesia",
+            code: "+691"
+        },
+        {
+            name: "Moldova",
+            code: "+373"
+        },
+        {
+            name: "Monaco",
+            code: "+377"
+        },
+        {
+            name: "Mongolia",
+            code: "+976"
+        },
+        {
+            name: "Montenegro",
+            code: "+382"
+        },
+        {
+            name: "Morocco",
+            code: "+212"
+        },
+        {
+            name: "Mozambique",
+            code: "+258"
+        },
+        {
+            name: "Myanmar",
+            code: "+95"
+        },
+        {
+            name: "Namibia",
+            code: "+264"
+        },
+        {
+            name: "Nauru",
+            code: "+674"
+        },
+        {
+            name: "Nepal",
+            code: "+977"
+        },
+        {
+            name: "Netherlands",
+            code: "+31"
+        },
+        {
+            name: "New Zealand",
+            code: "+64"
+        },
+        {
+            name: "Nicaragua",
+            code: "+505"
+        },
+        {
+            name: "Niger",
+            code: "+227"
+        },
+        {
+            name: "Nigeria",
+            code: "+234"
+        },
+        {
+            name: "North Korea",
+            code: "+850"
+        },
+        {
+            name: "North Macedonia",
+            code: "+389"
+        },
+        {
+            name: "Norway",
+            code: "+47"
+        },
+        {
+            name: "Oman",
+            code: "+968"
+        },
+        {
+            name: "Pakistan",
+            code: "+92"
+        },
+        {
+            name: "Palau",
+            code: "+680"
+        },
+        {
+            name: "Palestine",
+            code: "+970"
+        },
+        {
+            name: "Panama",
+            code: "+507"
+        },
+        {
+            name: "Papua New Guinea",
+            code: "+675"
+        },
+        {
+            name: "Paraguay",
+            code: "+595"
+        },
+        {
+            name: "Peru",
+            code: "+51"
+        },
+        {
+            name: "Philippines",
+            code: "+63"
+        },
+        {
+            name: "Poland",
+            code: "+48"
+        },
+        {
+            name: "Portugal",
+            code: "+351"
+        },
+        {
+            name: "Qatar",
+            code: "+974"
+        },
+        {
+            name: "Romania",
+            code: "+40"
+        },
+        {
+            name: "Russia",
+            code: "+7"
+        },
+        {
+            name: "Rwanda",
+            code: "+250"
+        },
+        {
+            name: "Saint Kitts and Nevis",
+            code: "+1-869"
+        },
+        {
+            name: "Saint Lucia",
+            code: "+1-758"
+        },
+        {
+            name: "Saint Vincent and the Grenadines",
+            code: "+1-784"
+        },
+        {
+            name: "Samoa",
+            code: "+685"
+        },
+        {
+            name: "San Marino",
+            code: "+378"
+        },
+        {
+            name: "Sao Tome and Principe",
+            code: "+239"
+        },
+        {
+            name: "Saudi Arabia",
+            code: "+966"
+        },
+        {
+            name: "Senegal",
+            code: "+221"
+        },
+        {
+            name: "Serbia",
+            code: "+381"
+        },
+        {
+            name: "Seychelles",
+            code: "+248"
+        },
+        {
+            name: "Sierra Leone",
+            code: "+232"
+        },
+        {
+            name: "Singapore",
+            code: "+65"
+        },
+        {
+            name: "Slovakia",
+            code: "+421"
+        },
+        {
+            name: "Slovenia",
+            code: "+386"
+        },
+        {
+            name: "Solomon Islands",
+            code: "+677"
+        },
+        {
+            name: "Somalia",
+            code: "+252"
+        },
+        {
+            name: "South Africa",
+            code: "+27"
+        },
+        {
+            name: "South Korea",
+            code: "+82"
+        },
+        {
+            name: "South Sudan",
+            code: "+211"
+        },
+        {
+            name: "Spain",
+            code: "+34"
+        },
+        {
+            name: "Sri Lanka",
+            code: "+94"
+        },
+        {
+            name: "Sudan",
+            code: "+249"
+        },
+        {
+            name: "Suriname",
+            code: "+597"
+        },
+        {
+            name: "Sweden",
+            code: "+46"
+        },
+        {
+            name: "Switzerland",
+            code: "+41"
+        },
+        {
+            name: "Syria",
+            code: "+963"
+        },
+        {
+            name: "Taiwan",
+            code: "+886"
+        },
+        {
+            name: "Tajikistan",
+            code: "+992"
+        },
+        {
+            name: "Tanzania",
+            code: "+255"
+        },
+        {
+            name: "Thailand",
+            code: "+66"
+        },
+        {
+            name: "Timor-Leste",
+            code: "+670"
+        },
+        {
+            name: "Togo",
+            code: "+228"
+        },
+        {
+            name: "Tonga",
+            code: "+676"
+        },
+        {
+            name: "Trinidad and Tobago",
+            code: "+1-868"
+        },
+        {
+            name: "Tunisia",
+            code: "+216"
+        },
+        {
+            name: "Turkey",
+            code: "+90"
+        },
+        {
+            name: "Turkmenistan",
+            code: "+993"
+        },
+        {
+            name: "Tuvalu",
+            code: "+688"
+        },
+        {
+            name: "Uganda",
+            code: "+256"
+        },
+        {
+            name: "Ukraine",
+            code: "+380"
+        },
+        {
+            name: "United Arab Emirates",
+            code: "+971"
+        },
+        {
+            name: "United Kingdom",
+            code: "+44"
+        },
+        {
+            name: "United States",
+            code: "+1"
+        },
+        {
+            name: "Uruguay",
+            code: "+598"
+        },
+        {
+            name: "Uzbekistan",
+            code: "+998"
+        },
+        {
+            name: "Vanuatu",
+            code: "+678"
+        },
+        {
+            name: "Vatican City",
+            code: "+379"
+        },
+        {
+            name: "Venezuela",
+            code: "+58"
+        },
+        {
+            name: "Vietnam",
+            code: "+84"
+        },
+        {
+            name: "Yemen",
+            code: "+967"
+        },
+        {
+            name: "Zambia",
+            code: "+260"
+        },
+        {
+            name: "Zimbabwe",
+            code: "+263"
+        }
+    ];
 
     function normalizeDate(date) {
         return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    }
+
+    function populateCountryCodes() {
+        if (!bookCallCountryCode) {
+            return;
+        }
+
+        bookCallCountryCode.innerHTML = "";
+
+        countryCodes.forEach((country) => {
+            const option = document.createElement("option");
+            option.value = country.code;
+            option.textContent = country.code;
+            option.title = `${country.name} (${country.code})`;
+            option.setAttribute("aria-label", `${country.name} (${country.code})`);
+
+            if (country.name === "India") {
+                option.selected = true;
+            }
+
+            bookCallCountryCode.appendChild(option);
+        });
     }
 
     function sameDay(a, b) {
@@ -586,6 +1614,98 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
         return value;
     }
 
+    function getZonedDateParts(date, timezone) {
+        const parts = new Intl.DateTimeFormat("en-CA", {
+            timeZone: timezone,
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: false,
+        }).formatToParts(date);
+
+        const values = {};
+        parts.forEach((part) => {
+            if (part.type !== "literal") {
+                values[part.type] = part.value;
+            }
+        });
+
+        return {
+            year: Number(values.year),
+            month: Number(values.month),
+            day: Number(values.day),
+            hour: Number(values.hour),
+            minute: Number(values.minute),
+        };
+    }
+
+    function getIstNowParts() {
+        return getZonedDateParts(new Date(), istTimezone);
+    }
+
+    function getIstToday() {
+        const istNow = getIstNowParts();
+        return new Date(istNow.year, istNow.month - 1, istNow.day);
+    }
+
+    function getTimezoneShortLabel(timezone, date) {
+        const parts = new Intl.DateTimeFormat("en-US", {
+            timeZone: timezone,
+            timeZoneName: "short",
+        }).formatToParts(date);
+
+        const timezonePart = parts.find((part) => part.type === "timeZoneName");
+        return timezonePart ? timezonePart.value : timezone;
+    }
+
+    function createIstDate(date, timeValue) {
+        const [year, month, day] = getDateKey(date).split("-").map(Number);
+        const [hours, minutes] = timeValue.split(":").map(Number);
+        const utcDate = new Date(Date.UTC(year, month - 1, day, hours - 5, minutes - 30));
+        return utcDate;
+    }
+
+    function formatTimeInTimezone(date, timezone) {
+        return new Intl.DateTimeFormat("en-US", {
+            timeZone: timezone,
+            hour: "numeric",
+            minute: "2-digit",
+            hour12: true,
+        }).format(date);
+    }
+
+    function formatDateTimeInTimezone(date, timezone) {
+        return new Intl.DateTimeFormat("en-US", {
+            timeZone: timezone,
+            weekday: "short",
+            day: "numeric",
+            month: "short",
+            year: "numeric",
+            hour: "numeric",
+            minute: "2-digit",
+            hour12: true,
+        }).format(date);
+    }
+
+    function getLocalTimeSummary(date, timeValue) {
+        if (!date || !timeValue) {
+            return "Not selected";
+        }
+
+        const slotDate = createIstDate(date, timeValue);
+        return `${formatDateTimeInTimezone(slotDate, userTimezone)} (${getTimezoneShortLabel(userTimezone, slotDate)})`;
+    }
+
+    function getTimeOptionLabel(date, timeValue, isBooked) {
+        const istDate = createIstDate(date, timeValue);
+        const istLabel = `${formatTimeInTimezone(istDate, istTimezone)} IST`;
+        const localLabel = `${formatTimeInTimezone(istDate, userTimezone)} ${getTimezoneShortLabel(userTimezone, istDate)}`;
+        const bookedText = isBooked ? " - Already Booked" : "";
+        return `${istLabel} / ${localLabel}${bookedText}`;
+    }
+
     function getDateKey(date) {
         const year = date.getFullYear();
         const month = String(date.getMonth() + 1).padStart(2, "0");
@@ -607,9 +1727,18 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
 
     function updateBookingSummary() {
         modalSelectedDate.textContent = selectedDate ? formatDate(selectedDate) : "Not selected";
-        modalSelectedTime.textContent = selectedTime ? formatTime24(selectedTime) : "Not selected";
+        modalSelectedTime.textContent = selectedTime ? `${formatTime24(selectedTime)} IST` : "Not selected";
+        modalSelectedLocalTime.textContent = getLocalTimeSummary(selectedDate, selectedTime);
         bookingDateInput.value = selectedDate ? getDateKey(selectedDate) : "";
         bookingTimeInput.value = selectedTime || "";
+        userTimezoneInput.value = userTimezone;
+
+        if (!selectedDate || !selectedTime) {
+            selectedLocalTimeNote.textContent = "";
+            return;
+        }
+
+        selectedLocalTimeNote.innerHTML = `<strong>Your local time:</strong> ${getLocalTimeSummary(selectedDate, selectedTime)}`;
     }
 
     async function fetchBookedSlots(dateKey) {
@@ -634,9 +1763,15 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
     function renderTimeSlots() {
         timeGrid.innerHTML = "";
 
-        const selectedIsToday = selectedDate && sameDay(selectedDate, today);
-        const currentHour = now.getHours();
-        const currentMinute = now.getMinutes();
+        if (!selectedDate) {
+            return;
+        }
+
+        const istToday = getIstToday();
+        const istNow = getIstNowParts();
+        const selectedIsToday = selectedDate && sameDay(selectedDate, istToday);
+        const currentHour = istNow.hour;
+        const currentMinute = istNow.minute;
 
         for (let hour = 0; hour < 24; hour++) {
             const option = document.createElement("button");
@@ -647,7 +1782,8 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
 
             option.type = "button";
             option.className = "eep-time-option";
-            option.textContent = isBooked ? `${timeValue} - Already Booked` : timeValue;
+            option.textContent = getTimeOptionLabel(selectedDate, timeValue, isBooked);
+            option.dataset.timeValue = timeValue;
 
             if (selectedTime === timeValue) {
                 option.classList.add("active");
@@ -663,7 +1799,7 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
                 }
 
                 selectedTime = timeValue;
-                selectedTimeText.textContent = formatTime24(selectedTime);
+                selectedTimeText.textContent = `${formatTime24(selectedTime)} IST`;
                 timeDropdown.classList.remove("show");
                 updateBookingSummary();
                 renderTimeSlots();
@@ -674,6 +1810,7 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
     }
 
     function renderCalendar() {
+        const istToday = getIstToday();
         const firstDay = new Date(viewYear, viewMonth, 1);
         const lastDate = new Date(viewYear, viewMonth + 1, 0).getDate();
         const startDay = firstDay.getDay();
@@ -695,9 +1832,9 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
             const btn = document.createElement("button");
             const thisDate = new Date(viewYear, viewMonth, day);
             const normalizedDate = normalizeDate(thisDate);
-            const isToday = sameDay(thisDate, today);
+            const isToday = sameDay(thisDate, istToday);
             const isSelected = sameDay(thisDate, selectedDate);
-            const isPastDate = normalizedDate < today;
+            const isPastDate = normalizedDate < istToday;
             const isSunday = thisDate.getDay() === 0;
 
             btn.textContent = day;
@@ -732,8 +1869,9 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
     }
 
     prevMonth.addEventListener("click", () => {
+        const istToday = getIstToday();
         const previousMonth = new Date(viewYear, viewMonth - 1, 1);
-        if (previousMonth < new Date(today.getFullYear(), today.getMonth(), 1)) {
+        if (previousMonth < new Date(istToday.getFullYear(), istToday.getMonth(), 1)) {
             return;
         }
 
@@ -787,6 +1925,15 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
         openModal();
     });
 
+    document.querySelector(".bac-book-form").addEventListener("submit", function() {
+        const rawPhone = bookCallPhone.value.trim();
+        const selectedCode = bookCallCountryCode.value.trim();
+
+        if (rawPhone !== "" && selectedCode !== "" && !rawPhone.startsWith("+")) {
+            bookCallPhone.value = `${selectedCode} ${rawPhone}`;
+        }
+    });
+
     bookCallClose.addEventListener("click", closeModal);
     bookCallModal.addEventListener("click", (e) => {
         if (e.target === bookCallModal) {
@@ -800,6 +1947,8 @@ if (!defined('BOOK_A_CALL_COMPONENT_SCRIPT')) {
         }
     });
 
+    populateCountryCodes();
+    viewerTimezoneNote.textContent = userTimezone === istTimezone ? "." : ` Your local timezone: ${userTimezone}.`;
     updateBookingSummary();
     renderTimeSlots();
     renderCalendar();

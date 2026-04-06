@@ -137,7 +137,9 @@
     }
 
     .hero-badge {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       background: rgb(68 164 224 / 24%);
       backdrop-filter: blur(10px);
       padding: 10px 25px;
@@ -150,12 +152,13 @@
     }
 
     .hero-content h1 {
-      font-size: 56px;
-      font-weight: 800;
-      line-height: 1.2;
-      margin-bottom: 25px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    }
+    font-size: 56px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 
     .hero-content h1 span {
       color: #f4a462;
@@ -1160,21 +1163,21 @@
 
     /* Mobile Responsive */
     @media (max-width: 968px) {
+      .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 88px 0 80px;
+      }
+
       .hero-content h1 {
-        font-size: 40px;
+        font-size: 36px;
       }
       .hero-badge {
-    display: inline-block;
-    background: rgb(68 164 224 / 24%);
-    backdrop-filter: blur(10px);
-    padding: 10px 25px;
-    border-radius: 50px;
-    font-size: 11px;
-    font-weight: 600;
-    margin-bottom: 30px;
-    border: 1px solid rgb(123 179 239);
-    color: #ffffff;
-}
+        padding: 8px 16px;
+        font-size: 10px;
+        gap: 6px;
+        white-space: nowrap;
+      }
       .hero-content h1 span {
         font-size: 36px;
       }
@@ -1182,6 +1185,18 @@
       .hero-bullets {
         flex-direction: column;
         align-items: center;
+        gap: 14px;
+        margin-bottom: 28px;
+      }
+
+      .hero-bullets li {
+        font-size: 15px;
+        gap: 8px;
+        padding: 10px 16px;
+      }
+
+      .hero-bullets li i {
+        font-size: 16px;
       }
 
       /* Stack form sections on tablet/mobile */
@@ -1254,7 +1269,8 @@
       }
 
       .hero {
-        min-height: 600px;
+        min-height: auto;
+        padding: 82px 0 72px;
       }
 
       .scroll-down {
@@ -1263,7 +1279,7 @@
       }
 
       .hero-content h1 {
-        font-size: 28px;
+        font-size: 36px;
       }
 
       .hero-content h1 span {
@@ -1272,6 +1288,21 @@
 
       .hero-subtitle {
         font-size: 18px;
+      }
+
+      .hero-bullets {
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .hero-bullets li {
+        font-size: 14px;
+        gap: 7px;
+        padding: 9px 14px;
+      }
+
+      .hero-bullets li i {
+        font-size: 15px;
       }
 
       .form-main-wrapper {
@@ -1382,17 +1413,11 @@
     }
      @media (max-width: 480px) {
       .hero-badge {
-    display: inline-block;
-    background: rgb(68 164 224 / 24%);
-    backdrop-filter: blur(10px);
-    padding: 10px 25px;
-    border-radius: 50px;
-    font-size: 11px;
-    font-weight: 600;
-    margin-bottom: 30px;
-    border: 1px solid rgb(123 179 239);
-    color: #ffffff;
-}
+        padding: 8px 12px;
+        font-size: 9px;
+        gap: 5px;
+        white-space: nowrap;
+      }
      }
   </style>
 </head>
