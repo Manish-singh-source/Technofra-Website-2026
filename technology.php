@@ -187,7 +187,7 @@ gtag('config', 'G-189WWHXLSS');
                                         <img src="assets/image/technology/IOS.webp" alt="not found" class="img-fluid">
 
                                     </div>
-                                    <h5 class="mt-4 mb-2">IOS</h5>
+                                    <h5 class="mt-4 mb-2">iOS</h5>
 
                                 </div>
                             </div>

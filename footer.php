@@ -93,14 +93,12 @@
              <div class="twc-apps-row">
                  <!-- <div class="twc-available-text">COMING SOON</div> -->
 
-                 <a href="app" target="_blank" class="APPS" contenteditable="false"
-                     style="cursor: pointer; ">
+                 <a href="app" target="_blank" class="APPS" contenteditable="false" style="cursor: pointer; ">
 
                      <img src="assets/image/home/app0.webp" alt="image" class="lgs">
                  </a>
 
-                 <a href="app" target="_blank" class="APPS" contenteditable="false"
-                     style="cursor: pointer;">
+                 <a href="app" target="_blank" class="APPS" contenteditable="false" style="cursor: pointer;">
                      <img src="assets/image/home/ios0.webp" alt="image" class="lgs">
                  </a>
 
@@ -173,9 +171,9 @@
                  <a href="about">About Us </a>
                  <a href="contact">Contact Us</a>
                  <a href="portfolio">Portfolio</a>
-                 <a href="https://technofra.in/blog/">Blog</a>
-                 <a href="sitemap.html">Sitemap</a>
                  <a href="privacy-policy">Privacy Policy</a>
+                 <a href="refund-policy">Refund Policy</a>
+                 <a href="sitemap.html">Sitemap</a>
              </div>
 
              <div class="twc-copyright">
@@ -190,144 +188,9 @@
      </div>
 
  </footer>
- <style>
- .company-profile-modal .modal-dialog {
-      max-width: 400px;
-      width: calc(100% - 2rem);
-      margin: 1rem auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: calc(100vh - 2rem);
-  }
-  
-  .company-profile-modal .modal-content {
-      width: 100%;
-      border: 0;
-      border-radius: 8px;
-      overflow: hidden;
-      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-     box-shadow: 0 28px 90px rgba(15, 23, 42, 0.22);
- }
  
-.company-profile-modal .modal-header {
-    padding: 22px 26px 16px;
-    border-bottom: 1px solid rgba(148, 163, 184, 0.22);
-    background: #003366;
-}
- 
- .company-profile-modal .modal-title {
-     font-size: 1.45rem;
-     font-weight: 700;
-     color: #ffffff;
- }
- 
- .company-profile-modal .modal-body {
-     padding: 24px 26px 26px !important;
-     box-shadow: none !important;
- }
-
- .company-profile-modal .btn-close {
-     filter: invert(1);
-     opacity: 0.95;
- }
-
- .company-profile-form-shell {
-     display: grid;      
-     gap: 14px 18px;
- }
-
- .company-profile-field {
-     margin-bottom: 0 !important;
- }
-
-.company-profile-actions,
- .company-profile-captcha {
-     grid-column: 1 / -1;
- }
-
- .company-profile-field .form-label {
-     margin-bottom: 6px;
-     font-size: 14px;
-     font-weight: 600;
-     color: #0f172a;
- }
- 
- .company-profile-field .form-control {
-     min-height: 50px;
-     padding: 10px 16px;
-     border: 1px solid #dbe3f0;
-     border-radius: 14px;
-     background: #ffffff;
-     box-shadow: none;
-     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
- }
- 
- .company-profile-field .form-control:focus {
-     border-color: #2563eb;
-     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
-     transform: translateY(-1px);
- }
- 
- .company-profile-field span {
-     display: inline-block;
-     margin-top: 5px;
-     font-size: 12px;
-     line-height: 1.4;
- }
-
-.company-profile-submit-btn {
-    margin-top: 4px !important;
-    min-height: 50px;
-    padding: 12px 24px;
-    border: 0;
-    border-radius: 8px;
-    background: #003366;
-    color: #ffffff;
-    font-weight: 700;
-    box-shadow: 0 16px 30px rgba(29, 78, 216, 0.22);
-}
-
- .company-profile-submit-btn:hover {
-     color: #ffffff;
-     transform: translateY(-1px);
-     box-shadow: 0 20px 36px rgba(29, 78, 216, 0.28);
- }
-
- .company-profile-submit-btn:focus {
-     color: #ffffff;
-     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.14);
- }
- 
-  @media (max-width: 767.98px) {
-      .company-profile-modal .modal-header {
-          padding: 18px 18px 12px;
-      }
-     
-     
-      .company-profile-modal .modal-dialog {
-          max-width: min(330px, calc(100vw - 24px));
-          width: calc(100vw - 24px);
-          margin: 0.75rem auto;
-          display: flex;
-          justify-content: center;
-      }
-      .company-profile-modal .modal-body {
-          padding: 18px !important;
-      }
-
-      .company-profile-modal .modal-dialog {
-          min-height: calc(100vh - 1.5rem);
-      }
-  
-      .company-profile-form-shell {
-          grid-template-columns: 1fr;
-          gap: 12px;
-     }
- }
- </style>
- <div class="modal fade company-profile-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal fade company-profile-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
      <div class="modal-dialog modal-dialog-centered modal-lg">
          <div class="modal-content">
              <div class="modal-header">
@@ -340,47 +203,45 @@
                  <!-- Job Application Form -->
                  <form action="send7.php" method="post" enctype="multipart/form-data" id="companyProfileForm">
                      <div class="company-profile-form-shell">
-                             <!-- Full Name -->
-                             <div class="company-profile-field text-start">
-                                 <label for="name" class="form-label">Full Name*</label>
-                                 <input type="text" class="form-control ca-two-border" name="name" id="name" required>
-                                  <span id="name-error" style="color: red; display: none;">Please
-                                      enter a valid name (letters only)</span>
-                             </div>
- 
-                             <!-- Email -->
-                             <div class="company-profile-field text-start">
-                                 <label for="email" class="form-label">Email ID*</label>
-                                 <input type="email" class="form-control ca-two-border" name="email" id="email"
-                                     required>
-                                 <span id="email-error" style="color: red; display: none;">Please
-                                     enter a valid email address</span>
-                             </div>
- 
-                             <!-- Contact Details -->
-                             <div class="company-profile-field text-start">
-                                 <label for="phone" class="form-label">Contact Details*</label>
-                                 <input type="tel" class="form-control ca-two-border" name="contact" id="phone"
-                                     required>
-                                 <span id="phone-error" style="color: red; display: none;">Please
-                                     enter a valid phone number (10 digits)</span>
-                             </div>
-                             <!-- Location -->
-                            
- 
- 
-                             <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
-                             <div class="company-profile-captcha">
-                                 <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
-                             </div>
-                             <!-- Submit Button -->
-                             <div class="company-profile-actions text-start">
-                                 <button type="submit" class="mt-3 btn btn-outline-info company-profile-submit-btn"
-                                     id="companyProfileSubmitBtn" data-default-text="Download Company Profile"
-                                     data-loading-text="Sending...">
-                                     Download Company Profile
-                                 </button>
-                             </div>
+                         <!-- Full Name -->
+                         <div class="company-profile-field text-start">
+                             <label for="name" class="form-label">Full Name*</label>
+                             <input type="text" class="form-control ca-two-border" name="name" id="name" required>
+                             <span id="name-error" style="color: red; display: none;">Please
+                                 enter a valid name (letters only)</span>
+                         </div>
+
+                         <!-- Email -->
+                         <div class="company-profile-field text-start">
+                             <label for="email" class="form-label">Email ID*</label>
+                             <input type="email" class="form-control ca-two-border" name="email" id="email" required>
+                             <span id="email-error" style="color: red; display: none;">Please
+                                 enter a valid email address</span>
+                         </div>
+
+                         <!-- Contact Details -->
+                         <div class="company-profile-field text-start">
+                             <label for="phone" class="form-label">Contact Details*</label>
+                             <input type="tel" class="form-control ca-two-border" name="contact" id="phone" required>
+                             <span id="phone-error" style="color: red; display: none;">Please
+                                 enter a valid phone number (10 digits)</span>
+                         </div>
+                         <!-- Location -->
+
+
+
+                         <input type="text" name="hidden_field" style="display:none;" tabindex="-1">
+                         <div class="company-profile-captcha">
+                             <div class="g-recaptcha" data-sitekey="6LekpbEqAAAAANkc3FduPE52-p4Wqu5ghQFXjPhF"></div>
+                         </div>
+                         <!-- Submit Button -->
+                         <div class="company-profile-actions text-start">
+                             <button type="submit" class="mt-3 btn btn-outline-info company-profile-submit-btn"
+                                 id="companyProfileSubmitBtn" data-default-text="Download Company Profile"
+                                 data-loading-text="Sending...">
+                                 Download Company Profile
+                             </button>
+                         </div>
                      </div>
                  </form>
              </div>
@@ -708,36 +569,36 @@ if (navClose && rightMenu) {
  </script>
 
  <style>
- .company-profile-submit-btn.is-loading {
-     opacity: 0.75;
-     cursor: not-allowed;
-     pointer-events: none;
- }
+.company-profile-submit-btn.is-loading {
+    opacity: 0.75;
+    cursor: not-allowed;
+    pointer-events: none;
+}
  </style>
 
  <script>
- (function() {
-     const companyProfileForm = document.getElementById('companyProfileForm');
-     const companyProfileSubmitBtn = document.getElementById('companyProfileSubmitBtn');
+(function() {
+    const companyProfileForm = document.getElementById('companyProfileForm');
+    const companyProfileSubmitBtn = document.getElementById('companyProfileSubmitBtn');
 
-     if (!companyProfileForm || !companyProfileSubmitBtn) {
-         return;
-     }
+    if (!companyProfileForm || !companyProfileSubmitBtn) {
+        return;
+    }
 
-     function resetCompanyProfileButton() {
-         companyProfileSubmitBtn.disabled = false;
-         companyProfileSubmitBtn.classList.remove('is-loading');
-         companyProfileSubmitBtn.innerHTML = companyProfileSubmitBtn.dataset.defaultText;
-     }
+    function resetCompanyProfileButton() {
+        companyProfileSubmitBtn.disabled = false;
+        companyProfileSubmitBtn.classList.remove('is-loading');
+        companyProfileSubmitBtn.innerHTML = companyProfileSubmitBtn.dataset.defaultText;
+    }
 
-     companyProfileForm.addEventListener('submit', function() {
-         companyProfileSubmitBtn.disabled = true;
-         companyProfileSubmitBtn.classList.add('is-loading');
-         companyProfileSubmitBtn.textContent = companyProfileSubmitBtn.dataset.loadingText;
-     });
+    companyProfileForm.addEventListener('submit', function() {
+        companyProfileSubmitBtn.disabled = true;
+        companyProfileSubmitBtn.classList.add('is-loading');
+        companyProfileSubmitBtn.textContent = companyProfileSubmitBtn.dataset.loadingText;
+    });
 
-     window.addEventListener('pageshow', resetCompanyProfileButton);
- })();
+    window.addEventListener('pageshow', resetCompanyProfileButton);
+})();
  </script>
 
  <!--build:js-->

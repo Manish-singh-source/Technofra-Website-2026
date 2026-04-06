@@ -1340,7 +1340,7 @@ article {
                             <div class="risk-counter-item risk-border-left risk-border-color pl-40 mt-20">
                                 <h3 class=" fs-56 ff-dmsans fw-700"><span class="counter">85</span>%
                                 </h3>
-                                <p class=" ff-dmsans ">Clients Ring back for Enhancement in their business</p>
+                                <p class=" ff-dmsans ">Clients return for further business enhancements</p>
                             </div>
                         </div>
                     </div>
@@ -1503,7 +1503,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/crossplatform.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">Crossplatform</h6>
+                                                        <h6 class="mb-0 mt-4">Cross-Platform</h6>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1515,7 +1515,7 @@ article {
                                                     <div class="single-integration bg-white">
                                                         <img src="assets/image/technology/mobile/ios.png"
                                                             alt="integration" class="img-fluid">
-                                                        <h6 class="mb-0 mt-4">IOS</h6>
+                                                        <h6 class="mb-0 mt-4">iOS</h6>
                                                     </div>
                                                 </li>
                                             </ul>

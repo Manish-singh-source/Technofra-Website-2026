@@ -4,8 +4,7 @@
             <div class="col-lg-10">
                 <div class="section-title">
                     <h2 class="pb-20">Showcasing Our Creative Excellence</h2>
-                    <p class="mb-20">Technofra picks the latest and future-proof tech stack that best suits your
-                        business vision.</p>
+                    <p class="mb-20">Technofra selects the latest and most reliable technology stack to support your business growth.</p>
                 </div>
             </div>
             <div class="col-lg-2">

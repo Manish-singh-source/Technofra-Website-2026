@@ -16,17 +16,7 @@ RewriteRule ^(.*?)/?$ $1.php [NC,L]
 
 # Enable mod_rewrite, necessary for URL rewriting
 RewriteEngine On
-Redirect 301 /performance-marketing https://technofra.com/digital-marketing.php
-Redirect 301 /seo-services https://technofra.com/digital-marketing.php
-Redirect 301 /api-integration https://technofra.com/
-Redirect 301 /mobile-app-development https://technofra.com/android-app-development.php
-Redirect 301 /mobileapp https://technofra.com/android-app-development.php
-Redirect 301 /social-media-marketing https://technofra.com/digital-marketing.php
-Redirect 301 /globalocean/contact https://technofra.com/
-Redirect 301 /e-commerce-website-design https://technofra.com/shopify-website-development.php
-Redirect 301 /mobile-app-development-indore https://technofra.com/android-app-development.php
-Redirect 301 /social-media-marketing-indore https://technofra.com/digital-marketing.php
-Redirect 301 /globalocean.in/tracking https://technofra.com/
+
 
 
 # Custom 404 Error Document

@@ -444,7 +444,7 @@
                             </div>
                         </div>
                         <div class="d-inline-block pl-40">
-                            <h6 class="clr-paragraph fs-20 fw-600 flh-28 mt-40">Let's Connect Innovate, Collaborate,<br> and Succeed Together.
+                            <h6 class="clr-paragraph fs-20 fw-600 flh-28 mt-40">Let's Connect, Innovate, Collaborate,<br> and Succeed Together.
                             </h6>
                             <div class="d-flex align-items-center flex-wrap gap-20 mt-30">
                                 <a href="contact" class="btn btn-outline-info  rounded-5">Contact Us</a>
@@ -498,7 +498,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="pay-gw-payment-item bg-white p-4 rounded-3 mt-20">
-                            <h4 class="pay-gw-color fs-20 ff-risk-pri mb-20">Unlock Payments</h4>
+                            <h4 class="pay-gw-color fs-20 ff-risk-pri mb-20">Unlock Flexible Payments</h4>
                             <p class="mb-30">With Shopify, you can easily accept multiple payment methods, including credit cards, ACH, and digital wallets, for one-time or recurring payments—giving your customers the flexibility they need.</p>
                             <img src="assets\image\shopify\payment-1.webp" alt="image" class="img-fluid w-100">
                         </div>

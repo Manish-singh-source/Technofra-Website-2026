@@ -1,69 +1,6 @@
 @charset "UTF-8";
 
-/*
-
-CSS LIST
-
-=<::::::::::::::::::::::::::=>
-    HEADER AREA CSS
-    =<::::::::::::::::::::::::::=>
-        NAV MENU AREA CSS
-        =<::::::::::::::::::::::::::=>
-            HERO AREA CSS
-            =<::::::::::::::::::::::::::=>
-                ABOUT AREA CSS
-                =<::::::::::::::::::::::::::=>
-                    SERVICE AREA CSS
-                    =<::::::::::::::::::::::::::=>
-                        ACCOUNT AREA CSS
-                        =<::::::::::::::::::::::::::=>
-                            FEATURES AREA CSS
-                            =<::::::::::::::::::::::::::=>
-                                BRAND AREA CSS
-                                =<::::::::::::::::::::::::::=>
-                                    CHOOSE AREA CSS
-                                    =<::::::::::::::::::::::::::=>
-                                        PRRELOADER AREA CSS
-                                        =<::::::::::::::::::::::::::=>
-                                            PRICING AREA CSS
-                                            =<::::::::::::::::::::::::::=>
-                                                TEAM AREA CSS
-                                                =<::::::::::::::::::::::::::=>
-                                                    TESTIMONIAL AREA CSS
-                                                    =<::::::::::::::::::::::::::=>
-                                                        WORK AREA CSS
-                                                        =<::::::::::::::::::::::::::=>
-                                                            OTHERS AREA CSS
-                                                            =<::::::::::::::::::::::::::=>
-                                                                CONMMON AREA CSS
-                                                                =<::::::::::::::::::::::::::=>
-                                                                    BLOG AREA CSS
-                                                                    =<::::::::::::::::::::::::::=>
-                                                                        CTA AREA CSS
-                                                                        =<::::::::::::::::::::::::::=>
-                                                                            ANIMATION AREA CSS
-                                                                            =<::::::::::::::::::::::::::=>
-                                                                                BUTTONS AREA CSS
-                                                                                =<::::::::::::::::::::::::::=>
-                                                                                    TYPOGRAPHY AREA CSS
-                                                                                    =<::::::::::::::::::::::::::=>
-                                                                                        FOOTER AREA CSS
-                                                                                        =<::::::::::::::::::::::::::=>
-                                                                                            */
-/*
-                                                                                            ::::::::::::::::::::::::::
-                                                                                            TYPOGRAPHY AREA CSS
-                                                                                            ::::::::::::::::::::::::::
-                                                                                            */
-/* @import
-                                                                                            url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap");
-                                                                                            */
-
-/*
-                                                                                            ::::::::::::::::::::::::::
-                                                                                            ANIMATION AREA CSS
-                                                                                            ::::::::::::::::::::::::::
-                                                                                            */
+ 
 @keyframes shape-animaiton1 {
     0% {
         transform: translateY(0);
@@ -8261,16 +8198,7 @@ a.header__search.header-search-btn p {
     transition: all 0.4s;
 }
 
-/*
-                                                                                                ::::::::::::::::::::::::::
-                                                                                                CHOOSE AREA CSS
-                                                                                                ::::::::::::::::::::::::::
-                                                                                                */
-/*
-                                                                                                ::::::::::::::::::::::::::
-                                                                                                CTA AREA CSS
-                                                                                                ::::::::::::::::::::::::::
-                                                                                                */
+
 .cta {
     background-color:
         var(--ztc-bg-main-bg-1);
@@ -14978,7 +14906,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 46px;
     font-style: normal;
     font-weight: 600;
-    
+
 }
 
 .hero9 .buttons {
@@ -23985,15 +23913,15 @@ only screen and (min-width: 768px) and (max-width: 991px) {
         display: none;
     }
 
- .hero9 {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
+    .hero9 {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
 }
 
 .heading_testi {

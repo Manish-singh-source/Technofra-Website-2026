@@ -79,7 +79,7 @@
         align-items: center;
         gap: 10px;
         padding: 10px 18px;
-        border-radius: 999px;
+        border-radius: 8px;
         background: rgba(255, 255, 255, 0.12);
         color: #fff;
         font-size: 14px;
@@ -108,7 +108,7 @@
         min-width: 0;
         padding: 12px 14px;
         border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 18px;
+        border-radius: 8px;
         background: rgba(255, 255, 255, 0.07);
         backdrop-filter: blur(8px);
     }
@@ -131,7 +131,7 @@
         position: relative;
         z-index: 1;
         padding: 28px;
-        border-radius: 28px;
+        border-radius: 8px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.06));
         border: 1px solid rgba(255, 255, 255, 0.12);
         backdrop-filter: blur(10px);
@@ -141,7 +141,7 @@
     }
 
     .ppc-hero-graphic {
-        border-radius: 22px;
+        border-radius: 8px;
         background: linear-gradient(160deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.04));
         padding: 18px;
         margin-bottom: 20px;
@@ -172,7 +172,7 @@
     .ppc-hero-summary-item i {
         width: 42px;
         height: 42px;
-        border-radius: 12px;
+        border-radius: 8px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -201,7 +201,7 @@
 
     .ppc-performance-wrap {
         padding: 26px;
-        border-radius: 26px;
+        border-radius: 8px;
         background: #fff;
         box-shadow: 0 22px 50px rgba(7, 33, 63, 0.08);
     }
@@ -243,8 +243,8 @@
     .ppc-overview-card {
         position: relative;
         height: 100%;
-        padding: 44px 34px;
-        border-radius: 28px;
+        padding: 38px 34px;
+        border-radius: 8px;
         background: linear-gradient(180deg, #ffffff 0%, #f6fbff 100%);
         box-shadow: 0 22px 50px rgba(7, 33, 63, 0.08);
     }
@@ -253,7 +253,7 @@
         content: "";
         position: absolute;
         inset: 0;
-        border-radius: 28px;
+        border-radius: 8px;
         padding: 1px;
         background: linear-gradient(135deg, rgba(11, 52, 102, 0.18), rgba(255, 191, 105, 0.4));
         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -265,7 +265,7 @@
     .ppc-highlight-card {
         height: 100%;
         border: 1px solid rgba(11, 52, 102, 0.08);
-        border-radius: 24px;
+        border-radius: 8px;
         padding: 28px;
         background: linear-gradient(180deg, #fff 0%, #f7fbff 100%);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -277,7 +277,7 @@
     }
 
     .ppc-highlight-card img {
-        border-radius: 10px !important;
+        border-radius: 8px !important;
     }
 
     .ppc-pill-section {
@@ -304,7 +304,7 @@
         justify-content: center;
         gap: 14px;
         padding: 22px;
-        border-radius: 28px;
+        border-radius: 8px;
         background: linear-gradient(180deg, #f7fbff 0%, #edf7ff 100%);
         box-shadow: inset 0 0 0 1px rgba(11, 52, 102, 0.08);
     }
@@ -314,7 +314,7 @@
         align-items: center;
         gap: 10px;
         padding: 12px 18px;
-        border-radius: 999px;
+        border-radius: 8px;
         background: #fff;
         color: #0b3466;
         font-weight: 700;
@@ -334,7 +334,7 @@
     .ppc-stat-card {
         height: 100%;
         background: #fff;
-        border-radius: 16px;
+        border-radius: 8px;
         padding: 28px 24px;
         box-shadow: 0 18px 48px rgba(11, 52, 102, 0.08);
     }
@@ -350,7 +350,7 @@
     .ppc-stat-icon {
         width: 58px;
         height: 58px;
-        border-radius: 14px;
+        border-radius: 8px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -362,7 +362,7 @@
 
     .ppc-process-card {
         height: 100%;
-        border-radius: 16px;
+        border-radius: 8px;
         padding: 32px 24px;
         background: #fff;
         box-shadow: 0 18px 48px rgba(11, 52, 102, 0.08);
@@ -400,7 +400,7 @@
 
     .ppc-growth-panel {
         padding: 34px;
-        border-radius: 28px;
+        border-radius: 8px;
         background: linear-gradient(135deg, #082540 0%, #155887 100%);
         color: #fff;
         height: 100%;
@@ -434,16 +434,18 @@
 
     .ppc-why-card {
         padding: 24px;
-        border-radius: 22px;
+        border-radius: 8px;
         background: #0b1f37;
         height: 100%;
     }
 
     .ppc-why-card img {
-        border-radius: 10px;
+        border-radius: 8px;
         margin-bottom: 18px;
     }
-
+.rounded-3 {
+    border-radius: 8px !important;
+}
     @media (max-width: 991px) {
         .ca-hero {
             min-height: fit-content;
@@ -511,7 +513,7 @@
         }
 
         .ppc-pill-track {
-            border-radius: 22px;
+            border-radius: 8px;
         }
 
         .ppc-hero-panel {

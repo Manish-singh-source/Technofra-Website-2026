@@ -915,7 +915,7 @@ gtag('config', 'G-189WWHXLSS');
                     </a>
 
                     <!-- 05 -->
-                    <a href="social-media-marketing" target="_blank">
+                    <a href="social-media-marketing">
                         <div class="dd-card" data-aos="fade-up" data-aos-duration="600">
                             <div class="dd-card-inner">
                                 <div class="dd-card-front">

@@ -166,7 +166,7 @@ gtag('config', 'G-189WWHXLSS');
                         <h3 class="h5"> Uptime Monitoring</h3>
                         <p>
 
-                            Your website is your online shop, it should open 24×7 for your customers. You may lose your
+                            Your website is your online shop, it should Available 24×7 for your customers. You may lose your
                             potential customers if the website goes down for a long time.
                         </p>
                     </div>
@@ -181,7 +181,7 @@ gtag('config', 'G-189WWHXLSS');
                         <h3 class="h5"> Offsite Backups</h3>
                         <p>
                             Website backup is the most ignored thing by website owners. It’s very painful to restore the
-                            website if you don’t have the latest backup of your site in case if something.
+                            website if you don’t have the latest backup of your site in case if something goes Wrong.
                         </p>
                     </div>
                 </div>
@@ -215,7 +215,7 @@ gtag('config', 'G-189WWHXLSS');
                 <div class="col-lg-9 col-md-9">
                     <div class="cyber-cta-info position-relative">
                         <div class="">
-                            <h2 class="text-white">Technofra E-commerce Development Company</h2>
+                            <h2 class="text-white"> Technofra Website Maintenance Services</h2>
                             <p class="lead text-white mb-0">
                                 Get secure, highly interactive and customized e-Commerce web development solutions – to
                                 enhance your online business through our cutting-edge eCommerce website development
@@ -227,7 +227,7 @@ gtag('config', 'G-189WWHXLSS');
                 </div>
                 <div class="col-lg-3">
                     <div class="cyber-cta-btn">
-                        <a href="contact" class="mt-3 btn btn-outline-info me-auto">Request a Quotation<i
+                        <a href="contact" class="mt-3 btn btn-outline-info me-auto">Request a Quotation <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>

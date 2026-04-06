@@ -231,7 +231,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
 
                     <h2 class="about-company-title">
-                        From Start to Success Technofra’s Milestones in Technology
+                        From Start to Success: Technofra’s Milestones in Technology
                     </h2>
 
                     <div class="about-company-item" data-aos="fade-left" data-aos-duration="600">

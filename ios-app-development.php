@@ -25,7 +25,7 @@ gtag('config', 'G-189WWHXLSS');
 })(window, document, "clarity", "script", "mxzdn16ndk");
 </script>
 <!--END MS Clarity -->
-<title>Ios App Development Agency  | Technofra</title>
+<title>iOS App Development Agency  | Technofra</title>
 <meta name="description"
     content="Best mobile app development Agency. we are expert in native, hybrid, and cross-platform mobile app development services by Technofra. Contact us today!">
 
@@ -458,7 +458,7 @@ gtag('config', 'G-189WWHXLSS');
             <!-- iWatch App Development -->
             <div class="hfz-service-card" data-aos="fade-up" data-aos-duration="600">
                 <i class="fa-brands fa-apple"></i>
-                <h4>iWatch App Development</h4>
+                <h4>Apple Watch App Development</h4>
                 <p>
                     Create feature-rich, user-friendly apps optimized for Apple
                     Watch, enhancing convenience and user engagement on the go.
@@ -596,7 +596,7 @@ gtag('config', 'G-189WWHXLSS');
     <div class="officeContainer_v1 container">
         <div class="section-heading text-center">
             <div class="about-company-subtitle">
-                <span>Porocess</span>
+                <span>Process</span>
                 <img src="assets/image/arrow-red.png" alt="Arrow">
             </div>
             <h2>Mobile App Development Process</h2>
@@ -671,7 +671,7 @@ gtag('config', 'G-189WWHXLSS');
                     </div>
                     <div class="officeContent_v1">
                         <h3>Testing &amp; Compliance</h3>
-                        <p>Architecture, Design, Development</p>
+                        <p>Testing, QA, Performance checks, Compliance</p>
                     </div>
                 </div>
 

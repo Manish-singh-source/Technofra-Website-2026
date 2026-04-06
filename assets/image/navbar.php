@@ -339,7 +339,7 @@
                                                 <span class="me-2">
                                                     <i class="fas fa-mobile-alt"></i>
                                                 </span>
-                                                <div class="drop-title">ios App</div>
+                                                <div class="drop-title">iOS App</div>
                                             </a>
                                             <a href="android-app-development" class="dropdown-link">
                                                 <span class="me-2">
@@ -616,7 +616,7 @@
                                     <span class="me-2">
                                         <i class="fas fa-mobile-alt"></i>
                                     </span>
-                                    <div class="drop-title">ios App</div>
+                                    <div class="drop-title">iOS App</div>
                                 </a>
                                 <a href="android-app-development" class="dropdown-link">
                                     <span class="me-2">

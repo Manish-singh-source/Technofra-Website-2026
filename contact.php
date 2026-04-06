@@ -566,7 +566,7 @@ a:hover, .btn-link:hover {
 
 <section class="contact-promo bg-light-subtle ptb-60">
     <div class="container">
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <div class="col-lg-6 crm-title col-md-10 pb-20">
                 <div class="section-heading text-center section-heading">
                     <span class="crm-subtitle ">Contact Info <img src="assets/image/arrow-red.png" alt="arrow"></span>
@@ -579,7 +579,7 @@ a:hover, .btn-link:hover {
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row justify-content-center">
             <div class="col-lg-3 mob-mt-40">
                 <div class="contact-us-promo p-4 bg-white rounded-custom custom-shadow  d-flex flex-column h-100">
