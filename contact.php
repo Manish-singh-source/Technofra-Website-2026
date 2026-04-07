@@ -220,10 +220,13 @@ gtag('config', 'G-189WWHXLSS');
 .eep-book-modal-dialog {
     width: 100%;
     max-width: 520px;
+    max-height: calc(100vh - 40px);
     background: #ffffff;
     border-radius: 24px;
     box-shadow: 0 24px 80px rgba(15, 23, 42, 0.24);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .eep-book-modal-head {
@@ -259,6 +262,7 @@ gtag('config', 'G-189WWHXLSS');
 
 .eep-book-form {
     padding: 0 24px 24px;
+    overflow-y: auto;
 }
 
 .eep-book-summary {
@@ -691,8 +695,14 @@ gtag('config', 'G-189WWHXLSS');
 }
 
 @media (max-width: 576px) {
+    .eep-book-modal {
+        padding: 12px;
+        align-items: flex-start;
+    }
+
     .eep-book-modal-dialog {
         border-radius: 18px;
+        max-height: calc(100vh - 24px);
     }
 
     .eep-book-modal-head {
@@ -1065,7 +1075,7 @@ a:hover, .btn-link:hover {
             <button type="button" class="eep-book-close" id="bookCallClose" aria-label="Close">&times;</button>
         </div>
 
-        <form class="eep-book-form" action="book-call-handler.php" method="post">
+        <form class="eep-book-form" action="book-call-handler" method="post">
             <div class="eep-book-summary">
                 <strong>Date:</strong> <span id="modalSelectedDate">Not selected</span><br>
                 <div class="eep-book-summary-line"><strong>Time (IST):</strong> <span id="modalSelectedTime">Not selected</span></div>

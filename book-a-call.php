@@ -357,10 +357,13 @@ a:hover, .btn-link:hover {
 .bac-book-modal-dialog {
     width: 100%;
     max-width: 520px;
+    max-height: calc(100vh - 40px);
     background: #ffffff;
     border-radius: 24px;
     box-shadow: 0 24px 80px rgba(15, 23, 42, 0.24);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .bac-book-modal-head {
@@ -396,6 +399,7 @@ a:hover, .btn-link:hover {
 
 .bac-book-form {
     padding: 0 24px 24px;
+    overflow-y: auto;
 }
 
 .bac-book-summary {
@@ -551,8 +555,14 @@ a:hover, .btn-link:hover {
         grid-template-columns: 1fr;
     }
 
+    .bac-book-modal {
+        padding: 12px;
+        align-items: flex-start;
+    }
+
     .bac-book-modal-dialog {
         border-radius: 18px;
+        max-height: calc(100vh - 24px);
     }
 
     .bac-book-modal-head {
@@ -698,7 +708,7 @@ a:hover, .btn-link:hover {
             <button type="button" class="bac-book-close" id="bookCallClose" aria-label="Close">&times;</button>
         </div>
 
-        <form class="bac-book-form" action="book-call-handler.php" method="post">
+        <form class="bac-book-form" action="book-call-handler" method="post">
             <div class="bac-book-summary">
                 <strong>Date:</strong> <span id="modalSelectedDate">Not selected</span><br>
                 <div class="bac-book-summary-line"><strong>Time (IST):</strong> <span id="modalSelectedTime">Not selected</span></div>
